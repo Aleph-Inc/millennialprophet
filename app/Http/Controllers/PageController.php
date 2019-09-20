@@ -184,5 +184,83 @@ class PageController extends Controller
 
 
 
+     /**
+     * Get the fields for the FreeWebsite page by the resource.
+     *
+     * @param 
+     * @return free_website view
+     */
+
+     public function FreeWebsite(){
+
+
+        return view('pages/free_website');
+    
+    }
+
+
+     /**
+     * Get the fields for the DigitalTraining page by the resource.
+     *
+     * @param 
+     * @return digital_trainning view
+     */
+
+     public function DigitalTraining(){
+
+
+        return view('pages/digital-training');
+    
+    }
+
+
+
+     /**
+     * Get the fields for the DigitalTraining page by the resource.
+     *
+     * @param 
+     * @return digital_trainning view
+     */
+
+     public function Partner(){
+
+
+        return view('pages/partner');
+    
+    }
+
+
+
+     /**
+     * Get the fields for the DigitalTraining page by the resource.
+     *
+     * @param 
+     * @return digital_trainning view
+     */
+
+     public function Monthly(){
+
+
+        return view('pages/monthly');
+    
+    }
+
+
+     /**
+     * Get the fields for the DigitalTraining page by the resource.
+     *
+     * @param 
+     * @return digital_trainning view
+     */
+
+     public function Onetime(){
+
+
+        return view('pages/one_time');
+    
+    }
+
+
+
 
 }

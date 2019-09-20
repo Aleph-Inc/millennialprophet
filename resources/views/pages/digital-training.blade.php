@@ -2,6 +2,6 @@
 
 @section('content')
 
-<h1>Donation payment</h1>
+<h1>Digital Trainning</h1>
 
 @endsection

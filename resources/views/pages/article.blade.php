@@ -2,6 +2,11 @@
 
 @section('content')
 
-<h1>Donation payment</h1>
+<h1>article</h1>
+
+
+
+
+
 
 @endsection
