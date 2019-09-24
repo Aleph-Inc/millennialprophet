@@ -1,61 +1,177 @@
-
-<h3>header</h3>
-
-<ul>
-	
-	<li><a href="{{ url('/about') }}">About</a></li>
-	<li><a href="{{ url('/') }}">Home</a></li>
-	<li><a href="{{ url('/empower-minitries') }}">Empower Ministry</a></li>
-	<ul>
-		
-		<li><a href="{{ url('/empower/free-website') }}">Free Website</a></li>
-				<li><a href="{{ url('/empower/digital-training') }}">Digital trainning</a></li>
+<header>
+    <div class="top-header">
+        <div class="row">
+            <div class="col-md-12">
 
 
-	</ul>
-	<li><a href="{{ url('/partner') }}">Partner</a></li>
-	<ul>
-		
-		<li><a href="{{ url('/partner/monthly') }}">Monthly</a></li>
-				<li><a href="{{ url('/partner/one-time') }}">One time</a></li>
 
-	</ul>
+                <a href="#">
+                    BECOME A PARTNER
+                </a>
 
-	<li><a href="{{ url('/jesus') }}">Jesus</a></li>
-	<li><a href="{{ url('/resources') }}">Resources</a></li>
-		<ul>
-				<li><a href="{{ url('/resources/1') }}">Resources</a></li>
+                <div class="dropdown">
+                    <a href="#" data-toggle="dropdown">
+                        <i class="fa fa-globe" aria-hidden="true"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="#">
+                            FR
+                        </a>
+                        <a href="#">
+                            NL
+                        </a>
+                        <a href="#">
+                            GE
+                        </a>
 
-		</ul>
-		<li><a href="{{ url('/events') }}">Events</a></li>
+                    </div>
+                </div>
 
-	<li><a href="{{ url('/testimonials') }}">Testimonial video</a></li>
-	<ul>
-				<li><a href="{{ url('/testimonials/articles') }}">Testimonials articles</a></li>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
 
-	</ul>
+        <div class="row">
+            <div class="col-md-2 logo-wrapper">
+                <div class="logo">
+                    <a href="/">
+                        <img src="../public/images/logo.png" alt="">
+                    </a>
+                </div>
 
-	<li><a href="{{ url('/connect') }}">Connect</a></li>
-	<ul>
-		
-		<li><a href="{{ url('/donation') }}">Payment</a></li>
+                <div class="mobile_menu">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </div>
 
-		<li><a href="{{ url('/send_testimoney') }}">Send Testimoney </a></li>
-				<li><a href="{{ url('/build-chruch') }}">Build a church </a></li>
-				<li><a href="{{ url('/prayer_request') }}">Prayer request </a></li>
+            <div class="col-md-10">
+                <ul>
 
-	</ul>
+                    <li class="active">
+                        <a href="/">
+                            HOME
+                        </a>
+                    </li>
 
-	
-		
-		<li><a href="{{ url('/blog') }}">Blog</a></li>
-		<ul>
-				<li><a href="{{ url('/blog/1') }}">Article</a></li>
+                    <li>
+                        <a href="/about">
+                            ABOUT US
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/videos/all">
+                            RESOURCES
+                        </a>
+                    </li>
 
 
-	</ul>
+                    <li>
+                        <a href="/ministries">
+                            EMPOWER MINISTRIES
+                        </a>
+                    </li>
 
-		
+                    <li>
+                        <a href="/events">
+                            EVENTS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/testimonials">
+                            TESTIMONIES
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/jesus">
+                            JESUS
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/connect">
+                            CONNECT
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/blog">
+                            BLOG
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            BECOME A MEMBER
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
 
-</ul>
+
+
+    </div>
+</header>
+
+
+{{--<ul>--}}
+{{--	--}}
+{{--	<li><a href="{{ url('/about') }}">About</a></li>--}}
+{{--	<li><a href="{{ url('/') }}">Home</a></li>--}}
+{{--	<li><a href="{{ url('/empower-minitries') }}">Empower Ministry</a></li>--}}
+{{--	<ul>--}}
+{{--		--}}
+{{--		<li><a href="{{ url('/empower/free-website') }}">Free Website</a></li>--}}
+{{--				<li><a href="{{ url('/empower/digital-training') }}">Digital trainning</a></li>--}}
+
+
+{{--	</ul>--}}
+{{--	<li><a href="{{ url('/partner') }}">Partner</a></li>--}}
+{{--	<ul>--}}
+{{--		--}}
+{{--		<li><a href="{{ url('/partner/monthly') }}">Monthly</a></li>--}}
+{{--				<li><a href="{{ url('/partner/one-time') }}">One time</a></li>--}}
+
+{{--	</ul>--}}
+
+{{--	<li><a href="{{ url('/jesus') }}">Jesus</a></li>--}}
+{{--	<li><a href="{{ url('/resources') }}">Resources</a></li>--}}
+{{--		<ul>--}}
+{{--				<li><a href="{{ url('/resources/1') }}">Resources</a></li>--}}
+
+{{--		</ul>--}}
+{{--		<li><a href="{{ url('/events') }}">Events</a></li>--}}
+
+{{--	<li><a href="{{ url('/testimonials') }}">Testimonial video</a></li>--}}
+{{--	<ul>--}}
+{{--				<li><a href="{{ url('/testimonials/articles') }}">Testimonials articles</a></li>--}}
+
+{{--	</ul>--}}
+
+{{--	<li><a href="{{ url('/connect') }}">Connect</a></li>--}}
+{{--	<ul>--}}
+{{--		--}}
+{{--		<li><a href="{{ url('/donation') }}">Payment</a></li>--}}
+
+{{--		<li><a href="{{ url('/send_testimoney') }}">Send Testimoney </a></li>--}}
+{{--				<li><a href="{{ url('/build-chruch') }}">Build a church </a></li>--}}
+{{--				<li><a href="{{ url('/prayer_request') }}">Prayer request </a></li>--}}
+
+{{--	</ul>--}}
+
+{{--	--}}
+{{--		--}}
+{{--		<li><a href="{{ url('/blog') }}">Blog</a></li>--}}
+{{--		<ul>--}}
+{{--				<li><a href="{{ url('/blog/1') }}">Article</a></li>--}}
+
+
+{{--	</ul>--}}
+
+{{--		--}}
+
+
+{{--</ul>--}}
