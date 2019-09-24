@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Event Upcoming')
+@section('title','Past')
 @section('content')
     <div class="page-header events_bg">
         <div class="page-title">
@@ -9,19 +9,21 @@
         </div>
         <div class="overlay"></div>
     </div>
-
     <div class="page-content page-events">
+
+
         <div class="container">
+
             <div class="row">
                 <div class="col-md-12">
                     <ul class="testimony-tabs">
                         <li>
-                            <a class="active" href="/events/">
+                            <a href="/events/">
                                 UPCOMING EVENTS
                             </a>
                         </li>
                         <li class="">
-                            <a href="/events/past/" class="">
+                            <a href="/events/past/" class="active">
                                 PAST EVENTS
                             </a>
                         </li>
@@ -47,7 +49,7 @@
                             </div>
                             <div class="col-sm-3">
                                 <div class="event-image">
-                                    <img src="../public/images/event_img.jpg" alt="">
+                                    <img src="../../public/images/event_img.jpg" alt="">
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -62,7 +64,7 @@
                                     Register
                                 </button>
                                 <div class="flag">
-                                    <img src="../public/images/flag.png" alt="">
+                                    <img src="../../public/images/flag.png" alt="">
                                 </div>
                             </div>
 
@@ -88,7 +90,7 @@
                             </div>
                             <div class="col-sm-3">
                                 <div class="event-image">
-                                    <img src="../public/images/event_img.jpg" alt="">
+                                    <img src="../../public/images/event_img.jpg" alt="">
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -103,7 +105,7 @@
                                     Register
                                 </button>
                                 <div class="flag">
-                                    <img src="../public/images/flag.png" alt="">
+                                    <img src="../../public/images/flag.png" alt="">
                                 </div>
                             </div>
 
@@ -129,7 +131,7 @@
                             </div>
                             <div class="col-sm-3">
                                 <div class="event-image">
-                                    <img src="../public/images/event_img.jpg" alt="">
+                                    <img src="../../public/images/event_img.jpg" alt="">
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -144,7 +146,7 @@
                                     Register
                                 </button>
                                 <div class="flag">
-                                    <img src="../public/images/flag.png" alt="">
+                                    <img src="../../public/images/flag.png" alt="">
                                 </div>
                             </div>
 
@@ -170,7 +172,7 @@
                             </div>
                             <div class="col-sm-3">
                                 <div class="event-image">
-                                    <img src="../public/images/event_img.jpg" alt="">
+                                    <img src="../../public/images/event_img.jpg" alt="">
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -185,7 +187,7 @@
                                     Register
                                 </button>
                                 <div class="flag">
-                                    <img src="../public/images/flag.png" alt="">
+                                    <img src="../../public/images/flag.png" alt="">
                                 </div>
                             </div>
 
@@ -211,7 +213,7 @@
                             </div>
                             <div class="col-sm-3">
                                 <div class="event-image">
-                                    <img src="../public/images/event_img.jpg" alt="">
+                                    <img src="../../public/images/event_img.jpg" alt="">
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -226,7 +228,7 @@
                                     Register
                                 </button>
                                 <div class="flag">
-                                    <img src="../public/images/flag.png" alt="">
+                                    <img src="../../public/images/flag.png" alt="">
                                 </div>
                             </div>
 
@@ -240,5 +242,6 @@
                 </div>
             </div>
         </div>
+
     </div>
-@endsection
+    @endsection

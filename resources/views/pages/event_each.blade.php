@@ -1,7 +1,5 @@
 @extends('layouts.master')
-@section('title','Free website')
+@section('title','Connect')
 @section('content')
-
-<h1></h1>
 
 @endsection
