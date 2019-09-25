@@ -183,8 +183,7 @@
                     <p>
                         Easy and simple three steps to build a free <br> website for your church.
                     </p>
-
-                    <a class="btn btn-primary btn-start" href="/free-website">
+                    <a class="btn btn-primary btn-start"  href="{{ url('/empower/free-website') }}">
 
                         <svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink">

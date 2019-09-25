@@ -36,7 +36,7 @@
                     </a>
                 </div>
                 <div class="col-md-6">
-                    <img src="../public/images/free-web.jpg" alt="">
+                    <img src="{{ asset('html/public/images/free-web.jpg') }} " alt="">
                 </div>
             </div>
 
