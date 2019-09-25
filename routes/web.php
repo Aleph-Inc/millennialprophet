@@ -41,6 +41,9 @@ Route::get('/events', 'PageController@events')
     ->template(\App\Nova\Templates\Event::class)
     ->name('Events');
 
+Route::get('/events/past','PageController@eventsPast');
+
+
 Route::get('/testimonials', 'PageController@testimonials')
     ->template(\App\Nova\Templates\Testimonial::class)
     ->name('Testimonials');

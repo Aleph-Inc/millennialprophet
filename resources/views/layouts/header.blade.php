@@ -48,53 +48,53 @@
             <div class="col-md-10">
                 <ul>
 
-                    <li class="active">
+                    <li class="{{ request()->is('home') ? 'active' : '' }}">
                         <a href="{{ url('/home') }}">
                             HOME
                         </a>
                     </li>
 
-                    <li>
+                    <li class="{{ request()->is('about') ? 'active' : '' }}">
                         <a href="{{ url('/about') }}">
                             ABOUT US
                         </a>
                     </li>
-                    <li>
+                    <li class="{{ request()->is('resources') ? 'active' : '' }}">
                         <a href="{{ url('/resources') }}">
                             RESOURCES
                         </a>
                     </li>
 
-                    <li>
+                    <li class="{{ request()->is('empower-minitries') ? 'active' : '' }}">
                         <a href="{{ url('/empower-minitries') }}">
                             EMPOWER MINISTRIES
                         </a>
                     </li>
 
-                    <li>
+                    <li class="{{ request()->is('events') ? 'active' : '' }}">
                         <a href="{{ url('/events') }}">
                             EVENTS
                         </a>
                     </li>
-                    <li>
+                    <li class="{{ request()->is('testimonials') ? 'active' : '' }}">
                         <a href="{{ url('/testimonials') }}">
                             TESTIMONIES
                         </a>
                     </li>
 
-                    <li>
+                    <li class="{{ request()->is('jesus') ? 'active' : '' }}">
                         <a href="/jesus">
                             JESUS
                         </a>
                     </li>
 
-                    <li>
+                    <li class="{{ request()->is('connect') ? 'active' : '' }}">
                         <a href="/connect">
                             CONNECT
                         </a>
                     </li>
 
-                    <li>
+                    <li class="{{ request()->is('blog') ? 'active' : '' }}">
                         <a href="/blog">
                             BLOG
                         </a>

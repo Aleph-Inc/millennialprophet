@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Event;
+use DB;
+use Carbon\Carbon;
 
 class PageController extends Controller
 {
@@ -70,12 +73,23 @@ class PageController extends Controller
      * @return event view
      */
 
-     public function events(){
+     public function events(Event $event){
 
+        $events = $event->where('date', '>', date('Y-m-d'))->get();
+        $active = 'live';
+        return view('pages/event',compact('events','active'));
 
-        return view('pages/event');
-    
     }
+
+      public function eventsPast(Event $event){
+
+        $events = $event->where('date', '<', date('Y-m-d'))->get();
+        $active ='past';
+        return view('pages/event',compact('events','active'));
+
+    }
+
+    
 
     /**
      * Get the fields for the testimonials page by the resource.
