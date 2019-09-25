@@ -34,7 +34,7 @@
     </div>
 
 
-    <img src="../public/images/jesus_img.jpg" alt="" class="page-full-image">
+    <img src="{{ asset('html/public/images/jesus_img.jpg') }}" alt="" class="page-full-image">
 
 
     <div class="container">

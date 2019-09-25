@@ -22,8 +22,8 @@
                     Video categories
                 </h3>
                 <ul class="list-unstyled v-cats">
-                    <li><a href="/videos/all/" class="active"> All videos</a> </li>
-                    <li><a href="/videos" class=""> Sermons</a></li>
+                    <li><a href="{{ url('/resources') }}" class="active"> All videos</a> </li>
+                    <li><a href="{{ url('/resources/1') }}" class=""> Sermons</a></li>
                     <li> <a href="#">Teachings</a></li>
                     <li> <a href="#"> Promotions</a></li>
                     <li><a href="#"> Worship</a></li>

@@ -36,7 +36,7 @@
             <div class="col-md-2 logo-wrapper">
                 <div class="logo">
                     <a href="/">
-                        <img src="../public/images/logo.png" alt="">
+                        <img src="{{ asset('html/public/images/logo.png') }}" alt="">
                     </a>
                 </div>
 
@@ -49,36 +49,35 @@
                 <ul>
 
                     <li class="active">
-                        <a href="/">
+                        <a href="{{ url('/') }}">
                             HOME
                         </a>
                     </li>
 
                     <li>
-                        <a href="/about">
+                        <a href="{{ url('/about') }}">
                             ABOUT US
                         </a>
                     </li>
                     <li>
-                        <a href="/videos/all">
+                        <a href="{{ url('/resources') }}">
                             RESOURCES
                         </a>
                     </li>
 
-
                     <li>
-                        <a href="/ministries">
+                        <a href="{{ url('/empower-minitries') }}">
                             EMPOWER MINISTRIES
                         </a>
                     </li>
 
                     <li>
-                        <a href="/events">
+                        <a href="{{ url('/events') }}">
                             EVENTS
                         </a>
                     </li>
                     <li>
-                        <a href="/testimonials">
+                        <a href="{{ url('/testimonials') }}">
                             TESTIMONIES
                         </a>
                     </li>

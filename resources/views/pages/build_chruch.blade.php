@@ -46,13 +46,13 @@
         <div class="container-fluid p-0">
             <div class="row no-gutters">
                 <div class="col-md-4">
-                    <img src="../public/images/c.jpg" alt="">
+                    <img src="{{ asset('html/public/images/c.jpg') }}" alt="">
                 </div>
                 <div class="col-md-4">
-                    <img src="../public/images/c_2.jpg" alt="">
+                    <img src="{{ asset('html/public/images/c_2.jpg') }}" alt="">
                 </div>
                 <div class="col-md-4">
-                    <img src="../public/images/c_1.jpg" alt="">
+                    <img src="{{ asset('html/public/images/c_1.jpg') }}" alt="">
                 </div>
             </div>
         </div>

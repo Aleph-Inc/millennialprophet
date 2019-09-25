@@ -15,7 +15,7 @@
             <div class="row">
 
                 <div class="col-md-3">
-                    <a href="/blog-single">
+                    <a href="{{ url('/blog/1') }}">
                         <div class="blog-info">
                             <div class="blog-category">
                                 LIFESTYLE
@@ -28,12 +28,12 @@
                             </div>
                         </div>
                         <figure>
-                            <img src="../public/images/b-2.jpg" alt="">
+                            <img src="{{ asset('html/public/images/b-2.jpg') }}" alt="">
                         </figure>
                     </a>
                 </div>
                 <div class="col-md-3">
-                    <a href="/blog-single">
+                    <a href="{{ url('/blog/1') }}">
                         <div class="blog-info">
                             <div class="blog-category">
                                 LIFESTYLE
@@ -46,12 +46,12 @@
                             </div>
                         </div>
                         <figure>
-                            <img src="../public/images/b-1.jpg" alt="">
+                            <img src="{{ asset('html/public/images/b-1.jpg') }}" alt="">
                         </figure>
                     </a>
                 </div>
                 <div class="col-md-3">
-                    <a href="/blog-single">
+                    <a href="{{ url('/blog/1') }}">
                         <div class="blog-info">
                             <div class="blog-category">
                                 LIFESTYLE
@@ -64,12 +64,12 @@
                             </div>
                         </div>
                         <figure>
-                            <img src="../public/images/b-3.jpg" alt="">
+                            <img src="{{ asset('html/public/images/b-3.jpg') }}" alt="">
                         </figure>
                     </a>
                 </div>
                 <div class="col-md-3">
-                    <a href="/blog-single">
+                    <a href="{{ url('/blog/1') }}">
                         <div class="blog-info">
                             <div class="blog-category">
                                 LIFESTYLE
@@ -82,7 +82,7 @@
                             </div>
                         </div>
                         <figure>
-                            <img src="../public/images/b-4.jpg" alt="">
+                            <img src="{{ asset('html/public/images/b-4.jpg') }}" alt="">
                         </figure>
                     </a>
                 </div>

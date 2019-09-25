@@ -25,7 +25,7 @@
                 <div class="col-md-8">
                     <div class="blog-image">
                         <figure>
-                            <img src="../public/images/b_1.jpg" alt="">
+                            <img src="{{ asset('html/public/images/b-1.jpg') }}" alt="">
                         </figure>
                         <div class="blog-title">
                             <h3>
@@ -55,7 +55,7 @@
                             Mauris vitae fermentum quam.
                         </p>
 
-                        <img src="../public/images/b_2.jpg" alt="">
+                        <img src="{{ asset('html/public/images/b-2.jpg') }}" alt="">
 
                         <p>
                             Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Sed maximus orci ac condi mentum
@@ -75,7 +75,7 @@
                             Mauris vitae fermentum quam.
                         </p>
 
-                        <img src="../public/images/ss.jpg" alt="">
+                        <img src="{{ asset('html/public/images/ss.jpg') }}" alt="">
                     </div>
                 </div>
 

@@ -21,7 +21,7 @@
                             </a>
                         </li>
                         <li class="">
-                            <a href="/events/past/" class="">
+                            <a href="/events/" class="">
                                 PAST EVENTS
                             </a>
                         </li>
@@ -47,7 +47,8 @@
                             </div>
                             <div class="col-sm-3">
                                 <div class="event-image">
-                                    <img src="../public/images/event_img.jpg" alt="">
+                                    <img src="{{ asset('html/public/images/event_img.jpg') }}" alt="">
+
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -62,7 +63,7 @@
                                     Register
                                 </button>
                                 <div class="flag">
-                                    <img src="../public/images/flag.png" alt="">
+                                    <img src="{{ asset('html/public/images/flag.png') }}" alt="">
                                 </div>
                             </div>
 
@@ -88,7 +89,7 @@
                             </div>
                             <div class="col-sm-3">
                                 <div class="event-image">
-                                    <img src="../public/images/event_img.jpg" alt="">
+                                    <img src="{{ asset('html/public/images/event_img.jpg') }}" alt="">
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -103,7 +104,7 @@
                                     Register
                                 </button>
                                 <div class="flag">
-                                    <img src="../public/images/flag.png" alt="">
+                                    <img src="{{ asset('html/public/images/flag.png') }}" alt="">
                                 </div>
                             </div>
 
@@ -129,7 +130,7 @@
                             </div>
                             <div class="col-sm-3">
                                 <div class="event-image">
-                                    <img src="../public/images/event_img.jpg" alt="">
+                                    <img src="{{ asset('html/public/images/event_img.jpg') }}" alt="">
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -144,7 +145,7 @@
                                     Register
                                 </button>
                                 <div class="flag">
-                                    <img src="../public/images/flag.png" alt="">
+                                    <img src="{{ asset('html/public/images/flag.png') }}" alt="">
                                 </div>
                             </div>
 
@@ -170,7 +171,7 @@
                             </div>
                             <div class="col-sm-3">
                                 <div class="event-image">
-                                    <img src="../public/images/event_img.jpg" alt="">
+                                    <img src="{{ asset('html/public/images/event_img.jpg') }}" alt="">
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -185,7 +186,7 @@
                                     Register
                                 </button>
                                 <div class="flag">
-                                    <img src="../public/images/flag.png" alt="">
+                                    <img src="{{ asset('html/public/images/flag.png') }}" alt="">
                                 </div>
                             </div>
 
@@ -211,7 +212,7 @@
                             </div>
                             <div class="col-sm-3">
                                 <div class="event-image">
-                                    <img src="../public/images/event_img.jpg" alt="">
+                                    <img src="{{ asset('html/public/images/event_img.jpg') }}" alt="">
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -226,7 +227,7 @@
                                     Register
                                 </button>
                                 <div class="flag">
-                                    <img src="../public/images/flag.png" alt="">
+                                    <img src="{{ asset('html/public/images/flag.png') }}" alt="">
                                 </div>
                             </div>
 

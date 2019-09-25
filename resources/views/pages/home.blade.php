@@ -2,11 +2,10 @@
 @section('title','')
 @section('content')
 
-
     <!-- home main block-->
     <div class="home-block-one">
         <div class="slider-item"
-             style="background:url('public/images/home_img.jpg') center center no-repeat; background-size:cover;">
+             style="background:url('/html/public/images/home_img.jpg') center center no-repeat; background-size:cover;">
             <div class="slider-text">
                 EQUIPPING AND EMPOWERING <br>
                 THE GLOBAL CHURCH OF JESUS
@@ -104,7 +103,7 @@
                                     7:30pm @ Royal ball room
                                 </div>
                                 <div class="next-event-country">
-                                    <img src="public/images/usa_flag.png" alt="">
+                                    <img src="{{ asset('html/public/images/usa_flag.png') }}" alt="">
                                 </div>
                             </div>
 
@@ -132,10 +131,10 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="video-block">
-                        <img src="public/images/play_vtn.png" alt="">
+                        <img src="{{ asset('html/public/images/play_vtn.png') }}" alt="">
                         <video controls>
-                            <source src="public/videos/video.mp4" type="video/mp4">
-                            <source src="public/videos/video.mp4" type="video/ogg">
+                            <source src="{{ asset('html/public/videos/video.mp4') }}" type="video/mp4">
+                            <source src="{{ asset('html/public/videos/video.mp4') }}" type="video/ogg">
 
                         </video>
                     </div>
@@ -319,7 +318,7 @@ Lorem Ipsum passages, and more recently with deskto
 
             <div class="connect-buttons d-flex">
                 <div class="btn_1">
-                    <a href="/prayer-request">
+                    <a href="{{ url('/prayer_request') }}">
 
                         <svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -375,8 +374,7 @@ Lorem Ipsum passages, and more recently with deskto
                 </div>
 
                 <div class="btn_2">
-                    <a href="/send-testimoney">
-
+                <a href="{{ url('/send_testimoney') }}">
                         <svg width="56px" height="52px" viewBox="0 0 56 52" version="1.1" xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink">
                             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -400,8 +398,7 @@ Lorem Ipsum passages, and more recently with deskto
                 </div>
 
                 <div class="btn_3">
-                    <a href="/donation/">
-
+                <a href="{{ url('/donation') }}">
                         <svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink">
                             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -422,7 +419,7 @@ Lorem Ipsum passages, and more recently with deskto
                 </div>
 
                 <div class="btn_4">
-                    <a href="/build-church">
+                    <a href="{{ url('/build-chruch') }}">
 
                         <svg width="56px" height="61px" viewBox="0 0 56 61" version="1.1" xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -444,7 +441,7 @@ Lorem Ipsum passages, and more recently with deskto
                 </div>
 
                 <div class="btn_5">
-                    <a href="/connect">
+                    <a href="{{ url('/connect') }}">
 
                         <svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink">
