@@ -49,7 +49,7 @@
                 <ul>
 
                     <li class="active">
-                        <a href="{{ url('/') }}">
+                        <a href="{{ url('/home') }}">
                             HOME
                         </a>
                     </li>

@@ -18,7 +18,7 @@ Route::get('/about', 'PageController@about')
     ->name('About');
 
 
-Route::get('/', 'PageController@home')
+Route::get('/home', 'PageController@home')
     ->template(\App\Nova\Templates\Home::class)
     ->name('Home');
 
