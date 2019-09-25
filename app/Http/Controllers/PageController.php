@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Event;
+use DB;
+use Carbon\Carbon;
 
 class PageController extends Controller
 {
@@ -70,12 +73,23 @@ class PageController extends Controller
      * @return event view
      */
 
-     public function events(){
+     public function events(Event $event){
 
+        $events = $event->where('date', '>', date('Y-m-d'))->get();
+        $active = 'live';
+        return view('pages/event',compact('events','active'));
 
-        return view('pages/event');
-    
     }
+
+      public function eventsPast(Event $event){
+
+        $events = $event->where('date', '<', date('Y-m-d'))->get();
+        $active ='past';
+        return view('pages/event',compact('events','active'));
+
+    }
+
+    
 
     /**
      * Get the fields for the testimonials page by the resource.
@@ -179,6 +193,84 @@ class PageController extends Controller
 
 
         return view('pages/build_chruch');
+    
+    }
+
+
+
+     /**
+     * Get the fields for the FreeWebsite page by the resource.
+     *
+     * @param 
+     * @return free_website view
+     */
+
+     public function FreeWebsite(){
+
+
+        return view('pages/free_website');
+    
+    }
+
+
+     /**
+     * Get the fields for the DigitalTraining page by the resource.
+     *
+     * @param 
+     * @return digital_trainning view
+     */
+
+     public function DigitalTraining(){
+
+
+        return view('pages/digital-training');
+    
+    }
+
+
+
+     /**
+     * Get the fields for the DigitalTraining page by the resource.
+     *
+     * @param 
+     * @return digital_trainning view
+     */
+
+     public function Partner(){
+
+
+        return view('pages/partner');
+    
+    }
+
+
+
+     /**
+     * Get the fields for the DigitalTraining page by the resource.
+     *
+     * @param 
+     * @return digital_trainning view
+     */
+
+     public function Monthly(){
+
+
+        return view('pages/monthly');
+    
+    }
+
+
+     /**
+     * Get the fields for the DigitalTraining page by the resource.
+     *
+     * @param 
+     * @return digital_trainning view
+     */
+
+     public function Onetime(){
+
+
+        return view('pages/one_time');
     
     }
 

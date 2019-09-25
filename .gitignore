@@ -12,6 +12,7 @@ npm-debug.log
 yarn-error.log
 .DS_Store
 .idea
+
 .idea/
 .xml
 node_modules
@@ -20,4 +21,7 @@ node_modules/*
 
 .pem
 
+*/.idea
+.idea/*
+node_modules
 

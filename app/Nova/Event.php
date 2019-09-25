@@ -4,7 +4,7 @@ namespace App\Nova;
 
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Text;
-use Laravel\Nova\Fields\DateTime;
+use Laravel\Nova\Fields\Date;
 use Laravel\Nova\Fields\Textarea;
 use Laravel\Nova\Fields\File;
 
@@ -46,12 +46,14 @@ class Event extends Resource
     {
         return [
             ID::make()->sortable(),
-            Text::make('name')->sortable(),
+            Text::make('name')->sortable()->rules('required'),
             Textarea::make('description'),
             Text::make('place')->rules('required', 'max:255'),
+            File::make('image')->rules('required'),
+            Date::make('date')->rules('required')->hideFromIndex(),
+            Text::make('time')->rules('required'),
 
-            File::make('image'),
-
+   
         ];
     }
 
