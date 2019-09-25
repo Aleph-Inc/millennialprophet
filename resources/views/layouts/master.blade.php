@@ -23,7 +23,7 @@
 
     <!-- todo-->
     <!-- app css -->
-    <link rel="stylesheet" href="/html/public/css/app.css" />
+    <link rel="stylesheet" href="{{ asset('html/public/css/app.css') }}" />
 
 
 </head>
