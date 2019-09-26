@@ -1510,10 +1510,10 @@ div.video-desktop {
   footer {
     padding: 20px 0px; }
     footer div.copyright {
-      padding: 20px; }
+      padding: 20px 0px; }
+      footer div.copyright span {
+        display: block; }
     footer ul {
-      border-bottom: thin solid #153c53;
-      margin: 20px 20px 20px 20px;
       padding: 0px 20px 20px 20px; }
       footer ul li {
         text-align: center;
@@ -1584,6 +1584,7 @@ div.video-desktop {
       display: flex; }
     div.page-events a.event-item img {
       width: 100%;
+      height: auto;
       margin: 0px 0px 20px 0px; }
 
   .home-block-one div.slider-text {

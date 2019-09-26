@@ -1,6 +1,7 @@
 div.slider-mobile {
   display: none !important;
 }
+
 div.video-desktop {
   display: block !important;
 }
@@ -281,12 +282,16 @@ div.video-desktop {
     padding: 20px 0px;
 
     div.copyright {
-      padding: 20px;
+      padding: 20px 0px;
+
+      span {
+      display: block;
+    }
     }
     ul {
 
-      border-bottom: thin solid #153c53;
-      margin: 20px 20px 20px 20px;
+
+     // margin: 20px 20px 20px 20px;
       padding: 0px 20px 20px 20px;
 
       li {
@@ -374,6 +379,7 @@ div.video-desktop {
 
     img {
       width: 100%;
+      height: auto;
       margin: 0px 0px 20px 0px;
 
     }
