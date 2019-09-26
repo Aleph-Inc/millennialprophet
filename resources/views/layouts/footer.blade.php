@@ -67,7 +67,13 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#"> What Jesus did for you Ministries</a>
+                                <a href="#"> What Jesus did for you </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    Ministries
+                                </a>
                             </li>
                             <li>
                                 <a href="#">
