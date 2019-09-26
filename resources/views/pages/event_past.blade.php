@@ -4,7 +4,7 @@
     <div class="page-header events_bg">
         <div class="page-title">
             <H2>
-                EVENTS
+                PAST EVENTS
             </H2>
         </div>
         <div class="overlay"></div>
@@ -18,12 +18,12 @@
                 <div class="col-md-12">
                     <ul class="testimony-tabs">
                         <li>
-                            <a href="/events/">
+                            <a class="{{($active == 'live') ? 'active' : ''}}" href="{{ url('/events') }}">
                                 UPCOMING EVENTS
                             </a>
                         </li>
-                        <li class="">
-                            <a href="/events/past/" class="active">
+                        <li>
+                            <a class="{{($active == 'past') ? 'active' : ''}}" href="{{ url('/events/past') }}">
                                 PAST EVENTS
                             </a>
                         </li>
