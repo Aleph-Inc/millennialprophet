@@ -24,7 +24,7 @@
                         <div class="col-md-4">
                             <div class="next-date-wrapper">
                                 <div class="next-date">
-                                    28
+                                    {{ $diff }}
                                     <span>
                             DAYS
                         </span>
@@ -62,12 +62,15 @@
                                     </svg>
                                 </div>
                                 <div class="next-event-date">
-                                    23
+                                                                {{ $event->date->format('d') }}
+
                                     <span>
-                            JULY
+                                                                {{ $event->date->format('F') }}
+
                         </span>
                                     <span>
-                            2019
+                                                                {{ $event->date->format('y') }}
+
                         </span>
                                 </div>
 
@@ -95,12 +98,12 @@
                         <div class="col-md-5">
                             <div class="next-event-info">
                                 <div class="next-event-title">
-                                    Nothing is impossible
-                                    with God
+                                    {{ $event->name }}
+
                                 </div>
 
                                 <div class="next-event-time">
-                                    7:30pm @ Royal ball room
+                                   {{ $event->time }} @ {{ $event->place }}
                                 </div>
                                 <div class="next-event-country">
                                     <img src="{{ asset('html/public/images/usa_flag.png') }}" alt="">

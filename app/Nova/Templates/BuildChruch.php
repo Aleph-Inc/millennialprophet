@@ -4,7 +4,7 @@ namespace App\Nova\Templates;
 
 use Illuminate\Http\Request;
 use Whitecube\NovaPage\Pages\Template;
-use Laravel\Nova\Fields\Textarea;
+use Laravel\Nova\Fields\Trix;
 
 class BuildChruch extends Template {
 
@@ -18,7 +18,7 @@ class BuildChruch extends Template {
     {
        return [
             
-            Textarea::make('Our Mission', 'ourmission'),
+            Trix::make('Our Mission', 'ourmission'),
 
 
         ];

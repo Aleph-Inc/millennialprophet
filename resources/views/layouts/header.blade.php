@@ -65,8 +65,8 @@
                         </a>
                     </li>
 
-                    <li class="{{ request()->is('empower-minitries') ? 'active' : '' }}">
-                        <a href="{{ url('/empower-minitries') }}">
+                    <li class="{{ request()->is('empower-ministries') ? 'active' : '' }}">
+                        <a href="{{ url('/empower-ministries') }}">
                             EMPOWER MINISTRIES
                         </a>
                     </li>

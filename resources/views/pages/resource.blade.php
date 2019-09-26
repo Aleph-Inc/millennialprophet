@@ -23,11 +23,13 @@
                 </h3>
                 <ul class="list-unstyled v-cats">
                     <li><a href="{{ url('/resources') }}" class="active"> All videos</a> </li>
-                    <li><a href="{{ url('/resources/1') }}" class=""> Sermons</a></li>
-                    <li> <a href="#">Teachings</a></li>
-                    <li> <a href="#"> Promotions</a></li>
-                    <li><a href="#"> Worship</a></li>
-                    <li> <a href="#"> Crusades</a></li>
+                    <li><a href="{{ url('/resources/sermons') }}" class=""> Sermons</a></li>
+                    <li><a href="{{ url('/resources/teaching') }}" class=""> Teachings</a></li>
+                    <li><a href="{{ url('/resources/promotions') }}" class=""> Promotions</a></li>
+                    <li><a href="{{ url('/resources/worship') }}" class=""> Worship</a></li>
+                    <li><a href="{{ url('/resources/crusades') }}" class=""> Crusades</a></li>
+
+                   
                 </ul>
             </div>
 
@@ -42,47 +44,17 @@
                 </h3>
                 <div class="row related-videos">
 
+                    @foreach ($videos  as $video)
+
                     <div class="col-md-4">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/z5hgbVDPZsQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ $video->link }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <p>
-                            A Failed Pregnancy And God’s Restoration | New Creation Church
+                            {{ $video->name }}
                         </p>
                     </div>
 
-                    <div class="col-md-4">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/w82a1FT5o88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <p>
-                            A Failed Pregnancy And God’s Restoration | New Creation Church
-                        </p>
-                    </div>
+                    @endforeach
 
-                    <div class="col-md-4">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tS7SFKKDHGA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <p>
-                            A Failed Pregnancy And God’s Restoration | New Creation Church
-                        </p>
-                    </div>
-
-                    <div class="col-md-4">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/z5hgbVDPZsQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <p>
-                            A Failed Pregnancy And God’s Restoration | New Creation Church
-                        </p>
-                    </div>
-
-                    <div class="col-md-4">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/w82a1FT5o88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <p>
-                            A Failed Pregnancy And God’s Restoration | New Creation Church
-                        </p>
-                    </div>
-
-                    <div class="col-md-4">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tS7SFKKDHGA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <p>
-                            A Failed Pregnancy And God’s Restoration | New Creation Church
-                        </p>
-                    </div>
                 </div>
             </div>
         </div>

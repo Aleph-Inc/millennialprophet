@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Event;
+use App\Video;
 use DB;
 use Carbon\Carbon;
 
@@ -17,9 +18,18 @@ class PageController extends Controller
      * @param 
      * @return home view
      */
-    public function home(){
+    public function home(Event $event){
 
-        return view('pages/home');
+    
+
+        $event = $event->where('date', '>', date('Y-m-d'))->first();
+
+        $eventdate = Carbon::parse($event->date);
+
+        $diff = $eventdate->diffInDays();
+        
+        return view('pages/home',compact('event','diff'));
+
     
     }
 
@@ -44,10 +54,10 @@ class PageController extends Controller
      * @return about resource
      */
 
-     public function resources(){
+     public function resources(Video $video){
 
-
-        return view('pages/resource');
+        $videos = $video->orderBy('id','DESC')->get();;
+        return view('pages/resource',compact('videos'));
     
     }
 

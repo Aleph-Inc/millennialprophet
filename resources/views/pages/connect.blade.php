@@ -309,32 +309,28 @@
                         <strong>
                             Italy
                         </strong>
-                        info.africa@god.tv<Br>
-                        +27 (0) 21 555-1206
+                        info.italy@millennialprophet.com<Br>
                     </a>
 
                     <a href="#">
                         <strong>
                             Sri Lanka
                         </strong>
-                        info.africa@god.tv<Br>
-                        +27 (0) 21 555-1206
+                        info.italy@millennialprophet.com<Br>
                     </a>
 
                     <a href="#">
                         <strong>
-                            India
+                            Brazil
                         </strong>
-                        info.africa@god.tv<Br>
-                        +27 (0) 21 555-1206
+                        info.italy@millennialprophet.com<Br>
                     </a>
 
                     <a href="#">
                         <strong>
                             USA
                         </strong>
-                        info.africa@god.tv<Br>
-                        +27 (0) 21 555-1206
+                        info.italy@millennialprophet.com<Br>
                     </a>
                 </div>
             </div>

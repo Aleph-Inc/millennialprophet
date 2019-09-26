@@ -7,7 +7,7 @@ use Whitecube\NovaPage\Pages\Template;
 use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Fields\Textarea;
 use Laravel\Nova\Fields\Markdown;
-use Laravel\Nova\Fields\Image;
+use Laravel\Nova\Fields\Trix;
 
 use Whitecube\NovaFlexibleContent\Flexible;
 use Whitecube\NovaFlexibleContent\Concerns\HasFlexible;
@@ -29,13 +29,13 @@ class About extends Template {
         return [
             Text::make('Title of the page', 'title'),
 
-            Textarea::make('Who We are', 'whoweare'),
+            Trix::make('Who We are', 'whoweare'),
 
-            Textarea::make('What jesus did to us', 'whatjesus'),
+            Trix::make('What jesus did to us', 'whatjesus'),
 
-            Textarea::make('His Heart To Heal You', 'hisheal'),
+            Trix::make('His Heart To Heal You', 'hisheal'),
 
-            Textarea::make('Ministries', 'ministries'),
+            Trix::make('Ministries', 'ministries'),
 
 
         ];

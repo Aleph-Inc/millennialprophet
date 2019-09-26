@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
 <head>
     <meta charset="UTF-8">
-    <title> millennialprophet.life - @yield('title')</title>
+    <title> Millennialprophet.life - @yield('title')</title>
     <meta property="og:image" content="" />
     <meta property="og:title" content="" />
     <meta property="og:url" content="" />
@@ -15,7 +15,8 @@
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="/html/public/favicon.png" />
+    <link rel="icon" type="image/png" href="{{ asset('html/public/images/favicon-32x32.png') }}" />
+
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css"

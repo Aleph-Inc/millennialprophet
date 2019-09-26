@@ -33,7 +33,7 @@ Route::get('/blog','BlogController@all');
 Route::get('/blog/{id}','BlogController@getEach');
 
 
-Route::get('/empower-minitries', 'PageController@ministries')
+Route::get('/empower-ministries', 'PageController@ministries')
     ->template(\App\Nova\Templates\Empower::class)
     ->name('Ministry');
 
