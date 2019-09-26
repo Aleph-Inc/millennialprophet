@@ -175,7 +175,7 @@
                     <i class="fa fa-instagram"></i>
                 </a>
                 <a href="#">
-                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    <i class="fa fa-youtube" aria-hidden="true"></i>
                 </a>
             </div>
         </div>
