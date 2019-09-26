@@ -1541,6 +1541,13 @@ div.blog-date {
     padding-top: 0px; }
 
   div.page-header.donate_bg {
-    height: auto; } }
+    height: auto; }
+
+  .price-values div.col-sm-6 {
+    width: 49%; }
+    .price-values div.col-sm-6 button.btn-amount {
+      margin: 0px 0px 20px 0px; }
+    .price-values div.col-sm-6 input[type="number"] {
+      margin: 0px 0px 20px 0px; } }
 
 /*# sourceMappingURL=app.css.map */

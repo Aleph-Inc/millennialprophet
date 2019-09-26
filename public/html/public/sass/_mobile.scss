@@ -1,6 +1,6 @@
 @media screen and (max-width: 1279px) {
-  .home-block-one{
-    height:565px;
+  .home-block-one {
+    height: 565px;
   }
   header {
     ul li {
@@ -154,7 +154,6 @@
         display: block;
       }
 
-
     }
 
     div.top-header {
@@ -212,22 +211,21 @@
     padding-top: 60px;
   }
 
-
-  div.page-events a.event-item div.event-date span.month, div.page-events a.event-item div.event-date span.year{
-    padding:7px 5px;
+  div.page-events a.event-item div.event-date span.month, div.page-events a.event-item div.event-date span.year {
+    padding: 7px 5px;
   }
   header {
     div.logo {
 
-      height:60px;
+      height: 60px;
       overflow: hidden;
-      a{
-display:flex;
+      a {
+        display: flex;
 
-        span{
+        span {
           padding-top: 16px;
           display: block;
-          color:$blue;
+          color: $blue;
           font-weight: bold;
         }
       }
@@ -290,13 +288,13 @@ display:flex;
     display: flex;
     flex-wrap: wrap;
   }
-  .testimony-tabs{
-    margin-bottom:20px;
+  .testimony-tabs {
+    margin-bottom: 20px;
   }
   div.page-events a.event-item {
-    border-bottom:thin solid #d8d8d8;
-    padding-bottom:20px;
-    margin-bottom:20px;
+    border-bottom: thin solid #d8d8d8;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 
     div.event-date {
       padding-left: 20px;
@@ -306,7 +304,7 @@ display:flex;
 
     img {
       width: 100%;
-      margin:0px 0px 20px 0px;
+      margin: 0px 0px 20px 0px;
 
     }
 
@@ -470,6 +468,20 @@ display:flex;
   }
   div.page-header.donate_bg {
     height: auto;
+  }
+
+  .price-values {
+    div.col-sm-6 {
+      width: 49%;
+
+      button.btn-amount {
+        margin: 0px 0px 20px 0px;
+      }
+
+      input[type="number"]{
+        margin: 0px 0px 20px 0px;
+      }
+    }
   }
 
 }
