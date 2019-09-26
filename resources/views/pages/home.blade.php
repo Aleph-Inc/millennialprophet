@@ -4,22 +4,36 @@
 
     <!-- home main block-->
     <div class="home-block-one">
-        <div class="slider-item">
-            <div class="slider-text">
-                @if(Page::get('slidertext'))
-                    {{Page::get('slidertext')}}
-
-                @else
-                    EQUIPPING AND EMPOWERING <br>
-                    THE GLOBAL CHURCH OF JESUS
-                @endif
+        <div class="slider-mobile">
+            <div class="slider-item"
+                 style="background:url('/html/public/images/home_img.jpg') center center no-repeat; background-size:cover;">
+                <div class="slider-text">
+                    @if(Page::get('slidertext'))
+                        {{Page::get('slidertext')}}
+                    @else
+                        EQUIPPING AND EMPOWERING <br>
+                        THE GLOBAL CHURCH OF JESUS
+                    @endif
+                </div>
             </div>
+        </div>
+        <div class="slider-desktop">
+            <div class="slider-item">
+                <div class="slider-text">
+                    @if(Page::get('slidertext'))
+                        {{Page::get('slidertext')}}
+                    @else
+                        EQUIPPING AND EMPOWERING <br>
+                        THE GLOBAL CHURCH OF JESUS
+                    @endif
+                </div>
 
-            <div class="video-wrapper">
-                <video preload="auto" autoplay muted>
-                    <source src="{{ asset('html/public/videos/video-2.mp4')}}" type=video/mp4">
-                    <source src="{{ asset('html/public/videos/video-2.mp4')}}" type="video/ogg">
-                </video>
+                <div class="video-wrapper">
+                    <video preload="auto" autoplay muted>
+                        <source src="{{ asset('html/public/videos/video-2.mp4')}}" type=video/mp4">
+                        <source src="{{ asset('html/public/videos/video-2.mp4')}}" type="video/ogg">
+                    </video>
+                </div>
             </div>
         </div>
     </div>
@@ -72,7 +86,7 @@
                                     </svg>
                                 </div>
                                 <div class="next-event-date">
-                                                                {{ $event->date->format('d') }}
+                                    {{ $event->date->format('d') }}
 
                                     <span>
                                                                 {{ $event->date->format('F') }}
@@ -113,7 +127,7 @@
                                 </div>
 
                                 <div class="next-event-time">
-                                   {{ $event->time }} @ {{ $event->place }}
+                                    {{ $event->time }} @ {{ $event->place }}
                                 </div>
                                 <div class="next-event-country">
                                     <img src="{{ asset('html/public/images/usa_flag.png') }}" alt="">
