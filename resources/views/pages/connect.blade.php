@@ -316,21 +316,21 @@
                         <strong>
                             Sri Lanka
                         </strong>
-                        info.italy@millennialprophet.com<Br>
+                        info.srilanka@millennialprophet.com<Br>
                     </a>
 
                     <a href="#">
                         <strong>
                             Brazil
                         </strong>
-                        info.italy@millennialprophet.com<Br>
+                        info.brazil@millennialprophet.com<Br>
                     </a>
 
                     <a href="#">
                         <strong>
                             USA
                         </strong>
-                        info.italy@millennialprophet.com<Br>
+                        info.usa@millennialprophet.com<Br>
                     </a>
                 </div>
             </div>
