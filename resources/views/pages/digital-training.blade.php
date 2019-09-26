@@ -106,18 +106,8 @@
                         HELP US TO EMPOWER
                     </h2>
 
-                    <a href="#" class="btn btn-default btn-start">
-
-                        <svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
-                            <desc>Created with Sketch.</desc>
-                            <defs></defs>
-                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <g id="digital-training" transform="translate(-649.000000, -1717.000000)" fill="#FFFFFF">
-                                    <polygon id="+-copy" points="649.416 1722.216 654.48 1722.216 654.48 1717.152 657.504 1717.152 657.504 1722.216 662.568 1722.216 662.568 1725.24 657.504 1725.24 657.504 1730.304 654.48 1730.304 654.48 1725.24 649.416 1725.24"></polygon>
-                                </g>
-                            </g>
-                        </svg> BECOME A PARTNER
+                    <a href="/parter" class="btn btn-default btn-start">
+                       BECOME A PARTNER
                     </a>
                 </div>
             </div>
