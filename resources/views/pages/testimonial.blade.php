@@ -74,7 +74,7 @@
 
                 <div class="row justify-content-center">
                     <div class="col-md-4">
-                        <a href="" class="btn btn-primary btn-start">
+                        <a href="/send_testimoney" class="btn btn-primary btn-start">
                             SHARE YOUR TESTIMONY
                         </a>
                     </div>
