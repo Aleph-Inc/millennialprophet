@@ -57,12 +57,14 @@ header {
         font-size: 14px;
         color: #272727;
         letter-spacing: 0;
+        border-bottom: 5px solid #fff;
         line-height: 100px;
         transition: 0.2s ease;
         text-decoration: none !important; }
         header ul li a:hover {
           color: #999;
-          text-decoration: none !important; }
+          text-decoration: none !important;
+          border-bottom: 5px solid #d8d8d8; }
       header ul li.active a {
         background: #fff;
         color: #2474A4;

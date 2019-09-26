@@ -13,7 +13,6 @@
 
     <div class="page-content page-ministry">
         <div class="container">
-
             <div class="row d-training">
                 <div class="col-md-6">
                     <h4>
@@ -38,6 +37,36 @@
             </div>
 
         </div>
+    </div>
+
+    <!-- digital training -->
+    <div class="block-digital-training digital_bg">
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+                <div class="col-md-6">
+                    <h2>
+                        MINISTRY
+                    </h2>
+                    <H3>
+                        DIGITAL TRAINING
+                    </H3>
+
+                    <p>
+                        Deciphering marketing lingo for small business owners
+                    </p>
+
+                    <a href="/digital-training"
+                       class="btn btn-primary btn-start">
+                        GET STARTED
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="overlay"></div>
     </div>
 
 
