@@ -333,7 +333,7 @@ div.block-digital-training {
 div.block-connect-with-us {
   height: 360px; }
   div.block-connect-with-us div.container {
-    padding: 30px 0px; }
+    padding: 30px 15px; }
     div.block-connect-with-us div.container svg {
       width: 160px;
       display: block;
@@ -418,7 +418,8 @@ div.block-connect-with-us {
     -o-transition: 0.2s ease;
     transition: 0.2s ease; }
     .block-free-website a svg {
-      margin: 10px 0px; }
+      margin: 10px 0px;
+      width: 32px; }
     .block-free-website a:hover {
       -webkit-transform: scale(1.05);
       -moz-transform: scale(1.05);
@@ -1501,7 +1502,7 @@ div.video-desktop {
           font-weight: bold; }
       header div.logo img {
         width: 80px;
-        margin: 0px 0px 0px -5px;
+        margin: 0px 0px 0px -10px;
         height: 80px; }
     header .logo-wrapper {
       padding: 0px; }
