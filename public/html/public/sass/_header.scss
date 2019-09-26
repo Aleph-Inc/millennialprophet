@@ -11,11 +11,15 @@ header {
     display: none;
   }
 
-
   div.logo {
     a {
       span {
         display: none;
+        text-decoration: none;
+      }
+
+      &:hover span {
+        text-decoration: none;
       }
     }
   }
@@ -83,7 +87,6 @@ header {
         }
       }
     }
-
 
   }
 }

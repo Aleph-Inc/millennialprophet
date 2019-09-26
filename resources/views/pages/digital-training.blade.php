@@ -20,7 +20,7 @@
     <div class="overlay"></div>
 </div>
 
-<div class="page-content">
+<div class="page-content d-training">
     <div class="container">
         <div class="row">
             <div class="col-md-6">

@@ -17,7 +17,10 @@ header {
   header div.mobile_menu {
     display: none; }
   header div.logo a span {
-    display: none; }
+    display: none;
+    text-decoration: none; }
+  header div.logo a:hover span {
+    text-decoration: none; }
   header div.top-header {
     position: relative;
     background: #2474A4;
@@ -95,7 +98,8 @@ footer {
     padding: 20px 0px; }
     footer div.copyright p {
       text-align: center;
-      font-size: 12px; }
+      font-size: 12px;
+      margin: 0px; }
   footer div.social-media-icons {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -553,11 +557,13 @@ div.partner-with-us {
   padding: 40px 0px; }
   div.partner-with-us h2 {
     font-weight: bold;
-    font-size: 48px;
+    font-size: 32px;
     color: #000;
     text-align: Center; }
-  div.partner-with-us a.btn svg {
-    display: inline-block; }
+  div.partner-with-us a.btn {
+    font-size: 16px; }
+    div.partner-with-us a.btn svg {
+      display: inline-block; }
 
 div.page-header {
   height: 290px;
@@ -635,7 +641,7 @@ div.page-header {
   div.page-header.about_bg {
     background: url("../images/about_bg.jpg") center center no-repeat;
     background-size: cover; }
-  div.page-header.digital_trining_bg {
+  div.page-header.digital_training_bg {
     background: url("../images/dt.jpg") center center no-repeat;
     background-size: cover; }
   div.page-header.inquiry_bg {
@@ -1359,6 +1365,25 @@ div.form-element {
   body {
     padding-top: 60px; }
 
+  div.page-training div.col-md-6 img {
+    width: 100%; }
+
+  .digital_training_info {
+    height: auto;
+    margin: 0px; }
+    .digital_training_info a.btn {
+      margin-bottom: 20px;
+      margin-top: 0px;
+      height: 52px;
+      font-size: 14px; }
+    .digital_training_info p {
+      padding-top: 20px; }
+    .digital_training_info img {
+      position: relative;
+      top: auto;
+      margin: 0 auto;
+      display: block; }
+
   div.page-events a.event-item div.event-date span.month, div.page-events a.event-item div.event-date span.year {
     padding: 7px 5px; }
 
@@ -1380,10 +1405,25 @@ div.form-element {
 
   footer {
     padding: 20px 0px; }
+    footer div.copyright {
+      padding: 20px; }
+    footer ul {
+      border-bottom: thin solid #153c53;
+      margin: 20px 20px 20px 20px;
+      padding: 0px 20px 20px 20px; }
+      footer ul li {
+        text-align: center;
+        display: block; }
+
+  .partner-with-us h2 {
+    font-size: 28px; }
 
   .home-block-one div.slider-text {
     line-height: 40px;
     font-size: 28px; }
+
+  div.page-content div.page-divider {
+    display: none; }
 
   .featured-video-block div.block-title {
     font-size: 28px; }
@@ -1543,13 +1583,6 @@ div.form-element {
 
   div.partner-page a.btn.btn-become-partner {
     margin-bottom: 40px; }
-
-  footer ul {
-    border-bottom: thin solid #153c53;
-    margin: 20px -20px 20px -20px;
-    padding: 0px 20px 20px 20px; }
-    footer ul li {
-      text-align: center; }
 
   div.page-header-content {
     padding-top: 20px; }
