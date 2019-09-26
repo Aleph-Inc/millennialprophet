@@ -17,7 +17,7 @@
                 </div>
             </div>
         </div>
-        <div class="slider-desktop">
+        <div class="video-desktop">
             <div class="slider-item">
                 <div class="slider-text">
                     @if(Page::get('slidertext'))
