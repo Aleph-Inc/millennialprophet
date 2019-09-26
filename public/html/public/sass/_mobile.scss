@@ -693,12 +693,15 @@ div.video-desktop {
     }
     .next-event-date-wrapper {
 
-
-    .next-event-date {
+      .next-event-date {
         font-size: 24px;
         color: #D73030;
         line-height: 20px;
         margin-top: 0px;
+        span {
+          font-size: 12px;
+          line-height: 14px;
+        }
       }
 
       .next-arrow-2 {
@@ -745,9 +748,12 @@ div.video-desktop {
       }
 
       .next-date-text {
+        span {
+          font-size: 12px;
+        }
         margin: 10px 0px 0px 0px;
         line-height: 18px;
-        font-size: 18px;
+        font-size: 16px;
       }
 
     }

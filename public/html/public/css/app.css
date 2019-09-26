@@ -1805,6 +1805,9 @@ div.video-desktop {
       color: #D73030;
       line-height: 20px;
       margin-top: 0px; }
+      .home-block-event .next-event-date-wrapper .next-event-date span {
+        font-size: 12px;
+        line-height: 14px; }
     .home-block-event .next-event-date-wrapper .next-arrow-2 {
       display: none; }
     .home-block-event .next-event-date-wrapper .next-arrow {
@@ -1833,6 +1836,8 @@ div.video-desktop {
     .home-block-event .next-date-wrapper .next-date-text {
       margin: 10px 0px 0px 0px;
       line-height: 18px;
-      font-size: 18px; } }
+      font-size: 16px; }
+      .home-block-event .next-date-wrapper .next-date-text span {
+        font-size: 12px; } }
 
 /*# sourceMappingURL=app.css.map */
