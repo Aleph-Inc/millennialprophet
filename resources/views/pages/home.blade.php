@@ -5,24 +5,25 @@
     <!-- home main block-->
     <div class="home-block-one">
         {{--<div class="slider-item"--}}
-             {{--style="background:url('/html/public/images/home_img.jpg') center center no-repeat; background-size:cover;">--}}
-            {{--<div class="slider-text">--}}
-                                     {{--<p>{{ Page::get('slidertext') }}</p>--}}
+        {{--style="background:url('/html/public/images/home_img.jpg') center center no-repeat; background-size:cover;">--}}
+        {{--<div class="slider-text">--}}
+        {{--<p>{{ Page::get('slidertext') }}</p>--}}
 
-            {{--</div>--}}
+        {{--</div>--}}
 
         {{--</div>--}}
 
 
         <div class="slider-item">
             <div class="slider-text">
-               {{ Page::get('slidertext') }}
+                {{ Page::get('slidertext') }}
             </div>
 
             <div class="video-wrapper">
                 <video preload="auto" autoplay muted>
-                    <source src="/html/public/videos/video-2.mp4" type="video/mp4">
-                    <source src="/html/public/videos/video-2.mp4" type="video/ogg">
+                    <source src="{{ asset('html/public/videos/video-2.mp4')}} type=" video
+                    /mp4">
+                    <source src="{{ asset('html/public/videos/video-2.mp4')}}" type="video/ogg">
                 </video>
             </div>
         </div>
@@ -159,10 +160,10 @@
                         <h3>
                             On Being Human
                         </h3>
-                        <p>
-                                                <p>{{ Page::get('human') }}</p>
 
-                        </p>
+                        <p>{{ Page::get('human') }}</p>
+
+
                     </div>
                 </div>
             </div>
@@ -188,9 +189,10 @@
                     <p>
                         Easy and simple three steps to build a free <br> website for your church.
                     </p>
-                    <a class="btn btn-primary btn-start"  href="{{ url('/empower/free-website') }}">
+                    <a class="btn btn-primary btn-start" href="{{ url('/empower/free-website') }}">
 
-                        <svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        <svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1"
+                             xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink">
                             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                 <g id="homepage" transform="translate(-363.000000, -2113.000000)" fill="#FFFFFF">
@@ -212,7 +214,8 @@
                                 <svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1"
                                      xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                        <g id="homepage" transform="translate(-723.000000, -1963.000000)" fill="#FFFFFF">
+                                        <g id="homepage" transform="translate(-723.000000, -1963.000000)"
+                                           fill="#FFFFFF">
                                             <g id="321834" transform="translate(723.000000, 1963.000000)">
                                                 <path d="M28.9722509,14.804488 C29.8783437,15.7147162 30.6032006,16.8070075 31.1469084,17.8992988 C33.1403299,22.0863139 32.5060042,27.3656203 28.9722509,30.8244702 L19.2770837,40.6549177 C14.8372375,45.1150274 7.67911285,45.1150274 3.32988463,40.6549177 C-1.10996154,36.1948081 -1.10996154,29.0040137 3.32988463,24.6349356 L10.2161554,17.7172358 C9.40068055,20.4479205 9.4912985,23.3606683 10.4880093,26.0003215 L7.58849489,28.9130693 C5.59507334,30.9155888 5.59507334,34.2834072 7.58849489,36.3769583 C9.67253441,38.4705093 12.9344339,38.4705093 15.0184734,36.3769583 L24.7136406,26.6375422 C25.7103514,25.6362824 26.2539724,24.2709836 26.2539724,22.9055977 C26.2539724,21.5402118 25.7103514,20.174913 24.7136406,19.1736532 C23.7169298,18.1723934 22.357834,17.6262913 20.9986514,17.6262913 L25.8915006,12.7111111 C26.9788293,13.1660946 27.9755401,13.8942597 28.9722509,14.804488 Z"
                                                       id="Path"></path>
@@ -237,7 +240,8 @@ Lorem Ipsum passages, and more recently with deskto
                                 <svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1"
                                      xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                        <g id="homepage" transform="translate(-964.000000, -1969.000000)" fill="#FFFFFF">
+                                        <g id="homepage" transform="translate(-964.000000, -1969.000000)"
+                                           fill="#FFFFFF">
                                             <g id="1536698" transform="translate(964.000000, 1969.000000)">
                                                 <path d="M9.73760184,0 L0,9.73760184 L7.02779112,16.7653929 L10.2914196,13.5014314 L12.0994032,15.3094149 L8.8357747,18.5730435 L10.6327685,20.3703704 L20.3703704,10.6327685 L9.73760184,0 Z M10.4386159,10.4379498 C10.1595424,10.7170234 9.78855439,10.8708801 9.39425478,10.8708801 C8.99995517,10.8708801 8.62930024,10.7173564 8.35022666,10.4386159 C7.77442936,9.86248553 7.77442936,8.92569095 8.35022666,8.35022666 C8.62930024,8.07115307 8.99995517,7.91762934 9.39425478,7.91762934 C9.78855439,7.91762934 10.1595424,8.07115307 10.4382829,8.34989365 C11.0140802,8.92569095 11.0140802,9.86215252 10.4386159,10.4379498 Z"
                                                       id="Shape" fill-rule="nonzero"></path>
@@ -268,7 +272,8 @@ Lorem Ipsum passages, and more recently with deskto
                                 <svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1"
                                      xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                        <g id="homepage" transform="translate(-1199.000000, -1962.000000)" fill="#FFFFFF">
+                                        <g id="homepage" transform="translate(-1199.000000, -1962.000000)"
+                                           fill="#FFFFFF">
                                             <g id="1541447" transform="translate(1199.000000, 1962.000000)">
                                                 <path d="M9.6726629,23 L8.0674828,27.8158037 C7.91004678,28.2896045 8.03288727,28.8107326 8.38577928,29.1636246 L15.8363754,36.6142207 C16.1890917,36.9671127 16.7103955,37.0899532 17.1841963,36.9325172 L22,35.3273371 L9.6726629,23 Z"
                                                       id="Path"></path>
@@ -324,7 +329,8 @@ Lorem Ipsum passages, and more recently with deskto
                 <div class="btn_1">
                     <a href="{{ url('/prayer_request') }}">
 
-                        <svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        <svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1"
+                             xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink">
                             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                 <g id="homepage" transform="translate(-291.000000, -2644.000000)" fill="#246E9E">
@@ -378,8 +384,9 @@ Lorem Ipsum passages, and more recently with deskto
                 </div>
 
                 <div class="btn_2">
-                <a href="{{ url('/send_testimoney') }}">
-                        <svg width="56px" height="52px" viewBox="0 0 56 52" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    <a href="{{ url('/send_testimoney') }}">
+                        <svg width="56px" height="52px" viewBox="0 0 56 52" version="1.1"
+                             xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink">
                             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                 <g id="homepage" transform="translate(-485.000000, -2649.000000)" fill="#FFFFFF">
@@ -402,8 +409,9 @@ Lorem Ipsum passages, and more recently with deskto
                 </div>
 
                 <div class="btn_3">
-                <a href="{{ url('/donation') }}">
-                        <svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    <a href="{{ url('/donation') }}">
+                        <svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1"
+                             xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink">
                             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                 <g id="homepage" transform="translate(-688.000000, -2649.000000)" fill="#FFFFFF">
@@ -425,7 +433,8 @@ Lorem Ipsum passages, and more recently with deskto
                 <div class="btn_4">
                     <a href="{{ url('/build-chruch') }}">
 
-                        <svg width="56px" height="61px" viewBox="0 0 56 61" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        <svg width="56px" height="61px" viewBox="0 0 56 61" version="1.1"
+                             xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink">
                             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                 <g id="homepage" transform="translate(-883.000000, -2640.000000)" fill="#FFFFFF"
@@ -447,7 +456,8 @@ Lorem Ipsum passages, and more recently with deskto
                 <div class="btn_5">
                     <a href="{{ url('/connect') }}">
 
-                        <svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        <svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1"
+                             xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink">
                             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                 <g id="homepage" transform="translate(-1082.000000, -2644.000000)" fill="#FFFFFF">
