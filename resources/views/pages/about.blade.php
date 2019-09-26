@@ -18,7 +18,7 @@
 
             <div class="row justify-content-center">
                 <div class="col-md-7">
-                    <h2 class="text-blue">
+                    <h2 class="text-blue" id="who_we_are">
                         WHO WE ARE
                     </h2>
 
@@ -37,7 +37,7 @@
 
                 <div class="col-md-7">
 
-                    <h2  style="color: #246E9E;">
+                    <h2 id="what_jesus_did_for_you">
                     WHAT JESUS DID FOR YOU</h2>
 
                     <p>{{ Page::get('whatjesus') }}</p>
@@ -65,25 +65,20 @@
                     <h4>
                         His Heart To Heal You
                     </h4>
-                    <p>
 
                     <p>{{ Page::get('hisheal') }}</p>
-
-
-                    </p>
-
 
                     <h2>
                         MINISTRIES
                     </h2>
-                    <p>
+
 
                     <p>{{ Page::get('ministries') }}</p>
 
-                    </p>
 
 
-                    
+
+
 
                 </div>
 
