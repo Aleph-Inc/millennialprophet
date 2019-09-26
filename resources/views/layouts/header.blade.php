@@ -4,7 +4,6 @@
             <div class="col-md-12">
 
 
-
                 <a href="#">
                     BECOME A PARTNER
                 </a>
@@ -34,9 +33,13 @@
 
         <div class="row">
             <div class="col-md-2 logo-wrapper">
+
                 <div class="logo">
                     <a href="/">
                         <img src="{{ asset('html/public/images/logo.png') }}" alt="">
+                        <span>
+                            Millennial Prophet
+                        </span>
                     </a>
                 </div>
 
@@ -102,14 +105,12 @@
 
                     <li>
                         <a href="#">
-                            BECOME A MEMBER
+                            <i class="fa fa-search"></i>
                         </a>
                     </li>
                 </ul>
             </div>
         </div>
-
-
 
 
     </div>

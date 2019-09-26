@@ -4,13 +4,27 @@
 
     <!-- home main block-->
     <div class="home-block-one">
-        <div class="slider-item"
-             style="background:url('/html/public/images/home_img.jpg') center center no-repeat; background-size:cover;">
-            <div class="slider-text">
-                                     <p>{{ Page::get('slidertext') }}</p>
+        {{--<div class="slider-item"--}}
+             {{--style="background:url('/html/public/images/home_img.jpg') center center no-repeat; background-size:cover;">--}}
+            {{--<div class="slider-text">--}}
+                                     {{--<p>{{ Page::get('slidertext') }}</p>--}}
 
+            {{--</div>--}}
+
+        {{--</div>--}}
+
+
+        <div class="slider-item">
+            <div class="slider-text">
+               {{ Page::get('slidertext') }}
             </div>
 
+            <div class="video-wrapper">
+                <video preload="auto" autoplay muted>
+                    <source src="/html/public/videos/video-2.mp4" type="video/mp4">
+                    <source src="/html/public/videos/video-2.mp4" type="video/ogg">
+                </video>
+            </div>
         </div>
     </div>
     <!-- home block event -->
