@@ -550,7 +550,7 @@
 
   div.page-ministry {
     div.digital-training-block {
-      margin:0px 0px 20px 0px;
+      margin: 0px 0px 20px 0px;
       div.col-md-6 {
         padding: 0px;
       }
@@ -596,6 +596,79 @@
         margin: 0px auto;
       }
     }
+  }
+
+  div.page-event-single {
+    h2 {
+      margin: 20px 0px;
+    }
+
+    div.event-image {
+      margin: 0px -20px 20px -20px;
+
+      img {
+        width: 100%;
+        margin: 10px 0px 0px 0px;
+      }
+    }
+
+    div.event-body {
+      padding: 20px 0px;
+    }
+    div.event-date {
+      text-align: left;
+      float: none;
+      margin: 0px 0px 10px 0px;
+
+      span {
+        display: inline-block;
+      }
+    }
+    div.event-title {
+      font-size: 16px;
+      margin: 0px 0px 10px 0px;
+    }
+    div.flag {
+      position: relative;
+      right: auto;
+      margin: 0px 0px 10px 0px;
+
+    }
+    .event-more-info ul {
+      display: block;
+      li {
+        margin: 20px 0px 0px 0px;
+      }
+    }
+
+    .upcoming-events {
+      border-top: thin solid #d8d8d8;
+      padding: 0px 0px 20px 0px;
+      margin-top: 20px;
+      h2 {
+        margin: 0px -15px 20px -15px;
+        padding: 10px 20px;
+        background: #000;
+        color: #fff;
+      }
+      a.event-item {
+        padding: 0px 0px 20px 0px;
+        margin-bottom: 20px;
+        display: block;
+
+        div.event-date {
+          margin: 0px;
+        }
+        div.event-title {
+          padding: 0px;
+        }
+        div.event-time {
+          padding: 0px;
+        }
+      }
+
+    }
+
   }
 
 }

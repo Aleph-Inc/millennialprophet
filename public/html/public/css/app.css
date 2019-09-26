@@ -907,9 +907,10 @@ div.page-events {
       text-decoration: none; }
 
 div.page-event-single div.event-date {
-  width: 65px;
   text-align: right;
   float: left;
+  margin: 0px 20px 0px 0px;
+  line-height: 1.2em;
   text-decoration: none; }
   div.page-event-single div.event-date span {
     display: block; }
@@ -922,6 +923,18 @@ div.page-event-single div.event-date {
     text-transform: uppercase;
     font-size: 15px;
     color: #D73030; }
+div.page-event-single div.flag {
+  position: absolute;
+  right: 15px;
+  top: 0px; }
+div.page-event-single div.event-title {
+  font-weight: bold;
+  font-size: 20px;
+  color: #000;
+  padding-right: 40px;
+  margin: 0px 0px 20px 0px; }
+div.page-event-single figure img {
+  width: 100%; }
 div.page-event-single div.event-time {
   color: #2474A4;
   font-size: 14px;
@@ -930,6 +943,70 @@ div.page-event-single p {
   text-align: left; }
 div.page-event-single div.event-body {
   text-align: left; }
+  div.page-event-single div.event-body p {
+    font-size: 16px; }
+div.page-event-single a.add-to-cal {
+  border: thin solid #d9d9d9;
+  display: inline-block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  color: #686868;
+  text-decoration: none;
+  border-radius: 4px;
+  background: #fff; }
+  div.page-event-single a.add-to-cal img {
+    width: 20px;
+    margin: 0px 10px 0px 0px; }
+  div.page-event-single a.add-to-cal:hover {
+    background: #f1f1f1; }
+  div.page-event-single a.add-to-cal:active {
+    -webkit-transform: scale(0.98);
+    -moz-transform: scale(0.98);
+    -ms-transform: scale(0.98);
+    -o-transform: scale(0.98);
+    transform: scale(0.98); }
+div.page-event-single .upcoming-events {
+  background: #f1f1f1;
+  padding: 40px 0px 0px 0px;
+  margin-top: 40px; }
+  div.page-event-single .upcoming-events h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0px 0px 40px 0px;
+    text-align: center; }
+  div.page-event-single .upcoming-events a.event-item {
+    text-decoration: none; }
+    div.page-event-single .upcoming-events a.event-item div.flag {
+      position: relative;
+      right: auto;
+      margin-left: 45px;
+      margin-bottom: 20px; }
+    div.page-event-single .upcoming-events a.event-item:hover {
+      text-decoration: none; }
+      div.page-event-single .upcoming-events a.event-item:hover div.event-title {
+        text-decoration: none;
+        color: #686868; }
+    div.page-event-single .upcoming-events a.event-item div.event-title {
+      padding: 20px 0px 0px 50px;
+      margin: 0px 0px 10px 0px; }
+    div.page-event-single .upcoming-events a.event-item div.event-time {
+      padding: 0px 0px 10px 50px; }
+div.page-event-single .event-more-info ul {
+  margin: 0px;
+  padding: 0px;
+  display: flex; }
+  div.page-event-single .event-more-info ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px 0px 0px; }
+    div.page-event-single .event-more-info ul li a {
+      display: block; }
+    div.page-event-single .event-more-info ul li p {
+      display: block;
+      margin: 0px;
+      font-size: 14px; }
+      div.page-event-single .event-more-info ul li p strong {
+        display: block; }
 
 div.partner-page div.donation-btns {
   text-align: center;
@@ -1653,6 +1730,52 @@ div.form-element {
       text-align: center; }
     div.page-ministry div.digital-training-block img {
       width: 100%;
-      margin: 0px auto; } }
+      margin: 0px auto; }
+
+  div.page-event-single h2 {
+    margin: 20px 0px; }
+  div.page-event-single div.event-image {
+    margin: 0px -20px 20px -20px; }
+    div.page-event-single div.event-image img {
+      width: 100%;
+      margin: 10px 0px 0px 0px; }
+  div.page-event-single div.event-body {
+    padding: 20px 0px; }
+  div.page-event-single div.event-date {
+    text-align: left;
+    float: none;
+    margin: 0px 0px 10px 0px; }
+    div.page-event-single div.event-date span {
+      display: inline-block; }
+  div.page-event-single div.event-title {
+    font-size: 16px;
+    margin: 0px 0px 10px 0px; }
+  div.page-event-single div.flag {
+    position: relative;
+    right: auto;
+    margin: 0px 0px 10px 0px; }
+  div.page-event-single .event-more-info ul {
+    display: block; }
+    div.page-event-single .event-more-info ul li {
+      margin: 20px 0px 0px 0px; }
+  div.page-event-single .upcoming-events {
+    border-top: thin solid #d8d8d8;
+    padding: 0px 0px 20px 0px;
+    margin-top: 20px; }
+    div.page-event-single .upcoming-events h2 {
+      margin: 0px -15px 20px -15px;
+      padding: 10px 20px;
+      background: #000;
+      color: #fff; }
+    div.page-event-single .upcoming-events a.event-item {
+      padding: 0px 0px 20px 0px;
+      margin-bottom: 20px;
+      display: block; }
+      div.page-event-single .upcoming-events a.event-item div.event-date {
+        margin: 0px; }
+      div.page-event-single .upcoming-events a.event-item div.event-title {
+        padding: 0px; }
+      div.page-event-single .upcoming-events a.event-item div.event-time {
+        padding: 0px; } }
 
 /*# sourceMappingURL=app.css.map */
