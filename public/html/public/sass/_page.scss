@@ -128,7 +128,6 @@ div.page-header {
 
 }
 
-
 img.page-full-image {
   width: 100%;
   margin: 60px auto;
@@ -350,12 +349,9 @@ div.page-content {
   background-size: cover;
 }
 
-
-div.page-training{
-
+div.page-training {
 
 }
-
 
 .digital_training_info {
   background: #00BAFF;
@@ -741,7 +737,7 @@ div.page-videos {
 
 div.page-ministry {
 
-  div.d-training {
+  div.digital-training-block {
     h4 {
       /* Empower Ministries: */
 
@@ -776,6 +772,9 @@ div.page-ministry {
       margin: 7px 0px;
       letter-spacing: 0;
       text-align: right;
+    }
+    img {
+      width: 100%;
     }
   }
 

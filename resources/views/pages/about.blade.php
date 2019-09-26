@@ -39,7 +39,7 @@
 
                     <h2  style="color: #246E9E;">
                     WHAT JESUS DID FOR YOU</h2>
-                    
+
                     <p>{{ Page::get('whatjesus') }}</p>
 
                 </div>

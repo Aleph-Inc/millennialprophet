@@ -1041,14 +1041,14 @@ div.page-videos {
       color: #818181;
       font-weight: normal; }
 
-div.page-ministry div.d-training h4 {
+div.page-ministry div.digital-training-block h4 {
   /* Empower Ministries: */
   font-size: 18px;
   color: #9A9A9A;
   letter-spacing: 0;
   text-align: right;
   margin: 7px 0px; }
-div.page-ministry div.d-training h2 {
+div.page-ministry div.digital-training-block h2 {
   /* FREE WEBSITE FOR EVE: */
   font-family: Avenir-Black;
   font-size: 36px;
@@ -1056,10 +1056,10 @@ div.page-ministry div.d-training h2 {
   letter-spacing: 0;
   text-align: right;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); }
-div.page-ministry div.d-training a.btn {
+div.page-ministry div.digital-training-block a.btn {
   margin: 0px -1px;
   float: right; }
-div.page-ministry div.d-training p {
+div.page-ministry div.digital-training-block p {
   /* Easy and simple thre: */
   font-family: Avenir-Medium;
   font-size: 18px;
@@ -1067,6 +1067,8 @@ div.page-ministry div.d-training p {
   margin: 7px 0px;
   letter-spacing: 0;
   text-align: right; }
+div.page-ministry div.digital-training-block img {
+  width: 100%; }
 div.page-ministry div.create-website div.col-4 a {
   /* Rectangle Copy 9: */
   background-image: linear-gradient(-151deg, #0EACD1 0%, #0674A5 94%);
@@ -1616,6 +1618,37 @@ div.form-element {
     margin: 0px 10px;
     height: 140px; }
     div.page-ministry div.create-website div.col-4 a p {
-      display: none; } }
+      display: none; }
+
+  div.page-ministry div.digital-training-block div.col-md-6 {
+    padding: 0px; }
+  div.page-ministry div.digital-training-block h4 {
+    /* Empower Ministries: */
+    font-size: 16px;
+    color: #9A9A9A;
+    letter-spacing: 0;
+    text-align: center;
+    margin: 7px 0px; }
+  div.page-ministry div.digital-training-block h2 {
+    /* FREE WEBSITE FOR EVE: */
+    font-size: 28px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); }
+  div.page-ministry div.digital-training-block a.btn {
+    margin: 0px auto;
+    float: none;
+    margin-bottom: 20px; }
+  div.page-ministry div.digital-training-block p {
+    /* Easy and simple thre: */
+    font-size: 14px;
+    color: #000000;
+    margin: 7px 0px;
+    letter-spacing: 0;
+    text-align: center; }
+  div.page-ministry div.digital-training-block img {
+    width: 100%;
+    margin: 0px auto; } }
 
 /*# sourceMappingURL=app.css.map */
