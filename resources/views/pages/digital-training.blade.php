@@ -2,7 +2,7 @@
 @section('title','Digital Trainning')
 @section('content')
 
-<div class="page-header digital_trining_bg">
+<div class="page-header digital_training_bg">
     <div class="page-title">
         <div class="container">
             <div class="row justify-content-center">
@@ -45,7 +45,7 @@
 
 
             <div class="col-md-6">
-                <img src="../public/images/dg.jpg" alt="">
+                <img src="/html/public/images/dg.jpg" alt="">
             </div>
 
         </div>
