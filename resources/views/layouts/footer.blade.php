@@ -62,21 +62,21 @@
                                 About
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/about#who_we_are">
                                     Who we are
                                 </a>
                             </li>
                             <li>
-                                <a href="#"> What Jesus did for you </a>
+                                <a href="/about#what_jesus_did_for_you"> What Jesus did for you </a>
                             </li>
 
                             <li>
-                                <a href="#">
+                                <a href="/about#ministries">
                                     Ministries
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/about#news">
                                     News
                                 </a>
                             </li>
@@ -86,12 +86,10 @@
 
                         <ul>
                             <li>
-                                Resouces
-
-
+                                Resources
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/confess">
                                     Confess the word
                                 </a>
                             </li>
@@ -121,17 +119,10 @@
                                 Events
                             </li>
                             <li>
-                                <a href="#">
-                                    Events
-
-
-                                </a>
+                                <a href="/events">Upcoming events</a>
                             </li>
                             <li>
-                                <a href="#">Upcoming events</a>
-                            </li>
-                            <li>
-                                <a href="#">
+                                <a href="/events/past">
                                     Past events
                                 </a>
                             </li>
@@ -143,20 +134,20 @@
                                 Testimonies
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/partner">
                                     Partners
                                 </a>
                             </li>
                             <li>
-                                <a href="#"> Jesus</a>
+                                <a href="/jesus"> Jesus</a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/blog">
                                     Blog
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/empower/digital-training">
                                     Training
                                 </a>
                             </li>
