@@ -1,0 +1,540 @@
+@media screen and (max-width: 1279px) {
+  .home-block-one {
+    height: 565px;
+  }
+  header {
+    ul li {
+      a {
+        font-size: 13px;
+        /* font-weight: bold; */
+        padding: 5px 7px;
+      }
+    }
+  }
+
+  .block-free-website {
+    h2 {
+      font-size: 28px;
+    }
+
+    a {
+      height: 280px;
+    }
+  }
+
+  footer {
+    min-height: 380px;
+    height: auto;
+
+    ul {
+      margin: 0px 0px 20px 0px;
+    }
+
+    ul li {
+      font-weight: 700;
+
+      a {
+        font-weight: normal;
+      }
+    }
+  }
+
+  .featured-blog div.col-md-3 a div.blog-info {
+    top: 25%;
+  }
+  div.about-mp h2, div.page-jesus h2 {
+    font-size: 41px;
+  }
+
+  div.page-events a.event-item {
+    img {
+      width: 100%;
+    }
+  }
+
+  div.page-events a.event-item div.flag {
+    position: relative;
+    width: 32px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    padding-top: 60px;
+  }
+
+  .block-connect.connect_bg {
+    height: auto;
+    background-position: right center;
+
+    div.container {
+      max-width: 100%;
+    }
+
+    .connect-buttons {
+      flex-wrap: wrap;
+
+      > div {
+        margin: 0px 20px 20px 20px;
+      }
+    }
+  }
+
+  .home-block-one div.slider-text {
+    font-size: 36px;
+  }
+
+  .block-free-website {
+    h2, p {
+      text-align: center;
+    }
+
+    div.col-md-4,
+    div.col-md-8 {
+      flex: 0 0 100.100%;
+      max-width: 100.100%;
+    }
+
+    a {
+      width: 100%;
+
+    }
+
+    div.container {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  body {
+    padding-top: 60px;
+  }
+
+  .home-block-one div.slider-item div.video-wrapper video {
+    width: auto;
+    height: 100%;
+  }
+
+  header {
+    position: fixed;
+
+    div.mobile_menu {
+      z-index: 2000;
+      cursor: pointer;
+      display: block;
+      position: absolute;
+      right: 10px;
+      top: 5px;
+      width: 44px;
+      height: 44px;
+      font-size: 24px;
+
+      border: thin solid #d9d9d9;
+      text-align: center;
+      padding-top: 4px;
+      color: $blue;
+
+      &:hover {
+        background: #f1f1f1;
+      }
+
+    }
+
+    .logo-wrapper {
+      flex: 0 0 100.000%;
+      max-width: 100.000%;
+    }
+
+    height: 60px;
+    overflow: hidden;
+
+    div.logo {
+      img {
+        width: 60px;
+        margin: 0 auto;
+        display: block;
+      }
+
+    }
+
+    div.top-header {
+      display: none;
+    }
+
+    ul {
+      float: none;
+      padding: 0px;
+
+      li:last-child {
+        display: block;
+      }
+    }
+
+    ul li {
+      display: block;
+
+      a {
+        height: auto;
+        display: block;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 5px 20px;
+        line-height: 30px;
+
+        &:hover {
+          background: $blue;
+          color: #fff;
+        }
+      }
+    }
+  }
+  header.expand {
+    height: 500px;
+    overflow-y: scroll;
+  }
+
+  .testimony-tabs {
+    li a {
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+  }
+
+  div.page-content .t-videos {
+    font-size: 18px;
+    margin: 20px 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    padding-top: 60px;
+  }
+  div.page-training {
+
+    div.col-md-6 {
+      img {
+        width: 100%;
+      }
+    }
+
+  }
+  .digital_training_info {
+    height: auto;
+    margin: 0px;
+    a.btn {
+      margin-bottom: 20px;
+      margin-top: 0px;
+      height: 52px;
+      font-size: 14px;
+    }
+    p {
+      padding-top: 20px;
+    }
+
+    img {
+      position: relative;
+      top: auto;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+  div.page-events a.event-item div.event-date span.month, div.page-events a.event-item div.event-date span.year {
+    padding: 7px 5px;
+  }
+  header {
+    div.logo {
+
+      height: 60px;
+      overflow: hidden;
+      a {
+        display: flex;
+
+        span {
+          padding-top: 16px;
+          display: block;
+          color: $blue;
+          font-weight: bold;
+        }
+      }
+      img {
+        width: 76px;
+        margin: 0px 1px;
+
+      }
+    }
+
+    .logo-wrapper {
+      padding: 0px;
+    }
+  }
+
+  footer {
+    padding: 20px 0px;
+
+    div.copyright {
+      padding: 20px;
+    }
+    ul {
+
+      border-bottom: thin solid #153c53;
+      margin: 20px 20px 20px 20px;
+      padding: 0px 20px 20px 20px;
+
+      li {
+        text-align: center;
+        display: block;
+      }
+    }
+  }
+
+  .partner-with-us {
+    h2 {
+      font-size: 28px;
+    }
+  }
+  .home-block-one div.slider-text {
+    line-height: 40px;
+    font-size: 28px;
+  }
+
+  div.page-content div.page-divider {
+    display: none;
+  }
+  .featured-video-block div.block-title {
+    font-size: 28px;
+  }
+  .home-block-one {
+    height: 480px;
+
+    div.slider-item {
+      height: 480px;
+    }
+  }
+
+  div.block-connect-with-us .subscription-form div.input-group button {
+    font-size: 12px;
+  }
+
+  header.expand {
+    height: 500px;
+    overflow-y: scroll;
+  }
+  .home-block-event {
+    padding: 20px;
+  }
+  .home-block-event .next-date-wrapper .next-date-text {
+    margin: 0px 0px 0px 0px;
+    line-height: 36px;
+  }
+  div.block-connect .connect-buttons > div a {
+    font-size: 14px;
+  }
+  .home-block-event .next-event-info .next-event-title {
+    color: #2474A4;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+
+    margin: 20px 0px 10px 0px;
+  }
+
+  .featured-video-block {
+    height: auto;
+  }
+
+  div.block-connect, div.block-digital-training, div.block-connect-with-us {
+    height: auto;
+  }
+  div.block-connect .connect-buttons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .testimony-tabs {
+    margin-bottom: 20px;
+  }
+  div.page-events a.event-item {
+    border-bottom: thin solid #d8d8d8;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+    div.event-date {
+      padding-left: 20px;
+      float: left;
+      display: flex;
+    }
+
+    img {
+      width: 100%;
+      margin: 0px 0px 20px 0px;
+
+    }
+
+  }
+
+  .home-block-one div.slider-text {
+    padding: 0px 20px;
+    font-size: 36px;
+  }
+
+  .home-block-event .next-date-wrapper {
+    justify-content: center;
+  }
+  .home-block-event .next-event-info .next-event-title,
+  .home-block-event .next-event-info .next-event-time {
+    text-align: center;
+  }
+
+  .home-block-event .next-date-wrapper .next-date {
+    padding: 15px;
+    margin: 0px 20px 10px 0px;
+  }
+
+  .home-block-event .next-event-info .next-event-country img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .featured-video-block div.block-title {
+    text-align: center;
+  }
+  .featured-video-block {
+    padding: 15px 0px;
+
+    div.block-title {
+      margin: 0px 0px 15px 0px;
+    }
+
+    .video-block video {
+      height: auto;
+    }
+  }
+
+  div.block-connect.connect_bg {
+    padding-bottom: 20px;
+  }
+
+  div.block-connect div.container {
+    padding-top: 20px;
+  }
+  div.block-connect .connect-buttons {
+    margin: 20px 0px 0px 0px;
+  }
+  div.block-digital-training div.container {
+    padding: 40px 0px;
+  }
+  div.block-connect .connect-buttons > div a svg {
+    margin: 5px auto;
+    height: 44px;
+  }
+  div.block-connect-with-us .subscription-form {
+    padding: 20px;
+  }
+  div.block-connect.connect_bg .connect-buttons > div {
+    margin: 10px 10px;
+    width: 40%;
+    padding: 10px;
+    min-height: 160px;
+  }
+
+  div.block-connect h2 {
+    font-size: 28px;
+  }
+
+  .block-free-website {
+
+    a {
+      height: auto;
+      padding-top: 20px;
+      margin-top: 20px;
+      font-size: 16px;
+
+      span {
+        display: none;
+      }
+    }
+
+    h2 {
+      text-align: Center;
+    }
+
+    p {
+      text-align: center;
+
+    }
+
+    div.col-4 {
+      padding: 0px 15px;
+    }
+  }
+  div.page-content .t-articles div.col-md-6 a div.col-sm-6 p {
+    text-align: left !important;
+  }
+  div.page-header {
+    height: 200px;
+
+    div.page-title {
+      height: 200px;
+
+      h2 {
+        font-size: 28px;
+        margin: 10px 0px;
+      }
+
+      span {
+        font-size: 12px;
+      }
+    }
+  }
+
+  div.page-ministry img {
+    width: 100%;
+  }
+  div.page-ministry div.d-training a.btn {
+    margin: 0px -1px;
+    float: none;
+    margin: 20px auto;
+    height: 48px;
+    line-height: 37px;
+  }
+  div.page-ministry div.d-training {
+    h2, h4, p {
+      text-align: Center;
+    }
+
+    h2 {
+      font-size: 28px;
+    }
+  }
+  div.partner-page a.btn.btn-become-partner {
+    margin-bottom: 40px;
+  }
+
+  div.page-header-content {
+    padding-top: 20px;
+  }
+  div.page-header-content button.btn-donate {
+    margin-bottom: 30px;
+  }
+  div.page-header-content div.form-content {
+    padding-top: 0px;
+  }
+  div.page-header.donate_bg {
+    height: auto;
+  }
+
+  .price-values {
+    div.col-sm-6 {
+      width: 49%;
+
+      button.btn-amount {
+        margin: 0px 0px 20px 0px;
+      }
+
+      input[type="number"] {
+        margin: 0px 0px 20px 0px;
+      }
+    }
+  }
+
+}

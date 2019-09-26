@@ -1,42 +1,47 @@
 <header>
     <div class="top-header">
-        <div class="row">
-            <div class="col-md-12">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
 
 
-
-                <a href="#">
-                    BECOME A PARTNER
-                </a>
-
-                <div class="dropdown">
-                    <a href="#" data-toggle="dropdown">
-                        <i class="fa fa-globe" aria-hidden="true"></i>
+                    <a href="#">
+                        BECOME A PARTNER
                     </a>
-                    <div class="dropdown-menu">
-                        <a href="#">
-                            FR
-                        </a>
-                        <a href="#">
-                            NL
-                        </a>
-                        <a href="#">
-                            GE
-                        </a>
 
+                    <div class="dropdown">
+                        <a href="#" data-toggle="dropdown">
+                            <i class="fa fa-globe" aria-hidden="true"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="#">
+                                FR
+                            </a>
+                            <a href="#">
+                                NL
+                            </a>
+                            <a href="#">
+                                GE
+                            </a>
+
+                        </div>
                     </div>
-                </div>
 
+                </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid">
+    <div class="container">
 
         <div class="row">
             <div class="col-md-2 logo-wrapper">
+
                 <div class="logo">
                     <a href="/">
                         <img src="{{ asset('html/public/images/logo.png') }}" alt="">
+                        <span>
+                            Millennial Prophet
+                        </span>
                     </a>
                 </div>
 
@@ -102,14 +107,12 @@
 
                     <li>
                         <a href="#">
-                            BECOME A MEMBER
+                            <i class="fa fa-search"></i>
                         </a>
                     </li>
                 </ul>
             </div>
         </div>
-
-
 
 
     </div>

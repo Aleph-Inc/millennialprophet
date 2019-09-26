@@ -1,0 +1,1037 @@
+
+div.page-header {
+  height: 290px;
+  position: relative;
+  margin-bottom: 40px;
+
+  &.page-big {
+    height: 450px;
+
+    .page-title {
+      height: 450px;
+    }
+  }
+
+  &.page-xl {
+    height: 720px;
+
+    .page-title {
+      height: 720px;
+    }
+
+    div.overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, .15);
+      z-index: 2000;
+      top: 0px;
+      left: 0px;
+
+    }
+  }
+
+  div.page-title {
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 3000;
+
+    h2 {
+      font-size: 36px;
+      font-weight: bold;
+      color: #fff;
+      text-align: Center;
+
+      span {
+        display: block;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: Center;
+      }
+    }
+  }
+
+  div.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    z-index: 2000;
+    top: 0px;
+    left: 0px;
+
+  }
+
+  &.donate_bg {
+    background: url('../images/donate_bg.jpg') center center no-repeat;
+    background-size: cover;
+  }
+
+  &.partner_bg {
+    background: url('../images/home_img.jpg') center center no-repeat;
+    background-size: cover;
+  }
+
+  &.testimonial_bg {
+    background: url('../images/testimonial_bg.jpg') center center no-repeat;
+    background-size: cover;
+  }
+
+  &.free_web_bg {
+    background: url('../images/free_web_bg.jpg') center center no-repeat;
+    background-size: cover;
+  }
+
+  &.jesus_bg {
+    background: url('../images/jesus_bg.jpg') center center no-repeat;
+    background-size: cover;
+  }
+
+  &.videos_bg {
+    background: url('../images/videos_bg.jpg') center center no-repeat;
+    background-size: cover;
+  }
+
+  &.events_bg {
+    background: url('../images/events_bg.jpg') center center no-repeat;
+    background-size: cover;
+  }
+
+  &.confess_bg {
+    background: url('../images/confess_bg.jpg') center center no-repeat;
+    background-size: cover;
+  }
+
+  &.blog_bg {
+    background: url('../images/blog_bg.jpg') center center no-repeat;
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+
+  &.about_bg {
+    background: url('../images/about_bg.jpg') center center no-repeat;
+    background-size: cover;
+  }
+
+  &.digital_training_bg {
+    background: url('../images/dt.jpg') center center no-repeat;
+    background-size: cover;
+  }
+
+  &.inquiry_bg {
+    background: url('../images/inq.jpg') center center no-repeat;
+    background-size: cover;
+  }
+
+}
+
+
+img.page-full-image {
+  width: 100%;
+  margin: 60px auto;
+}
+
+div.page-content {
+  padding: 0px 0px;
+
+  div.page-divider {
+    border-top: thin solid #d8d8d8;
+    margin: 40px 0px;
+    position: relative;
+  }
+
+  p {
+    font-family: $second-font;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .t-videos {
+
+    padding: 0px 0px 60px 0px;
+
+    iframe {
+      width: 100%;
+      height: 220px;
+    }
+
+    p {
+      font-weight: bold;
+      font-size: 16px;
+      text-align: left;
+    }
+
+  }
+
+  .t-articles {
+    div.col-md-6 a {
+      display: block;
+      background: #f1f1f1;
+      padding: 20px;
+      text-decoration: none;
+      margin: 0px 0px 20px 0px;
+
+      &:hover {
+        background: #fff;
+      }
+
+      &:active {
+        -webkit-transform: scale(0.98);
+        -moz-transform: scale(0.98);
+        -ms-transform: scale(0.98);
+        -o-transform: scale(0.98);
+        transform: scale(0.98);
+      }
+
+      div.col-sm-6 {
+
+        p {
+          color: #000;
+          font-size: 14px;
+
+          font-weight: bold;
+
+          span {
+            color: #2397BC
+          }
+        }
+
+      }
+
+      h3 {
+        font-size: 20px;
+        color: #000;
+        font-weight: bold;
+        text-decoration: none;
+        margin: 20px 0px 0px 0px;
+      }
+
+    }
+  }
+}
+
+.testimony-tabs {
+  text-align: Center;
+  margin-bottom: 40px;
+
+  li {
+    display: inline-block;
+    margin-left: -4px;
+
+    a {
+      color: #494949;
+      text-decoration: none;
+      display: block;
+      padding: 20px 20px;
+      font-size: 16px;
+      font-weight: 600;
+      text-align: Center;
+      /* Rectangle: */
+      /* Rectangle: */
+      background: #E4E4E4;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.20);
+      border-radius: 8px 0 0 8px;
+
+      &.active,
+      &:hover {
+        color: #fff;
+        background-image: linear-gradient(151deg, #0EACD1 0%, #0674A5 94%);
+      }
+
+      &:active {
+        transform: scale(0.98);
+      }
+    }
+  }
+
+  li:last-child {
+    a {
+      border-radius: 0px 8px 8px 0px;
+    }
+  }
+}
+
+.block-social-share {
+  padding: 60px 0px;
+
+}
+
+.block-countries {
+  padding: 60px 0px;
+}
+
+.featured-blog {
+  position: relative;
+
+  div.col-md-3 {
+    position: relative;
+    padding: 0px;
+
+    a {
+      display: block;
+      text-decoration: none;
+      padding: 5px;
+
+      div.blog-info {
+        position: absolute;
+        z-index: 2000;
+        width: 60%;
+        height: 30%;
+        top: 60%;
+        left: 20%;
+        bottom: 0px;
+        text-align: center;
+      }
+
+      h3 {
+
+        font-size: 24px;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      div.blog-category {
+        font-size: 12px;
+        font-weight: 300;
+        text-align: Center;
+        color: #fff;
+      }
+
+      div.created-date {
+        color: #818181;
+        font-size: 12px;
+      }
+
+      &:hover {
+        figure img {
+          -webkit-transform: scale(1.1);
+          -moz-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+          -o-transform: scale(1.1);
+          transform: scale(1.1);
+        }
+      }
+
+    }
+
+    figure {
+      display: block;
+      margin: 0px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        -webkit-transition: 0.2s ease;
+        -moz-transition: 0.2s ease;
+        -ms-transition: 0.2s ease;
+        -o-transition: 0.2s ease;
+        transition: 0.2s ease;
+      }
+    }
+  }
+}
+
+.page-form {
+
+  padding: 60px 0px;
+
+  svg {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.form_bg {
+  background: url('../images/form_bg.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+
+div.page-training{
+
+
+}
+
+
+.digital_training_info {
+  background: #00BAFF;
+  height: 280px;
+
+  margin: 100px 0px;
+
+  p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 60px;
+  }
+
+  div.col-md-4 {
+    position: relative;
+  }
+
+  img {
+    position: absolute;
+    top: -90px;
+    z-index: 3000;
+  }
+
+  a.btn {
+    display: block;
+    text-decoration: none;
+    background: #fff;
+    color: $blue;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: Center;
+    margin-top: 100px;
+    height: 64px;
+    border-radius: 4px;
+    padding-top: 15px;
+    /* Rectangle 18: */
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.28);
+
+    &:active {
+      transform: scale(.98);
+    }
+
+    svg {
+
+    }
+  }
+}
+
+a.btn-start {
+  background-image: linear-gradient(-151deg, #0EACD1 0%, #0674A5 94%);
+  color: #fff;
+  width: 100%;
+  height: 48px;
+  border: none;
+  max-width: 320px;
+  margin: 20px auto;
+  display: block;
+  line-height: 37px;
+  font-weight: bold;
+}
+
+div.about-mp {
+  h2 {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+  }
+}
+
+div.page-jesus {
+  h2 {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 700;
+  }
+}
+
+div.page-events {
+  position: relative;
+
+  a.event-item {
+    display: block;
+    text-decoration: none;
+    margin: 0px 0px 40px 0px;
+    position: relative;
+
+    &:hover {
+
+      div.event-title {
+        color: $blue;
+      }
+    }
+
+    &:active {
+      -webkit-transform: scale(0.98);
+      -moz-transform: scale(0.98);
+      -ms-transform: scale(0.98);
+      -o-transform: scale(0.98);
+      transform: scale(0.98);
+    }
+
+    button.btn-event-reg {
+      /* Rectangle: */
+      background-image: linear-gradient(117deg, rgba(157, 185, 213, 0.98) 0%, #287BDE 100%);
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
+      border-radius: 4px;
+      color: #fff;
+      border: none;
+      font-size: 14px;
+      font-weight: bold;
+      padding: 10px 20px;
+      margin: 15px 0px;
+
+      &:hover {
+        background: $blue;
+
+      }
+    }
+
+    div.event-title {
+      font-size: 20px;
+      font-weight: bold;
+      color: #000;
+      text-decoration: none;
+    }
+
+    div.flag {
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+
+    div.event-date {
+      width: 48px;
+      text-align: right;
+      float: right;
+
+      span {
+        display: block;
+      }
+
+      text-decoration: none;
+
+      span.date {
+        font-size: 24px;
+        font-weight: bold;
+        color: $red;
+      }
+
+      span.month,
+      span.year {
+        text-transform: uppercase;
+        font-size: 15px;
+        color: $red;
+      }
+
+      span.year {
+
+      }
+    }
+
+    div.event-time {
+      color: $blue;
+      font-size: 14px;
+      text-decoration: none;
+    }
+
+  }
+
+}
+
+div.page-event-single {
+
+  div.event-date {
+    width: 65px;
+    text-align: right;
+    float: left;
+
+    span {
+      display: block;
+    }
+
+    text-decoration: none;
+
+    span.date {
+      font-size: 24px;
+      font-weight: bold;
+      color: $red;
+    }
+
+    span.month,
+    span.year {
+      text-transform: uppercase;
+      font-size: 15px;
+      color: $red;
+    }
+
+    span.year {
+
+    }
+  }
+
+  div.event-time {
+    color: $blue;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  p {
+    text-align: left;
+  }
+  div.event-body {
+    text-align: left;
+  }
+}
+
+div.partner-page {
+
+  div.donation-btns {
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+  }
+
+  a.btn.btn-become-partner {
+    /* Rectangle 8 Copy: */
+    /* Rectangle 8 Copy 2: */
+    background: #FFFFFF;
+    border: 1px solid #F4F4F4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 162.5px;
+    color: #000;
+    font-size: 20px;
+    text-align: left;
+    display: inline-block;
+    font-weight: bold;
+    padding: 30px 40px;
+    width: 400px;
+    margin: 0px 10px 0px 10px;
+    border: none;
+
+    img {
+      float: left;
+      margin: 0px 15px 0px 0px;
+    }
+
+    &:hover {
+      background-image: linear-gradient(151deg, #0EACD1 0%, #0674A5 94%);
+      color: #fff;
+    }
+
+    &.active {
+      background-image: linear-gradient(151deg, #0EACD1 0%, #0674A5 94%);
+
+    }
+  }
+
+  div.payment-methods {
+    padding: 40px;
+    margin: 0px 0px 40px 0px;
+    /* Rectangle 8: */
+    background: #FFFFFF;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.10);
+    border-radius: 17px;
+    text-align: Center;
+
+    h4 {
+      font-size: 20px;
+      text-align: Center;
+      color: #000;
+      margin: 0px 0px 20px 0px;
+    }
+
+    a {
+      display: inline-block;
+      width: 130px;
+      margin: 10px 10px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+div.page-videos {
+  position: relative;
+
+  .v-cat-active {
+    /* Sermons: */
+    font-size: 24px;
+    color: #3D4041;
+    letter-spacing: 0;
+
+  }
+
+  div.related-videos {
+    h5 {
+      color: #686868;
+      font-size: 14px;
+      text-align: left;
+      margin: 20px 0px;
+      font-family: $second-font;
+    }
+  }
+
+  div.col-md-4 {
+    margin: 0px 0px 20px 0px;
+
+    iframe {
+      width: 100%;
+      height: 200px;
+    }
+
+    p {
+      text-align: left;
+      font-size: 14px;
+      font-weight: bold;
+      color: #000;
+      font-family: $second-font;
+    }
+  }
+
+  div.main-video {
+    margin: 0px 0px 20px 0px;
+
+    iframe {
+      width: 100%;
+      height: 420px;
+    }
+  }
+
+  .v-cats {
+    li {
+      a {
+        padding: 7px 10px;
+        display: block;
+        font-size: 18px;
+        color: $blue;
+        font-weight: 400;
+        transition: 0.2s ease;
+        text-decoration: none;
+        margin: 0px 0px 10px 0px;
+
+        &.active {
+          background: #0674A5;
+          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.50);
+          color: #fff;
+
+          font-weight: bold;
+          padding: 7px 20px;
+        }
+
+        &:hover {
+          /* Rectangle 10 Copy 4: */
+          background: #0674A5;
+          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.50);
+          border-radius: 4px;
+          color: #fff;
+          font-weight: bold;
+          padding: 7px 20px;
+        }
+      }
+    }
+  }
+
+  h3 {
+
+    text-align: left;
+    margin: 0px 0px 20px 0px;
+
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    letter-spacing: 0;
+
+    span {
+      color: #818181;
+      font-weight: normal;
+    }
+  }
+
+}
+
+div.page-ministry {
+
+  div.d-training {
+    h4 {
+      /* Empower Ministries: */
+
+      font-size: 18px;
+      color: #9A9A9A;
+      letter-spacing: 0;
+      text-align: right;
+      margin: 7px 0px;
+    }
+
+    h2 {
+      /* FREE WEBSITE FOR EVE: */
+      font-family: Avenir-Black;
+      font-size: 36px;
+      color: #000000;
+      letter-spacing: 0;
+      text-align: right;
+
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    }
+
+    a.btn {
+      margin: 0px -1px;
+      float: right;
+    }
+
+    p {
+      /* Easy and simple thre: */
+      font-family: Avenir-Medium;
+      font-size: 18px;
+      color: #000000;
+      margin: 7px 0px;
+      letter-spacing: 0;
+      text-align: right;
+    }
+  }
+
+  div.create-website {
+    div.col-md-4 {
+      a {
+
+        /* Rectangle Copy 9: */
+        background-image: linear-gradient(-151deg, #0EACD1 0%, #0674A5 94%);
+        border-radius: 4px;
+        transition: 0.2s ease;
+        width: 220px;
+        height: 240px;
+        margin: 0 auto;
+
+        text-align: center;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: Center;
+        justify-content: center;
+
+        text-decoration: none;
+
+        svg {
+          display: block;
+          margin: 10px auto;
+        }
+
+        font-size: 18px;
+        font-weight: bold;
+        color: #fff;
+
+        p {
+          margin: 7px 0px;
+          font-size: 12px;
+          text-align: Center;
+        }
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+    }
+  }
+
+}
+
+div.page-confess {
+  p {
+    span {
+      display: block;
+      color: $blue;
+
+    }
+  }
+}
+
+div.page-header-content {
+  padding: 100px 0px 0px 0px;
+  position: relative;
+  z-index: 3000;
+
+  div.form-content {
+    padding-top: 100px;
+  }
+
+  h2 {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+  }
+
+  svg {
+    margin: 20px auto;
+    display: block;
+  }
+
+  input[type="number"] {
+    width: 100%;
+    height: 56px;
+
+    background: #fff;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+    border-radius: 4px;
+  }
+
+  button.btn-donate {
+    border: none;
+    width: 100%;
+    height: 56px;
+    /* Rectangle 9 Copy 11: */
+    background-image: linear-gradient(-125deg, #4AA7CD 0%, #246E9E 100%);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.20);
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+
+  }
+
+  button.btn-amount {
+    border-radius: 4px;
+    width: 100%;
+    /* 20: */
+    font-size: 24px;
+    color: #000000;
+    background: #fff;
+    letter-spacing: 0;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px 0px 20px 0px;
+
+    &:hover {
+      background: #47C86E;
+      color: #fff;
+    }
+  }
+
+}
+
+.follow-us {
+  text-align: center;
+  background: #f1f1f1;
+  padding: 60px 0px;
+  position: relative;
+
+  h3 {
+    margin: 20px 0px;
+    font-weight: bold;
+    font-size: 36px;
+  }
+
+  .social-connect {
+    text-align: center;
+
+    a {
+      display: inline-block;
+      width: 72px;
+      height: 72px;
+      margin: 0px 20px;
+    }
+  }
+
+}
+
+.country-contact {
+  background: #fff;
+  padding: 60px 0px;
+
+  a {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+
+    font-weight: 400;
+    width: 240px;
+
+    strong {
+      display: block;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+}
+
+.page-build-church {
+  h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #000;
+    text-align: Center;
+    margin: 15px 0px;
+  }
+
+  div.col-md-4 {
+    img {
+      margin: 5px;
+      width: 100%;
+    }
+  }
+}
+
+div.page-blog {
+
+  div.blog-image {
+    figure {
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  div.blog-title {
+    background: #fff;
+    padding: 40px;
+
+    position: relative;
+    margin: -100px 20px 0px 20px;
+
+    h3 {
+      font-weight: bold;
+      font-size: 32px;
+      color: #000000;
+      letter-spacing: 0;
+    }
+  }
+
+  div.blog-body {
+    p {
+      text-align: left;
+      font-family: $second-font;
+    }
+
+    img {
+      width: 100%;
+      margin: 20px 0px;
+    }
+  }
+}
+
+div.blog-date { /* April 30th 2019 Copy 9: */
+  font-family: $second-font;
+  font-size: 12px;
+  color: #818181;
+  letter-spacing: 0;
+  text-align: center;
+
+}
+
+div.form-element {
+  margin: 0px 0px 20px 0px;
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    display: block;
+    height: 44px;
+    border-radius: 4px;
+    border: none;
+    background: #fff;
+  }
+}
+
+
+
+
