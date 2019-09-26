@@ -188,17 +188,6 @@
                         Easy and simple three steps to build a free <br> website for your church.
                     </p>
                     <a class="btn btn-primary btn-start" href="{{ url('/empower/free-website') }}">
-
-                        <svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1"
-                             xmlns="http://www.w3.org/2000/svg"
-                             xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <g id="homepage" transform="translate(-363.000000, -2113.000000)" fill="#FFFFFF">
-                                    <polygon id="+-copy"
-                                             points="363.416 2118.216 368.48 2118.216 368.48 2113.152 371.504 2113.152 371.504 2118.216 376.568 2118.216 376.568 2121.24 371.504 2121.24 371.504 2126.304 368.48 2126.304 368.48 2121.24 363.416 2121.24"></polygon>
-                                </g>
-                            </g>
-                        </svg>
                         Start here
                     </a>
                 </div>

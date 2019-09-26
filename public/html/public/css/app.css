@@ -441,7 +441,8 @@ div.block-connect-with-us {
     padding: 0px;
     margin: 0px;
     max-width: 240px;
-    float: right; }
+    float: right;
+    font-weight: 500; }
 
 div.block-connect h2 {
   text-align: center;
