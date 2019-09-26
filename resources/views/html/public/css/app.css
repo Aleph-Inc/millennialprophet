@@ -16,6 +16,8 @@ header {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); }
   header div.mobile_menu {
     display: none; }
+  header div.logo a span {
+    display: none; }
   header div.top-header {
     position: relative;
     background: #2474A4;
@@ -584,7 +586,7 @@ div.page-header {
     position: relative;
     z-index: 3000; }
     div.page-header div.page-title h2 {
-      font-size: 48px;
+      font-size: 36px;
       font-weight: bold;
       color: #fff;
       text-align: Center; }
@@ -696,8 +698,8 @@ div.page-content {
       color: #494949;
       text-decoration: none;
       display: block;
-      padding: 20px 60px;
-      font-size: 20px;
+      padding: 20px 20px;
+      font-size: 16px;
       font-weight: 600;
       text-align: Center;
       /* Rectangle: */
@@ -814,13 +816,23 @@ a.btn-start {
   background-image: linear-gradient(-151deg, #0EACD1 0%, #0674A5 94%);
   color: #fff;
   width: 100%;
-  height: 64px;
+  height: 48px;
   border: none;
   max-width: 320px;
   margin: 20px auto;
   display: block;
-  line-height: 48px;
+  line-height: 37px;
   font-weight: bold; }
+
+div.about-mp h2 {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center; }
+
+div.page-jesus h2 {
+  font-size: 32px;
+  text-align: center;
+  font-weight: 700; }
 
 div.page-events {
   position: relative; }
@@ -860,25 +872,50 @@ div.page-events {
       right: 0px;
       top: 0px; }
     div.page-events a.event-item div.event-date {
-      width: 65px;
+      width: 48px;
       text-align: right;
       float: right;
       text-decoration: none; }
       div.page-events a.event-item div.event-date span {
         display: block; }
       div.page-events a.event-item div.event-date span.date {
-        font-size: 36px;
+        font-size: 24px;
         font-weight: bold;
         color: #D73030; }
       div.page-events a.event-item div.event-date span.month,
       div.page-events a.event-item div.event-date span.year {
         text-transform: uppercase;
-        font-size: 22px;
+        font-size: 15px;
         color: #D73030; }
     div.page-events a.event-item div.event-time {
       color: #2474A4;
       font-size: 14px;
       text-decoration: none; }
+
+div.page-event-single div.event-date {
+  width: 65px;
+  text-align: right;
+  float: left;
+  text-decoration: none; }
+  div.page-event-single div.event-date span {
+    display: block; }
+  div.page-event-single div.event-date span.date {
+    font-size: 24px;
+    font-weight: bold;
+    color: #D73030; }
+  div.page-event-single div.event-date span.month,
+  div.page-event-single div.event-date span.year {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #D73030; }
+div.page-event-single div.event-time {
+  color: #2474A4;
+  font-size: 14px;
+  text-decoration: none; }
+div.page-event-single p {
+  text-align: left; }
+div.page-event-single div.event-body {
+  text-align: left; }
 
 div.partner-page div.donation-btns {
   text-align: center;
@@ -1058,9 +1095,9 @@ div.page-header-content {
     color: #fff;
     font-weight: bold;
     text-align: center;
-    font-size: 36px; }
+    font-size: 32px; }
   div.page-header-content p {
-    font-size: 18px;
+    font-size: 14px;
     color: #fff;
     text-align: center; }
   div.page-header-content svg {
@@ -1072,7 +1109,7 @@ div.page-header-content {
     background: #fff;
     border: none;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     margin: 0px 0px 40px 0px;
     border-radius: 4px; }
@@ -1086,7 +1123,7 @@ div.page-header-content {
     border-radius: 4px;
     color: #fff;
     font-weight: bold;
-    font-size: 24px; }
+    font-size: 20px; }
   div.page-header-content button.btn-amount {
     border-radius: 4px;
     width: 100%;
@@ -1172,10 +1209,13 @@ div.blog-date {
   text-align: center; }
 
 @media screen and (max-width: 1279px) {
+  .home-block-one {
+    height: 565px; }
+
   header ul li a {
     font-size: 13px;
-    font-weight: bold;
-    padding: 5px 10px; }
+    /* font-weight: bold; */
+    padding: 5px 7px; }
 
   .block-free-website h2 {
     font-size: 28px; }
@@ -1249,12 +1289,17 @@ div.blog-date {
       cursor: pointer;
       display: block;
       position: absolute;
-      right: 0px;
+      right: 10px;
       top: 5px;
       width: 44px;
       height: 44px;
-      font-size: 32px;
+      font-size: 24px;
+      border: thin solid #d9d9d9;
+      text-align: center;
+      padding-top: 4px;
       color: #2474A4; }
+      header div.mobile_menu:hover {
+        background: #f1f1f1; }
     header .logo-wrapper {
       flex: 0 0 100.000%;
       max-width: 100.000%; }
@@ -1297,6 +1342,23 @@ div.blog-date {
 @media screen and (max-width: 767px) {
   body {
     padding-top: 60px; }
+
+  div.page-events a.event-item div.event-date span.month, div.page-events a.event-item div.event-date span.year {
+    padding: 7px 5px; }
+
+  header div.logo {
+    height: 60px;
+    overflow: hidden; }
+    header div.logo a {
+      display: flex; }
+      header div.logo a span {
+        padding-top: 16px;
+        display: block;
+        color: #2474A4;
+        font-weight: bold; }
+    header div.logo img {
+      width: 78px;
+      margin: 0px 1px; }
 
   footer {
     padding: 20px 0px; }
@@ -1344,12 +1406,20 @@ div.blog-date {
     display: flex;
     flex-wrap: wrap; }
 
-  div.page-events a.event-item div.event-date {
-    padding-left: 20px;
-    float: left;
-    display: flex; }
-  div.page-events a.event-item img {
-    width: 100%; }
+  .testimony-tabs {
+    margin-bottom: 20px; }
+
+  div.page-events a.event-item {
+    border-bottom: thin solid #d8d8d8;
+    padding-bottom: 20px;
+    margin-bottom: 20px; }
+    div.page-events a.event-item div.event-date {
+      padding-left: 20px;
+      float: left;
+      display: flex; }
+    div.page-events a.event-item img {
+      width: 100%;
+      margin: 0px 0px 20px 0px; }
 
   .home-block-one div.slider-text {
     padding: 0px 20px;
@@ -1435,11 +1505,41 @@ div.blog-date {
       div.page-header div.page-title span {
         font-size: 12px; }
 
+  div.page-ministry img {
+    width: 100%; }
+
+  div.page-ministry div.d-training a.btn {
+    margin: 0px -1px;
+    float: none;
+    margin: 20px auto;
+    height: 48px;
+    line-height: 37px; }
+
+  div.page-ministry div.d-training h2, div.page-ministry div.d-training h4, div.page-ministry div.d-training p {
+    text-align: Center; }
+  div.page-ministry div.d-training h2 {
+    font-size: 28px; }
+
+  div.partner-page a.btn.btn-become-partner {
+    margin-bottom: 40px; }
+
   footer ul {
     border-bottom: thin solid #153c53;
     margin: 20px -20px 20px -20px;
     padding: 0px 20px 20px 20px; }
     footer ul li {
-      text-align: center; } }
+      text-align: center; }
+
+  div.page-header-content {
+    padding-top: 20px; }
+
+  div.page-header-content button.btn-donate {
+    margin-bottom: 30px; }
+
+  div.page-header-content div.form-content {
+    padding-top: 0px; }
+
+  div.page-header.donate_bg {
+    height: auto; } }
 
 /*# sourceMappingURL=app.css.map */
