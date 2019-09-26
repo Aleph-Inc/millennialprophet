@@ -678,7 +678,7 @@ div.video-desktop {
     padding: 20px 0px;
 
     div.col-md-10 {
-      padding:0px;
+      padding: 0px;
       > div.row {
         justify-content: center;
       }
@@ -692,8 +692,24 @@ div.video-desktop {
       padding: 0px;
     }
     .next-event-date-wrapper {
+
+
+    .next-event-date {
+        font-size: 24px;
+        color: #D73030;
+        line-height: 20px;
+        margin-top: 0px;
+      }
+
       .next-arrow-2 {
         display: none;
+      }
+      .next-arrow {
+        margin: -10px 10px 0px 0px;
+        svg {
+          width: 20px;
+          height: 80px;
+        }
       }
     }
     .next-event-info {
@@ -718,16 +734,18 @@ div.video-desktop {
     .next-date-wrapper {
 
       .next-date {
-        width: 72px;
-        padding: 10px 0px;font-size: 24px;
-        margin: 0px 10px 10px 0px;    line-height: 20px;
-        span{
-          font-size:12px;
+        width: 64px;
+        padding: 10px 0px;
+        font-size: 24px;
+        margin: 0px 10px 10px 0px;
+        line-height: 20px;
+        span {
+          font-size: 12px;
         }
       }
 
       .next-date-text {
-        margin: 18px 0px 0px 0px;
+        margin: 10px 0px 0px 0px;
         line-height: 18px;
         font-size: 18px;
       }

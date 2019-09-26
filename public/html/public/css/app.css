@@ -1800,8 +1800,18 @@ div.video-desktop {
     .home-block-event div.col-md-3 {
       width: 20%;
       padding: 0px; }
+    .home-block-event .next-event-date-wrapper .next-event-date {
+      font-size: 24px;
+      color: #D73030;
+      line-height: 20px;
+      margin-top: 0px; }
     .home-block-event .next-event-date-wrapper .next-arrow-2 {
       display: none; }
+    .home-block-event .next-event-date-wrapper .next-arrow {
+      margin: -10px 10px 0px 0px; }
+      .home-block-event .next-event-date-wrapper .next-arrow svg {
+        width: 20px;
+        height: 80px; }
     .home-block-event .next-event-info .next-event-title {
       font-size: 16px;
       text-align: center;
@@ -1813,7 +1823,7 @@ div.video-desktop {
       width: 44px;
       display: block; }
     .home-block-event .next-date-wrapper .next-date {
-      width: 72px;
+      width: 64px;
       padding: 10px 0px;
       font-size: 24px;
       margin: 0px 10px 10px 0px;
@@ -1821,7 +1831,7 @@ div.video-desktop {
       .home-block-event .next-date-wrapper .next-date span {
         font-size: 12px; }
     .home-block-event .next-date-wrapper .next-date-text {
-      margin: 18px 0px 0px 0px;
+      margin: 10px 0px 0px 0px;
       line-height: 18px;
       font-size: 18px; } }
 
