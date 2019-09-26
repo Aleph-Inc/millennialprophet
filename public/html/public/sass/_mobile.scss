@@ -675,9 +675,13 @@ div.video-desktop {
   }
 
   .home-block-event {
+    padding: 20px 0px;
 
-    div.col-md-10 > div.row {
-      justify-content: center;
+    div.col-md-10 {
+      padding:0px;
+      > div.row {
+        justify-content: center;
+      }
     }
     div.col-md-4 {
       padding: 0px;
@@ -714,9 +718,12 @@ div.video-desktop {
     .next-date-wrapper {
 
       .next-date {
-        width: 80px;
-        padding: 10px 0px;
-        margin: 0px 10px 10px 0px;
+        width: 72px;
+        padding: 10px 0px;font-size: 24px;
+        margin: 0px 10px 10px 0px;    line-height: 20px;
+        span{
+          font-size:12px;
+        }
       }
 
       .next-date-text {

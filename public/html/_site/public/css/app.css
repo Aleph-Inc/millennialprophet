@@ -1788,33 +1788,41 @@ div.video-desktop {
   div.video-desktop {
     display: none !important; }
 
-  .home-block-event div.col-md-10 > div.row {
-    justify-content: center; }
-  .home-block-event div.col-md-4 {
-    padding: 0px;
-    width: 60%; }
-  .home-block-event div.col-md-3 {
-    width: 20%;
-    padding: 0px; }
-  .home-block-event .next-event-date-wrapper .next-arrow-2 {
-    display: none; }
-  .home-block-event .next-event-info .next-event-title {
-    font-size: 16px;
-    text-align: center;
-    margin: 10px 0px; }
-  .home-block-event .next-event-info .next-event-time {
-    text-align: Center; }
-  .home-block-event .next-event-info .next-event-country img {
-    margin: 0 auto;
-    width: 44px;
-    display: block; }
-  .home-block-event .next-date-wrapper .next-date {
-    width: 80px;
-    padding: 10px 0px;
-    margin: 0px 10px 10px 0px; }
-  .home-block-event .next-date-wrapper .next-date-text {
-    margin: 18px 0px 0px 0px;
-    line-height: 18px;
-    font-size: 18px; } }
+  .home-block-event {
+    padding: 20px 0px; }
+    .home-block-event div.col-md-10 {
+      padding: 0px; }
+      .home-block-event div.col-md-10 > div.row {
+        justify-content: center; }
+    .home-block-event div.col-md-4 {
+      padding: 0px;
+      width: 60%; }
+    .home-block-event div.col-md-3 {
+      width: 20%;
+      padding: 0px; }
+    .home-block-event .next-event-date-wrapper .next-arrow-2 {
+      display: none; }
+    .home-block-event .next-event-info .next-event-title {
+      font-size: 16px;
+      text-align: center;
+      margin: 10px 0px; }
+    .home-block-event .next-event-info .next-event-time {
+      text-align: Center; }
+    .home-block-event .next-event-info .next-event-country img {
+      margin: 0 auto;
+      width: 44px;
+      display: block; }
+    .home-block-event .next-date-wrapper .next-date {
+      width: 72px;
+      padding: 10px 0px;
+      font-size: 24px;
+      margin: 0px 10px 10px 0px;
+      line-height: 20px; }
+      .home-block-event .next-date-wrapper .next-date span {
+        font-size: 12px; }
+    .home-block-event .next-date-wrapper .next-date-text {
+      margin: 18px 0px 0px 0px;
+      line-height: 18px;
+      font-size: 18px; } }
 
 /*# sourceMappingURL=app.css.map */
