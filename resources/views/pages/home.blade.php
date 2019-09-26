@@ -4,25 +4,20 @@
 
     <!-- home main block-->
     <div class="home-block-one">
-        {{--<div class="slider-item"--}}
-        {{--style="background:url('/html/public/images/home_img.jpg') center center no-repeat; background-size:cover;">--}}
-        {{--<div class="slider-text">--}}
-        {{--<p>{{ Page::get('slidertext') }}</p>--}}
-
-        {{--</div>--}}
-
-        {{--</div>--}}
-
-
         <div class="slider-item">
             <div class="slider-text">
-                {{ Page::get('slidertext') }}
+                @if(Page::get('slidertext'))
+                    {{Page::get('slidertext')}}
+
+                @else
+                    EQUIPPING AND EMPOWERING <br>
+                    THE GLOBAL CHURCH OF JESUS
+                @endif
             </div>
 
             <div class="video-wrapper">
                 <video preload="auto" autoplay muted>
-                    <source src="{{ asset('html/public/videos/video-2.mp4')}} type=" video
-                    /mp4">
+                    <source src="{{ asset('html/public/videos/video-2.mp4')}}" type=video/mp4">
                     <source src="{{ asset('html/public/videos/video-2.mp4')}}" type="video/ogg">
                 </video>
             </div>

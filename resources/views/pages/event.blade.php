@@ -21,7 +21,6 @@
                             @else
                             <a class="" href="{{ url('/events') }}">
                             @endif
-
                                 UPCOMING EVENTS
                             </a>
                         </li>
