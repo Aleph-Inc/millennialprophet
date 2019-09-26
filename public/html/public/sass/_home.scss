@@ -50,6 +50,7 @@
     font-size: 48px;
     z-index: 200;
     color: #FFFFFF;
+    max-width: 800px;
     line-height: 56px;
     text-align: center;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.50);
@@ -420,13 +421,14 @@ div.block-connect-with-us {
     background-image: linear-gradient(-151deg, #0EACD1 0%, #0674A5 94%);
     color: #fff;
     width: 100%;
-    height: 52px;
+    height: 44px;
     border: none;
-    font-size: 16px;
-    line-height: 33px;
-    padding-top: 10px;
+    font-size: 14px;
+    line-height: 40px;
+    padding: 0px;
     margin: 0px;
-    max-width: 100%;
+    max-width:240px;
+    float: right;
 
   }
 }
