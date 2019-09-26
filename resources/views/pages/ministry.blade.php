@@ -13,7 +13,7 @@
 
     <div class="page-content page-ministry">
         <div class="container">
-            <div class="row block-digital-training">
+            <div class="row digital-training-block ">
                 <div class="col-md-6">
                     <h4>
                         Empower Ministries
