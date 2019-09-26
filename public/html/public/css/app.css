@@ -1794,7 +1794,8 @@ div.video-desktop {
     .home-block-event div.col-md-10 {
       padding: 0px; }
       .home-block-event div.col-md-10 > div.row {
-        justify-content: center; }
+        justify-content: center;
+        margin: 0px; }
     .home-block-event div.col-md-4 {
       padding: 0px;
       width: 50%; }
