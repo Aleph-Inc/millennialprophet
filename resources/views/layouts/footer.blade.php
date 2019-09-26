@@ -186,11 +186,15 @@
                 <div class="copyright">
                     <p class="text-center">
                         &copy;
-                        2019 Millennial Prophet Ministries &nbsp; &nbsp; &nbsp;| &nbsp;&nbsp; &nbsp;<a href="#">
+                        2019 Millennial Prophet Ministries &nbsp; &nbsp; &nbsp;| &nbsp;&nbsp; &nbsp;
+
+                       <span>
+                            <a href="#">
                             Termins of use
                         </a> &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;<a href="#">
                             Privacy policy
                         </a>
+                       </span>
                     </p>
                 </div>
             </div>

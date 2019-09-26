@@ -424,13 +424,14 @@ div.video-desktop {
     height: 44px;
   }
   div.block-connect-with-us .subscription-form {
-    padding: 20px;
+    padding: 0px;
   }
   div.block-connect.connect_bg .connect-buttons > div {
     margin: 10px 10px;
     width: 40%;
     padding: 10px;
-    min-height: 160px;
+    min-height: 120px;
+    height:auto;
   }
 
   div.block-connect h2 {
