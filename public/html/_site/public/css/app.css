@@ -1494,8 +1494,9 @@ div.form-element {
           color: #2474A4;
           font-weight: bold; }
       header div.logo img {
-        width: 76px;
-        margin: 0px 0px 0px -5px; }
+        width: 80px;
+        margin: 0px 0px 0px -5px;
+        height: 80px; }
     header .logo-wrapper {
       padding: 0px; }
 
