@@ -37,7 +37,7 @@
             <div class="col-md-2 logo-wrapper">
 
                 <div class="logo">
-                    <a href="/">
+                    <a href="/home">
                         <img src="{{ asset('html/public/images/logo.png') }}" alt="">
                         <span>
                             Millennial Prophet
