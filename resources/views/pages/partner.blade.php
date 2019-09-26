@@ -50,12 +50,12 @@
 
             <div class="donation-btns">
                 <a href="#" class="btn btn-become-partner">
-                    <img src="../public/svg/gift-box.svg" alt=""> Become a monthly <Br>
+                    <img src="{{asset('html/public/svg/gift-box.svg')}}" alt=""> Become a monthly <Br>
                     Partner
                 </a>
 
                 <a href="#" class="btn btn-become-partner">
-                    <img src="../public/svg/gift-box.svg" alt=""> Give a one time <Br>
+                    <img src="{{asset('html/public/svg/gift-box.svg')}}" alt=""> Give a one time <Br>
                     Donation
                 </a>
             </div>

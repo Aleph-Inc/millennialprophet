@@ -5,7 +5,7 @@
                 <div class="col-md-12">
 
 
-                    <a href="#">
+                    <a href="/partner">
                         BECOME A PARTNER
                     </a>
 
