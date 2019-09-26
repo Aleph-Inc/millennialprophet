@@ -89,11 +89,11 @@
                                     {{ $event->date->format('d') }}
 
                                     <span>
-                                                                {{ $event->date->format('F') }}
+                                                                {{ $event->date->format('M') }}
 
                         </span>
                                     <span>
-                                                                {{ $event->date->format('y') }}
+                                                                {{ $event->date->format('Y') }}
 
                         </span>
                                 </div>
