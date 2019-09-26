@@ -1324,6 +1324,12 @@ div.form-element {
     border: none;
     background: #fff; }
 
+div.slider-mobile {
+  display: none !important; }
+
+div.video-desktop {
+  display: block !important; }
+
 @media screen and (max-width: 1279px) {
   .home-block-one {
     height: 565px; }
@@ -1786,6 +1792,12 @@ div.form-element {
       div.page-event-single .upcoming-events a.event-item div.event-title {
         padding: 0px; }
       div.page-event-single .upcoming-events a.event-item div.event-time {
-        padding: 0px; } }
+        padding: 0px; }
+
+  div.slider-mobile {
+    display: block !important; }
+
+  div.video-desktop {
+    display: none !important; } }
 
 /*# sourceMappingURL=app.css.map */

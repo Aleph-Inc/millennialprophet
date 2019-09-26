@@ -1,3 +1,10 @@
+div.slider-mobile {
+  display: none !important;
+}
+div.video-desktop {
+  display: block !important;
+}
+
 @media screen and (max-width: 1279px) {
   .home-block-one {
     height: 565px;
@@ -670,6 +677,13 @@
 
     }
 
+  }
+
+  div.slider-mobile {
+    display: block !important;
+  }
+  div.video-desktop {
+    display: none !important;
   }
 
 }
