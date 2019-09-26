@@ -25,7 +25,7 @@
                 <div class="subscription-form">
                     <form action="">
                         <div class="input-group">
-                            <input type="email" placeholder="Email address">
+                            <input type="email" placeholder="Email address" required>
                             <div class="input-group-append">
                                 <button type="submit" class="btn btn-primary"> Subscribe</button>
                             </div>

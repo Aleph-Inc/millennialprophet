@@ -604,12 +604,14 @@ div.page-header {
       font-size: 36px;
       font-weight: bold;
       color: #fff;
-      text-align: Center; }
+      text-align: Center;
+      margin: 0px 0px 10px 0px; }
       div.page-header div.page-title h2 span {
         display: block;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
-        text-align: Center; }
+        text-align: Center;
+        line-height: 1.5em; }
   div.page-header div.overlay {
     position: absolute;
     width: 100%;

@@ -10,10 +10,7 @@
         <div class="overlay"></div>
     </div>
     <div class="page-content page-events">
-
-
         <div class="container">
-
             <div class="row">
                 <div class="col-md-12">
                     <ul class="testimony-tabs">
