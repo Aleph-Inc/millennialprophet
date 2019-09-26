@@ -390,24 +390,6 @@ div.video-desktop {
     font-size: 36px;
   }
 
-  .home-block-event .next-date-wrapper {
-    justify-content: center;
-  }
-  .home-block-event .next-event-info .next-event-title,
-  .home-block-event .next-event-info .next-event-time {
-    text-align: center;
-  }
-
-  .home-block-event .next-date-wrapper .next-date {
-    padding: 15px;
-    margin: 0px 20px 10px 0px;
-  }
-
-  .home-block-event .next-event-info .next-event-country img {
-    display: block;
-    margin: 0 auto;
-  }
-
   .featured-video-block div.block-title {
     text-align: center;
   }
@@ -690,6 +672,60 @@ div.video-desktop {
   }
   div.video-desktop {
     display: none !important;
+  }
+
+  .home-block-event {
+
+    div.col-md-10 > div.row {
+      justify-content: center;
+    }
+    div.col-md-4 {
+      padding: 0px;
+      width: 60%;
+    }
+    div.col-md-3 {
+      width: 20%;
+      padding: 0px;
+    }
+    .next-event-date-wrapper {
+      .next-arrow-2 {
+        display: none;
+      }
+    }
+    .next-event-info {
+      .next-event-title {
+        font-size: 16px;
+        text-align: center;
+        margin: 10px 0px;
+      }
+      .next-event-time {
+        text-align: Center;
+      }
+
+      .next-event-country {
+        img {
+          margin: 0 auto;
+          width: 44px;
+          display: block;
+        }
+      }
+    }
+
+    .next-date-wrapper {
+
+      .next-date {
+        width: 80px;
+        padding: 10px 0px;
+        margin: 0px 10px 10px 0px;
+      }
+
+      .next-date-text {
+        margin: 18px 0px 0px 0px;
+        line-height: 18px;
+        font-size: 18px;
+      }
+
+    }
   }
 
 }

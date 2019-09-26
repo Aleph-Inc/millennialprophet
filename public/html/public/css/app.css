@@ -1591,21 +1591,6 @@ div.video-desktop {
     padding: 0px 20px;
     font-size: 36px; }
 
-  .home-block-event .next-date-wrapper {
-    justify-content: center; }
-
-  .home-block-event .next-event-info .next-event-title,
-  .home-block-event .next-event-info .next-event-time {
-    text-align: center; }
-
-  .home-block-event .next-date-wrapper .next-date {
-    padding: 15px;
-    margin: 0px 20px 10px 0px; }
-
-  .home-block-event .next-event-info .next-event-country img {
-    display: block;
-    margin: 0 auto; }
-
   .featured-video-block div.block-title {
     text-align: center; }
 
@@ -1801,6 +1786,35 @@ div.video-desktop {
     display: block !important; }
 
   div.video-desktop {
-    display: none !important; } }
+    display: none !important; }
+
+  .home-block-event div.col-md-10 > div.row {
+    justify-content: center; }
+  .home-block-event div.col-md-4 {
+    padding: 0px;
+    width: 60%; }
+  .home-block-event div.col-md-3 {
+    width: 20%;
+    padding: 0px; }
+  .home-block-event .next-event-date-wrapper .next-arrow-2 {
+    display: none; }
+  .home-block-event .next-event-info .next-event-title {
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0px; }
+  .home-block-event .next-event-info .next-event-time {
+    text-align: Center; }
+  .home-block-event .next-event-info .next-event-country img {
+    margin: 0 auto;
+    width: 44px;
+    display: block; }
+  .home-block-event .next-date-wrapper .next-date {
+    width: 80px;
+    padding: 10px 0px;
+    margin: 0px 10px 10px 0px; }
+  .home-block-event .next-date-wrapper .next-date-text {
+    margin: 18px 0px 0px 0px;
+    line-height: 18px;
+    font-size: 18px; } }
 
 /*# sourceMappingURL=app.css.map */
