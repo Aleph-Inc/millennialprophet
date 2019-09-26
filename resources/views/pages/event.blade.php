@@ -21,15 +21,11 @@
                                 UPCOMING EVENTS
                             </a>
                         </li>
-                        <li class="">
-                            @if($active == 'past')
+                        <li>
+                            <a class="{{($active == 'past') ? 'active' : ''}}" href="{{ url('/events/past') }}">
 
-                                <a href="{{ url('/events/past') }}" class="active">
-                                    @else
-                                         <a class="{{($active == 'live') ? 'active' : ''}}" href="{{ url('/events/past') }}">
-                                            @endif
-                                            PAST EVENTS
-                                        </a>
+                                PAST EVENTS
+                            </a>
                         </li>
                     </ul>
                 </div>
