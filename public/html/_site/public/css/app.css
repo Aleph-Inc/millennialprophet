@@ -1610,7 +1610,8 @@ div.video-desktop {
     text-align: center; }
 
   .featured-video-block {
-    padding: 15px 0px; }
+    padding: 15px 0px;
+    min-height: 0px; }
     .featured-video-block div.block-title {
       margin: 0px 0px 15px 0px; }
     .featured-video-block .video-block video {

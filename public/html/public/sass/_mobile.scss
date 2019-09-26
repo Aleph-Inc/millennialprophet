@@ -285,13 +285,12 @@ div.video-desktop {
       padding: 20px 0px;
 
       span {
-      display: block;
-    }
+        display: block;
+      }
     }
     ul {
 
-
-     // margin: 20px 20px 20px 20px;
+      // margin: 20px 20px 20px 20px;
       padding: 0px 20px 20px 20px;
 
       li {
@@ -414,6 +413,7 @@ div.video-desktop {
   }
   .featured-video-block {
     padding: 15px 0px;
+    min-height: 0px;
 
     div.block-title {
       margin: 0px 0px 15px 0px;

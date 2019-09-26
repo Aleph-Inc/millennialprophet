@@ -168,12 +168,13 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="video-description">
-                        <h3>
-                            On Being Human
-                        </h3>
+                        @if(Page::get('human'))
+                            <h3>
+                                On Being Human
+                            </h3>
 
-                        <p>{{ Page::get('human') }}</p>
-
+                            <p>{{ Page::get('human') }}</p>
+                        @endif
 
                     </div>
                 </div>
