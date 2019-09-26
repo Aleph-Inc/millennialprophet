@@ -214,206 +214,81 @@ div.page-content {
   }
 }
 
-.testimony-tabs {
-  text-align: Center;
-  margin-bottom: 40px;
+div.about-mp,
+div.page-jesus {
 
-  li {
-    display: inline-block;
-    margin-left: -4px;
-
-    a {
-      color: #494949;
-      text-decoration: none;
-      display: block;
-      padding: 20px 20px;
-      font-size: 16px;
-      font-weight: 600;
-      text-align: Center;
-      /* Rectangle: */
-      /* Rectangle: */
-      background: #E4E4E4;
-      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.20);
-      border-radius: 8px 0 0 8px;
-
-      &.active,
-      &:hover {
-        color: #fff;
-        background-image: linear-gradient(151deg, #0EACD1 0%, #0674A5 94%);
-      }
-
-      &:active {
-        transform: scale(0.98);
-      }
-    }
-  }
-
-  li:last-child {
-    a {
-      border-radius: 0px 8px 8px 0px;
-    }
-  }
-}
-
-.block-social-share {
-  padding: 60px 0px;
-
-}
-
-.block-countries {
-  padding: 60px 0px;
-}
-
-.featured-blog {
-  position: relative;
-
-  div.col-md-3 {
-    position: relative;
-    padding: 0px;
-
-    a {
-      display: block;
-      text-decoration: none;
-      padding: 5px;
-
-      div.blog-info {
-        position: absolute;
-        z-index: 2000;
-        width: 60%;
-        height: 30%;
-        top: 60%;
-        left: 20%;
-        bottom: 0px;
-        text-align: center;
-      }
-
-      h3 {
-
-        font-size: 24px;
-        color: #FFFFFF;
-        text-align: center;
-        font-weight: bold;
-      }
-
-      div.blog-category {
-        font-size: 12px;
-        font-weight: 300;
-        text-align: Center;
-        color: #fff;
-      }
-
-      div.created-date {
-        color: #818181;
-        font-size: 12px;
-      }
-
-      &:hover {
-        figure img {
-          -webkit-transform: scale(1.1);
-          -moz-transform: scale(1.1);
-          -ms-transform: scale(1.1);
-          -o-transform: scale(1.1);
-          transform: scale(1.1);
-        }
-      }
-
-    }
-
-    figure {
-      display: block;
-      margin: 0px;
-      overflow: hidden;
-
-      img {
+    iframe {
         width: 100%;
-        -webkit-transition: 0.2s ease;
-        -moz-transition: 0.2s ease;
-        -ms-transition: 0.2s ease;
-        -o-transition: 0.2s ease;
-        transition: 0.2s ease;
-      }
+        display: block;
+        margin: 20px 0px;
     }
-  }
-}
+    div.ministry-links {
+        ul {
+            text-align: Center;
+            margin: 0px;
+            padding: 0px;
+            li {
+                list-style: none;
+                display: inline-block;
+                a {
+                    font-family: $second-font;
+                    display: block;
+                    padding: 7px 20px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    block-connect-with-usblock-connect-with-us h2 {
+        text-align: center;
+        color: #000;
+        font-size: 48px;
+        font-weight: bold;
+        margin: 20px 0px;
+    }
+    h2.text-blue {
+        color: #246E9E;
+    }
 
-.page-form {
+    h3 {
+        font-size: 36px;
+        font-weight: bold;
+    }
 
-  padding: 60px 0px;
+    h4 {
+        font-weight: bold;
+        text-align: Center;
+        color: #000;
+        font-size: 24px;
+    }
 
-  svg {
-    display: block;
-    margin: 0 auto;
-  }
-}
-
-.form_bg {
-  background: url('../images/form_bg.jpg') center center no-repeat;
-  background-size: cover;
+    p {
+        font-size: 16px;
+        line-height: 2em;
+        font-family: $second-font;
+    }
 }
 
 div.page-training {
 
 }
 
-.digital_training_info {
-  background: #00BAFF;
-  height: 280px;
+div.partner-with-us {
+    padding: 40px 0px;
 
-  margin: 100px 0px;
-
-  p {
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-    padding-top: 60px;
-  }
-
-  div.col-md-4 {
-    position: relative;
-  }
-
-  img {
-    position: absolute;
-    top: -90px;
-    z-index: 3000;
-  }
-
-  a.btn {
-    display: block;
-    text-decoration: none;
-    background: #fff;
-    color: $blue;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: Center;
-    margin-top: 100px;
-    height: 64px;
-    border-radius: 4px;
-    padding-top: 15px;
-    /* Rectangle 18: */
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.28);
-
-    &:active {
-      transform: scale(.98);
+    h2 {
+        font-weight: bold;
+        font-size: 32px;
+        color: #000;
+        text-align: Center;
     }
 
-    svg {
-
+    a.btn {
+        font-size: 16px;
+        svg {
+            display: inline-block;
+        }
     }
-  }
-}
-
-a.btn-start {
-  background-image: linear-gradient(-151deg, #0EACD1 0%, #0674A5 94%);
-  color: #fff;
-  width: 100%;
-  height: 48px;
-  border: none;
-  max-width: 320px;
-  margin: 20px auto;
-  display: block;
-  line-height: 37px;
-  font-weight: bold;
 }
 
 div.about-mp {
@@ -1022,55 +897,6 @@ div.page-header-content {
 
 }
 
-.follow-us {
-  text-align: center;
-  background: #f1f1f1;
-  padding: 60px 0px;
-  position: relative;
-
-  h3 {
-    margin: 20px 0px;
-    font-weight: bold;
-    font-size: 36px;
-  }
-
-  .social-connect {
-    text-align: center;
-
-    a {
-      display: inline-block;
-      width: 72px;
-      height: 72px;
-      margin: 0px 20px;
-    }
-  }
-
-}
-
-.country-contact {
-  background: #fff;
-  padding: 60px 0px;
-
-  a {
-    display: inline-block;
-    color: #000;
-    text-decoration: none;
-    text-align: center;
-    font-size: 12px;
-
-    font-weight: 400;
-    width: 240px;
-    padding:0px 20px;
-
-
-    strong {
-      display: block;
-      font-size: 20px;
-      font-weight: bold;
-    }
-  }
-}
-
 .page-build-church {
   h2 {
     font-size: 36px;
@@ -1135,18 +961,7 @@ div.blog-date { /* April 30th 2019 Copy 9: */
 
 }
 
-div.form-element {
-  margin: 0px 0px 20px 0px;
-  input[type="text"],
-  input[type="email"] {
-    width: 100%;
-    display: block;
-    height: 44px;
-    border-radius: 4px;
-    border: none;
-    background: #fff;
-  }
-}
+
 
 
 
