@@ -32,13 +32,14 @@
         </div>
 
 
-        <img src="{{ asset('html/public/images/jesus_img.jpg') }}" alt="" class="page-full-image">
-        <div class="container" style="margin-top:-160px;">
+        <div class="container" >
             <div class="row justify-content-center">
 
                 <div class="col-md-7">
-                    <h2 class="text-white">WHAT JESUS DID FOR YOU</h2>
 
+                    <h2  style="color: #246E9E;">
+                    WHAT JESUS DID FOR YOU</h2>
+                    
                     <p>{{ Page::get('whatjesus') }}</p>
 
                 </div>
@@ -82,41 +83,7 @@
                     </p>
 
 
-                    <ul>
-
-                        <li>
-                            <a href="#">
-                                Broadcast
-                            </a>
-
-                            <a href="#">Chinese Ministry</a>
-                            <a href="#">Communications</a>
-                            <a href="#">Information Technology</a>
-                            <a href="#">Logistics & Transport</a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                Broadcast
-                            </a>
-
-                            <a href="#">Chinese Ministry</a>
-                            <a href="#">Communications</a>
-                            <a href="#">Information Technology</a>
-                            <a href="#">Logistics & Transport</a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                Broadcast
-                            </a>
-
-                            <a href="#">Chinese Ministry</a>
-                            <a href="#">Communications</a>
-                            <a href="#">Information Technology</a>
-                            <a href="#">Logistics & Transport</a>
-                        </li>
-                    </ul>
+                    
 
                 </div>
 

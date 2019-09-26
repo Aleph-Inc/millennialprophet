@@ -16,7 +16,8 @@ class ResourcesVideos extends Migration
         Schema::create('videos', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('link');
-            $table->integer('cat_id')->unsigned();
+            $table->string('category');
+            $table->string('name');
             $table->timestamps();
         });
     }

@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Video extends Model
 {
     
-      public function catergories()
+    public function catergories()
     {
         return $this->hasMany('App\User');
     }

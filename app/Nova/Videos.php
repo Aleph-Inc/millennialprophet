@@ -4,6 +4,7 @@ namespace App\Nova;
 
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Text;
+use Laravel\Nova\Fields\Select;
 use Illuminate\Http\Request;
 use Laravel\Nova\Http\Requests\NovaRequest;
 use Laravel\Nova\Fields\HasMany;
@@ -43,8 +44,17 @@ class Videos extends Resource
     {
         return [
             ID::make()->sortable(),
-            Text::make('link')->sortable()->rules('required'),                 
-            HasMany::make('User'),
+            Text::make('link')->sortable()->rules('required'),    
+            Select::make('category')->options([
+                'sermons' => "Sermons",
+                'teaching' => "Teaching",
+                'promotion' => "Promotions",
+                'worsship' => "Worsship",
+                'crusades' => "Crusades"
+
+            ]),
+            Text::make('name')->sortable()->rules('required'),    
+            
 
         ];
     }

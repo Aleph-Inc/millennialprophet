@@ -5,6 +5,7 @@ namespace App\Nova\Templates;
 use Illuminate\Http\Request;
 use Whitecube\NovaPage\Pages\Template;
 use Laravel\Nova\Fields\Textarea;
+use Laravel\Nova\Fields\Trix;
 
 class Jesus extends Template {
 
@@ -18,12 +19,12 @@ class Jesus extends Template {
     {
         return [
             
-            Textarea::make('What jesus did to us', 'whatjesus'),
+            Trix::make('What jesus did to us', 'whatjesus'),
 
-            Textarea::make('Middle text', 'middle'),
+            Trix::make('Middle text', 'middle'),
 
 
-            Textarea::make('His Heart To Heal You', 'hisheal'),
+            Trix::make('His Heart To Heal You', 'hisheal'),
         ];
     }
 

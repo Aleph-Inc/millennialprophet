@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Whitecube\NovaPage\Pages\Template;
 use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Fields\Textarea;
+use Laravel\Nova\Fields\Trix;
 
 class Home extends Template {
 
@@ -22,7 +23,7 @@ class Home extends Template {
 
             Textarea::make('Slider text', 'slidertext'),
 
-            Textarea::make('On Being Human', 'human'),
+            Trix::make('On Being Human', 'human'),
 
 
 
