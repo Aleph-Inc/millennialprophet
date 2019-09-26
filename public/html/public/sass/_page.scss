@@ -121,6 +121,11 @@ div.page-header {
     background-size: cover;
   }
 
+  &.inquiry_bg {
+    background: url('../images/inq.jpg') center center no-repeat;
+    background-size: cover;
+  }
+
 }
 
 img.page-full-image {
@@ -405,20 +410,22 @@ a.btn-start {
   font-weight: bold;
 }
 
-div.about-mp{
-  h2{
-    font-weight:700;
-    font-size:32px;
-    text-align:center;
+div.about-mp {
+  h2 {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
   }
 }
-div.page-jesus{
-  h2{
-    font-size:32px;
-    text-align:center;
-    font-weight:700;
+
+div.page-jesus {
+  h2 {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 700;
   }
 }
+
 div.page-events {
   position: relative;
 
@@ -549,9 +556,9 @@ div.page-event-single {
     font-size: 14px;
     text-decoration: none;
   }
-p{
-  text-align:left;
-}
+  p {
+    text-align: left;
+  }
   div.event-body {
     text-align: left;
   }
@@ -879,10 +886,11 @@ div.page-header-content {
     /* 20: */
     font-size: 24px;
     color: #000000;
+    background: #fff;
     letter-spacing: 0;
     text-align: center;
     font-weight: bold;
-    margin: 0px 0px 40px 0px;
+    margin: 0px 0px 20px 0px;
 
     &:hover {
       background: #47C86E;
@@ -1003,6 +1011,18 @@ div.blog-date { /* April 30th 2019 Copy 9: */
 
 }
 
+div.form-element {
+  margin: 0px 0px 20px 0px;
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    display: block;
+    height: 44px;
+    border-radius: 4px;
+    border: none;
+    background: #fff;
+  }
+}
 
 
 

@@ -230,10 +230,14 @@
         }
       }
       img {
-        width: 78px;
+        width: 76px;
         margin: 0px 1px;
 
       }
+    }
+
+    .logo-wrapper {
+      padding: 0px;
     }
   }
   footer {
@@ -252,6 +256,10 @@
     div.slider-item {
       height: 480px;
     }
+  }
+
+  div.block-connect-with-us .subscription-form div.input-group button {
+    font-size: 12px;
   }
 
   header.expand {
@@ -478,7 +486,7 @@
         margin: 0px 0px 20px 0px;
       }
 
-      input[type="number"]{
+      input[type="number"] {
         margin: 0px 0px 20px 0px;
       }
     }
