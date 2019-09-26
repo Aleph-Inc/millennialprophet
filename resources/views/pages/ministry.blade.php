@@ -57,7 +57,7 @@
                         Deciphering marketing lingo for small business owners
                     </p>
 
-                    <a href="/digital-training"
+                    <a href="/empower/digital-training"
                        class="btn btn-primary btn-start">
                         GET STARTED
                     </a>
