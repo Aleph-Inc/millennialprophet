@@ -64,7 +64,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <img src="../public/images/book.png" alt="">
+                    <img src="/html/public/images/book.png" alt="">
                 </div>
 
                 <div class="col-md-4">
