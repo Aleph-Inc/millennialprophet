@@ -21,10 +21,10 @@
                     <h2 class="text-blue">
                         WHO WE ARE
                     </h2>
-                    <p> 
-<p>{{ Page::get('whoweare')  }}</p>
 
-                    </p>
+                    <p>{{ Page::get('whoweare')  }}</p>
+
+
                 </div>
             </div>
 
@@ -38,13 +38,9 @@
 
                 <div class="col-md-7">
                     <h2 class="text-white">WHAT JESUS DID FOR YOU</h2>
-                    <p>
-<p>{{ Page::get('whatjesus') }}</p>
 
-                    </p>
-                    <p>
+                    <p>{{ Page::get('whatjesus') }}</p>
 
-                    </p>
                 </div>
 
             </div>
@@ -70,7 +66,7 @@
                     </h4>
                     <p>
 
-                     <p>{{ Page::get('hisheal') }}</p>
+                    <p>{{ Page::get('hisheal') }}</p>
 
 
                     </p>
@@ -81,7 +77,7 @@
                     </h2>
                     <p>
 
-               <p>{{ Page::get('ministries') }}</p>
+                    <p>{{ Page::get('ministries') }}</p>
 
                     </p>
 

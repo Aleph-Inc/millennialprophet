@@ -16,11 +16,14 @@ header {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); }
   header div.mobile_menu {
     display: none; }
-  header div.logo a span {
-    display: none;
-    text-decoration: none; }
-  header div.logo a:hover span {
-    text-decoration: none; }
+  header div.logo a {
+    text-decoration: none !important; }
+    header div.logo a span {
+      display: none;
+      text-decoration: none !important;
+      text-transform: uppercase; }
+    header div.logo a:hover span {
+      text-decoration: none !important; }
   header div.top-header {
     position: relative;
     background: #2474A4;
@@ -34,10 +37,11 @@ header {
       display: inline-block;
       padding: 10px 10px;
       color: #fff;
-      text-decoration: none;
+      text-decoration: none !important;
       font-size: 14px; }
       header div.top-header a:hover {
-        color: #d6d6d6; }
+        color: #d6d6d6;
+        text-decoration: none !important; }
   header ul {
     margin: 0px;
     float: right;
@@ -53,12 +57,12 @@ header {
         font-size: 14px;
         color: #272727;
         letter-spacing: 0;
-        text-decoration: none;
         line-height: 100px;
-        transition: 0.2s ease; }
+        transition: 0.2s ease;
+        text-decoration: none !important; }
         header ul li a:hover {
           color: #999;
-          text-decoration: none; }
+          text-decoration: none !important; }
       header ul li.active a {
         background: #fff;
         color: #2474A4;
@@ -1063,7 +1067,7 @@ div.page-ministry div.d-training p {
   margin: 7px 0px;
   letter-spacing: 0;
   text-align: right; }
-div.page-ministry div.create-website div.col-md-4 a {
+div.page-ministry div.create-website div.col-4 a {
   /* Rectangle Copy 9: */
   background-image: linear-gradient(-151deg, #0EACD1 0%, #0674A5 94%);
   border-radius: 4px;
@@ -1081,14 +1085,14 @@ div.page-ministry div.create-website div.col-md-4 a {
   font-size: 18px;
   font-weight: bold;
   color: #fff; }
-  div.page-ministry div.create-website div.col-md-4 a svg {
+  div.page-ministry div.create-website div.col-4 a svg {
     display: block;
     margin: 10px auto; }
-  div.page-ministry div.create-website div.col-md-4 a p {
+  div.page-ministry div.create-website div.col-4 a p {
     margin: 7px 0px;
     font-size: 12px;
     text-align: Center; }
-  div.page-ministry div.create-website div.col-md-4 a:hover {
+  div.page-ministry div.create-website div.col-4 a:hover {
     transform: scale(1.05); }
 
 div.page-confess p span {
@@ -1341,7 +1345,7 @@ div.form-element {
       header ul li a {
         height: auto;
         display: block;
-        font-size: 18px;
+        font-size: 14px;
         font-weight: bold;
         text-decoration: none;
         padding: 5px 20px;
@@ -1387,21 +1391,23 @@ div.form-element {
   div.page-events a.event-item div.event-date span.month, div.page-events a.event-item div.event-date span.year {
     padding: 7px 5px; }
 
-  header div.logo {
-    height: 60px;
-    overflow: hidden; }
-    header div.logo a {
-      display: flex; }
-      header div.logo a span {
-        padding-top: 16px;
-        display: block;
-        color: #2474A4;
-        font-weight: bold; }
-    header div.logo img {
-      width: 76px;
-      margin: 0px 1px; }
-  header .logo-wrapper {
-    padding: 0px; }
+  header {
+    transition: 0.2s ease; }
+    header div.logo {
+      height: 60px;
+      overflow: hidden; }
+      header div.logo a {
+        display: flex; }
+        header div.logo a span {
+          padding-top: 16px;
+          display: block;
+          color: #2474A4;
+          font-weight: bold; }
+      header div.logo img {
+        width: 76px;
+        margin: 0px 0px 0px -5px; }
+    header .logo-wrapper {
+      padding: 0px; }
 
   footer {
     padding: 20px 0px; }
@@ -1557,14 +1563,16 @@ div.form-element {
     text-align: left !important; }
 
   div.page-header {
-    height: 200px; }
+    height: 200px;
+    margin: 0px 0px 20px 0px; }
     div.page-header div.page-title {
       height: 200px; }
       div.page-header div.page-title h2 {
-        font-size: 28px;
-        margin: 10px 0px; }
-      div.page-header div.page-title span {
-        font-size: 12px; }
+        font-size: 24px;
+        margin: 10px 20px; }
+        div.page-header div.page-title h2 span {
+          font-size: 14px;
+          line-height: 1.5em; }
 
   div.page-ministry img {
     width: 100%; }
@@ -1601,6 +1609,13 @@ div.form-element {
     .price-values div.col-sm-6 button.btn-amount {
       margin: 0px 0px 20px 0px; }
     .price-values div.col-sm-6 input[type="number"] {
-      margin: 0px 0px 20px 0px; } }
+      margin: 0px 0px 20px 0px; }
+
+  div.page-ministry div.create-website div.col-4 a {
+    width: auto;
+    margin: 0px 10px;
+    height: 140px; }
+    div.page-ministry div.create-website div.col-4 a p {
+      display: none; } }
 
 /*# sourceMappingURL=app.css.map */

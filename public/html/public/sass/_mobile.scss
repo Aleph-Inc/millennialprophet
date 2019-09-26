@@ -175,7 +175,7 @@
       a {
         height: auto;
         display: block;
-        font-size: 18px;
+        font-size: 14px;
         font-weight: bold;
         text-decoration: none;
         padding: 5px 20px;
@@ -243,6 +243,7 @@
     padding: 7px 5px;
   }
   header {
+    transition: 0.2s ease;
     div.logo {
 
       height: 60px;
@@ -259,8 +260,7 @@
       }
       img {
         width: 76px;
-        margin: 0px 1px;
-
+        margin: 0px 0px 0px -5px;
       }
     }
 
@@ -472,18 +472,20 @@
   }
   div.page-header {
     height: 200px;
+    margin: 0px 0px 20px 0px;
 
     div.page-title {
       height: 200px;
 
       h2 {
-        font-size: 28px;
-        margin: 10px 0px;
+        font-size: 24px;
+        margin: 10px 20px;
+        span {
+          font-size: 14px;
+          line-height: 1.5em;
+        }
       }
 
-      span {
-        font-size: 12px;
-      }
     }
   }
 
@@ -534,6 +536,15 @@
       input[type="number"] {
         margin: 0px 0px 20px 0px;
       }
+    }
+  }
+
+  div.page-ministry div.create-website div.col-4 a {
+    width: auto;
+    margin: 0px 10px;
+    height: 140px;
+    p {
+      display: none;
     }
   }
 
