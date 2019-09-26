@@ -4,6 +4,7 @@ namespace App\Nova\Templates;
 
 use Illuminate\Http\Request;
 use Whitecube\NovaPage\Pages\Template;
+use Laravel\Nova\Fields\Textarea;
 
 class Jesus extends Template {
 
@@ -15,7 +16,15 @@ class Jesus extends Template {
      */
     public function fields(Request $request)
     {
-        return [];
+        return [
+            
+            Textarea::make('What jesus did to us', 'whatjesus'),
+
+            Textarea::make('Middle text', 'middle'),
+
+
+            Textarea::make('His Heart To Heal You', 'hisheal'),
+        ];
     }
 
     /**

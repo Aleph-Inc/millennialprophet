@@ -7,8 +7,8 @@
         <div class="slider-item"
              style="background:url('/html/public/images/home_img.jpg') center center no-repeat; background-size:cover;">
             <div class="slider-text">
-                EQUIPPING AND EMPOWERING <br>
-                THE GLOBAL CHURCH OF JESUS
+                                     <p>{{ Page::get('slidertext') }}</p>
+
             </div>
 
         </div>
@@ -146,17 +146,8 @@
                             On Being Human
                         </h3>
                         <p>
-                            Have you wondered what took place at the cross? Travel back in time to witness how Jesus bore
-                            your sins, condemnation,
-                            curses, sicknesses and even death on the cross just for you. Watch this video and experience
-                            afresh God’s amazing love
-                            for you through the mighty cross!
-                            <br><br>
-                            Have you wondered what took place at the cross? Travel back in time to witness how Jesus bore
-                            your sins, condemnation,
-                            curses, sicknesses and even death on the cross just for you. Watch this video and experience
-                            afresh God’s amazing love
-                            for you through the mighty cross!
+                                                <p>{{ Page::get('human') }}</p>
+
                         </p>
                     </div>
                 </div>

@@ -8,18 +8,18 @@ use Laravel\Nova\Fields\Date;
 use Laravel\Nova\Fields\Textarea;
 use Laravel\Nova\Fields\File;
 use Laravel\Nova\Fields\Image;
-
 use Illuminate\Http\Request;
 use Laravel\Nova\Http\Requests\NovaRequest;
+use Laravel\Nova\Fields\BelongsTo;
 
-class Event extends Resource
+class VideoCategories extends Resource
 {
     /**
      * The model the resource corresponds to.
      *
      * @var string
      */
-    public static $model = 'App\Event';
+    public static $model = 'App\VideoCategory';
 
     /**
      * The single value that should be used to represent the resource when being displayed.
@@ -47,14 +47,8 @@ class Event extends Resource
     {
         return [
             ID::make()->sortable(),
-            Text::make('name')->sortable()->rules('required'),
-            Textarea::make('description'),
-            Text::make('place')->rules('required', 'max:255'),
-            Image::make('image')->rules('required'),
-            Date::make('date')->rules('required')->hideFromIndex(),
-            Text::make('time')->rules('required'),
+            Text::make('name')->sortable()->rules('required'),                 
 
-   
         ];
     }
 

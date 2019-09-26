@@ -62,7 +62,7 @@
                             </div>
                             <div class="col-sm-3">
                                 <div class="event-image">
-                                    <img src="{{ asset('html/public/images/event_img.jpg') }}" alt="">
+                                    <img src="{{asset('storage').'/'.$event->image }}" width="261px" height="165px">
 
                                 </div>
                             </div>
