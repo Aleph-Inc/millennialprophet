@@ -511,3 +511,4 @@ Lorem Ipsum passages, and more recently with deskto
 
 
 @endsection
+@extends('layouts.subscription');
