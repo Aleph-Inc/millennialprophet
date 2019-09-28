@@ -4,7 +4,7 @@
 
 
 
-    <div class="page-header page-big about_bg">
+    <div class="page-header about_bg">
         <div class="page-title">
             <h2>
                 ABOUT <br>
