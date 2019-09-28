@@ -490,16 +490,16 @@ Lorem Ipsum passages, and more recently with deskto
                     <h2>
                         MINISTRY
                     </h2>
-                    <H3>
+                    <h3>
                         DIGITAL TRAINING
-                    </H3>
+                    </h3>
 
                     <p>
                         Deciphering marketing lingo for small business owners
                     </p>
 
                     <a class="btn btn-primary btn-start">
-                        GET STARTED
+                    Get Started
                     </a>
                 </div>
 
