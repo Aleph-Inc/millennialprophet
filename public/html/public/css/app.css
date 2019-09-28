@@ -1207,7 +1207,7 @@ div.page-ministry div.digital-training-block {
     width: 100%; }
 div.page-ministry div.create-website div.col-4 a {
   /* Rectangle Copy 9: */
-  background-image: linear-gradient(-151deg, #0EACD1 0%, #0674A5 94%);
+  background: #0674A5;
   border-radius: 4px;
   transition: 0.2s ease;
   width: 220px;
@@ -1230,8 +1230,6 @@ div.page-ministry div.create-website div.col-4 a {
     margin: 7px 0px;
     font-size: 12px;
     text-align: Center; }
-  div.page-ministry div.create-website div.col-4 a:hover {
-    transform: scale(1.05); }
 
 div.page-confess p span {
   display: block;
