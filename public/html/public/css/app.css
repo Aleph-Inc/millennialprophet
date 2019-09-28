@@ -29,6 +29,8 @@ header {
     position: relative;
     background: #2474A4;
     text-align: right; }
+    header div.top-header div.social-share {
+      display: inline-block; }
     header div.top-header div.dropdown {
       display: inline-block;
       margin: 0px 10px 0px 0px; }
