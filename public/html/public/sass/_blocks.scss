@@ -339,6 +339,9 @@ div.block-digital-training {
 
 div.block-connect-with-us {
   height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   div.container {
     padding: 30px 15px;
     svg {
