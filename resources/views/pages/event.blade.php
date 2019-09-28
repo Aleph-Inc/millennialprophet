@@ -97,7 +97,7 @@
                     const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun","Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
                             ];
                     $("#eventsarea").empty();
-                    
+
                     for (let y = 0; y < x; y++) {
                         var date = new Date(data.events[y].date);
                         var month = monthNames[date.getUTCMonth()];
@@ -152,8 +152,8 @@
                             </div>
 
                         </a>`
-                        ); 
-                    }  
+                        );
+                    }
                 }
             })
         }
@@ -225,10 +225,11 @@
                             </div>
 
                         </a>`
-                        ); 
-                    } 
+                        );
+                    }
                 }
             })
         }
     </script>
 @endsection
+@extends('layouts.subscription');
