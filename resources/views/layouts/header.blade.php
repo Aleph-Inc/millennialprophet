@@ -5,13 +5,15 @@
                 <div class="col-md-12">
 
 
-                    <a href="/partner">
+                    <a href="/partner" class="link-partner">
                         <i class="fa fa-handshake-o" aria-hidden="true"></i> BECOME A PARTNER
                     </a>
 
                     <div class="dropdown">
-                        <a href="#" data-toggle="dropdown">
-                            <i class="fa fa-globe" aria-hidden="true"></i>
+                        <a class="active-lang" href="#" data-toggle="dropdown">
+                            <span>EN</span>
+                            <i class="fa fa-caret-down"></i>
+
                         </a>
                         <div class="dropdown-menu">
                             <a href="#">

@@ -1,96 +1,110 @@
 header {
-  position: relative;
-  width: 100%;
-  top: 0px;
-  left: 0px;
-  z-index: 4000;transition: .2s ease;
-  background: #fff;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
-
-  div.mobile_menu {
-    display: none;
-  }
-
-  div.logo {
-    a {  text-decoration: none !important;
-      span {
-        display: none;
-        text-decoration: none !important;
-        text-transform: uppercase;
-      }
-
-      &:hover span {
-        text-decoration: none !important;
-      }
-    }
-  }
-
-  div.top-header {
     position: relative;
-    background: $blue;
-    text-align: right;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 4000;
+    transition: .2s ease;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
 
-    div.dropdown {
-      display: inline-block;
-      margin: 0px 10px 0px 0px;
 
-      a {
-        padding: 10px 10px;
-      }
+    div.mobile_menu {
+        display: none;
     }
 
-    a {
-      display: inline-block;
-      padding: 10px 10px;
-      color: #fff;
-      text-decoration: none !important;
-      font-size: 14px;
-
-
-      &:hover {
-        color: #d6d6d6;  text-decoration: none !important;
-      }
-    }
-  }
-
-  ul {
-    margin: 0px;
-    float: right;
-    list-style: none;
-
-    li {
-      display: inline-block;
-      margin-left: -4px;
-
-      a {
-        height: 100px;
-        display: block;
-        padding: 0px 12px;
-        font-weight: 500;
-        font-size: 14px;
-        color: #272727;
-        letter-spacing: 0;
-        border-bottom: 5px solid #fff;
-        line-height: 100px;
-        transition: 0.2s ease;
-        text-decoration: none !important;
-        &:hover {
-          color: #999;
- text-decoration: none !important;        border-bottom: 5px solid #d8d8d8;
-        }
-
-      }
-
-      &.active {
+    div.logo {
         a {
-          background: #fff;
-          color: $blue;
-          font-weight: bold;
+            text-decoration: none !important;
+
+            span {
+                display: none;
+                text-decoration: none !important;
+                text-transform: uppercase;
+            }
+
+            &:hover span {
+                text-decoration: none !important;
+            }
         }
-      }
     }
 
-  }
+    div.top-header {
+        position: relative;
+        background: $blue;
+        text-align: right;
+
+        div.dropdown {
+            display: inline-block;
+            margin: 0px 10px 0px 0px;
+a.active-lang{
+    font-weight:bold;
+}
+
+            a {
+                padding: 10px 10px;
+            }
+        }
+
+        a {
+            display: inline-block;
+            padding: 10px 10px;
+            color: #fff;
+            text-decoration: none !important;
+            font-size: 14px;
+
+
+            &:hover {
+                color: #d6d6d6;
+                text-decoration: none !important;
+            }
+        }
+
+        a.link-partner {
+            border-right: thin solid #216994;
+        }
+    }
+
+    ul {
+        margin: 0px;
+        float: right;
+        list-style: none;
+
+        li {
+            display: inline-block;
+            margin-left: -4px;
+
+            a {
+                height: 100px;
+                display: block;
+                padding: 0px 12px;
+                font-weight: 500;
+                font-size: 14px;
+                color: #272727;
+                letter-spacing: 0;
+                border-bottom: 5px solid #fff;
+                line-height: 100px;
+                transition: 0.2s ease;
+                text-decoration: none !important;
+
+                &:hover {
+                    color: #999;
+                    text-decoration: none !important;
+                    border-bottom: 5px solid #d8d8d8;
+                }
+
+            }
+
+            &.active {
+                a {
+                    background: #fff;
+                    color: $blue;
+                    font-weight: bold;
+                }
+            }
+        }
+
+    }
 }
 
 

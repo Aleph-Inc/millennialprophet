@@ -32,6 +32,8 @@ header {
     header div.top-header div.dropdown {
       display: inline-block;
       margin: 0px 10px 0px 0px; }
+      header div.top-header div.dropdown a.active-lang {
+        font-weight: bold; }
       header div.top-header div.dropdown a {
         padding: 10px 10px; }
     header div.top-header a {
@@ -43,6 +45,8 @@ header {
       header div.top-header a:hover {
         color: #d6d6d6;
         text-decoration: none !important; }
+    header div.top-header a.link-partner {
+      border-right: thin solid #216994; }
   header ul {
     margin: 0px;
     float: right;
