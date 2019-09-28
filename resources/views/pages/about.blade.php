@@ -17,7 +17,7 @@
         <div class="container">
 
             <div class="row justify-content-center">
-                <div class="col-md-7">
+                <div class="col-md-9">
                     <h2 class="text-blue" id="who_we_are">
                         WHO WE ARE
                     </h2>
