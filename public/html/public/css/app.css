@@ -1371,6 +1371,10 @@ div.video-desktop {
   body {
     padding-top: 60px; }
 
+  .block-free-website a.btn-start {
+    margin: 20px auto;
+    float: none; }
+
   div.block-connect .connect-buttons {
     margin: 0px; }
   div.block-connect div.container {
