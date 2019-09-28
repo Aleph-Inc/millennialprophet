@@ -180,8 +180,7 @@
             <div class="col-md-12">
                 <div class="copyright">
                     <p class="text-center">
-                        &copy;
-                        2019 Millennial Prophet Ministries &nbsp; &nbsp; &nbsp;| &nbsp;&nbsp; &nbsp;
+                        &copy; 2019 Millennial Prophet Ministries
                        <span>
                             <a href="#">
                             Terms of use

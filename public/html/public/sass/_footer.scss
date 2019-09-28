@@ -1,7 +1,7 @@
 footer {
   background: #194964;
 
-  padding: 60px 0px;
+    padding: 60px 0px 0px 0px;
 
   ul {
     margin: 0px;
@@ -42,6 +42,9 @@ footer {
       text-align: center;
       font-size: 12px;
       margin: 0px;
+        span{
+            display:block;
+        }
 
     }
   }
