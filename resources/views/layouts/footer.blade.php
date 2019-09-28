@@ -54,7 +54,7 @@
 <footer>
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-9">
+            <div class="col-lg-9">
                 <div class="row">
                     <div class="col-sm-3">
                         <ul>
