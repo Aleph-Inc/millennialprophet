@@ -6,7 +6,7 @@
 
 
                     <a href="/partner">
-                        BECOME A PARTNER
+                        <i class="fa fa-handshake-o" aria-hidden="true"></i> BECOME A PARTNER
                     </a>
 
                     <div class="dropdown">
@@ -90,7 +90,7 @@
                             CONNECT
                         </a>
                     </li>
-<!-- 
+<!--
                     <li class="{{ request()->is('blog') ? 'active' : '' }}">
                         <a href="/blog">
                             BLOG
@@ -112,14 +112,14 @@
                             RESOURCES
                         </a>
                     </li>
-                               
+
                     <li class="{{ request()->is('testimonies') ? 'active' : '' }}">
                         <a href="{{ url('/testimonies') }}">
                             TESTIMONIES
                         </a>
                     </li> -->
 
-                    
+
 
                     <li>
                         <a href="#">
