@@ -72,13 +72,13 @@
 
                                 Join
 
-                                <p>
+
                                     @if(Page::get('join'))
                                         {!! Page::get('join') !!}
                                     @else
 
                                     @endif
-                                </p>
+                              
                             </a>
                         </div>
                         <div class="col-4">
@@ -114,13 +114,13 @@
 
                                 Create
 
-                                <p>
+
                                     @if(Page::get('create'))
                                         {!! Page::get('create') !!}
                                     @else
 
                                     @endif
-                                </p>
+
                             </a>
                         </div>
                         <div class="col-4">
@@ -159,12 +159,12 @@
 
                                 Launch
 
-                                <p>
+
                                     @if(Page::get('launch'))
                                         {!! Page::get('launch') !!}
                                     @else
                                     @endif
-                                </p>
+
                             </a>
                         </div>
                     </div>
