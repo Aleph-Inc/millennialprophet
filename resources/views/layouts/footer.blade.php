@@ -1,4 +1,4 @@
-@if(Request::is('about') || Request::is('resources'))
+@if(Request::is('about') || Request::is('resources') || Request::is('empower'))
 
 @else
     <div class="block-connect-with-us connect_withus_bg">
