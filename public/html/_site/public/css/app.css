@@ -700,7 +700,7 @@ div.form-element {
   color: #246E9E; }
 
 div.page-header {
-  height: 290px;
+  height: 200px;
   position: relative;
   margin-bottom: 40px; }
   div.page-header.page-big {
@@ -720,7 +720,7 @@ div.page-header {
       top: 0px;
       left: 0px; }
   div.page-header div.page-title {
-    height: 290px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
