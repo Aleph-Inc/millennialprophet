@@ -1,9 +1,20 @@
 {
+<<<<<<< HEAD
+
+    "title": "Home",
+    "created_at": "2019-09-26 06:30:00",
+    "updated_at": "2019-09-26 07:03:12",
+    "attributes": {
+        "slidertext": "EQUIPPING AND EMPOWERING THE GLOBAL CHURCH OF JESUS",
+        "human": null
+
+=======
     "title": "Home",
     "created_at": "2019-09-28 06:30:00",
     "updated_at": "2019-09-28 12:20:50",
     "attributes": {
         "slidertext": "EQUIPPING AND EMPOWERING\nTHE GLOBAL CHURCH OF JESUS",
         "human": "<div>On Being Human<\/div>"
+>>>>>>> c83df3b189d0f355ef297d6e822aa27f9c6e84a5
     }
 }
