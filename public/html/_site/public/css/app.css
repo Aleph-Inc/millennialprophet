@@ -1353,7 +1353,9 @@ div.video-desktop {
   header ul li a {
     font-size: 13px;
     /* font-weight: bold; */
-    padding: 5px 7px; }
+    padding: 5px 7px;
+    height: 90px;
+    line-height: 80px; }
 
   .block-free-website h2 {
     font-size: 28px; }
