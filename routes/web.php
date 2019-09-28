@@ -32,6 +32,9 @@ Route::get('/blog','BlogController@all');
 
 Route::get('/connect/inquiries','PageController@inquires');
 
+Route::get('/confess','PageController@confess');
+
+
 Route::get('/blog/{id}','BlogController@getEach');
 
 Route::get('/empower', 'PageController@ministries')
