@@ -123,11 +123,11 @@
 
 
 
-                    <li>
-                        <a href="#">
-                            <i class="fa fa-search"></i>
-                        </a>
-                    </li>
+{{--                    <li>--}}
+{{--                        <a href="#">--}}
+{{--                            <i class="fa fa-search"></i>--}}
+{{--                        </a>--}}
+{{--                    </li>--}}
                 </ul>
             </div>
         </div>
