@@ -233,8 +233,6 @@ ${time} @ ${place}
 @endsection
 
 
-@if(Request::is('events'))
-    @extends('layouts.subscription');
-@endif
+
 
 
