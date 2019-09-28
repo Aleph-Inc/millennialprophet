@@ -285,6 +285,21 @@ class PageController extends Controller
     }
 
 
+     /**
+     * Get the fields for the inquires page by the resource.
+     *
+     * @param 
+     * @return inquires view
+     */
+
+     public function inquires(){
+
+
+        return view('pages/general_inquires');
+    
+    }
+
+
 
 
 }

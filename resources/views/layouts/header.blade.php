@@ -61,32 +61,24 @@
 
                     <li class="{{ request()->is('about') ? 'active' : '' }}">
                         <a href="{{ url('/about') }}">
-                            ABOUT US
+                            ABOUT
                         </a>
                     </li>
-                    <li class="{{ request()->is('resources') ? 'active' : '' }}">
-                        <a href="{{ url('/resources') }}">
-                            RESOURCES
+                    <li class="{{ request()->is('empower') ? 'active' : '' }}">
+                        <a href="{{ url('/empower') }}">
+                            EMPOWER
                         </a>
                     </li>
-
-                    <li class="{{ request()->is('empower-ministries') ? 'active' : '' }}">
-                        <a href="{{ url('/empower-ministries') }}">
-                            EMPOWER MINISTRIES
-                        </a>
-                    </li>
-
-                    <li class="{{ request()->is('events') ? 'active' : '' }}">
+                         <li class="{{ request()->is('events') ? 'active' : '' }}">
                         <a href="{{ url('/events') }}">
                             EVENTS
                         </a>
                     </li>
-                    <li class="{{ request()->is('testimonials') ? 'active' : '' }}">
-                        <a href="{{ url('/testimonials') }}">
+                     <li class="{{ request()->is('testimonies') ? 'active' : '' }}">
+                        <a href="{{ url('/testimonies') }}">
                             TESTIMONIES
                         </a>
                     </li>
-
                     <li class="{{ request()->is('jesus') ? 'active' : '' }}">
                         <a href="/jesus">
                             JESUS
@@ -98,12 +90,36 @@
                             CONNECT
                         </a>
                     </li>
-
+<!-- 
                     <li class="{{ request()->is('blog') ? 'active' : '' }}">
                         <a href="/blog">
                             BLOG
                         </a>
                     </li>
+                     -->
+                    <li class="{{ request()->is('digital-training') ? 'active' : '' }}">
+                        <a href="/empower/digital-training">
+                            DIGITAL TRAINING
+                        </a>
+                    </li>
+                    <li class="{{ request()->is('empower/free-websites') ? 'active' : '' }}">
+                        <a href="/empower/free-websites">
+                            FREE WEBSITE
+                        </a>
+                    </li>
+                   <!--  <li class="{{ request()->is('resources') ? 'active' : '' }}">
+                        <a href="{{ url('/resources') }}">
+                            RESOURCES
+                        </a>
+                    </li>
+                               
+                    <li class="{{ request()->is('testimonies') ? 'active' : '' }}">
+                        <a href="{{ url('/testimonies') }}">
+                            TESTIMONIES
+                        </a>
+                    </li> -->
+
+                    
 
                     <li>
                         <a href="#">
