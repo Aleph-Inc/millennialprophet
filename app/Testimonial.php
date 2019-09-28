@@ -17,4 +17,7 @@ class Testimonial extends Model
     protected $fillable = [
         'name', 'url'
     ];
+
+    protected $casts = ['date' => 'date'];
+
 }
