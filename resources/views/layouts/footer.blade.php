@@ -1,5 +1,5 @@
 @if(Request::is('about') || Request::is('resources'))
-   
+
 @else
     <div class="block-connect-with-us connect_withus_bg">
         <div class="container">
@@ -205,10 +205,6 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript">
     'use strict';
-    ($(function () {
-        $(".mobile_menu").click(function (e) {
-            $("header").toggleClass("expand");
-        });
-    }));
+    ($(function () {$(".mobile_menu").click(function (e) {$("header").toggleClass("expand");});}));
 </script>
 
