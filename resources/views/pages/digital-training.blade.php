@@ -6,7 +6,7 @@
     <div class="page-header free_web_bg">
         <div class="page-title">
             <H2>
-                FREE WEBSITE FOR EVERY MINISTRY
+                DIGITAL TRAINING
                 <span>
                     Easy and simple three steps to build a free website  for your church.
                 </span>
