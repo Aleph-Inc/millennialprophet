@@ -30,10 +30,14 @@ Route::get('/resources/{id}','Backend\ResourceController@getResource');
 
 Route::get('/blog','BlogController@all');
 
+Route::get('/connect/inquiries','PageController@inquires');
+
+Route::get('/confess','PageController@confess');
+
+
 Route::get('/blog/{id}','BlogController@getEach');
 
-
-Route::get('/empower-ministries', 'PageController@ministries')
+Route::get('/empower', 'PageController@ministries')
     ->template(\App\Nova\Templates\Empower::class)
     ->name('Ministry');
 
@@ -41,12 +45,13 @@ Route::get('/events', 'PageController@events')
     ->template(\App\Nova\Templates\Event::class)
     ->name('Events');
 
+Route::get('/events/new','PageController@eventsNew');
 Route::get('/events/past','PageController@eventsPast');
 
 
-Route::get('/testimonials', 'PageController@testimonials')
+Route::get('/testimonies', 'PageController@testimonials')
     ->template(\App\Nova\Templates\Testimonial::class)
-    ->name('Testimonials');
+    ->name('Testimonies');
 
 Route::get('/testimonials/articles','Backend\TestimonialController@getArticles');
 
@@ -58,15 +63,15 @@ Route::get('/connect', 'PageController@connect')
     ->template(\App\Nova\Templates\Connect::class)
     ->name('Connect');
 
-Route::get('/prayer_request', 'PageController@PrayerRequest')
+Route::get('/connect/prayer', 'PageController@PrayerRequest')
     ->template(\App\Nova\Templates\PrayerRequest::class)
     ->name('PrayerRequest');
 
-Route::get('/send_testimoney', 'PageController@SendTestimoney')
+Route::get('/connect/testimonies', 'PageController@SendTestimoney')
     ->template(\App\Nova\Templates\SendTestimoney::class)
     ->name('SendTestimoney');
 
-Route::get('/donation', 'PageController@donation')
+Route::get('/give', 'PageController@donation')
     ->template(\App\Nova\Templates\Donation::class)
     ->name('Donation');
 
@@ -74,7 +79,7 @@ Route::get('/build-chruch', 'PageController@BuildChruch')
     ->template(\App\Nova\Templates\BuildChruch::class)
     ->name('BuildChruch');
 
-Route::get('/empower/free-website', 'PageController@FreeWebsite')
+Route::get('/empower/free-websites', 'PageController@FreeWebsite')
     ->template(\App\Nova\Templates\FreeWebsite::class)
     ->name('FreeWebsite');
 
@@ -85,7 +90,7 @@ Route::get('/empower/digital-training', 'PageController@DigitalTraining')
 
 Route::get('/partner', 'PageController@Partner')
     ->template(\App\Nova\Templates\Partner::class)
-    ->name('DigitalTraining');
+    ->name('Partner');
 
 Route::get('/partner/monthly', 'PageController@Monthly')
     ->template(\App\Nova\Templates\Montly::class)

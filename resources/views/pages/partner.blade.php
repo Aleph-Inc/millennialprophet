@@ -22,23 +22,25 @@
                         </strong>
                     </h3>
                     <p class="text-left">
-                        What a privilege it is to serve Him during these exciting times! God is accomplishing great and
-                        mighty things, and that’s why I want to personally invite you to become a Covenant Partner so
-                        that,
-                        together, we can fulfill the Great Commission and win the world in His mighty name.
-                        <br><br>
-                        As a partner in this ministry, you will be making a difference in lives around the world, and
-                        what a
-                        privilege it is to serve Him during these exciting times.  hen I minister to the multitudes, my
-                        partners are there with me.
+                        @if(Page::get('partner'))
+                            {!! Page::get('partner') !!}
+                        @else
+                            What a privilege it is to serve Him during these exciting times! God is accomplishing great and
+                            mighty things, and that’s why I want to personally invite you to become a Covenant Partner so
+                            that,
+                            together, we can fulfill the Great Commission and win the world in His mighty name.
+                            <br><br>
+                            As a partner in this ministry, you will be making a difference in lives around the world, and
+                            what a
+                            privilege it is to serve Him during these exciting times.  hen I minister to the multitudes, my
+                            partners are there with me.
 
-                        <br><br>
+                            <br><br>
 
-                        When I go to the nations through television and crusades, and when we see multiplied tens of
-                        thousands of men, women, and children weeping as they accept Jesus in their lives, you will be
-                        blessed with an eternal harvest for the seed you have sown.
-
-
+                            When I go to the nations through television and crusades, and when we see multiplied tens of
+                            thousands of men, women, and children weeping as they accept Jesus in their lives, you will be
+                            blessed with an eternal harvest for the seed you have sown.
+                        @endif
                     </p>
                     <p>
                         &nbsp;

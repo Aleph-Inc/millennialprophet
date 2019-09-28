@@ -4,6 +4,7 @@ namespace App\Nova\Templates;
 
 use Illuminate\Http\Request;
 use Whitecube\NovaPage\Pages\Template;
+use Laravel\Nova\Fields\Trix;
 
 class FreeWebsite extends Template {
 
@@ -15,7 +16,12 @@ class FreeWebsite extends Template {
      */
     public function fields(Request $request)
     {
-        return [];
+        return [
+            Trix::make('Middle text', 'middle'),
+            Trix::make('Join text', 'join'),
+            Trix::make('Create text', 'create'),
+            Trix::make('Launch text', 'launch'),
+        ];
     }
 
     /**

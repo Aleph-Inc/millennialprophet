@@ -3,24 +3,20 @@
 namespace App\Nova;
 
 use Laravel\Nova\Fields\ID;
+use Illuminate\Http\Request;
 use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Fields\Date;
 use Laravel\Nova\Fields\Textarea;
-use Laravel\Nova\Fields\File;
-use Laravel\Nova\Fields\Image;
-use Laravel\Nova\Fields\Select;
-
-use Illuminate\Http\Request;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
-class Event extends Resource
+class Article extends Resource
 {
     /**
      * The model the resource corresponds to.
      *
      * @var string
      */
-    public static $model = 'App\Event';
+    public static $model = 'App\Article';
 
     /**
      * The single value that should be used to represent the resource when being displayed.
@@ -35,7 +31,7 @@ class Event extends Resource
      * @var array
      */
     public static $search = [
-        'id',
+        'id', 'user_name', 'article_name', 'date'
     ];
 
     /**
@@ -48,23 +44,23 @@ class Event extends Resource
     {
         return [
             ID::make()->sortable(),
-            Text::make('name')->sortable()->rules('required'),
-            Textarea::make('description'),
-            Text::make('place')->rules('required', 'max:255'),
-            Image::make('image')->rules('required'),
-            Date::make('date')->rules('required')->hideFromIndex(),
-            Text::make('time')->rules('required'),
-            Select::make('country')->options([
-                '94' => "Sri Lanka",
-                '1' => "USA",
-                '44' => "UK",
-                '91' => "India",
-                '86' => "China",
-                '52' => "Mexico"
 
-            ])->rules('required'),
+            Text::make('User Name')
+                ->sortable()
+                ->rules('required'),
 
-   
+            Text::make('Article Name')
+                ->sortable()
+                ->rules('required'),
+
+            Date::make('Date')
+                ->sortable()
+                ->rules('required')
+                ->hideFromIndex(),
+
+            Textarea::make('description')
+                ->sortable()
+                ->rules('required'),
         ];
     }
 
