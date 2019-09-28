@@ -17,14 +17,16 @@ header {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); }
   header div.mobile_menu {
     display: none; }
-  header div.logo a {
-    text-decoration: none !important; }
-    header div.logo a span {
-      display: none;
-      text-decoration: none !important;
-      text-transform: uppercase; }
-    header div.logo a:hover span {
+  header div.logo {
+    padding-top: 20px; }
+    header div.logo a {
       text-decoration: none !important; }
+      header div.logo a span {
+        display: none;
+        text-decoration: none !important;
+        text-transform: uppercase; }
+      header div.logo a:hover span {
+        text-decoration: none !important; }
   header div.top-header {
     position: relative;
     background: #2474A4;
