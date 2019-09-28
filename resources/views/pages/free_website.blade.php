@@ -78,7 +78,7 @@
                                     @else
 
                                     @endif
-                              
+
                             </a>
                         </div>
                         <div class="col-4">

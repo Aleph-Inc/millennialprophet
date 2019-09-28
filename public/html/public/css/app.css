@@ -1226,7 +1226,7 @@ div.page-ministry div.create-website div.col-4 a {
   div.page-ministry div.create-website div.col-4 a svg {
     display: block;
     margin: 10px auto; }
-  div.page-ministry div.create-website div.col-4 a p {
+  div.page-ministry div.create-website div.col-4 a p, div.page-ministry div.create-website div.col-4 a div {
     margin: 7px 0px;
     font-size: 12px;
     text-align: Center; }
