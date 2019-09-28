@@ -56,7 +56,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-sm-4">
                                     <div class="event-title">
                                         {{ $event->name }}
                                     </div>
