@@ -1856,7 +1856,9 @@ div.video-desktop {
   .country-contact a {
     margin: 20px 0px; }
 
-  .social-connect svg {
-    width: 32px; } }
+  .follow-us .social-connect a {
+    width: auto; }
+    .follow-us .social-connect a svg {
+      width: 32px; } }
 
 /*# sourceMappingURL=app.css.map */
