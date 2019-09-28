@@ -10,6 +10,11 @@ div.video-desktop {
   .home-block-one {
     height: 565px;
   }
+
+    .home-block-event .next-date-wrapper .next-date-text{
+        margin:15px 0px 0px 0px;
+        font-size: 20px;
+    }
   header {
     ul li {
       a {
@@ -66,11 +71,33 @@ div.video-desktop {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1023px) {
   body {
     padding-top: 60px;
   }
 
+    div.slider-mobile {
+        display: block !important;
+    }
+    div.video-desktop {
+        display: none !important;
+    }
+
+
+    .block-free-website a.btn-start{
+        margin:20px auto;
+        float:none;
+    }
+    div.block-connect{
+        .connect-buttons {
+            margin: 0px;
+        }
+
+
+        div.container{
+            padding:40px 20px;
+        }
+    }
   .block-connect.connect_bg {
     height: auto;
     background-position: right center;
@@ -327,6 +354,20 @@ div.video-desktop {
   div.block-connect-with-us .subscription-form div.input-group button {
     font-size: 12px;
   }
+
+
+    div.partner-page a.btn.btn-become-partner {
+        font-size: 14px;
+        padding: 30px 20px;
+        /* width: 400px; */
+        margin: 0px 10px 0px 10px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
 
   header.expand {
     height: 500px;
@@ -675,7 +716,8 @@ div.video-desktop {
   div.video-desktop {
     display: none !important;
   }
-
+    .block-free-website a.btn-start{float:none;
+    margin:0 auto;}
   .home-block-event {
     padding: 20px 0px;
 
@@ -761,5 +803,16 @@ div.video-desktop {
 
     }
   }
+
+    .country-contact a {
+        margin:20px 0px;
+    }
+    .follow-us .social-connect a{
+        width:auto;
+
+        svg{
+            width:32px;
+        }
+    }
 
 }

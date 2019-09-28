@@ -7,7 +7,7 @@
         <div class="container">
 
             <div class="row justify-content-center">
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <h2>
                         CONNECT WITH <br>MILLENNIAL PROPHET
                     </h2>

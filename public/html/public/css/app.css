@@ -12,6 +12,7 @@ header {
   top: 0px;
   left: 0px;
   z-index: 4000;
+  transition: .2s ease;
   background: #fff;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); }
   header div.mobile_menu {
@@ -161,7 +162,6 @@ footer {
     position: relative;
     text-align: Center;
     text-transform: uppercase;
-    height: 200px;
     width: 100%;
     font-size: 48px;
     z-index: 200;
@@ -190,7 +190,7 @@ footer {
         display: block;
         font-size: 18px; }
     .home-block-event .next-date-wrapper .next-date-text {
-      margin: 15px 30px 0px 0px;
+      margin: 15px 15px 0px 0px;
       font-size: 22px;
       color: #000000;
       font-weight: 700;
@@ -248,7 +248,7 @@ footer {
   .featured-video-block .video-block {
     position: relative; }
     .featured-video-block .video-block video {
-      height: 490px;
+      height: auto;
       background: #000; }
     .featured-video-block .video-block img {
       position: absolute;
@@ -380,15 +380,15 @@ div.block-connect-with-us {
   div.block-connect-with-us div.container {
     padding: 30px 15px; }
     div.block-connect-with-us div.container svg {
-      width: 160px;
+      width: 100px;
       display: block;
-      height: 44px;
+      height: 24px;
       margin: 20px auto; }
     div.block-connect-with-us div.container h3 {
       font-weight: bold;
       text-align: center;
       margin: 0px 0px 20px 0px;
-      font-size: 20px; }
+      font-size: 16px; }
   div.block-connect-with-us .subscription-form {
     width: 100%; }
     div.block-connect-with-us .subscription-form div.input-group {
@@ -398,7 +398,7 @@ div.block-connect-with-us {
         padding: 0px 0px 0px 20px;
         font-weight: normal;
         outline: 0;
-        height: 56px; }
+        height: 44px; }
         div.block-connect-with-us .subscription-form div.input-group input[type="email"]:focus {
           outline: 0; }
       div.block-connect-with-us .subscription-form div.input-group div.input-group-append {
@@ -406,7 +406,7 @@ div.block-connect-with-us {
       div.block-connect-with-us .subscription-form div.input-group button {
         font-weight: bold;
         font-size: 14px;
-        height: 56px;
+        height: 44px;
         color: #fff;
         background-image: linear-gradient(-151deg, #0EACD1 0%, #0674A5 94%);
         border: none;
@@ -465,13 +465,6 @@ div.block-connect-with-us {
     .block-free-website a svg {
       margin: 10px 0px;
       width: 32px; }
-    .block-free-website a:hover {
-      -webkit-transform: scale(1.05);
-      -moz-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-      -o-transform: scale(1.05);
-      transform: scale(1.05);
-      background-image: linear-gradient(-151deg, #0EACD1 0%, #0674A5 94%); }
     .block-free-website a span {
       display: block;
       font-size: 12px;
@@ -1338,6 +1331,10 @@ div.video-desktop {
   .home-block-one {
     height: 565px; }
 
+  .home-block-event .next-date-wrapper .next-date-text {
+    margin: 15px 0px 0px 0px;
+    font-size: 20px; }
+
   header ul li a {
     font-size: 13px;
     /* font-weight: bold; */
@@ -1370,9 +1367,24 @@ div.video-desktop {
   div.page-events a.event-item div.flag {
     position: relative;
     width: 32px; } }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1023px) {
   body {
     padding-top: 60px; }
+
+  div.slider-mobile {
+    display: block !important; }
+
+  div.video-desktop {
+    display: none !important; }
+
+  .block-free-website a.btn-start {
+    margin: 20px auto;
+    float: none; }
+
+  div.block-connect .connect-buttons {
+    margin: 0px; }
+  div.block-connect div.container {
+    padding: 40px 20px; }
 
   .block-connect.connect_bg {
     height: auto;
@@ -1542,6 +1554,17 @@ div.video-desktop {
 
   div.block-connect-with-us .subscription-form div.input-group button {
     font-size: 12px; }
+
+  div.partner-page a.btn.btn-become-partner {
+    font-size: 14px;
+    padding: 30px 20px;
+    /* width: 400px; */
+    margin: 0px 10px 0px 10px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex; }
 
   header.expand {
     height: 500px;
@@ -1792,6 +1815,10 @@ div.video-desktop {
   div.video-desktop {
     display: none !important; }
 
+  .block-free-website a.btn-start {
+    float: none;
+    margin: 0 auto; }
+
   .home-block-event {
     padding: 20px 0px; }
     .home-block-event div.col-md-10 {
@@ -1843,6 +1870,14 @@ div.video-desktop {
       line-height: 18px;
       font-size: 16px; }
       .home-block-event .next-date-wrapper .next-date-text span {
-        font-size: 12px; } }
+        font-size: 12px; }
+
+  .country-contact a {
+    margin: 20px 0px; }
+
+  .follow-us .social-connect a {
+    width: auto; }
+    .follow-us .social-connect a svg {
+      width: 32px; } }
 
 /*# sourceMappingURL=app.css.map */

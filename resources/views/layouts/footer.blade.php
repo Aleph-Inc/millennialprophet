@@ -24,7 +24,7 @@
 
 
         <div class="row justify-content-center">
-            <div class="col-md-8">
+            <div class="col-lg-6">
                 <div class="subscription-form">
                     <form action="">
                         <div class="input-group">
@@ -34,10 +34,10 @@
                             </div>
 
                         </div>
-                        <p>
-                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
-                            of classical Latin literature from 45 BC
-                        </p>
+{{--                        <p>--}}
+{{--                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece--}}
+{{--                            of classical Latin literature from 45 BC--}}
+{{--                        </p>--}}
                     </form>
 
 
@@ -54,7 +54,7 @@
 <footer>
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-9">
+            <div class="col-lg-9">
                 <div class="row">
                     <div class="col-sm-3">
                         <ul>
