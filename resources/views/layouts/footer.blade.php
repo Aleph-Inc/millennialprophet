@@ -1,7 +1,5 @@
 <div class="block-connect-with-us connect_withus_bg">
     <div class="container">
-
-
         <svg width="14px" height="10px" viewBox="0 0 14 10" version="1.1" xmlns="http://www.w3.org/2000/svg"
              xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -177,17 +175,16 @@
             </div>
         </div>
     </div>
-    <div class="container bg-white">
+    <div class="container-fluid bg-white">
         <div class="row">
             <div class="col-md-12">
                 <div class="copyright">
                     <p class="text-center">
                         &copy;
                         2019 Millennial Prophet Ministries &nbsp; &nbsp; &nbsp;| &nbsp;&nbsp; &nbsp;
-
                        <span>
                             <a href="#">
-                            Termins of use
+                            Terms of use
                         </a> &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;<a href="#">
                             Privacy policy
                         </a>
