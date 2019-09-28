@@ -4,7 +4,7 @@
     <div class="page-header events_bg">
         <div class="page-title">
             <h2>
-             UPCOMING EVENTS
+                UPCOMING EVENTS
             </h2>
         </div>
         <div class="overlay"></div>
@@ -69,7 +69,8 @@
                                     {{--Register--}}
                                     {{--</button>--}}
                                     <div class="flag">
-                                        <img src="{{ asset('html/public/images/flag.png') }}" alt="">{{ $event->country }}
+                                        <img src="{{ asset('html/public/images/flag.png') }}"
+                                             alt="">{{ $event->country }}
                                     </div>
                                 </div>
 
@@ -85,17 +86,16 @@
         </div>
     </div>
     <script>
-        function newevents()
-        {
+        function newevents() {
             // alert('hii');
             var data = [];
             $.ajax({
                 url: "{{ url('/') }}/events/new",
                 method: 'GET',
-                success: function(data){
+                success: function (data) {
                     var x = data.events.length;
-                    const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun","Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
-                            ];
+                    const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+                    ];
                     $("#eventsarea").empty();
 
                     for (let y = 0; y < x; y++) {
@@ -134,17 +134,17 @@
                                 <div class="col-sm-6">
                                     <div class="event-title">
                                         {{ $event->name }}
-                                    </div>
-                                    <div class="event-time">
-                                        ${time} @ ${place}
+                            </div>
+                            <div class="event-time">
+${time} @ ${place}
 
                                     </div>
 
                                     {{--<button class="btn btn-primary btn-event-reg">--}}
-                                    {{--Register--}}
-                                    {{--</button>--}}
-                                    <div class="flag">
-                                        <img src="{{ asset('html/public/images/flag.png') }}" alt="">${country}
+                            {{--Register--}}
+                            {{--</button>--}}
+                            <div class="flag">
+                                <img src="{{ asset('html/public/images/flag.png') }}" alt="">${country}
                                     </div>
                                 </div>
 
@@ -158,17 +158,16 @@
             })
         }
 
-        function pastevents()
-        {
+        function pastevents() {
             // alert('hii');
             var data = [];
             $.ajax({
                 url: "{{ url('/') }}/events/past",
                 method: 'GET',
-                success: function(data){
+                success: function (data) {
                     var x = data.events.length;
-                    const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun","Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
-                            ];
+                    const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+                    ];
                     $("#eventsarea").empty();
                     $("#eventsarea").empty();
                     for (let y = 0; y < x; y++) {
@@ -207,17 +206,17 @@
                                 <div class="col-sm-6">
                                     <div class="event-title">
                                         {{ $event->name }}
-                                    </div>
-                                    <div class="event-time">
-                                        ${time} @ ${place}
+                            </div>
+                            <div class="event-time">
+${time} @ ${place}
 
                                     </div>
 
                                     {{--<button class="btn btn-primary btn-event-reg">--}}
-                                    {{--Register--}}
-                                    {{--</button>--}}
-                                    <div class="flag">
-                                        <img src="{{ asset('html/public/images/flag.png') }}" alt="">${country}
+                            {{--Register--}}
+                            {{--</button>--}}
+                            <div class="flag">
+                                <img src="{{ asset('html/public/images/flag.png') }}" alt="">${country}
                                     </div>
                                 </div>
 
@@ -232,4 +231,10 @@
         }
     </script>
 @endsection
-@extends('layouts.subscription');
+
+
+@if(Request::is('events'))
+    @extends('layouts.subscription');
+@endif
+
+
