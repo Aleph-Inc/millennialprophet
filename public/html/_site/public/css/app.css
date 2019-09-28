@@ -1499,7 +1499,10 @@ div.video-desktop {
   .home-block-event .next-date-wrapper .next-date-text {
     margin: 26px 0px 0px 0px;
     font-size: 15px;
-    line-height: 20px; } }
+    line-height: 20px; }
+
+  div.partner-page a.btn.btn-become-partner {
+    margin: 0px 0px 20px 0px; } }
 @media screen and (max-width: 767px) {
   body {
     padding-top: 60px; }
