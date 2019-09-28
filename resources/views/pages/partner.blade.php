@@ -16,7 +16,7 @@
 
             <div class="row justify-content-center">
                 <div class="col-md-7">
-                    <h3 class="text-center mb-4">
+                    <h3 class="text-left mb-4">
                         <strong>
                             BECOME A PARTNER TODAY
                         </strong>
