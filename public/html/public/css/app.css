@@ -1851,6 +1851,12 @@ div.video-desktop {
       line-height: 18px;
       font-size: 16px; }
       .home-block-event .next-date-wrapper .next-date-text span {
-        font-size: 12px; } }
+        font-size: 12px; }
+
+  .country-contact a {
+    margin: 20px 0px; }
+
+  .social-connect svg {
+    width: 32px; } }
 
 /*# sourceMappingURL=app.css.map */
