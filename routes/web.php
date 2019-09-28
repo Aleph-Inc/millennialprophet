@@ -45,12 +45,13 @@ Route::get('/events', 'PageController@events')
     ->template(\App\Nova\Templates\Event::class)
     ->name('Events');
 
+Route::get('/events/new','PageController@eventsNew');
 Route::get('/events/past','PageController@eventsPast');
 
 
 Route::get('/testimonies', 'PageController@testimonials')
     ->template(\App\Nova\Templates\Testimonial::class)
-    ->name('testimonies');
+    ->name('Testimonies');
 
 Route::get('/testimonials/articles','Backend\TestimonialController@getArticles');
 
@@ -89,7 +90,7 @@ Route::get('/empower/digital-training', 'PageController@DigitalTraining')
 
 Route::get('/partner', 'PageController@Partner')
     ->template(\App\Nova\Templates\Partner::class)
-    ->name('DigitalTraining');
+    ->name('Partner');
 
 Route::get('/partner/monthly', 'PageController@Monthly')
     ->template(\App\Nova\Templates\Montly::class)

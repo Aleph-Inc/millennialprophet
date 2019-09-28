@@ -20,7 +20,6 @@ class BuildChruch extends Template {
             
             Trix::make('Our Mission', 'ourmission'),
 
-
         ];
     }
 

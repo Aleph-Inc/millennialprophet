@@ -4,6 +4,7 @@ namespace App\Nova\Templates;
 
 use Illuminate\Http\Request;
 use Whitecube\NovaPage\Pages\Template;
+use Laravel\Nova\Fields\Trix;
 
 class Partner extends Template {
 
@@ -15,7 +16,9 @@ class Partner extends Template {
      */
     public function fields(Request $request)
     {
-        return [];
+        return [
+            Trix::make('Become a partner', 'partner'),
+        ];
     }
 
     /**

@@ -16,12 +16,12 @@
                 <div class="col-md-12">
                     <ul class="testimony-tabs">
                         <li>
-                            <a class="{{($active == 'live') ? 'active' : ''}}" href="{{ url('/events') }}">
+                            <a class="{{($active == 'live') ? 'active' : ''}}" href="#" onclick="newevents();">
                                 UPCOMING EVENTS
                             </a>
                         </li>
                         <li>
-                            <a class="{{($active == 'past') ? 'active' : ''}}" href="{{ url('/events/past') }}">
+                            <a class="{{($active == 'past') ? 'active' : ''}}" href="#" onclick="pastevents();">
                                 PAST EVENTS
                             </a>
                         </li>
@@ -29,7 +29,7 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-12">
+                <div class="col-md-12" id="eventsarea">
 
                     @foreach($events as $event )
                         <a href="#" class="event-item">
@@ -69,7 +69,7 @@
                                     {{--Register--}}
                                     {{--</button>--}}
                                     <div class="flag">
-                                        <img src="{{ asset('html/public/images/flag.png') }}" alt="">
+                                        <img src="{{ asset('html/public/images/flag.png') }}" alt="">{{ $event->country }}
                                     </div>
                                 </div>
 
@@ -84,4 +84,29 @@
             </div>
         </div>
     </div>
+    <script>
+        function newevents()
+        {
+            // alert('hii');
+            $.ajax({
+                url: "{{ url('/') }}/events/new",
+                method: 'GET',
+                success: function(data){
+                    console.log(data);
+                }
+            })
+        }
+
+        function pastevents()
+        {
+            // alert('hii');
+            $.ajax({
+                url: "{{ url('/') }}/events/past",
+                method: 'GET',
+                success: function(data){
+                    console.log(data);
+                }
+            })
+        }
+    </script>
 @endsection
