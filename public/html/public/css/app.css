@@ -1350,6 +1350,8 @@ div.video-desktop {
     margin: 15px 0px 0px 0px;
     font-size: 20px; }
 
+  header div.logo img {
+    width: 230px; }
   header ul li a {
     font-size: 13px;
     /* font-weight: bold; */
