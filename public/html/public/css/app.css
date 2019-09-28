@@ -465,13 +465,6 @@ div.block-connect-with-us {
     .block-free-website a svg {
       margin: 10px 0px;
       width: 32px; }
-    .block-free-website a:hover {
-      -webkit-transform: scale(1.05);
-      -moz-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-      -o-transform: scale(1.05);
-      transform: scale(1.05);
-      background-image: linear-gradient(-151deg, #0EACD1 0%, #0674A5 94%); }
     .block-free-website a span {
       display: block;
       font-size: 12px;
