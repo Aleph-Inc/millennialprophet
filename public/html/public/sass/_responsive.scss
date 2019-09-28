@@ -694,7 +694,8 @@ div.video-desktop {
   div.video-desktop {
     display: none !important;
   }
-
+    .block-free-website a.btn-start{float:none;
+    margin:0 auto;}
   .home-block-event {
     padding: 20px 0px;
 
@@ -791,5 +792,5 @@ div.video-desktop {
             width:32px;
         }
     }
-   
+
 }
