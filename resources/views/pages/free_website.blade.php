@@ -76,7 +76,7 @@
                                     @if(Page::get('join'))
                                         {!! Page::get('join') !!}
                                     @else
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
                                     @endif
                                 </p>
                             </a>
@@ -118,7 +118,7 @@
                                     @if(Page::get('create'))
                                         {!! Page::get('create') !!}
                                     @else
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
                                     @endif
                                 </p>
                             </a>
@@ -163,7 +163,6 @@
                                     @if(Page::get('launch'))
                                         {!! Page::get('launch') !!}
                                     @else
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     @endif
                                 </p>
                             </a>
