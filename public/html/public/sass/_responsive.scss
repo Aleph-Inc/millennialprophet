@@ -94,7 +94,10 @@ div.video-desktop {
     div.video-desktop {
         display: none !important;
     }
-
+    .featured-video-block{
+        height:auto;
+        min-height:0px;
+    }
 
     .block-free-website a.btn-start {
         margin: 20px auto;
