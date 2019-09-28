@@ -15,7 +15,9 @@ class Partner extends Template {
      */
     public function fields(Request $request)
     {
-        return [];
+        return [
+            Trix::make('Become a partner', 'partner'),
+        ];
     }
 
     /**
