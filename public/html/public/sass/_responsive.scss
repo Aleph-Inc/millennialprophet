@@ -198,7 +198,7 @@ div.video-desktop {
                 padding-top: 4px;
         }
 
-        
+
 
         ul {
             float: none;
@@ -215,11 +215,11 @@ div.video-desktop {
             a {
                 height: auto;
                 display: block;
-                font-size: 14px;
-                font-weight: bold;
+                font-size: 13px;
+                font-weight: 500;
                 text-decoration: none;
                 padding: 5px 20px;
-                line-height: 30px;
+                line-height: 20px;
 
                 &:hover {
                     background: $blue;
