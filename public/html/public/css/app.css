@@ -879,6 +879,9 @@ div.page-jesus p {
   line-height: 2em;
   font-family: "Montserrat", sans-serif; }
 
+div.about-mp p {
+  text-align: left; }
+
 div.partner-with-us {
   padding: 40px 0px; }
   div.partner-with-us h2 {
