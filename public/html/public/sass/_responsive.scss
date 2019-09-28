@@ -9,7 +9,12 @@ div.video-desktop {
 @media screen and (max-width: 1279px) {
     .home-block-one {
         height: 565px;
+        div.slider-item{
+            height:565px;
+        }
     }
+
+
 
     .home-block-event .next-date-wrapper .next-date-text {
         margin: 15px 0px 0px 0px;
