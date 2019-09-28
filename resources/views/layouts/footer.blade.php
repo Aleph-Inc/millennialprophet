@@ -34,10 +34,10 @@
                             </div>
 
                         </div>
-                        <p>
-                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
-                            of classical Latin literature from 45 BC
-                        </p>
+{{--                        <p>--}}
+{{--                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece--}}
+{{--                            of classical Latin literature from 45 BC--}}
+{{--                        </p>--}}
                     </form>
 
 
