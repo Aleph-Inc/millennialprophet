@@ -24,7 +24,7 @@
 
 
         <div class="row justify-content-center">
-            <div class="col-md-8">
+            <div class="col-md-6">
                 <div class="subscription-form">
                     <form action="">
                         <div class="input-group">
