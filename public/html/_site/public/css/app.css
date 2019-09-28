@@ -1418,7 +1418,8 @@ div.video-desktop {
         margin: 0px 20px 20px 20px; }
 
   .home-block-one div.slider-text {
-    font-size: 36px; }
+    font-size: 36px;
+    padding: 0px 20px; }
 
   .block-free-website h2, .block-free-website p {
     text-align: center; }
@@ -1462,10 +1463,8 @@ div.video-desktop {
     header .logo-wrapper {
       flex: 0 0 100.000%;
       max-width: 100.000%; }
-    header div.logo img {
-      width: 60px;
-      margin: 0 auto;
-      display: block; }
+    header div.logo {
+      padding-top: 4px; }
     header div.top-header {
       display: none; }
     header ul {
