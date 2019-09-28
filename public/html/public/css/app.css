@@ -248,7 +248,7 @@ footer {
   .featured-video-block .video-block {
     position: relative; }
     .featured-video-block .video-block video {
-      height: 490px;
+      height: auto;
       background: #000; }
     .featured-video-block .video-block img {
       position: absolute;
