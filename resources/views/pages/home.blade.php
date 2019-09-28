@@ -199,7 +199,7 @@
                     <p>
                         Easy and simple three steps to build a free <br> website for your church.
                     </p>
-                    <a class="btn btn-primary btn-start" href="{{ url('/empower/free-website') }}">
+                    <a class="btn btn-primary btn-start" href="{{ url('/empower/free-websites') }}">
                         Start here
                     </a>
                 </div>
