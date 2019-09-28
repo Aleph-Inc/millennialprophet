@@ -65,7 +65,7 @@
                                 At New Creation Church, we believe we are God’s beloved.
                             </h3>
                             <span>
-                            Read more
+
                         </span>
                         </a>
                     </div>
@@ -91,7 +91,7 @@
                                 At New Creation Church, we believe we are God’s beloved.
                             </h3>
                             <span>
-                            Read more
+
                         </span>
                         </a>
                     </div>
@@ -120,7 +120,7 @@
                                 At New Creation Church, we believe we are God’s beloved.
                             </h3>
                             <span>
-                            Read more
+
                         </span>
                         </a>
                     </div>
@@ -146,7 +146,7 @@
                                 At New Creation Church, we believe we are God’s beloved.
                             </h3>
                             <span>
-                            Read more
+
                         </span>
                         </a>
                     </div>
@@ -175,7 +175,7 @@
                                 At New Creation Church, we believe we are God’s beloved.
                             </h3>
                             <span>
-                            Read more
+
                         </span>
                         </a>
                     </div>
@@ -201,7 +201,7 @@
                                 At New Creation Church, we believe we are God’s beloved.
                             </h3>
                             <span>
-                            Read more
+                          
                         </span>
                         </a>
                     </div>
