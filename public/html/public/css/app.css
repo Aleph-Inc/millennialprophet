@@ -1367,7 +1367,7 @@ div.video-desktop {
   div.page-events a.event-item div.flag {
     position: relative;
     width: 32px; } }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1023px) {
   body {
     padding-top: 60px; }
 
