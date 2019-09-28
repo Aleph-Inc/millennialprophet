@@ -75,8 +75,16 @@ div.video-desktop {
   body {
     padding-top: 60px;
   }
-    div.block-connect .connect-buttons{
-        margin:0px;
+    
+    div.block-connect{
+        .connect-buttons {
+            margin: 0px;
+        }
+
+
+        div.container{
+            padding:20px 20px;
+        }
     }
   .block-connect.connect_bg {
     height: auto;
