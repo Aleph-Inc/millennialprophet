@@ -110,7 +110,7 @@
                         HELP US TO EMPOWER
                     </h2>
 
-                    <a href="/parter" class="btn btn-default btn-start">
+                    <a href="/partner" class="btn btn-default btn-start">
                        BECOME A PARTNER
                     </a>
                 </div>
