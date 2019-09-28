@@ -48,7 +48,7 @@
             <div class="row justify-content-center create-website py-4">
                 <div class="col-md-9">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-4">
 
                             <a href="#">
 
@@ -81,7 +81,7 @@
                                 </p>
                             </a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-4">
 
                             <a href="#">
 
@@ -123,7 +123,7 @@
                                 </p>
                             </a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-4">
 
                             <a href="#">
 

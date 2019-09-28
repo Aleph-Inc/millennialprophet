@@ -12,6 +12,7 @@ header {
   top: 0px;
   left: 0px;
   z-index: 4000;
+  transition: .2s ease;
   background: #fff;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); }
   header div.mobile_menu {
@@ -72,8 +73,7 @@ header {
 
 footer {
   background: #194964;
-  height: 360px;
-  padding: 60px 0px; }
+  padding: 60px 0px 0px 0px; }
   footer ul {
     margin: 0px;
     padding: 0px; }
@@ -106,9 +106,10 @@ footer {
       text-align: center;
       font-size: 12px;
       margin: 0px; }
+      footer div.copyright p span {
+        display: block; }
   footer div.social-media-icons {
     padding-top: 20px;
-    padding-bottom: 20px;
     text-align: center;
     border-top: thin solid #164158; }
     footer div.social-media-icons a {
@@ -161,7 +162,6 @@ footer {
     position: relative;
     text-align: Center;
     text-transform: uppercase;
-    height: 200px;
     width: 100%;
     font-size: 48px;
     z-index: 200;
@@ -190,7 +190,7 @@ footer {
         display: block;
         font-size: 18px; }
     .home-block-event .next-date-wrapper .next-date-text {
-      margin: 0px 30px 0px 0px;
+      margin: 15px 15px 0px 0px;
       font-size: 22px;
       color: #000000;
       font-weight: 700;
@@ -211,6 +211,7 @@ footer {
       color: #D73030;
       font-weight: bold;
       line-height: 32px;
+      text-align: center;
       margin-top: 10px; }
       .home-block-event .next-event-date-wrapper .next-event-date span {
         display: block;
@@ -247,7 +248,7 @@ footer {
   .featured-video-block .video-block {
     position: relative; }
     .featured-video-block .video-block video {
-      height: 490px;
+      height: auto;
       background: #000; }
     .featured-video-block .video-block img {
       position: absolute;
@@ -267,6 +268,50 @@ footer {
       font-size: 16px;
       font-weight: 400;
       line-height: 24px; }
+
+.digital_training_info {
+  background: #00BAFF;
+  height: 280px;
+  margin: 100px 0px; }
+  .digital_training_info p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 60px; }
+  .digital_training_info div.col-md-4 {
+    position: relative; }
+  .digital_training_info img {
+    position: absolute;
+    top: -90px;
+    z-index: 3000; }
+  .digital_training_info a.btn {
+    display: block;
+    text-decoration: none;
+    background: #fff;
+    color: #2474A4;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: Center;
+    margin-top: 100px;
+    height: 64px;
+    border-radius: 4px;
+    padding-top: 15px;
+    /* Rectangle 18: */
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.28); }
+    .digital_training_info a.btn:active {
+      transform: scale(0.98); }
+
+a.btn-start {
+  background-image: linear-gradient(-151deg, #0EACD1 0%, #0674A5 94%);
+  color: #fff;
+  width: 100%;
+  height: 48px;
+  border: none;
+  max-width: 320px;
+  margin: 20px auto;
+  display: block;
+  line-height: 37px;
+  font-weight: bold; }
 
 div.block-connect,
 div.block-digital-training,
@@ -331,19 +376,22 @@ div.block-digital-training {
     background: rgba(0, 0, 0, 0.8); }
 
 div.block-connect-with-us {
-  height: 360px; }
+  height: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
   div.block-connect-with-us div.container {
     padding: 30px 15px; }
     div.block-connect-with-us div.container svg {
-      width: 160px;
+      width: 100px;
       display: block;
-      height: 44px;
+      height: 24px;
       margin: 20px auto; }
     div.block-connect-with-us div.container h3 {
       font-weight: bold;
       text-align: center;
       margin: 0px 0px 20px 0px;
-      font-size: 20px; }
+      font-size: 16px; }
   div.block-connect-with-us .subscription-form {
     width: 100%; }
     div.block-connect-with-us .subscription-form div.input-group {
@@ -353,7 +401,7 @@ div.block-connect-with-us {
         padding: 0px 0px 0px 20px;
         font-weight: normal;
         outline: 0;
-        height: 56px; }
+        height: 44px; }
         div.block-connect-with-us .subscription-form div.input-group input[type="email"]:focus {
           outline: 0; }
       div.block-connect-with-us .subscription-form div.input-group div.input-group-append {
@@ -361,7 +409,7 @@ div.block-connect-with-us {
       div.block-connect-with-us .subscription-form div.input-group button {
         font-weight: bold;
         font-size: 14px;
-        height: 56px;
+        height: 44px;
         color: #fff;
         background-image: linear-gradient(-151deg, #0EACD1 0%, #0674A5 94%);
         border: none;
@@ -420,13 +468,6 @@ div.block-connect-with-us {
     .block-free-website a svg {
       margin: 10px 0px;
       width: 32px; }
-    .block-free-website a:hover {
-      -webkit-transform: scale(1.05);
-      -moz-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-      -o-transform: scale(1.05);
-      transform: scale(1.05);
-      background-image: linear-gradient(-151deg, #0EACD1 0%, #0674A5 94%); }
     .block-free-website a span {
       display: block;
       font-size: 12px;
@@ -518,63 +559,145 @@ div.block-connect .connect-buttons {
     div.block-connect .connect-buttons .btn_5 a {
       color: #fff; }
 
-div.about-mp iframe,
-div.page-jesus iframe {
-  width: 100%;
-  display: block;
-  margin: 20px 0px; }
-div.about-mp div.ministry-links ul,
-div.page-jesus div.ministry-links ul {
-  text-align: Center;
-  margin: 0px;
-  padding: 0px; }
-  div.about-mp div.ministry-links ul li,
-  div.page-jesus div.ministry-links ul li {
-    list-style: none;
-    display: inline-block; }
-    div.about-mp div.ministry-links ul li a,
-    div.page-jesus div.ministry-links ul li a {
-      font-family: "Montserrat", sans-serif;
-      display: block;
-      padding: 7px 20px;
-      font-size: 14px; }
-div.about-mp block-connect-with-usblock-connect-with-us h2,
-div.page-jesus block-connect-with-usblock-connect-with-us h2 {
+.follow-us {
   text-align: center;
-  color: #000;
-  font-size: 48px;
-  font-weight: bold;
-  margin: 20px 0px; }
-div.about-mp h2.text-blue,
-div.page-jesus h2.text-blue {
-  color: #246E9E; }
-div.about-mp h3,
-div.page-jesus h3 {
-  font-size: 36px;
-  font-weight: bold; }
-div.about-mp h4,
-div.page-jesus h4 {
-  font-weight: bold;
-  text-align: Center;
-  color: #000;
-  font-size: 24px; }
-div.about-mp p,
-div.page-jesus p {
-  font-size: 16px;
-  line-height: 2em;
-  font-family: "Montserrat", sans-serif; }
-
-div.partner-with-us {
-  padding: 40px 0px; }
-  div.partner-with-us h2 {
+  background: #f1f1f1;
+  padding: 60px 0px;
+  position: relative; }
+  .follow-us h3 {
+    margin: 20px 0px;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 36px; }
+  .follow-us .social-connect {
+    text-align: center; }
+    .follow-us .social-connect a {
+      display: inline-block;
+      width: 72px;
+      height: 72px;
+      margin: 0px 20px; }
+
+.country-contact {
+  background: #fff;
+  padding: 60px 0px; }
+  .country-contact a {
+    display: inline-block;
     color: #000;
-    text-align: Center; }
-  div.partner-with-us a.btn {
-    font-size: 16px; }
-    div.partner-with-us a.btn svg {
-      display: inline-block; }
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    width: 240px;
+    padding: 0px 20px; }
+    .country-contact a strong {
+      display: block;
+      font-size: 20px;
+      font-weight: bold; }
+
+.testimony-tabs {
+  text-align: Center;
+  margin-bottom: 40px; }
+  .testimony-tabs li {
+    display: inline-block;
+    margin-left: -4px; }
+    .testimony-tabs li a {
+      color: #494949;
+      text-decoration: none;
+      display: block;
+      padding: 20px 20px;
+      font-size: 16px;
+      font-weight: 600;
+      text-align: Center;
+      /* Rectangle: */
+      /* Rectangle: */
+      background: #E4E4E4;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+      border-radius: 8px 0 0 8px; }
+      .testimony-tabs li a.active, .testimony-tabs li a:hover {
+        color: #fff;
+        background-image: linear-gradient(151deg, #0EACD1 0%, #0674A5 94%); }
+      .testimony-tabs li a:active {
+        transform: scale(0.98); }
+  .testimony-tabs li:last-child a {
+    border-radius: 0px 8px 8px 0px; }
+
+.block-social-share {
+  padding: 60px 0px; }
+
+.block-countries {
+  padding: 60px 0px; }
+
+.featured-blog {
+  position: relative; }
+  .featured-blog div.col-md-3 {
+    position: relative;
+    padding: 0px; }
+    .featured-blog div.col-md-3 a {
+      display: block;
+      text-decoration: none;
+      padding: 5px; }
+      .featured-blog div.col-md-3 a div.blog-info {
+        position: absolute;
+        z-index: 2000;
+        width: 60%;
+        height: 30%;
+        top: 60%;
+        left: 20%;
+        bottom: 0px;
+        text-align: center; }
+      .featured-blog div.col-md-3 a h3 {
+        font-size: 24px;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: bold; }
+      .featured-blog div.col-md-3 a div.blog-category {
+        font-size: 12px;
+        font-weight: 300;
+        text-align: Center;
+        color: #fff; }
+      .featured-blog div.col-md-3 a div.created-date {
+        color: #818181;
+        font-size: 12px; }
+      .featured-blog div.col-md-3 a:hover figure img {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1); }
+    .featured-blog div.col-md-3 figure {
+      display: block;
+      margin: 0px;
+      overflow: hidden; }
+      .featured-blog div.col-md-3 figure img {
+        width: 100%;
+        -webkit-transition: 0.2s ease;
+        -moz-transition: 0.2s ease;
+        -ms-transition: 0.2s ease;
+        -o-transition: 0.2s ease;
+        transition: 0.2s ease; }
+
+.page-form {
+  padding: 60px 0px; }
+  .page-form svg {
+    display: block;
+    margin: 0 auto; }
+
+.form_bg {
+  background: url("../images/form_bg.jpg") center center no-repeat;
+  background-size: cover; }
+
+div.form-element {
+  margin: 0px 0px 20px 0px; }
+  div.form-element input[type="text"],
+  div.form-element input[type="email"] {
+    width: 100%;
+    display: block;
+    height: 44px;
+    border-radius: 4px;
+    border: none;
+    background: #fff; }
+
+#what_jesus_did_for_you {
+  color: #246E9E; }
 
 div.page-header {
   height: 290px;
@@ -711,141 +834,66 @@ div.page-content {
       text-decoration: none;
       margin: 20px 0px 0px 0px; }
 
-.testimony-tabs {
-  text-align: Center;
-  margin-bottom: 40px; }
-  .testimony-tabs li {
-    display: inline-block;
-    margin-left: -4px; }
-    .testimony-tabs li a {
-      color: #494949;
-      text-decoration: none;
-      display: block;
-      padding: 20px 20px;
-      font-size: 16px;
-      font-weight: 600;
-      text-align: Center;
-      /* Rectangle: */
-      /* Rectangle: */
-      background: #E4E4E4;
-      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-      border-radius: 8px 0 0 8px; }
-      .testimony-tabs li a.active, .testimony-tabs li a:hover {
-        color: #fff;
-        background-image: linear-gradient(151deg, #0EACD1 0%, #0674A5 94%); }
-      .testimony-tabs li a:active {
-        transform: scale(0.98); }
-  .testimony-tabs li:last-child a {
-    border-radius: 0px 8px 8px 0px; }
-
-.block-social-share {
-  padding: 60px 0px; }
-
-.block-countries {
-  padding: 60px 0px; }
-
-.featured-blog {
-  position: relative; }
-  .featured-blog div.col-md-3 {
-    position: relative;
-    padding: 0px; }
-    .featured-blog div.col-md-3 a {
-      display: block;
-      text-decoration: none;
-      padding: 5px; }
-      .featured-blog div.col-md-3 a div.blog-info {
-        position: absolute;
-        z-index: 2000;
-        width: 60%;
-        height: 30%;
-        top: 60%;
-        left: 20%;
-        bottom: 0px;
-        text-align: center; }
-      .featured-blog div.col-md-3 a h3 {
-        font-size: 24px;
-        color: #FFFFFF;
-        text-align: center;
-        font-weight: bold; }
-      .featured-blog div.col-md-3 a div.blog-category {
-        font-size: 12px;
-        font-weight: 300;
-        text-align: Center;
-        color: #fff; }
-      .featured-blog div.col-md-3 a div.created-date {
-        color: #818181;
-        font-size: 12px; }
-      .featured-blog div.col-md-3 a:hover figure img {
-        -webkit-transform: scale(1.1);
-        -moz-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        -o-transform: scale(1.1);
-        transform: scale(1.1); }
-    .featured-blog div.col-md-3 figure {
-      display: block;
-      margin: 0px;
-      overflow: hidden; }
-      .featured-blog div.col-md-3 figure img {
-        width: 100%;
-        -webkit-transition: 0.2s ease;
-        -moz-transition: 0.2s ease;
-        -ms-transition: 0.2s ease;
-        -o-transition: 0.2s ease;
-        transition: 0.2s ease; }
-
-.page-form {
-  padding: 60px 0px; }
-  .page-form svg {
-    display: block;
-    margin: 0 auto; }
-
-.form_bg {
-  background: url("../images/form_bg.jpg") center center no-repeat;
-  background-size: cover; }
-
-.digital_training_info {
-  background: #00BAFF;
-  height: 280px;
-  margin: 100px 0px; }
-  .digital_training_info p {
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-    padding-top: 60px; }
-  .digital_training_info div.col-md-4 {
-    position: relative; }
-  .digital_training_info img {
-    position: absolute;
-    top: -90px;
-    z-index: 3000; }
-  .digital_training_info a.btn {
-    display: block;
-    text-decoration: none;
-    background: #fff;
-    color: #2474A4;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: Center;
-    margin-top: 100px;
-    height: 64px;
-    border-radius: 4px;
-    padding-top: 15px;
-    /* Rectangle 18: */
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.28); }
-    .digital_training_info a.btn:active {
-      transform: scale(0.98); }
-
-a.btn-start {
-  background-image: linear-gradient(-151deg, #0EACD1 0%, #0674A5 94%);
-  color: #fff;
+div.about-mp iframe,
+div.page-jesus iframe {
   width: 100%;
-  height: 48px;
-  border: none;
-  max-width: 320px;
-  margin: 20px auto;
   display: block;
-  line-height: 37px;
+  margin: 20px 0px; }
+div.about-mp div.ministry-links ul,
+div.page-jesus div.ministry-links ul {
+  text-align: Center;
+  margin: 0px;
+  padding: 0px; }
+  div.about-mp div.ministry-links ul li,
+  div.page-jesus div.ministry-links ul li {
+    list-style: none;
+    display: inline-block; }
+    div.about-mp div.ministry-links ul li a,
+    div.page-jesus div.ministry-links ul li a {
+      font-family: "Montserrat", sans-serif;
+      display: block;
+      padding: 7px 20px;
+      font-size: 14px; }
+div.about-mp block-connect-with-usblock-connect-with-us h2,
+div.page-jesus block-connect-with-usblock-connect-with-us h2 {
+  text-align: center;
+  color: #000;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 20px 0px; }
+div.about-mp h2.text-blue,
+div.page-jesus h2.text-blue {
+  color: #246E9E; }
+div.about-mp h3,
+div.page-jesus h3 {
+  font-size: 36px;
   font-weight: bold; }
+div.about-mp h4,
+div.page-jesus h4 {
+  font-weight: bold;
+  text-align: Center;
+  color: #000;
+  font-size: 24px; }
+div.about-mp p,
+div.page-jesus p {
+  font-size: 16px;
+  line-height: 2em;
+  font-family: "Montserrat", sans-serif; }
+
+div.page-content.about-mp p {
+  text-align: left; }
+
+div.partner-with-us {
+  padding: 40px 0px; }
+  div.partner-with-us h2 {
+    font-weight: bold;
+    font-size: 32px;
+    color: #000;
+    text-align: Center; }
+  div.partner-with-us a.btn {
+    font-size: 16px; }
+    div.partner-with-us a.btn svg {
+      display: inline-block; }
 
 div.about-mp h2 {
   font-weight: 700;
@@ -1231,7 +1279,6 @@ div.page-header-content {
   div.page-header-content button.btn-amount {
     border-radius: 4px;
     width: 100%;
-    /* 20: */
     font-size: 24px;
     color: #000000;
     background: #fff;
@@ -1242,40 +1289,6 @@ div.page-header-content {
     div.page-header-content button.btn-amount:hover {
       background: #47C86E;
       color: #fff; }
-
-.follow-us {
-  text-align: center;
-  background: #f1f1f1;
-  padding: 60px 0px;
-  position: relative; }
-  .follow-us h3 {
-    margin: 20px 0px;
-    font-weight: bold;
-    font-size: 36px; }
-  .follow-us .social-connect {
-    text-align: center; }
-    .follow-us .social-connect a {
-      display: inline-block;
-      width: 72px;
-      height: 72px;
-      margin: 0px 20px; }
-
-.country-contact {
-  background: #fff;
-  padding: 60px 0px; }
-  .country-contact a {
-    display: inline-block;
-    color: #000;
-    text-decoration: none;
-    text-align: center;
-    font-size: 12px;
-    font-weight: 400;
-    width: 240px;
-    padding: 0px 20px; }
-    .country-contact a strong {
-      display: block;
-      font-size: 20px;
-      font-weight: bold; }
 
 .page-build-church h2 {
   font-size: 36px;
@@ -1314,17 +1327,6 @@ div.blog-date {
   letter-spacing: 0;
   text-align: center; }
 
-div.form-element {
-  margin: 0px 0px 20px 0px; }
-  div.form-element input[type="text"],
-  div.form-element input[type="email"] {
-    width: 100%;
-    display: block;
-    height: 44px;
-    border-radius: 4px;
-    border: none;
-    background: #fff; }
-
 div.slider-mobile {
   display: none !important; }
 
@@ -1334,6 +1336,10 @@ div.video-desktop {
 @media screen and (max-width: 1279px) {
   .home-block-one {
     height: 565px; }
+
+  .home-block-event .next-date-wrapper .next-date-text {
+    margin: 15px 0px 0px 0px;
+    font-size: 20px; }
 
   header ul li a {
     font-size: 13px;
@@ -1367,9 +1373,24 @@ div.video-desktop {
   div.page-events a.event-item div.flag {
     position: relative;
     width: 32px; } }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1023px) {
   body {
     padding-top: 60px; }
+
+  div.slider-mobile {
+    display: block !important; }
+
+  div.video-desktop {
+    display: none !important; }
+
+  .block-free-website a.btn-start {
+    margin: 20px auto;
+    float: none; }
+
+  div.block-connect .connect-buttons {
+    margin: 0px; }
+  div.block-connect div.container {
+    padding: 40px 20px; }
 
   .block-connect.connect_bg {
     height: auto;
@@ -1508,7 +1529,9 @@ div.video-desktop {
       padding: 0px; }
 
   footer {
-    padding: 20px 0px; }
+    padding: 20px 0px 0px 0px; }
+    footer .col-sm-3 {
+      width: 47%; }
     footer div.copyright {
       padding: 20px 0px; }
       footer div.copyright span {
@@ -1516,7 +1539,7 @@ div.video-desktop {
     footer ul {
       padding: 0px 20px 20px 20px; }
       footer ul li {
-        text-align: center;
+        text-align: left;
         display: block; }
 
   .partner-with-us h2 {
@@ -1539,6 +1562,17 @@ div.video-desktop {
 
   div.block-connect-with-us .subscription-form div.input-group button {
     font-size: 12px; }
+
+  div.partner-page a.btn.btn-become-partner {
+    font-size: 14px;
+    padding: 30px 20px;
+    /* width: 400px; */
+    margin: 0px 10px 0px 10px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex; }
 
   header.expand {
     height: 500px;
@@ -1789,6 +1823,10 @@ div.video-desktop {
   div.video-desktop {
     display: none !important; }
 
+  .block-free-website a.btn-start {
+    float: none;
+    margin: 0 auto; }
+
   .home-block-event {
     padding: 20px 0px; }
     .home-block-event div.col-md-10 {
@@ -1840,6 +1878,14 @@ div.video-desktop {
       line-height: 18px;
       font-size: 16px; }
       .home-block-event .next-date-wrapper .next-date-text span {
-        font-size: 12px; } }
+        font-size: 12px; }
+
+  .country-contact a {
+    margin: 20px 0px; }
+
+  .follow-us .social-connect a {
+    width: auto; }
+    .follow-us .social-connect a svg {
+      width: 32px; } }
 
 /*# sourceMappingURL=app.css.map */
