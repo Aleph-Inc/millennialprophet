@@ -844,11 +844,17 @@ div.video-desktop {
     .country-contact a {
         margin: 20px 0px;
     }
-    .follow-us .social-connect a {
-        width: auto;
 
-        svg {
-            width: 32px;
+    .follow-us {
+        h3 {
+            font-size: 24px;
+        }
+        .social-connect a {
+            width: auto;
+
+            svg {
+                width: 32px;
+            }
         }
     }
 
