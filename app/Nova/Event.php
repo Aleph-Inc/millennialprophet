@@ -8,6 +8,7 @@ use Laravel\Nova\Fields\Date;
 use Laravel\Nova\Fields\Textarea;
 use Laravel\Nova\Fields\File;
 use Laravel\Nova\Fields\Image;
+use Laravel\Nova\Fields\Select;
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Http\Requests\NovaRequest;
@@ -53,6 +54,15 @@ class Event extends Resource
             Image::make('image')->rules('required'),
             Date::make('date')->rules('required')->hideFromIndex(),
             Text::make('time')->rules('required'),
+            Select::make('country')->options([
+                '94' => "Sri Lanka",
+                '1' => "USA",
+                '44' => "UK",
+                '91' => "India",
+                '86' => "China",
+                '52' => "Mexico"
+
+            ])->rules('required'),
 
    
         ];

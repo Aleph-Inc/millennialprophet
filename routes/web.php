@@ -41,6 +41,7 @@ Route::get('/events', 'PageController@events')
     ->template(\App\Nova\Templates\Event::class)
     ->name('Events');
 
+Route::get('/events/new','PageController@eventsNew');
 Route::get('/events/past','PageController@eventsPast');
 
 

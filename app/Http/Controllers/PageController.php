@@ -91,11 +91,19 @@ class PageController extends Controller
 
     }
 
-      public function eventsPast(Event $event){
+    public function eventsNew(Event $event){
+
+        $events = $event->where('date', '>', date('Y-m-d'))->get();
+        $active ='new';
+        return response()->json(['success' => true, 'events' => $events, 'active' => $active]);
+
+    }
+
+    public function eventsPast(Event $event){
 
         $events = $event->where('date', '<', date('Y-m-d'))->get();
         $active ='past';
-        return view('pages/event',compact('events','active'));
+        return response()->json(['success' => true, 'events' => $events, 'active' => $active]);
 
     }
 
