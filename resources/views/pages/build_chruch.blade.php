@@ -24,7 +24,7 @@
                     <h2>
                         OUR MISSION TO  GLORIFY GOD
                     </h2>
-                                                                    <p>{{ Page::get('ourmission') }}</p>
+                                                                    <p>{!! Page::get('ourmission') !!}</p>
 
                 </div>
             </div>

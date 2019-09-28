@@ -173,7 +173,7 @@
                                 On Being Human
                             </h3>
 
-                            <p>{{ Page::get('human') }}</p>
+                            <p>{!! Page::get('human') !!}</p>
                         @endif
 
                     </div>
