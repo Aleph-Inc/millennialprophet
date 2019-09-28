@@ -1467,7 +1467,7 @@ div.video-desktop {
       padding-top: 7px; }
     header ul {
       float: none;
-      padding: 0px; }
+      padding: 20px 0px 0px 0px; }
       header ul li:last-child {
         display: block; }
     header ul li {
