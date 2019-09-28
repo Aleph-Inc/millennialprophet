@@ -7,7 +7,7 @@
                 <div class="row justify-content-center">
                     <div class="col-md-6">
                         <H2>
-                            TESTIMONIALS
+                            TESTIMONIES
                             <span>
            Be encouraged by these stories of the Lord’s goodness and let them plant hope in your heart.
         </span>
