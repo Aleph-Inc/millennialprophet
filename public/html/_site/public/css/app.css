@@ -32,10 +32,11 @@ header {
     background: #2474A4;
     text-align: right; }
     header div.top-header div.social-share {
-      display: inline-block; }
+      display: inline-block;
+      border-left: thin solid #216994; }
     header div.top-header div.dropdown {
       display: inline-block;
-      margin: 0px 10px 0px 0px; }
+      margin: 0px 0px 0px 0px; }
       header div.top-header div.dropdown a.active-lang {
         font-weight: bold; }
       header div.top-header div.dropdown a {
