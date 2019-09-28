@@ -1543,6 +1543,17 @@ div.video-desktop {
   div.block-connect-with-us .subscription-form div.input-group button {
     font-size: 12px; }
 
+  div.partner-page a.btn.btn-become-partner {
+    font-size: 14px;
+    padding: 30px 20px;
+    /* width: 400px; */
+    margin: 0px 10px 0px 10px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex; }
+
   header.expand {
     height: 500px;
     overflow-y: scroll; }
