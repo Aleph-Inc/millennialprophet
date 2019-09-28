@@ -156,7 +156,7 @@
             </div>
 
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-12">
                     <div class="video-block">
                         <video controls>
                             <source src="{{ asset('html/public/videos/video.mp4') }}" type="video/mp4">
@@ -166,18 +166,18 @@
                     </div>
 
                 </div>
-                <div class="col-lg-4">
-                    <div class="video-description">
-                        @if(Page::get('human'))
-                            <h3>
-                                On Being Human
-                            </h3>
+{{--                <div class="col-lg-4">--}}
+{{--                    <div class="video-description">--}}
+{{--                        @if(Page::get('human'))--}}
+{{--                            <h3>--}}
+{{--                                On Being Human--}}
+{{--                            </h3>--}}
 
-                            <p>{!! Page::get('human') !!}</p>
-                        @endif
+{{--                            <p>{!! Page::get('human') !!}</p>--}}
+{{--                        @endif--}}
 
-                    </div>
-                </div>
+{{--                    </div>--}}
+{{--                </div>--}}
             </div>
         </div>
 
