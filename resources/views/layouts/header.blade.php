@@ -29,6 +29,23 @@
                         </div>
                     </div>
 
+                    <div class="social-share">
+                        <a href="https://www.facebook.com/EuropeShallBeSaved/videos/826840570997623/">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                        </a>
+
+                    </div>
+
+
                 </div>
             </div>
         </div>

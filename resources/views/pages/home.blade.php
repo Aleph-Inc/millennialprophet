@@ -159,8 +159,8 @@
                 <div class="col-lg-12">
                     <div class="video-block">
                         <video controls>
-                            <source src="{{ asset('html/public/videos/video.mp4') }}" type="video/mp4">
-                            <source src="{{ asset('html/public/videos/video.mp4') }}" type="video/ogg">
+                            <source src="{{ asset('html/public/videos/video-3.mp4') }}" type="video/mp4">
+                            <source src="{{ asset('html/public/videos/video-3.mp4') }}" type="video/ogg">
 
                         </video>
                     </div>
