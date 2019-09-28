@@ -2,7 +2,7 @@
 @section('title','Free website')
 @section('content')
 
-    <div class="page-header page-big free_web_bg">
+    <div class="page-header free_web_bg">
         <div class="page-title">
             <H2>
                 FREE WEBSITE FOR EVERY MINISTRY
