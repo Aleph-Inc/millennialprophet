@@ -326,7 +326,7 @@ Lorem Ipsum passages, and more recently with deskto
 
             <div class="connect-buttons d-flex">
                 <div class="btn_1">
-                    <a href="{{ url('/prayer_request') }}">
+                    <a href="{{ url('/connect/prayer') }}">
 
                         <svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1"
                              xmlns="http://www.w3.org/2000/svg"
@@ -383,7 +383,7 @@ Lorem Ipsum passages, and more recently with deskto
                 </div>
 
                 <div class="btn_2">
-                    <a href="{{ url('/send_testimoney') }}">
+                    <a href="{{ url('/connect/testimonies') }}">
                         <svg width="56px" height="52px" viewBox="0 0 56 52" version="1.1"
                              xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -408,7 +408,7 @@ Lorem Ipsum passages, and more recently with deskto
                 </div>
 
                 <div class="btn_3">
-                    <a href="{{ url('/donation') }}">
+                    <a href="{{ url('/give') }}">
                         <svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1"
                              xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -453,7 +453,7 @@ Lorem Ipsum passages, and more recently with deskto
                 </div>
 
                 <div class="btn_5">
-                    <a href="{{ url('/connect') }}">
+                    <a href="{{ url('/connect/inquiries') }}">
 
                         <svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1"
                              xmlns="http://www.w3.org/2000/svg"
