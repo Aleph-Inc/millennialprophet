@@ -12,4 +12,6 @@ class Article extends Model
     protected $fillable = [
         'user_name', 'article_name', 'date', 'description'
     ];
+          protected $casts = ['date' => 'date'];
+
 }
