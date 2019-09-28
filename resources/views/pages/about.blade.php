@@ -35,7 +35,7 @@
         <div class="container" >
             <div class="row justify-content-center">
 
-                <div class="col-md-7">
+                <div class="col-md-9">
 
                     <h2 id="what_jesus_did_for_you">
                     WHAT JESUS DID FOR YOU</h2>
@@ -57,7 +57,7 @@
 
             <div class="row no-gutters justify-content-center ministry-links">
 
-                <div class="col-md-7">
+                <div class="col-md-9">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/W2Cv5hZfOmk" frameborder="0"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
