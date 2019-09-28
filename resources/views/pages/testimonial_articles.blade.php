@@ -28,12 +28,12 @@
 
             <ul class="testimony-tabs">
                 <li>
-                    <a href="/testimonials/articles/" class="active">
+                    <a href="/testimonies/articles/" class="active">
                         READ ARTICLES
                     </a>
                 </li>
                 <li class="active">
-                    <a href="/testimonials" class="">
+                    <a href="/testimonies" class="">
                         WATCH VIDEOS
                     </a>
                 </li>
@@ -201,7 +201,7 @@
                                 At New Creation Church, we believe we are God’s beloved.
                             </h3>
                             <span>
-                          
+
                         </span>
                         </a>
                     </div>

@@ -30,7 +30,7 @@
                     </a>
                 </li>
                 <li class="active">
-                    <a href="/testimonials/" class="active">
+                    <a href="/testimonies/" class="active">
                         WATCH VIDEOS
                     </a>
                 </li>
