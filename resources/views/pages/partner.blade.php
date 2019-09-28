@@ -70,24 +70,24 @@
                         </h4>
 
                         <a href="#">
-                            <img src="../public/images/visa.png" alt="">
+                            <img src="/html/public/images/visa.png" alt="">
                         </a>
                         <a href="#">
-                            <img src="../public/images/stripe.png" alt="">
+                            <img src="/html/public/images/stripe.png" alt="">
                         </a>
                         <a href="#">
-                            <img src="../public/images/master.png" alt="">
-                        </a>
-
-                        <a href="#">
-                            <img style="width:100px;" src="../public/images/ae.png" alt="">
+                            <img src="/html/public/images/master.png" alt="">
                         </a>
 
                         <a href="#">
-                            <img src="../public/images/apple.png" alt="">
+                            <img style="width:100px;" src="/html/public/images/ae.png" alt="">
+                        </a>
+
+                        <a href="#">
+                            <img src="/html/public/images/apple.png" alt="">
                         </a>
                         <a href="#">
-                            <img src="../public/images/android.png" alt="">
+                            <img src="/html/public/images/android.png" alt="">
                         </a>
 
 
