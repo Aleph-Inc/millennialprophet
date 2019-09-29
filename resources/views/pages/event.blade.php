@@ -16,12 +16,12 @@
                 <div class="col-md-12">
                     <ul class="testimony-tabs">
                         <li>
-                            <a class="{{($active == 'live') ? 'active' : ''}}" onclick="newevents();">
+                            <a class="active" id="activeeventnew" onclick="newevents();">
                                 UPCOMING EVENTS
                             </a>
                         </li>
                         <li>
-                            <a class="{{($active == 'past') ? 'active' : ''}}" onclick="pastevents();">
+                            <a class="" id="activeeventpast" onclick="pastevents();">
                                 PAST EVENTS
                             </a>
                         </li>
@@ -69,8 +69,7 @@
                                     {{--Register--}}
                                     {{--</button>--}}
                                     <div class="flag">
-                                        <img src="{{ asset('html/public/images/flag.png') }}"
-                                             alt="">{{ $event->country }}
+                                        <img src="{{ asset('html/public/images/flag.png') }}" alt="">
                                     </div>
                                 </div>
 
@@ -87,7 +86,6 @@
     </div>
     <script>
         function newevents() {
-            // alert('hii');
             var data = [];
             $.ajax({
                 url: "{{ url('/') }}/events/new",
@@ -97,6 +95,11 @@
                     const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
                     ];
                     $("#eventsarea").empty();
+                    var element1 = document.getElementById("activeeventnew");
+                    element1.classList.add('active');
+
+                    var element2 = document.getElementById("activeeventpast");
+                    element2.classList.remove("active");
 
                     for (let y = 0; y < x; y++) {
                         var date = new Date(data.events[y].date);
@@ -105,6 +108,7 @@
                         var year = date.getUTCFullYear();
                         var image = data.events[y].image;
                         var time = data.events[y].time;
+                        var name = data.events[y].name;
                         var place = data.events[y].place;
                         var country = data.events[y].country;
                         $('#eventsarea').append(
@@ -131,20 +135,19 @@
 
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-sm-4">
                                     <div class="event-title">
-                                        {{ $event->name }}
+                                        ${name}
                             </div>
                             <div class="event-time">
-${time} @ ${place}
+                                ${time} @ ${place}
+                            </div>
 
-                                    </div>
-
-                                    {{--<button class="btn btn-primary btn-event-reg">--}}
+                            {{--<button class="btn btn-primary btn-event-reg">--}}
                             {{--Register--}}
                             {{--</button>--}}
                             <div class="flag">
-                                <img src="{{ asset('html/public/images/flag.png') }}" alt="">${country}
+                                <img src="{{ asset('html/public/images/flag.png') }}" alt="">
                                     </div>
                                 </div>
 
@@ -159,7 +162,6 @@ ${time} @ ${place}
         }
 
         function pastevents() {
-            // alert('hii');
             var data = [];
             $.ajax({
                 url: "{{ url('/') }}/events/past",
@@ -169,7 +171,12 @@ ${time} @ ${place}
                     const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
                     ];
                     $("#eventsarea").empty();
-                    $("#eventsarea").empty();
+                    var element1 = document.getElementById("activeeventpast");
+                    element1.classList.add('active');
+
+                    var element2 = document.getElementById("activeeventnew");
+                    element2.classList.remove("active");
+
                     for (let y = 0; y < x; y++) {
                         var date = new Date(data.events[y].date);
                         var month = monthNames[date.getUTCMonth()];
@@ -177,6 +184,7 @@ ${time} @ ${place}
                         var year = date.getUTCFullYear();
                         var image = data.events[y].image;
                         var time = data.events[y].time;
+                        var name = data.events[y].name;
                         var place = data.events[y].place;
                         var country = data.events[y].country;
                         $('#eventsarea').append(
@@ -203,20 +211,19 @@ ${time} @ ${place}
 
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-sm-4">
                                     <div class="event-title">
-                                        {{ $event->name }}
+                                    ${name}
                             </div>
                             <div class="event-time">
-${time} @ ${place}
+                                ${time} @ ${place}
+                            </div>
 
-                                    </div>
-
-                                    {{--<button class="btn btn-primary btn-event-reg">--}}
+                            {{--<button class="btn btn-primary btn-event-reg">--}}
                             {{--Register--}}
                             {{--</button>--}}
                             <div class="flag">
-                                <img src="{{ asset('html/public/images/flag.png') }}" alt="">${country}
+                                <img src="{{ asset('html/public/images/flag.png') }}" alt="">
                                     </div>
                                 </div>
 

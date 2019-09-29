@@ -56,6 +56,8 @@ Route::get('/testimonies', 'PageController@testimonials')
 
 Route::get('/testimonials/articles','Backend\TestimonialController@getArticles');
 
+Route::get('/testimonials/videos','Backend\TestimonialController@getVideos');
+
 Route::get('/jesus', 'PageController@jesus')
     ->template(\App\Nova\Templates\Jesus::class)
     ->name('Jesus');

@@ -119,8 +119,8 @@ class PageController extends Controller
 
      public function testimonials(){
 
-
-        return view('pages/testimonial');
+        $testimonials = Video::all();
+        return view('pages/testimonial', compact('testimonials'));
     
     }
 
