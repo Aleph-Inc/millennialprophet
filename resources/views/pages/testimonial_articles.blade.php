@@ -12,8 +12,8 @@
                         <H2>
                             TESTIMONIALS
                             <span>
-           Be encouraged by these stories of the Lord’s goodness and let them plant hope in your heart.
-        </span>
+                                Be encouraged by these stories of the Lord’s goodness and let them plant hope in your heart.
+                            </span>
                         </H2>
                     </div>
                 </div>
@@ -28,12 +28,12 @@
 
             <ul class="testimony-tabs">
                 <li>
-                    <a href="/testimonials/articles/" class="active">
+                    <a href="/testimonies/articles/" class="active">
                         READ ARTICLES
                     </a>
                 </li>
                 <li class="active">
-                    <a href="/testimonials" class="">
+                    <a href="/testimonies" class="">
                         WATCH VIDEOS
                     </a>
                 </li>
@@ -48,16 +48,14 @@
                             <div class="row border-bottom">
                                 <div class="col-sm-6">
                                     <p class="text-left">
-                                        Submitted <span>
-    by Rayan Johns
-</span>
+                                        Submitted <span>by Rayan Johns</span>
                                     </p>
                                 </div>
                                 <div class="col-sm-6">
                                     <p class="text-right">
-    <span>
-        Friday June 12 / 2019
-    </span>
+                                        <span>
+                                            Friday June 12 / 2019
+                                        </span>
                                     </p>
                                 </div>
                             </div>
@@ -65,7 +63,7 @@
                                 At New Creation Church, we believe we are God’s beloved.
                             </h3>
                             <span>
-                            Read more
+
                         </span>
                         </a>
                     </div>
@@ -74,16 +72,14 @@
                             <div class="row border-bottom">
                                 <div class="col-sm-6">
                                     <p class="text-left">
-                                        Submitted <span>
-    by Rayan Johns
-</span>
+                                        Submitted <span>by Rayan Johns</span>
                                     </p>
                                 </div>
                                 <div class="col-sm-6">
                                     <p class="text-right">
-    <span>
-        Friday June 12 / 2019
-    </span>
+                                    <span>
+                                        Friday June 12 / 2019
+                                    </span>
                                     </p>
                                 </div>
                             </div>
@@ -91,7 +87,7 @@
                                 At New Creation Church, we believe we are God’s beloved.
                             </h3>
                             <span>
-                            Read more
+
                         </span>
                         </a>
                     </div>
@@ -103,16 +99,14 @@
                             <div class="row border-bottom">
                                 <div class="col-sm-6">
                                     <p class="text-left">
-                                        Submitted <span>
-    by Rayan Johns
-</span>
+                                        Submitted <span>by Rayan Johns</span>
                                     </p>
                                 </div>
                                 <div class="col-sm-6">
                                     <p class="text-right">
-    <span>
-        Friday June 12 / 2019
-    </span>
+                                    <span>
+                                        Friday June 12 / 2019
+                                    </span>
                                     </p>
                                 </div>
                             </div>
@@ -120,7 +114,7 @@
                                 At New Creation Church, we believe we are God’s beloved.
                             </h3>
                             <span>
-                            Read more
+
                         </span>
                         </a>
                     </div>
@@ -129,16 +123,14 @@
                             <div class="row border-bottom">
                                 <div class="col-sm-6">
                                     <p class="text-left">
-                                        Submitted <span>
-    by Rayan Johns
-</span>
+                                        Submitted <span>by Rayan Johns</span>
                                     </p>
                                 </div>
                                 <div class="col-sm-6">
                                     <p class="text-right">
-    <span>
-        Friday June 12 / 2019
-    </span>
+                                    <span>
+                                        Friday June 12 / 2019
+                                    </span>
                                     </p>
                                 </div>
                             </div>
@@ -146,7 +138,7 @@
                                 At New Creation Church, we believe we are God’s beloved.
                             </h3>
                             <span>
-                            Read more
+
                         </span>
                         </a>
                     </div>
@@ -158,16 +150,14 @@
                             <div class="row border-bottom">
                                 <div class="col-sm-6">
                                     <p class="text-left">
-                                        Submitted <span>
-    by Rayan Johns
-</span>
+                                        Submitted <span>by Rayan Johns</span>
                                     </p>
                                 </div>
                                 <div class="col-sm-6">
                                     <p class="text-right">
-    <span>
-        Friday June 12 / 2019
-    </span>
+                                    <span>
+                                        Friday June 12 / 2019
+                                    </span>
                                     </p>
                                 </div>
                             </div>
@@ -175,7 +165,7 @@
                                 At New Creation Church, we believe we are God’s beloved.
                             </h3>
                             <span>
-                            Read more
+
                         </span>
                         </a>
                     </div>
@@ -184,16 +174,14 @@
                             <div class="row border-bottom">
                                 <div class="col-sm-6">
                                     <p class="text-left">
-                                        Submitted <span>
-    by Rayan Johns
-</span>
+                                        Submitted <span>by Rayan Johns</span>
                                     </p>
                                 </div>
                                 <div class="col-sm-6">
                                     <p class="text-right">
-    <span>
-        Friday June 12 / 2019
-    </span>
+                                    <span>
+                                        Friday June 12 / 2019
+                                    </span>
                                     </p>
                                 </div>
                             </div>
@@ -201,7 +189,7 @@
                                 At New Creation Church, we believe we are God’s beloved.
                             </h3>
                             <span>
-                            Read more
+
                         </span>
                         </a>
                     </div>

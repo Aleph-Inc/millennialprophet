@@ -1,6 +1,6 @@
 
 div.page-header {
-  height: 290px;
+    height: 200px;
   position: relative;
   margin-bottom: 40px;
 
@@ -32,7 +32,7 @@ div.page-header {
   }
 
   div.page-title {
-    height: 290px;
+      height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -269,8 +269,10 @@ div.page-jesus {
     }
 }
 
-div.page-training {
-
+div.page-content.about-mp{
+    p{
+        text-align:left;
+    }
 }
 
 div.partner-with-us {
@@ -351,6 +353,7 @@ div.page-events {
 
     div.event-title {
       font-size: 20px;
+        padding-right:40px;
       font-weight: bold;
       color: #000;
       text-decoration: none;
@@ -773,7 +776,7 @@ div.page-ministry {
       a {
 
         /* Rectangle Copy 9: */
-        background-image: linear-gradient(-151deg, #0EACD1 0%, #0674A5 94%);
+        background:#0674A5;
         border-radius: 4px;
         transition: 0.2s ease;
         width: 220px;
@@ -798,14 +801,14 @@ div.page-ministry {
         font-weight: bold;
         color: #fff;
 
-        p {
+        p,div {
           margin: 7px 0px;
           font-size: 12px;
           text-align: Center;
         }
 
         &:hover {
-          transform: scale(1.05);
+
         }
       }
     }
@@ -829,7 +832,15 @@ div.page-header-content {
   z-index: 3000;
 
   div.form-content {
-    padding-top: 100px;
+    padding-top: 0px;
+
+      svg{
+          width:44px;    height: 44px;
+      }
+
+      svg g{
+          fill:white;
+      }
   }
 
   h2 {

@@ -12,25 +12,33 @@ header {
   top: 0px;
   left: 0px;
   z-index: 4000;
+  transition: .2s ease;
   background: #fff;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); }
   header div.mobile_menu {
     display: none; }
-  header div.logo a {
-    text-decoration: none !important; }
-    header div.logo a span {
-      display: none;
-      text-decoration: none !important;
-      text-transform: uppercase; }
-    header div.logo a:hover span {
+  header div.logo {
+    padding-top: 20px; }
+    header div.logo a {
       text-decoration: none !important; }
+      header div.logo a span {
+        display: none;
+        text-decoration: none !important;
+        text-transform: uppercase; }
+      header div.logo a:hover span {
+        text-decoration: none !important; }
   header div.top-header {
     position: relative;
     background: #2474A4;
     text-align: right; }
+    header div.top-header div.social-share {
+      display: inline-block;
+      border-left: thin solid #216994; }
     header div.top-header div.dropdown {
       display: inline-block;
-      margin: 0px 10px 0px 0px; }
+      margin: 0px 0px 0px 0px; }
+      header div.top-header div.dropdown a.active-lang {
+        font-weight: bold; }
       header div.top-header div.dropdown a {
         padding: 10px 10px; }
     header div.top-header a {
@@ -42,6 +50,8 @@ header {
       header div.top-header a:hover {
         color: #d6d6d6;
         text-decoration: none !important; }
+    header div.top-header a.link-partner {
+      border-right: thin solid #216994; }
   header ul {
     margin: 0px;
     float: right;
@@ -54,7 +64,7 @@ header {
         display: block;
         padding: 0px 12px;
         font-weight: 500;
-        font-size: 14px;
+        font-size: 13px;
         color: #272727;
         letter-spacing: 0;
         border-bottom: 5px solid #fff;
@@ -72,8 +82,7 @@ header {
 
 footer {
   background: #194964;
-  height: 360px;
-  padding: 60px 0px; }
+  padding: 60px 0px 0px 0px; }
   footer ul {
     margin: 0px;
     padding: 0px; }
@@ -106,9 +115,10 @@ footer {
       text-align: center;
       font-size: 12px;
       margin: 0px; }
+      footer div.copyright p span {
+        display: block; }
   footer div.social-media-icons {
     padding-top: 20px;
-    padding-bottom: 20px;
     text-align: center;
     border-top: thin solid #164158; }
     footer div.social-media-icons a {
@@ -161,7 +171,6 @@ footer {
     position: relative;
     text-align: Center;
     text-transform: uppercase;
-    height: 200px;
     width: 100%;
     font-size: 48px;
     z-index: 200;
@@ -190,7 +199,7 @@ footer {
         display: block;
         font-size: 18px; }
     .home-block-event .next-date-wrapper .next-date-text {
-      margin: 15px 30px 0px 0px;
+      margin: 15px 15px 0px 0px;
       font-size: 22px;
       color: #000000;
       font-weight: 700;
@@ -248,7 +257,7 @@ footer {
   .featured-video-block .video-block {
     position: relative; }
     .featured-video-block .video-block video {
-      height: 490px;
+      height: auto;
       background: #000; }
     .featured-video-block .video-block img {
       position: absolute;
@@ -376,19 +385,22 @@ div.block-digital-training {
     background: rgba(0, 0, 0, 0.8); }
 
 div.block-connect-with-us {
-  height: 360px; }
+  height: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
   div.block-connect-with-us div.container {
     padding: 30px 15px; }
     div.block-connect-with-us div.container svg {
-      width: 160px;
+      width: 100px;
       display: block;
-      height: 44px;
+      height: 24px;
       margin: 20px auto; }
     div.block-connect-with-us div.container h3 {
       font-weight: bold;
       text-align: center;
       margin: 0px 0px 20px 0px;
-      font-size: 20px; }
+      font-size: 16px; }
   div.block-connect-with-us .subscription-form {
     width: 100%; }
     div.block-connect-with-us .subscription-form div.input-group {
@@ -398,7 +410,7 @@ div.block-connect-with-us {
         padding: 0px 0px 0px 20px;
         font-weight: normal;
         outline: 0;
-        height: 56px; }
+        height: 44px; }
         div.block-connect-with-us .subscription-form div.input-group input[type="email"]:focus {
           outline: 0; }
       div.block-connect-with-us .subscription-form div.input-group div.input-group-append {
@@ -406,7 +418,7 @@ div.block-connect-with-us {
       div.block-connect-with-us .subscription-form div.input-group button {
         font-weight: bold;
         font-size: 14px;
-        height: 56px;
+        height: 44px;
         color: #fff;
         background-image: linear-gradient(-151deg, #0EACD1 0%, #0674A5 94%);
         border: none;
@@ -465,13 +477,6 @@ div.block-connect-with-us {
     .block-free-website a svg {
       margin: 10px 0px;
       width: 32px; }
-    .block-free-website a:hover {
-      -webkit-transform: scale(1.05);
-      -moz-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-      -o-transform: scale(1.05);
-      transform: scale(1.05);
-      background-image: linear-gradient(-151deg, #0EACD1 0%, #0674A5 94%); }
     .block-free-website a span {
       display: block;
       font-size: 12px;
@@ -574,6 +579,8 @@ div.block-connect .connect-buttons {
     font-size: 36px; }
   .follow-us .social-connect {
     text-align: center; }
+    .follow-us .social-connect svg {
+      width: 32px; }
     .follow-us .social-connect a {
       display: inline-block;
       width: 72px;
@@ -585,17 +592,18 @@ div.block-connect .connect-buttons {
   padding: 60px 0px; }
   .country-contact a {
     display: inline-block;
-    color: #000;
+    color: #686868;
     text-decoration: none;
     text-align: center;
     font-size: 12px;
     font-weight: 400;
     width: 240px;
-    padding: 0px 20px; }
+    padding: 20px 20px; }
     .country-contact a strong {
       display: block;
       font-size: 20px;
-      font-weight: bold; }
+      font-weight: bold;
+      color: #000; }
 
 .testimony-tabs {
   text-align: Center;
@@ -696,15 +704,39 @@ div.form-element {
     width: 100%;
     display: block;
     height: 44px;
-    border-radius: 4px;
-    border: none;
-    background: #fff; }
+    border-radius: 2px;
+    background: #fff;
+    font-size: 16px;
+    color: #000;
+    padding: 0px 0px 0px 20px;
+    outline: 0;
+    border: thin solid transparent; }
+    div.form-element input[type="text"]:focus,
+    div.form-element input[type="email"]:focus {
+      box-shadow: none;
+      border: thin solid #2474A4; }
+  div.form-element button {
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    height: 44px;
+    color: #fff;
+    background-image: linear-gradient(-151deg, #0EACD1 0%, #0674A5 94%); }
+  div.form-element textarea {
+    border-radius: 2px;
+    width: 100%;
+    display: block;
+    height: 100px;
+    padding: 10px 15px; }
+    div.form-element textarea:focus {
+      box-shadow: none;
+      border: thin solid #2474A4; }
 
 #what_jesus_did_for_you {
   color: #246E9E; }
 
 div.page-header {
-  height: 290px;
+  height: 200px;
   position: relative;
   margin-bottom: 40px; }
   div.page-header.page-big {
@@ -724,7 +756,7 @@ div.page-header {
       top: 0px;
       left: 0px; }
   div.page-header div.page-title {
-    height: 290px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -884,6 +916,9 @@ div.page-jesus p {
   line-height: 2em;
   font-family: "Montserrat", sans-serif; }
 
+div.page-content.about-mp p {
+  text-align: left; }
+
 div.partner-with-us {
   padding: 40px 0px; }
   div.partner-with-us h2 {
@@ -936,6 +971,7 @@ div.page-events {
         background: #2474A4; }
     div.page-events a.event-item div.event-title {
       font-size: 20px;
+      padding-right: 40px;
       font-weight: bold;
       color: #000;
       text-decoration: none; }
@@ -1208,7 +1244,7 @@ div.page-ministry div.digital-training-block {
     width: 100%; }
 div.page-ministry div.create-website div.col-4 a {
   /* Rectangle Copy 9: */
-  background-image: linear-gradient(-151deg, #0EACD1 0%, #0674A5 94%);
+  background: #0674A5;
   border-radius: 4px;
   transition: 0.2s ease;
   width: 220px;
@@ -1227,12 +1263,10 @@ div.page-ministry div.create-website div.col-4 a {
   div.page-ministry div.create-website div.col-4 a svg {
     display: block;
     margin: 10px auto; }
-  div.page-ministry div.create-website div.col-4 a p {
+  div.page-ministry div.create-website div.col-4 a p, div.page-ministry div.create-website div.col-4 a div {
     margin: 7px 0px;
     font-size: 12px;
     text-align: Center; }
-  div.page-ministry div.create-website div.col-4 a:hover {
-    transform: scale(1.05); }
 
 div.page-confess p span {
   display: block;
@@ -1243,7 +1277,12 @@ div.page-header-content {
   position: relative;
   z-index: 3000; }
   div.page-header-content div.form-content {
-    padding-top: 100px; }
+    padding-top: 0px; }
+    div.page-header-content div.form-content svg {
+      width: 44px;
+      height: 44px; }
+    div.page-header-content div.form-content svg g {
+      fill: white; }
   div.page-header-content h2 {
     color: #fff;
     font-weight: bold;
@@ -1337,11 +1376,21 @@ div.video-desktop {
 @media screen and (max-width: 1279px) {
   .home-block-one {
     height: 565px; }
+    .home-block-one div.slider-item {
+      height: 565px; }
 
+  .home-block-event .next-date-wrapper .next-date-text {
+    margin: 15px 0px 0px 0px;
+    font-size: 20px; }
+
+  header div.logo img {
+    width: 230px; }
   header ul li a {
     font-size: 13px;
     /* font-weight: bold; */
-    padding: 5px 7px; }
+    padding: 5px 7px;
+    height: 90px;
+    line-height: 80px; }
 
   .block-free-website h2 {
     font-size: 28px; }
@@ -1370,9 +1419,28 @@ div.video-desktop {
   div.page-events a.event-item div.flag {
     position: relative;
     width: 32px; } }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1023px) {
   body {
     padding-top: 60px; }
+
+  div.slider-mobile {
+    display: block !important; }
+
+  div.video-desktop {
+    display: none !important; }
+
+  .featured-video-block {
+    height: auto;
+    min-height: 0px; }
+
+  .block-free-website a.btn-start {
+    margin: 20px auto;
+    float: none; }
+
+  div.block-connect .connect-buttons {
+    margin: 0px; }
+  div.block-connect div.container {
+    padding: 40px 20px; }
 
   .block-connect.connect_bg {
     height: auto;
@@ -1385,7 +1453,8 @@ div.video-desktop {
         margin: 0px 20px 20px 20px; }
 
   .home-block-one div.slider-text {
-    font-size: 36px; }
+    font-size: 36px;
+    padding: 0px 20px; }
 
   .block-free-website h2, .block-free-website p {
     text-align: center; }
@@ -1400,7 +1469,7 @@ div.video-desktop {
     max-width: 100%; }
 
   body {
-    padding-top: 60px; }
+    padding-top: 108px; }
 
   .home-block-one div.slider-item div.video-wrapper video {
     width: auto;
@@ -1408,7 +1477,7 @@ div.video-desktop {
 
   header {
     position: fixed;
-    height: 60px;
+    height: 108px;
     overflow: hidden; }
     header div.mobile_menu {
       z-index: 2000;
@@ -1416,7 +1485,7 @@ div.video-desktop {
       display: block;
       position: absolute;
       right: 10px;
-      top: 5px;
+      top: 12px;
       width: 44px;
       height: 44px;
       font-size: 24px;
@@ -1429,15 +1498,11 @@ div.video-desktop {
     header .logo-wrapper {
       flex: 0 0 100.000%;
       max-width: 100.000%; }
-    header div.logo img {
-      width: 60px;
-      margin: 0 auto;
-      display: block; }
-    header div.top-header {
-      display: none; }
+    header div.logo {
+      padding-top: 7px; }
     header ul {
       float: none;
-      padding: 0px; }
+      padding: 20px 0px 0px 0px; }
       header ul li:last-child {
         display: block; }
     header ul li {
@@ -1445,11 +1510,11 @@ div.video-desktop {
       header ul li a {
         height: auto;
         display: block;
-        font-size: 14px;
-        font-weight: bold;
+        font-size: 13px;
+        font-weight: 500;
         text-decoration: none;
         padding: 5px 20px;
-        line-height: 30px; }
+        line-height: 20px; }
         header ul li a:hover {
           background: #2474A4;
           color: #fff; }
@@ -1464,10 +1529,18 @@ div.video-desktop {
 
   div.page-content .t-videos {
     font-size: 18px;
-    margin: 20px 0px; } }
+    margin: 20px 0px; }
+
+  .home-block-event .next-date-wrapper .next-date-text {
+    margin: 26px 0px 0px 0px;
+    font-size: 15px;
+    line-height: 20px; }
+
+  div.partner-page a.btn.btn-become-partner {
+    margin: 0px 0px 20px 0px; } }
 @media screen and (max-width: 767px) {
   body {
-    padding-top: 60px; }
+    padding-top: 108px; }
 
   div.page-training div.col-md-6 img {
     width: 100%; }
@@ -1493,25 +1566,24 @@ div.video-desktop {
 
   header {
     transition: 0.2s ease; }
-    header div.logo {
-      height: 60px;
-      overflow: hidden; }
-      header div.logo a {
-        display: flex; }
-        header div.logo a span {
-          padding-top: 16px;
-          display: block;
-          color: #2474A4;
-          font-weight: bold; }
-      header div.logo img {
-        width: 80px;
-        margin: 0px 0px 0px -10px;
-        height: 80px; }
+    header div.top-header div.social-share {
+      display: none; }
+    header.expand {
+      height: 500px;
+      overflow-y: scroll; }
+    header div.logo a {
+      display: flex; }
+    header div.logo img {
+      width: 232px;
+      margin-left: 5px;
+      height: 56px; }
     header .logo-wrapper {
       padding: 0px; }
 
   footer {
-    padding: 20px 0px; }
+    padding: 20px 0px 0px 0px; }
+    footer .col-sm-3 {
+      width: 47%; }
     footer div.copyright {
       padding: 20px 0px; }
       footer div.copyright span {
@@ -1519,7 +1591,7 @@ div.video-desktop {
     footer ul {
       padding: 0px 20px 20px 20px; }
       footer ul li {
-        text-align: center;
+        text-align: left;
         display: block; }
 
   .partner-with-us h2 {
@@ -1543,9 +1615,16 @@ div.video-desktop {
   div.block-connect-with-us .subscription-form div.input-group button {
     font-size: 12px; }
 
-  header.expand {
-    height: 500px;
-    overflow-y: scroll; }
+  div.partner-page a.btn.btn-become-partner {
+    font-size: 14px;
+    padding: 30px 20px;
+    /* width: 400px; */
+    margin: 0px 10px 0px 10px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex; }
 
   .home-block-event {
     padding: 20px; }
@@ -1702,8 +1781,12 @@ div.video-desktop {
 
   div.page-ministry div.create-website div.col-4 a {
     width: auto;
-    margin: 0px 10px;
+    margin: 0px 0px;
     height: 140px; }
+    div.page-ministry div.create-website div.col-4 a svg {
+      width: 32px; }
+    div.page-ministry div.create-website div.col-4 a div {
+      display: none; }
     div.page-ministry div.create-website div.col-4 a p {
       display: none; }
 
@@ -1792,6 +1875,10 @@ div.video-desktop {
   div.video-desktop {
     display: none !important; }
 
+  .block-free-website a.btn-start {
+    float: none;
+    margin: 0 auto; }
+
   .home-block-event {
     padding: 20px 0px; }
     .home-block-event div.col-md-10 {
@@ -1800,7 +1887,6 @@ div.video-desktop {
         justify-content: center;
         margin: 0px; }
     .home-block-event div.col-md-4 {
-      padding: 0px;
       width: 54%; }
     .home-block-event div.col-md-3 {
       width: 35%;
@@ -1841,8 +1927,18 @@ div.video-desktop {
     .home-block-event .next-date-wrapper .next-date-text {
       margin: 10px 0px 0px 0px;
       line-height: 18px;
-      font-size: 16px; }
+      font-size: 11px; }
       .home-block-event .next-date-wrapper .next-date-text span {
-        font-size: 12px; } }
+        font-size: 12px; }
+
+  .country-contact a {
+    margin: 0px 0px; }
+
+  .follow-us h3 {
+    font-size: 24px; }
+  .follow-us .social-connect a {
+    width: auto; }
+    .follow-us .social-connect a svg {
+      width: 32px; } }
 
 /*# sourceMappingURL=app.css.map */

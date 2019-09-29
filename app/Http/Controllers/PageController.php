@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Event;
 use App\Video;
 use DB;
+use Mail;
 use Carbon\Carbon;
 
 class PageController extends Controller
@@ -118,8 +119,8 @@ class PageController extends Controller
 
      public function testimonials(){
 
-
-        return view('pages/testimonial');
+        $testimonials = Video::all();
+        return view('pages/testimonial', compact('testimonials'));
     
     }
 
@@ -307,7 +308,7 @@ class PageController extends Controller
     
     }
 
-        /**
+    /**
      * Get the fields for the inquires page by the resource.
      *
      * @param 
@@ -321,8 +322,21 @@ class PageController extends Controller
     
     }
 
+    /**
+     * Get the fields for the inquires page by the resource.
+     *
+     * @param 
+     * @return inquires view
+     */
 
+    public function sendMail(Request $request)
+    {
+        $details = $request->all();
+        Mail::send('pages.email',['details' => $details], function ($m) use ($details){
+            $m->from($details['email'], 'Send Testimonials!');
+            $m->to('millennialprophetministries@gmail.com', 'Millennial Prophet Ministries')->subject('Send Testimonials!');
+        });
 
-
-
+        return redirect()->back()->with('alert', 'Email send successfully!');
+    }
 }

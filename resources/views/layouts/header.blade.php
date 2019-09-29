@@ -5,13 +5,15 @@
                 <div class="col-md-12">
 
 
-                    <a href="/partner">
-                        BECOME A PARTNER
+                    <a href="/partner" class="link-partner">
+                        <i class="fa fa-handshake-o" aria-hidden="true"></i> BECOME A PARTNER
                     </a>
 
                     <div class="dropdown">
-                        <a href="#" data-toggle="dropdown">
-                            <i class="fa fa-globe" aria-hidden="true"></i>
+                        <a class="active-lang" href="#" data-toggle="dropdown">
+                            <span>EN</span>
+                            <i class="fa fa-caret-down"></i>
+
                         </a>
                         <div class="dropdown-menu">
                             <a href="#">
@@ -27,6 +29,23 @@
                         </div>
                     </div>
 
+                    <div class="social-share">
+                        <a href="https://www.facebook.com/EuropeShallBeSaved/videos/826840570997623/">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                        </a>
+
+                    </div>
+
+
                 </div>
             </div>
         </div>
@@ -39,9 +58,7 @@
                 <div class="logo">
                     <a href="/home">
                         <img src="{{ asset('html/public/images/logo.png') }}" alt="">
-                        <span>
-                            Millennial Prophet
-                        </span>
+
                     </a>
                 </div>
 
@@ -90,7 +107,7 @@
                             CONNECT
                         </a>
                     </li>
-<!-- 
+<!--
                     <li class="{{ request()->is('blog') ? 'active' : '' }}">
                         <a href="/blog">
                             BLOG
@@ -112,20 +129,20 @@
                             RESOURCES
                         </a>
                     </li>
-                               
+
                     <li class="{{ request()->is('testimonies') ? 'active' : '' }}">
                         <a href="{{ url('/testimonies') }}">
                             TESTIMONIES
                         </a>
                     </li> -->
 
-                    
 
-                    <li>
-                        <a href="#">
-                            <i class="fa fa-search"></i>
-                        </a>
-                    </li>
+
+{{--                    <li>--}}
+{{--                        <a href="#">--}}
+{{--                            <i class="fa fa-search"></i>--}}
+{{--                        </a>--}}
+{{--                    </li>--}}
                 </ul>
             </div>
         </div>

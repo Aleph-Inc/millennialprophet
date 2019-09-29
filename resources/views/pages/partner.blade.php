@@ -16,11 +16,11 @@
 
             <div class="row justify-content-center">
                 <div class="col-md-7">
-                    <h3 class="text-center mb-4">
-                        <strong>
-                            BECOME A PARTNER TODAY
-                        </strong>
-                    </h3>
+{{--                    <h3 class="text-left mb-4">--}}
+{{--                        <strong>--}}
+{{--                            BECOME A PARTNER TODAY--}}
+{{--                        </strong>--}}
+{{--                    </h3>--}}
                     <p class="text-left">
                         @if(Page::get('partner'))
                             {!! Page::get('partner') !!}

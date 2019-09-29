@@ -2,7 +2,7 @@
 @section('title','Free website')
 @section('content')
 
-    <div class="page-header page-big free_web_bg">
+    <div class="page-header free_web_bg">
         <div class="page-title">
             <H2>
                 FREE WEBSITE FOR EVERY MINISTRY
@@ -48,7 +48,7 @@
             <div class="row justify-content-center create-website py-4">
                 <div class="col-md-9">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-4">
 
                             <a href="#">
 
@@ -72,16 +72,16 @@
 
                                 Join
 
-                                <p>
+
                                     @if(Page::get('join'))
                                         {!! Page::get('join') !!}
                                     @else
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
                                     @endif
-                                </p>
+
                             </a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-4">
 
                             <a href="#">
 
@@ -114,16 +114,16 @@
 
                                 Create
 
-                                <p>
+
                                     @if(Page::get('create'))
                                         {!! Page::get('create') !!}
                                     @else
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
                                     @endif
-                                </p>
+
                             </a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-4">
 
                             <a href="#">
 
@@ -159,13 +159,12 @@
 
                                 Launch
 
-                                <p>
+
                                     @if(Page::get('launch'))
                                         {!! Page::get('launch') !!}
                                     @else
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     @endif
-                                </p>
+
                             </a>
                         </div>
                     </div>

@@ -34,6 +34,7 @@ Route::get('/connect/inquiries','PageController@inquires');
 
 Route::get('/confess','PageController@confess');
 
+Route::post('send-mail', 'PageController@sendMail')->name('send-mail');
 
 Route::get('/blog/{id}','BlogController@getEach');
 
@@ -54,6 +55,8 @@ Route::get('/testimonies', 'PageController@testimonials')
     ->name('Testimonies');
 
 Route::get('/testimonials/articles','Backend\TestimonialController@getArticles');
+
+Route::get('/testimonials/videos','Backend\TestimonialController@getVideos');
 
 Route::get('/jesus', 'PageController@jesus')
     ->template(\App\Nova\Templates\Jesus::class)
