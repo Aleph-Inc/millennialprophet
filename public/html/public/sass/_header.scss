@@ -16,7 +16,7 @@ header {
     }
     div.mobile_menu.expand{
 i.fa-bars{
-    &:after{
+    &:before{
         content:'\f00d';
     }
 }

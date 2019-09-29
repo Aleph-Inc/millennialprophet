@@ -17,7 +17,7 @@ header {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); }
   header div.mobile_menu {
     display: none; }
-  header div.mobile_menu.expand i.fa-bars:after {
+  header div.mobile_menu.expand i.fa-bars:before {
     content: '\f00d'; }
   header div.logo {
     padding-top: 20px; }
