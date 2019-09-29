@@ -1534,8 +1534,7 @@ div.video-desktop {
     padding: 7px 5px; }
 
   header {
-    transition: 0.2s ease;
-    height: 154px; }
+    transition: 0.2s ease; }
     header div.top-header div.social-share {
       display: none; }
     header.expand {
