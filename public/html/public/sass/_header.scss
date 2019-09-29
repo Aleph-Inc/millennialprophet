@@ -15,7 +15,11 @@ header {
 
     }
     div.mobile_menu.expand{
-
+i.fa-bars{
+    &:after{
+        content:'\f00d';
+    }
+}
     }
 
     div.logo {
