@@ -265,8 +265,7 @@
             <a href="#">
                 <svg width="77px" height="55px" viewBox="0 0 77 55" version="1.1" xmlns="http://www.w3.org/2000/svg"
                      xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
-                    <desc>Created with Sketch.</desc>
+
                     <defs></defs>
                     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                         <g id="connect" transform="translate(-946.000000, -901.000000)" fill="#F61C0D" fill-rule="nonzero">
