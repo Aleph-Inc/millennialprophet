@@ -605,9 +605,12 @@ div.video-desktop {
 
     div.page-ministry div.create-website div.col-4 a {
         width: auto;
-        margin: 0px 10px;
+        margin: 0px 0px;
         height: 140px;
 
+        svg{
+            width:32px;
+        }
         div{
             display:none;
         }
