@@ -34,28 +34,30 @@
             </div>
 
             <div class="col-md-9">
-                <!--                <div class="category-active">-->
-                <!--                    Sermons-->
-                <!--                </div>-->
+                    <div id="latest">
+                    <!--                <div class="category-active">-->
+                    <!--                    Sermons-->
+                    <!--                </div>-->
 
-                <h3>
-                    <span>
-                    </span>All Videos, Short movies, Documentaries
-                </h3>
-                <div class="row related-videos" id="section">
-
-                    @foreach ($videos  as $video)
-
-                    <div class="col-md-4">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ $video->link }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <p>
-                            {{ $video->name }}
-                        </p>
+                    <h3>
+                        <span>
+                        </span>All Videos, Short movies, Documentaries
+                    </h3>
                     </div>
+                    <div class="row related-videos" id="section">
 
-                    @endforeach
+                        @foreach ($videos  as $video)
 
-                </div>
+                        <div class="col-md-4">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ $video->link }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p>
+                                {{ $video->name }}
+                            </p>
+                        </div>
+
+                        @endforeach
+
+                    </div>
             </div>
         </div>
     </div>
@@ -71,26 +73,80 @@ $('.watchvideos').click(function(){
         method: 'GET',
         success: function (data) {
             var x = data.videos.length;
-            console.log(x);
+            var p = data.latest;
+            console.log(p);
             $("#section").empty();
+            $("#latest").empty();
 
             document.querySelector('.watchvideos').classList.remove('active');
 
             var element = document.getElementById(linkname);
             element.classList.add('watchvideos', 'active');
 
-            for (let y = 0; y < x; y++) {
-                var name = data.videos[y].name;
-                var link = data.videos[y].link;
+            var name = data.latest.name;
+            var link = data.latest.link;
+            var category = data.latest.category;
+            var newcategory = category.charAt(0).toUpperCase() + category.slice(1);
 
-                $('#section').append(
-                    `<div class="col-md-4">
-                        <iframe width="560" height="315" src="${link}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <p>
-                            ${name}
-                        </p>
+            if(linkname != 'all')
+            {
+                $('#latest').append(
+                    `<div class="category-active">
+                        ${name}
+                    </div>
+
+                    <h3>
+                    <span>
+                        Latest -
+                    </span>${newcategory}
+                    </h3>
+                    <div class="main-video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/${link}" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>`
                 );
+
+                for (let y = 0; y < x; y++) {
+                    var name = data.videos[y].name;
+                    var link = data.videos[y].link;
+
+                    $('#section').append(
+                        `<div class="col-12">
+                                <h5>
+                                    Related videos
+                                </h5>
+                            </div>
+                        <div class="col-md-4">
+                            <iframe width="560" height="315" src="${link}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p>
+                                ${name}
+                            </p>
+                        </div>`
+                    );
+                }
+            }
+            else
+            {
+                $('#latest').append(
+                    `<h3>
+                        <span>
+                        </span>All Videos, Short movies, Documentaries
+                    </h3>`
+                );
+
+                for (let y = 0; y < x; y++) {
+                    var name = data.videos[y].name;
+                    var link = data.videos[y].link;
+
+                    $('#section').append(
+                        `<div class="col-md-4">
+                            <iframe width="560" height="315" src="${link}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p>
+                                ${name}
+                            </p>
+                        </div>`
+                    );
+                }
             }
         }
     })   
