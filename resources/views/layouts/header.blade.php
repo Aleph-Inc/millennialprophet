@@ -58,9 +58,7 @@
                 <div class="logo">
                     <a href="/home">
                         <img src="{{ asset('html/public/images/logo.png') }}" alt="">
-                        <span>
-                            Millennial Prophet
-                        </span>
+
                     </a>
                 </div>
 
