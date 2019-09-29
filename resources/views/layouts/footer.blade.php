@@ -151,8 +151,16 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript">
     'use strict';
-    ($(function () {$(".mobile_menu").click(function (e) {
+    ($(function () {
+        $(".mobile_menu").click(function (e) {
         $(this).toggleClass("expand");
-        $("header, body").toggleClass("expand");});}));
+        $("header, body").toggleClass("expand");
+
+        });
+
+        $(".menu-overlay").click(function(){
+            $("header,body, .mobile-menu").toggleClass("expand");
+        });
+    }));
 </script>
 
