@@ -1542,6 +1542,9 @@ div.video-desktop {
       overflow-y: scroll; }
     header div.logo a {
       display: flex; }
+    header div.logo img {
+      width: 210px;
+      margin-left: 5px; }
     header .logo-wrapper {
       padding: 0px; }
 
