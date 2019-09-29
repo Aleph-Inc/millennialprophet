@@ -605,6 +605,9 @@ div.block-connect {
     .social-connect {
         text-align: center;
 
+        svg{
+            width:32px;
+        }
         a {
             display: inline-block;
             width: 72px;

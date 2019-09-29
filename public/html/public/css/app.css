@@ -579,6 +579,8 @@ div.block-connect .connect-buttons {
     font-size: 36px; }
   .follow-us .social-connect {
     text-align: center; }
+    .follow-us .social-connect svg {
+      width: 32px; }
     .follow-us .social-connect a {
       display: inline-block;
       width: 72px;
