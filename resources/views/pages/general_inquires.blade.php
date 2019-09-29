@@ -33,54 +33,33 @@
                             </div>
 
                             <div class="col-md-6">
-                                <p class="text-left">
-                                    Choose an amount $ (USD)
-                                </p>
 
-                                <div class="price-values">
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <button class="btn btn-amount active">
-                                                10
-                                            </button>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <button class="btn btn-amount active">
-                                                20
-                                            </button>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <button class="btn btn-amount active">
-                                                30
-                                            </button>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <button class="btn btn-amount active">
-                                                40
-                                            </button>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <button class="btn btn-amount active">
-                                                50
-                                            </button>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <button class="btn btn-amount active">
-                                                100
-                                            </button>
+                                <div class="contact-form-wrapper">
+                                    <form action="">
+
+                                        <div class="form-element">
+                                            <input type="text" placeholder="First name">
                                         </div>
 
-                                        <div class="col-md-12">
-                                            <input type="number" placeholder="Other amount">
+                                        <div class="form-element">
+                                            <input type="text" placeholder="Last name">
                                         </div>
 
-                                        <div class="col-md-12">
-                                            <button type="submit" class="btn-donate">
-                                                Donate
-                                            </button>
+                                        <div class="form-element">
+                                            <input type="text" placeholder="Email address">
                                         </div>
-                                    </div>
+
+                                        <div class="form-element">
+                                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                                        </div>
+
+                                        <div class="form-element">
+                                            <button class="btn btn-start">Send</button>
+                                        </div>
+
+                                    </form>
                                 </div>
+
                             </div>
                         </div>
                     </div>
