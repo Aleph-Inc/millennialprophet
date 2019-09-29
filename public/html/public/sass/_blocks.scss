@@ -812,7 +812,7 @@ div.form-element {
         border-radius:2px;
         width: 100%;
         display: block;
-        height:100px;
+        height:100px; padding: 10px 15px;
         &:focus{
             box-shadow: none;
             border:thin solid $blue;
