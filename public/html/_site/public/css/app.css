@@ -702,9 +702,25 @@ div.form-element {
     width: 100%;
     display: block;
     height: 44px;
-    border-radius: 4px;
+    border-radius: 2px;
     border: none;
-    background: #fff; }
+    background: #fff;
+    font-size: 16px;
+    color: #000;
+    padding: 0px 0px 0px 20px;
+    outline: 0; }
+    div.form-element input[type="text"]:focus,
+    div.form-element input[type="email"]:focus {
+      box-shadow: none;
+      border: thin solid #000; }
+  div.form-element textarea {
+    border-radius: 2px;
+    width: 100%;
+    display: block;
+    height: 100px; }
+    div.form-element textarea:focus {
+      box-shadow: none;
+      border: thin solid #2474A4; }
 
 #what_jesus_did_for_you {
   color: #246E9E; }
@@ -1251,7 +1267,10 @@ div.page-header-content {
   position: relative;
   z-index: 3000; }
   div.page-header-content div.form-content {
-    padding-top: 100px; }
+    padding-top: 0px; }
+    div.page-header-content div.form-content svg {
+      width: 44px;
+      height: 44px; }
   div.page-header-content h2 {
     color: #fff;
     font-weight: bold;
@@ -1509,7 +1528,7 @@ div.video-desktop {
     margin: 0px 0px 20px 0px; } }
 @media screen and (max-width: 767px) {
   body {
-    padding-top: 60px; }
+    padding-top: 108px; }
 
   div.page-training div.col-md-6 img {
     width: 100%; }
@@ -1535,20 +1554,16 @@ div.video-desktop {
 
   header {
     transition: 0.2s ease; }
-    header div.logo {
-      height: 60px;
-      overflow: hidden; }
-      header div.logo a {
-        display: flex; }
-        header div.logo a span {
-          padding-top: 16px;
-          display: block;
-          color: #2474A4;
-          font-weight: bold; }
-      header div.logo img {
-        width: 80px;
-        margin: 0px 0px 0px -10px;
-        height: 80px; }
+    header div.top-header div.social-share {
+      display: none; }
+    header.expand {
+      height: 500px;
+      overflow-y: scroll; }
+    header div.logo a {
+      display: flex; }
+    header div.logo img {
+      width: 210px;
+      margin-left: 5px; }
     header .logo-wrapper {
       padding: 0px; }
 
@@ -1597,10 +1612,6 @@ div.video-desktop {
     align-items: center;
     justify-content: center;
     display: flex; }
-
-  header.expand {
-    height: 500px;
-    overflow-y: scroll; }
 
   .home-block-event {
     padding: 20px; }
@@ -1757,8 +1768,12 @@ div.video-desktop {
 
   div.page-ministry div.create-website div.col-4 a {
     width: auto;
-    margin: 0px 10px;
+    margin: 0px 0px;
     height: 140px; }
+    div.page-ministry div.create-website div.col-4 a svg {
+      width: 32px; }
+    div.page-ministry div.create-website div.col-4 a div {
+      display: none; }
     div.page-ministry div.create-website div.col-4 a p {
       display: none; }
 
@@ -1859,7 +1874,6 @@ div.video-desktop {
         justify-content: center;
         margin: 0px; }
     .home-block-event div.col-md-4 {
-      padding: 0px;
       width: 54%; }
     .home-block-event div.col-md-3 {
       width: 35%;
@@ -1900,7 +1914,7 @@ div.video-desktop {
     .home-block-event .next-date-wrapper .next-date-text {
       margin: 10px 0px 0px 0px;
       line-height: 18px;
-      font-size: 16px; }
+      font-size: 11px; }
       .home-block-event .next-date-wrapper .next-date-text span {
         font-size: 12px; }
 

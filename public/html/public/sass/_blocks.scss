@@ -782,9 +782,29 @@ div.form-element {
         width: 100%;
         display: block;
         height: 44px;
-        border-radius: 4px;
+        border-radius:2px;
         border: none;
         background: #fff;
+        font-size:16px;
+        color:#000;
+        padding:0px 0px 0px 20px;
+        outline:0;
+
+        &:focus{
+            box-shadow: none;
+            border:thin solid #000;
+        }
+    }
+
+    textarea{
+        border-radius:2px;
+        width: 100%;
+        display: block;
+        height:100px;
+        &:focus{
+            box-shadow: none;
+            border:thin solid $blue;
+        }
     }
 }
 
