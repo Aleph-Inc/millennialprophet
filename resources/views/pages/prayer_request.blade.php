@@ -1,12 +1,8 @@
 @extends('layouts.master')
-
-@section('content')
-
-    @extends('layouts.master')
 @section('title','Donation payment')
 @section('content')
 
-    <div class="page-header page-xl donate_bg">
+    <div class="page-header page-xl donate_bg mb-0">
 
         <div class="page-header-content">
             <div class="container">
@@ -33,7 +29,7 @@
                                     </g>
                                 </svg>
                                 <h2>
-                                    ONE TIME DONATION
+                                    PRAYER REQUEST
                                 </h2>
                                 <p>
                                     Encourage others by sharing how God has blessed you, and declare His glory in your life!
@@ -105,4 +101,4 @@
 
 
 
-@endsection
+

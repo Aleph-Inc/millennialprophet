@@ -50,7 +50,7 @@
                                         </div>
 
                                         <div class="form-element">
-                                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                                            <textarea name="" placeholder="Message" id="" cols="30" rows="10"></textarea>
                                         </div>
 
                                         <div class="form-element">
