@@ -34,6 +34,7 @@ Route::get('/connect/inquiries','PageController@inquires');
 
 Route::get('/confess','PageController@confess');
 
+Route::post('send-mail', 'PageController@sendMail')->name('send-mail');
 
 Route::get('/blog/{id}','BlogController@getEach');
 

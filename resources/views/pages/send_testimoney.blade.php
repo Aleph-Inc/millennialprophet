@@ -38,26 +38,35 @@
                             <div class="col-md-6">
 
                                 <div class="contact-form-wrapper">
-                                    <form action="">
+                                    <form action="{{ route('send-mail') }}" method="post">
+                                        {{ csrf_field() }}
+
+                                        @if (session('alert'))
+                                        <div>
+                                            <div class="alert alert-success">
+                                                {{ session('alert') }}
+                                            </div>
+                                        </div>
+                                        @endif
 
                                         <div class="form-element">
-                                            <input type="text" placeholder="First name">
+                                            <input type="text" name="firstName" placeholder="First name" required>
                                         </div>
 
                                         <div class="form-element">
-                                            <input type="text" placeholder="Last name">
+                                            <input type="text" name="lastName" placeholder="Last name" required>
                                         </div>
 
                                         <div class="form-element">
-                                            <input type="text" placeholder="Email address">
+                                            <input type="text" name="email" placeholder="Email address" required>
                                         </div>
 
                                         <div class="form-element">
-                                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                                            <textarea name="testimonial" cols="30" rows="10" placeholder="Testimonial" required></textarea>
                                         </div>
 
                                         <div class="form-element">
-                                            <button class="btn btn-start">Send</button>
+                                            <button class="btn btn-start" type="submit">Send</button>
                                         </div>
 
                                     </form>
