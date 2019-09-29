@@ -1534,21 +1534,15 @@ div.video-desktop {
     padding: 7px 5px; }
 
   header {
-    transition: 0.2s ease; }
-    header div.logo {
-      height: 60px;
-      overflow: hidden; }
-      header div.logo a {
-        display: flex; }
-        header div.logo a span {
-          padding-top: 16px;
-          display: block;
-          color: #2474A4;
-          font-weight: bold; }
-      header div.logo img {
-        width: 80px;
-        margin: 0px 0px 0px -10px;
-        height: 80px; }
+    transition: 0.2s ease;
+    height: 154px; }
+    header div.logo a {
+      display: flex; }
+      header div.logo a span {
+        padding-top: 16px;
+        display: block;
+        color: #2474A4;
+        font-weight: bold; }
     header .logo-wrapper {
       padding: 0px; }
 
