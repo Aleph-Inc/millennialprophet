@@ -9,11 +9,11 @@ div.video-desktop {
 @media screen and (max-width: 1279px) {
     .home-block-one {
         height: 565px;
-        div.slider-item{
-            height:565px;
+
+        div.slider-item {
+            height: 565px;
         }
     }
-
 
 
     .home-block-event .next-date-wrapper .next-date-text {
@@ -21,18 +21,19 @@ div.video-desktop {
         font-size: 20px;
     }
     header {
-        div.logo{
-            img{
-                width:230px;
+        div.logo {
+            img {
+                width: 230px;
             }
         }
+
         ul li {
             a {
                 font-size: 13px;
                 /* font-weight: bold; */
                 padding: 5px 7px;
-                height:90px;
-                line-height:80px;
+                height: 90px;
+                line-height: 80px;
             }
         }
     }
@@ -94,9 +95,9 @@ div.video-desktop {
     div.video-desktop {
         display: none !important;
     }
-    .featured-video-block{
-        height:auto;
-        min-height:0px;
+    .featured-video-block {
+        height: auto;
+        min-height: 0px;
     }
 
     .block-free-website a.btn-start {
@@ -131,7 +132,8 @@ div.video-desktop {
     }
 
     .home-block-one div.slider-text {
-        font-size: 36px;     padding: 0px 20px;
+        font-size: 36px;
+        padding: 0px 20px;
     }
 
     .block-free-website {
@@ -198,7 +200,7 @@ div.video-desktop {
         overflow: hidden;
 
         div.logo {
-                padding-top: 7px;
+            padding-top: 7px;
         }
 
         ul {
@@ -248,11 +250,12 @@ div.video-desktop {
 
     .home-block-event .next-date-wrapper .next-date-text {
         margin: 26px 0px 0px 0px;
-        font-size: 15px;    line-height: 20px;
+        font-size: 15px;
+        line-height: 20px;
     }
 
-    div.partner-page a.btn.btn-become-partner{
-        margin:0px 0px 20px 0px;
+    div.partner-page a.btn.btn-become-partner {
+        margin: 0px 0px 20px 0px;
     }
 }
 
@@ -296,27 +299,21 @@ div.video-desktop {
     }
     header {
         transition: 0.2s ease;
-height:154px;
+        height: 154px;
+
+        div.top-header{
+            div.social-share{
+                display:none;
+            }
+        }
+        &.expand {
+            height: 500px;
+            overflow-y: scroll;
+        }
+
         div.logo {
-
-
-
-
             a {
                 display: flex;
-
-                span {
-                    padding-top: 16px;
-                    display: block;
-                    color: $blue;
-                    font-weight: bold;
-                }
-            }
-
-            img {
-            
-
-
             }
         }
 
@@ -324,6 +321,7 @@ height:154px;
             padding: 0px;
         }
     }
+
 
     footer {
         padding: 20px 0px 0px 0px;
@@ -395,10 +393,6 @@ height:154px;
     }
 
 
-    header.expand {
-        height: 500px;
-        overflow-y: scroll;
-    }
     .home-block-event {
         padding: 20px;
     }
@@ -864,6 +858,7 @@ height:154px;
         h3 {
             font-size: 24px;
         }
+
         .social-connect a {
             width: auto;
 
