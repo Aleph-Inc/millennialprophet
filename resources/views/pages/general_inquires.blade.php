@@ -2,7 +2,7 @@
 @section('title','General Inquires')
 @section('content')
 
-    <div class="page-header page-xl donate_bg">
+    <div class="page-header page-xl donate_bg mb-0">
 
         <div class="page-header-content">
             <div class="container">
