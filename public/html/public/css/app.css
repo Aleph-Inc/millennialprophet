@@ -1851,7 +1851,6 @@ div.video-desktop {
         justify-content: center;
         margin: 0px; }
     .home-block-event div.col-md-4 {
-      padding: 0px;
       width: 54%; }
     .home-block-event div.col-md-3 {
       width: 35%;
@@ -1892,7 +1891,7 @@ div.video-desktop {
     .home-block-event .next-date-wrapper .next-date-text {
       margin: 10px 0px 0px 0px;
       line-height: 18px;
-      font-size: 16px; }
+      font-size: 11px; }
       .home-block-event .next-date-wrapper .next-date-text span {
         font-size: 12px; }
 
