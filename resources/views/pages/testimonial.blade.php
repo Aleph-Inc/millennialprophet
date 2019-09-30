@@ -58,7 +58,8 @@
 
                 <div class="row justify-content-center">
                     <div class="col-md-4">
-                        <a href="/send_testimoney" class="btn btn-primary btn-start">
+                    <a href="{{ url('/connect/testimonies') }}" class="btn btn-primary btn-start">
+
                             SHARE YOUR TESTIMONY
                         </a>
                     </div>
