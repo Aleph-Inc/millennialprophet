@@ -155,7 +155,7 @@
         });
 
         $(".menu-overlay").click(function (e) {
-            $("header,body, .mobile-menu").toggleClass("expand");
+            $("header,body, .mobile_menu").toggleClass("expand");
         });
     }));
 </script>
