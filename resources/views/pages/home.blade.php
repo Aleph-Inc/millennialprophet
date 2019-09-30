@@ -156,7 +156,7 @@
             </div>
 
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-8">
                     <div class="video-block">
                         <video controls>
                             <source src="{{ asset('html/public/videos/video-3.mp4') }}" type="video/mp4">
