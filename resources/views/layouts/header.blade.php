@@ -5,10 +5,24 @@
                 <div class="col-md-12">
 
 
-                    <a href="/partner" class="link-partner">
-                        <i class="fa fa-handshake-o" aria-hidden="true"></i> BECOME A PARTNER
-                    </a>
 
+
+
+
+                    <div class="social-share">
+                        <a href="https://www.facebook.com/EuropeShallBeSaved/videos/826840570997623/">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                        </a>
+                    </div>
                     <div class="dropdown">
                         <a class="active-lang" href="#" data-toggle="dropdown">
                             <span>EN</span>
@@ -28,21 +42,9 @@
 
                         </div>
                     </div>
-
-                    <div class="social-share">
-                        <a href="https://www.facebook.com/EuropeShallBeSaved/videos/826840570997623/">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fa fa-instagram"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fa fa-youtube" aria-hidden="true"></i>
-                        </a>
-                    </div>
+                    <a href="/partner" class="link-partner">
+                        <i class="fa fa-handshake-o" aria-hidden="true"></i> BECOME A PARTNER
+                    </a>
                 </div>
             </div>
         </div>
