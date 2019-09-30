@@ -69,9 +69,7 @@
                             </div>
 
                             <div class="col-md-6">
-                                <p class="text-left">
-                                    Choose an amount $ (USD)
-                                </p>
+                              
 
                                 <form action="">
 
