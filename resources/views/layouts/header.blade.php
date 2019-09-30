@@ -114,7 +114,7 @@
                         </a>
                     </li>
                      -->
-                    <li class="{{ request()->is('digital-training') ? 'active' : '' }}">
+                   <!--  <li class="{{ request()->is('digital-training') ? 'active' : '' }}">
                         <a href="/empower/digital-training">
                             DIGITAL TRAINING
                         </a>
@@ -123,7 +123,7 @@
                         <a href="/empower/free-websites">
                             FREE WEBSITE
                         </a>
-                    </li>
+                    </li> -->
                    <!--  <li class="{{ request()->is('resources') ? 'active' : '' }}">
                         <a href="{{ url('/resources') }}">
                             RESOURCES

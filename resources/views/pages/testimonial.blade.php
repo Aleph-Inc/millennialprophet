@@ -25,12 +25,12 @@
 
             <ul class="testimony-tabs">
                 <li>
-                    <a class="" id="testarticle" onclick="readarticle();">
+                    <a class="" style="cursor: pointer;" id="testarticle" onclick="readarticle();">
                         READ ARTICLES
                     </a>
                 </li>
                 <li>
-                    <a class="active" id="testvideos" onclick="watchvideos();">
+                    <a style="cursor: pointer;" class="active" id="testvideos" onclick="watchvideos();">
                         WATCH VIDEOS
                     </a>
                 </li>
@@ -42,7 +42,7 @@
                 <div class="row" id="testimonial">
                     @foreach($testimonials as $testimonial)
                     <div class="col-md-4">
-                        <iframe width="560" height="315" src="{{$testimonial->link}}" frameborder="0"
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ $testimonial->link }}" frameborder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
                         <p>
@@ -161,7 +161,7 @@
 
                         $('#testimonial').append(
                             `<div class="col-md-4">
-                                <iframe width="560" height="315" src="${link}" frameborder="0"
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/${link}" frameborder="0"
                                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                         allowfullscreen></iframe>
                                 <p>

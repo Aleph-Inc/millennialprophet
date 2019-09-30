@@ -16,12 +16,12 @@
                 <div class="col-md-12">
                     <ul class="testimony-tabs">
                         <li>
-                            <a class="active" id="activeeventnew" onclick="newevents();">
+                            <a style="cursor: pointer;" class="active" id="activeeventnew" onclick="newevents();">
                                 UPCOMING EVENTS
                             </a>
                         </li>
                         <li>
-                            <a class="" id="activeeventpast" onclick="pastevents();">
+                            <a style="cursor: pointer;" class="" id="activeeventpast" onclick="pastevents();">
                                 PAST EVENTS
                             </a>
                         </li>
@@ -32,6 +32,7 @@
                 <div class="col-md-12" id="eventsarea">
 
                     @foreach($events as $event )
+
                         <a href="#" class="event-item">
                             <div class="row justify-content-center">
                                 <div class="col-sm-1 p-0">
@@ -62,14 +63,13 @@
                                     </div>
                                     <div class="event-time">
                                         {{ $event->time }} @ {{ $event->place }}
-
                                     </div>
 
                                     {{--<button class="btn btn-primary btn-event-reg">--}}
                                     {{--Register--}}
                                     {{--</button>--}}
                                     <div class="flag">
-                                        <img src="{{ asset('html/public/images/flag.png') }}" alt="">
+                                    <img style=" width: 33px;" src="{{ asset('html/public/flags').'/'.$event->country.'.svg' }}" alt="">
                                     </div>
                                 </div>
 
@@ -147,7 +147,7 @@
                             {{--Register--}}
                             {{--</button>--}}
                             <div class="flag">
-                                <img src="{{ asset('html/public/images/flag.png') }}" alt="">
+                                <img style=" width: 33px;" src="{{ asset('html/public/flags/${country}.svg') }}" alt="">
                                     </div>
                                 </div>
 
@@ -223,7 +223,7 @@
                             {{--Register--}}
                             {{--</button>--}}
                             <div class="flag">
-                                <img src="{{ asset('html/public/images/flag.png') }}" alt="">
+                                <img style=" width: 33px;" src="{{ asset('html/public/flags/${country}.svg') }}" alt="">
                                     </div>
                                 </div>
 

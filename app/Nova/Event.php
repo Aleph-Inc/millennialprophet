@@ -55,12 +55,12 @@ class Event extends Resource
             Date::make('date')->rules('required')->hideFromIndex(),
             Text::make('time')->rules('required'),
             Select::make('country')->options([
-                '94' => "Sri Lanka",
-                '1' => "USA",
-                '44' => "UK",
-                '91' => "India",
-                '86' => "China",
-                '52' => "Mexico"
+                'LK' => "Sri Lanka",
+                'UM' => "USA",
+                'UK' => "UK",
+                'IN' => "India",
+                'CN' => "China",
+                'MX' => "Mexico"
 
             ])->rules('required'),
 

@@ -130,7 +130,7 @@
                                     {{ $event->time }} @ {{ $event->place }}
                                 </div>
                                 <div class="next-event-country">
-                                    <img src="{{ asset('html/public/images/usa_flag.png') }}" alt="">
+                                    <img style=" width: 33px;" src="{{ asset('html/public/flags').'/'.$event->country.'.svg' }}" alt="">
                                 </div>
                             </div>
 

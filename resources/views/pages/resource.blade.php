@@ -22,12 +22,12 @@
                     Video categories
                 </h3>
                 <ul class="list-unstyled v-cats">
-                    <li><a class="watchvideos active" id="all" > All videos</a> </li>
-                    <li><a class="watchvideos" id="sermons" > Sermons</a></li>
-                    <li><a class="watchvideos" id="teaching" > Teachings</a></li>
-                    <li><a class="watchvideos" id="promotion" > Promotions</a></li>
-                    <li><a class="watchvideos" id="worship" > Worship</a></li>
-                    <li><a class="watchvideos" id="crusades" > Crusades</a></li>
+                    <li><a style="cursor: pointer;" class="watchvideos active" id="all" > All videos</a> </li>
+                    <li><a style="cursor: pointer;" class="watchvideos" id="sermons" > Sermons</a></li>
+                    <li><a style="cursor: pointer;" class="watchvideos" id="teaching" > Teachings</a></li>
+                    <li><a style="cursor: pointer;" class="watchvideos" id="promotion" > Promotions</a></li>
+                    <li><a style="cursor: pointer;" class="watchvideos" id="worship" > Worship</a></li>
+                    <li><a style="cursor: pointer;" class="watchvideos" id="crusades" > Crusades</a></li>
 
                    
                 </ul>
@@ -103,7 +103,11 @@ $('.watchvideos').click(function(){
                     <div class="main-video">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/${link}" frameborder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>`
+                    </div><div class="col-12 related-videos">
+                                <h5>
+                                    Related videos
+                                </h5>
+                            </div>`
                 );
 
                 for (let y = 0; y < x; y++) {
@@ -111,13 +115,9 @@ $('.watchvideos').click(function(){
                     var link = data.videos[y].link;
 
                     $('#section').append(
-                        `<div class="col-12">
-                                <h5>
-                                    Related videos
-                                </h5>
-                            </div>
+                        `
                         <div class="col-md-4">
-                            <iframe width="560" height="315" src="${link}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/${link}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             <p>
                                 ${name}
                             </p>
@@ -140,7 +140,7 @@ $('.watchvideos').click(function(){
 
                     $('#section').append(
                         `<div class="col-md-4">
-                            <iframe width="560" height="315" src="${link}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/${link}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             <p>
                                 ${name}
                             </p>
