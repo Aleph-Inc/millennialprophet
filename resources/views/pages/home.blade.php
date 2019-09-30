@@ -316,10 +316,10 @@ Lorem Ipsum passages, and more recently with deskto
                     <h2>
                         CONNECT WITH <br>MILLENNIAL PROPHET
                     </h2>
-                    <h5>
-                        Request prayers, Testimonies,<br>
-                        Inquiries, Give and Build a church
-                    </h5>
+                    {{--<h5>--}}
+                        {{--Request prayers, Testimonies,<br>--}}
+                        {{--Inquiries, Give and Build a church--}}
+                    {{--</h5>--}}
 
                 </div>
             </div>
