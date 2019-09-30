@@ -7,6 +7,7 @@ body {
   body.expand .menu-overlay {
     display: block;
     position: fixed;
+    z-index: 2000;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.25); }
@@ -1579,7 +1580,7 @@ div.video-desktop {
     header div.top-header div.social-share {
       display: none; }
     header.expand {
-      height: 450px;
+      height: 381px;
       overflow-y: scroll; }
     header div.logo a {
       display: flex; }
