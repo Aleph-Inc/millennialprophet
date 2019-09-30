@@ -42,10 +42,7 @@
                         <a href="#">
                             <i class="fa fa-youtube" aria-hidden="true"></i>
                         </a>
-
                     </div>
-
-
                 </div>
             </div>
         </div>
@@ -64,6 +61,7 @@
 
                 <div class="mobile_menu">
                     <i class="fa fa-bars"></i>
+{{--                    <i class="fa fa-times"></i>--}}
                 </div>
             </div>
 

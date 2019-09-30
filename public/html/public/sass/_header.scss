@@ -1,3 +1,6 @@
+
+
+
 header {
     position: relative;
     width: 100%;
@@ -11,10 +14,21 @@ header {
 
     div.mobile_menu {
         display: none;
+
+
+    }
+
+    div.mobile_menu.expand {
+        i.fa-bars {
+            &:before {
+                content: '\f00d';
+            }
+        }
     }
 
     div.logo {
         padding-top: 20px;
+
         a {
             text-decoration: none !important;
 
@@ -35,16 +49,18 @@ header {
         background: $blue;
         text-align: right;
 
-        div.social-share{
-            display:inline-block;
+        div.social-share {
+            display: inline-block;
             border-left: thin solid #216994;
         }
+
         div.dropdown {
             display: inline-block;
             margin: 0px 0px 0px 0px;
-a.active-lang{
-    font-weight:bold;
-}
+
+            a.active-lang {
+                font-weight: bold;
+            }
 
             a {
                 padding: 10px 10px;
