@@ -44,7 +44,7 @@ header {
     text-align: right; }
     header div.top-header div.social-share {
       display: inline-block;
-      border-left: thin solid #216994; }
+      border-right: thin solid #216994; }
     header div.top-header div.dropdown {
       display: inline-block;
       margin: 0px 0px 0px 0px; }
@@ -62,7 +62,7 @@ header {
         color: #d6d6d6;
         text-decoration: none !important; }
     header div.top-header a.link-partner {
-      border-right: thin solid #216994; }
+      border-left: thin solid #216994; }
   header ul {
     margin: 0px;
     float: right;
