@@ -161,23 +161,19 @@
                         <video controls>
                             <source src="{{ asset('html/public/videos/video-3.mp4') }}" type="video/mp4">
                             <source src="{{ asset('html/public/videos/video-3.mp4') }}" type="video/ogg">
-
                         </video>
                     </div>
-
                 </div>
-{{--                <div class="col-lg-4">--}}
-{{--                    <div class="video-description">--}}
-{{--                        @if(Page::get('human'))--}}
-{{--                            <h3>--}}
-{{--                                On Being Human--}}
-{{--                            </h3>--}}
-
-{{--                            <p>{!! Page::get('human') !!}</p>--}}
-{{--                        @endif--}}
-
-{{--                    </div>--}}
-{{--                </div>--}}
+                <div class="col-lg-4">
+                    <div class="video-description">
+                        @if(Page::get('human'))
+                            <h3>
+                                On Being Human
+                            </h3>
+                            <p>{!! Page::get('human') !!}</p>
+                        @endif
+                    </div>
+                </div>
             </div>
         </div>
 
