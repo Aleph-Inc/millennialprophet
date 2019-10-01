@@ -151,13 +151,13 @@
 .featured-video-block {
   /* Rectangle 20: */
   background-image: linear-gradient(-127deg, #0C80A1 0%, #063E55 100%);
-  min-height: 700px;
-  padding: 40px 0px;
+  //min-height: 700px;
+  padding: 20px 0px;
 
   div.block-title {
     font-size: 36px;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: #0DA5C5;
     span {
       color: #fff;
@@ -262,7 +262,6 @@ a.btn-start {
     line-height: 37px;
     font-weight: bold;
 }
-
 div.block-connect,
 div.block-digital-training,
 div.block-connect-with-us {
@@ -338,7 +337,7 @@ div.block-digital-training {
 }
 
 div.block-connect-with-us {
-  height: 360px;
+  height: 240px;
     display: flex;
     justify-content: center;
     align-items: center;

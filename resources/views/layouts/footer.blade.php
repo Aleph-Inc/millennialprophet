@@ -1,6 +1,3 @@
-
-
-
 <!-- footer-->
 <footer>
     <div class="container">
@@ -117,13 +114,12 @@
     'use strict';
     ($(function () {
         $(".mobile_menu").click(function (e) {
-        $(this).toggleClass("expand");
-        $("header, body").toggleClass("expand");
-
+            $(this).toggleClass("expand");
+            $("header, body").toggleClass("expand");
         });
 
-        $(".menu-overlay").click(function(){
-            $("header,body, .mobile-menu").toggleClass("expand");
+        $(".menu-overlay").click(function (e) {
+            $("header,body, .mobile_menu").toggleClass("expand");
         });
     }));
 </script>
