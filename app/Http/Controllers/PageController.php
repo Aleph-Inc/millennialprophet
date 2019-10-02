@@ -9,6 +9,8 @@ use DB;
 use Mail;
 use Carbon\Carbon;
 
+use App\Mail\SendMailable;
+
 class PageController extends Controller
 {
     
@@ -48,6 +50,7 @@ class PageController extends Controller
     
     }
 
+  
      /**
      * Get the fields for the resources page by the resource.
      *
@@ -329,14 +332,35 @@ class PageController extends Controller
      * @return inquires view
      */
 
-    public function sendMail(Request $request)
+    
+
+      public function sendMail(Request $request)
     {
-        $details = $request->all();
-        Mail::send('pages.email',['details' => $details], function ($m) use ($details){
-            $m->from($details['email'], 'Send Testimonials!');
-            $m->to('millennialprophetministries@gmail.com', 'Millennial Prophet Ministries')->subject('Send Testimonials!');
+        if($request->get('type') == 'testi'){
+
+            $subject = "Testimonials!";
+
+        }
+        if($request->get('type') == 'prayer'){
+            
+            $subject = "Prayer Request!";
+
+        }
+        if($request->get('type') == 'general'){
+            
+            $subject = "General inquires!";
+
+        }
+
+            $details = $request->all();
+
+            Mail::send('email.newemail',['details' => $details ,'subject' =>$subject ], function ($m) use ($details,$subject){
+            $m->from($details['email'], $subject);
+            $m->to('ruchira@sevensigns.lk', 'Millennial Prophet Ministries')->subject($subject);
         });
 
-        return redirect()->back()->with('alert', 'Email send successfully!');
+        return response()->json(['success'=>'Email sent successfully!']);
+
     }
+
 }

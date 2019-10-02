@@ -10,55 +10,31 @@
                                 About
                             </li>
                             <li>
-                                <a href="/about#who_we_are">
-                                    Who we are
-                                </a>
+                            <li><a href="{{ url('/about#who_we_are') }}">Who we are </a></li>
+                                
                             </li>
                             <li>
                                 <a href="/about#what_jesus_did_for_you"> What Jesus did for you </a>
                             </li>
 
                             <li>
-                                <a href="/about#ministries">
-                                    Ministries
-                                </a>
+                            <li><a href="{{ url('/about#ministries') }}">Beliefs </a></li>
+
                             </li>
-                            <li>
-                                <a href="/about#news">
-                                    News
-                                </a>
+                             <li><a href="{{ url('/partner') }}">Partner </a></li>
+
                             </li>
+                            
                         </ul>
                     </div>
                     <div class="col-sm-3">
 
                         <ul>
                             <li>
-                                Resources
+                                Empower
                             </li>
-                            <li>
-                                <a href="/confess">
-                                    Confess the word
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#"> Video - Short movies</a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Documentaries
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Audio
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Downloads
-                                </a>
-                            </li>
+                            <li><a href="{{ url('/empower/free-websites') }}"> Free websites</a></li>
+                            <li><a href="{{ url('/empower/digital-training') }}">Digital media training </a></li>
                         </ul>
                     </div>
                     <div class="col-sm-3">
@@ -76,29 +52,17 @@
                             </li>
                         </ul>
                     </div>
+
+
                     <div class="col-sm-3">
                         <ul>
                             <li>
                                 Testimonies
                             </li>
-                            <li>
-                                <a href="/partner">
-                                    Partners
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/jesus"> Jesus</a>
-                            </li>
-                            <li>
-                                <a href="/blog">
-                                    Blog
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/empower/digital-training">
-                                    Training
-                                </a>
-                            </li>
+                            <li><a href="{{ url('/connect/prayer') }}"> Prayer request</a></li>
+                            <li><a href="{{ url('/connect/testimonies') }}">Send a testimony </a></li>
+                            <li><a href="{{ url('/build-chruch') }}">Build a church</a></li>
+                            <li><a href="{{ url('/connect/inquiries') }}">Inquiries </a></li>
                         </ul>
                     </div>
                 </div>
@@ -145,7 +109,6 @@
     </div>
 </footer>
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript">
     'use strict';
     ($(function () {

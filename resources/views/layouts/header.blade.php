@@ -70,9 +70,9 @@
             <div class="col-md-10">
                 <ul>
 
-                    <li class="{{ request()->is('home') ? 'active' : '' }}">
-                        <a href="{{ url('/home') }}">
-                            HOME
+                     <li class="{{ request()->is('jesus') ? 'active' : '' }}">
+                        <a href="/jesus">
+                            JESUS
                         </a>
                     </li>
 
@@ -80,11 +80,30 @@
                         <a href="{{ url('/about') }}">
                             ABOUT
                         </a>
+                        <ul style="display: none;">
+                            <li><a href="{{ url('/about#who_we_are') }}">Who we are </a></li>
+                            <li><a href="{{ url('/about#what_jesus_did_for_you') }}">Vision & Mission </a></li>
+                            <li><a href="{{ url('/about#ministries') }}">Beliefs </a></li>
+                        </ul>
+
+
                     </li>
                     <li class="{{ request()->is('empower') ? 'active' : '' }}">
                         <a href="{{ url('/empower') }}">
                             EMPOWER
                         </a>
+                           <ul style="display: none;">
+                            <li><a href="{{ url('/empower/free-websites') }}"> Free websites</a></li>
+                            <li><a href="{{ url('/empower/digital-training') }}">Digital media training </a></li>
+                        </ul>
+                    </li>
+                    <li class="{{ request()->is('resources') ? 'active' : '' }}">
+                        <a href="{{ url('/resources') }}">
+                            RESOURCES
+                        </a>
+                        <ul style="display: none;">
+                            <li><a href="{{ url('/confess') }}"> Confess the world</a></li>
+                        </ul>
                     </li>
                          <li class="{{ request()->is('events') ? 'active' : '' }}">
                         <a href="{{ url('/events') }}">
@@ -96,11 +115,7 @@
                             TESTIMONIES
                         </a>
                     </li>
-                    <li class="{{ request()->is('jesus') ? 'active' : '' }}">
-                        <a href="/jesus">
-                            JESUS
-                        </a>
-                    </li>
+                   
 
                     <li class="{{ request()->is('connect') ? 'active' : '' }}">
                         <a href="/connect">

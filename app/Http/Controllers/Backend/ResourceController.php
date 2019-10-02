@@ -27,6 +27,7 @@ class ResourceController extends Controller
             $latest = $video->where('category' , $cat )->orderBy('id','DESC')->first();
         }
 
+        
         return response()->json(['success' => true, 'videos' => $videos, 'latest' => $latest]);
 	}    
 }

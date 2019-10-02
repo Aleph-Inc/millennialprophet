@@ -41,17 +41,8 @@
                             <div class="col-md-6">
 
                                 <div class="contact-form-wrapper">
-                                    <form action="{{ route('send-mail') }}" method="post">
-                                        {{ csrf_field() }}
-
-                                        @if (session('alert'))
-                                        <div>
-                                            <div class="alert alert-success">
-                                                {{ session('alert') }}
-                                            </div>
-                                        </div>
-                                        @endif
-
+                                    <form action="/" name="testiform" id="testiform">
+                                        
                                         <div class="form-element">
                                             <input type="text" name="firstName" placeholder="First name" required>
                                         </div>
@@ -61,15 +52,16 @@
                                         </div>
 
                                         <div class="form-element">
-                                            <input type="text" name="email" placeholder="Email address" required>
+                                            <input type="email" name="email" placeholder="Email address" required>
                                         </div>
 
                                         <div class="form-element">
-                                            <textarea name="testimonial" cols="30" rows="10" placeholder="Testimonial" required></textarea>
+                                            <textarea name="testimonial"  id='testimonial' cols="30" rows="10" placeholder="Testimonial" required></textarea>
                                         </div>
 
                                         <div class="form-element">
-                                            <button class="btn btn-start" type="submit">Send</button>
+
+                                            <button type="submit" class="submit-button state-0"><span" class="pre-state-msg">Submit</span><span class="current-state-msg hide">Sending...</span><span class="done-state-msg hide">Done!</span></button>
                                         </div>
 
                                     </form>
@@ -250,6 +242,80 @@
         </div>
 
     </div>
+    <script type="text/javascript">
+
+   
+ const button   = document.querySelector('.submit-button'),
+stateMsg = document.querySelector('.pre-state-msg');
+
+const updateButtonMsg = function() {
+  button.classList.add('state-1', 'animated');
+  
+};
+
+const finalButtonMsg = function() {
+  button.classList.add('state-2');
+  
+  setTimeout(setInitialButtonState, 10);
+};
+
+const setInitialButtonState = function() {
+  button.classList.remove('state-1', 'state-2', 'animated');
+};
+
+
+    $.ajaxSetup({
+
+        headers: {
+
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+
+        }
+
+    });
+
+
+    $("#testiform").submit(function(e){
+
+        e.preventDefault();
+
+        button.addEventListener('click', updateButtonMsg);
+
+
+        var name = $("input[name=firstName]").val();
+
+        var lastname = $("input[name=lastName]").val();
+
+        var email = $("input[name=email]").val();
+
+        var testimonial = $("#testimonial").val();
+
+        var type = 'testi';
+
+        $.ajax({
+
+           type:'POST',
+
+           url:'/send-mail',
+
+           data:{name:name,lastname:lastname,email:email,testimonial:testimonial,type:type},
+
+           success:function(data){
+            setTimeout(finalButtonMsg, 10);
+            alert(data.success);
+            $('#testiform').find("input[type=text], input[type=email] ,textarea",).val("")
+           }
+
+        });
+
+  
+
+    });
+
+</script>
+
+   
 
 
 @endsection
+
