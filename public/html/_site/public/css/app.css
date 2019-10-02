@@ -89,7 +89,7 @@ header {
       margin-left: -4px; }
       header ul li:hover ul.dropdown-menu {
         display: block; }
-      header ul li.active a {
+      header ul li.active > a {
         background: #fff;
         color: #2474A4;
         font-weight: bold; }

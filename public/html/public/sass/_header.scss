@@ -117,7 +117,7 @@ header {
       }
 
       &.active {
-        a {
+         > a {
           background: #fff;
           color: $blue;
           font-weight: bold;
