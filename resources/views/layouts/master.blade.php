@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css"
           href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- todo-->
     <!-- app css -->
@@ -28,6 +31,84 @@
 
 
 </head>
+<style type="text/css">
+    @import url("https://fonts.googleapis.com/css?family=Open+Sans:600");
+@-webkit-keyframes short-press {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes short-press {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+
+.hide {
+  display: none;
+}
+
+.submit-button {
+  display: block;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  letter-spacing: 1px;
+  height: 38px;
+  width: 120px;
+  line-height: 38px;
+  overflow: hidden;
+  background: #4dbecf;
+  border-radius: 3px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  border: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.submit-button:hover, .submit-button:focus {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.submit-button.animated {
+  -webkit-animation: 0.75s short-press cubic-bezier(0.77, 0, 0.175, 1) forwards;
+          animation: 0.75s short-press cubic-bezier(0.77, 0, 0.175, 1) forwards;
+}
+.submit-button > span {
+  display: block;
+  color: white;
+  text-align: center;
+}
+.submit-button > span.pre-state-msg {
+  transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  transition-delay: 0.75s;
+}
+.submit-button.state-1 .pre-state-msg {
+  margin-top: -38px;
+}
+.submit-button.state-2 .pre-state-msg {
+  margin-top: -76px;
+}
+
+</style>
 <body>
 
 

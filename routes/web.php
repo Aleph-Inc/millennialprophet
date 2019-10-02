@@ -10,6 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/send/email', 'PageController@mail');
 
 
 
@@ -34,7 +35,7 @@ Route::get('/connect/inquiries','PageController@inquires');
 
 Route::get('/confess','PageController@confess');
 
-Route::post('send-mail', 'PageController@sendMail')->name('send-mail');
+Route::post('/send-mail', 'PageController@sendMail')->name('send-mail');
 
 Route::get('/blog/{id}','BlogController@getEach');
 

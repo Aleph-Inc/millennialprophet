@@ -1,8 +1,8 @@
 <html>
     <body>
-                    You have new testimonial.<br><br>
+                    You have new {{ $subject}}.<br><br>
 
-                    Name : {{ $details['firstName'] }} {{$details['lastName']}}<br>
+                    Name : {{ $details['name'] }} {{$details['lastname']}}<br>
                     Email : {{ $details['email'] }}<br>
                     Testimonial : {{$details['testimonial']}}<br><br>
 
