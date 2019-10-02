@@ -100,7 +100,8 @@ header {
       padding: 0px;
       margin: -2px 0px 0px 0px;
       right: auto;
-      left: -50%; }
+      left: 0px;
+      margin-left: -70px; }
       header ul ul.dropdown-menu li {
         display: block;
         margin-left: 0px; }
