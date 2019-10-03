@@ -12,7 +12,8 @@
 */
 Route::get('/send/email', 'PageController@mail');
 
-
+Route::get('stripe', 'StripePaymentController@stripe');
+Route::post('stripe', 'StripePaymentController@stripePost')->name('stripe.post');
 
 Route::get('/about', 'PageController@about')
     ->template(\App\Nova\Templates\About::class)
