@@ -266,7 +266,6 @@ $(function() {
   });
   
   function stripeResponseHandler(status, response) {
-    alert(donateAmount);
 
         if (response.error) {
             $('.error')

@@ -92,7 +92,7 @@
                         <a href="{{ url('/empower') }}">
                             EMPOWER
                         </a>
-                           <ul style="display: none;">
+                           <ul class="dropdown-menu">
                             <li><a href="{{ url('/empower/free-websites') }}"> Free websites</a></li>
                             <li><a href="{{ url('/empower/digital-training') }}">Digital media training </a></li>
                         </ul>
