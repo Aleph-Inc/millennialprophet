@@ -80,7 +80,7 @@
                         <a href="{{ url('/about') }}">
                             ABOUT
                         </a>
-                        <ul style="display: none;">
+                        <ul class="dropdown-menu">
                             <li><a href="{{ url('/about#who_we_are') }}">Who we are </a></li>
                             <li><a href="{{ url('/about#what_jesus_did_for_you') }}">Vision & Mission </a></li>
                             <li><a href="{{ url('/about#ministries') }}">Beliefs </a></li>

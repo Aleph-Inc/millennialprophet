@@ -4,7 +4,7 @@
 
 
 
-    <div class="page-header about_bg">
+    <div class="page-header about_bg" id="who_we_are">
         <div class="page-title">
             <h2>
                 ABOUT <br>
@@ -18,7 +18,7 @@
 
             <div class="row justify-content-center">
                 <div class="col-md-9">
-                    <h2 class="text-blue" id="who_we_are">
+                    <h2 class="text-blue" id="what_jesus_did_for_you">
                         WHO WE ARE
                     </h2>
 
@@ -37,7 +37,7 @@
 
                 <div class="col-md-9">
 
-                    <h2 id="what_jesus_did_for_you">
+                    <h2 >
                     WHAT JESUS DID FOR YOU</h2>
 
                     <p>{{ Page::get('whatjesus') }}</p>
