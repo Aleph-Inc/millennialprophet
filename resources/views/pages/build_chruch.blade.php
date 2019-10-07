@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Build a church')
+@section('title','Build a church -')
 @section('content')
 
     <div class="page-header free_web_bg">

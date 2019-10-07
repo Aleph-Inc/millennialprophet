@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Partner')
+@section('title','Partner -')
 @section('content')
     <div class="page-header partner_bg">
         <div class="page-title">

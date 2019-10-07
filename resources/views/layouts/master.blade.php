@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>@yield('title') - Millennial Prophet Ministries  </title>
+    <title>@yield('title') Millennial Prophet Ministries  </title>
     <meta property="og:image" content="" />
     <meta property="og:title" content="" />
     <meta property="og:url" content="" />

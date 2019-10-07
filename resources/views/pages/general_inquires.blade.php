@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','General Inquires')
+@section('title','General Inquires -')
 @section('content')
 
     <div class="page-header page-xl donate_bg mb-0">

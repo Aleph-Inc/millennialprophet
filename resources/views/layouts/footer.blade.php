@@ -77,10 +77,10 @@
                 <a href="https://www.facebook.com/EuropeShallBeSaved/videos/826840570997623/">
                     <i class="fa fa-facebook"></i>
                 </a>
-                <a href="#">
+                <a href="https://twitter.com/mpmglobal">
                     <i class="fa fa-twitter"></i>
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/millennialprophetministries/">
                     <i class="fa fa-instagram"></i>
                 </a>
                 <a href="#">

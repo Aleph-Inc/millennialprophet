@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Video each')
+@section('title','Video each -')
 @section('content')
 
     <div class="page-header videos_bg">

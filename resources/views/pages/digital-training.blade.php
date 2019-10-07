@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Digital Trainning')
+@section('title','Digital Trainning -')
 @section('content')
 
 

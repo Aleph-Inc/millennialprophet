@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Empower Ministry')
+@section('title','Empower Ministry -')
 @section('content')
 
     <div class="page-header events_bg">

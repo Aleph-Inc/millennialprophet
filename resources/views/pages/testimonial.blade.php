@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Testimonials')
+@section('title','Testimonials -')
 @section('content')
     <div class="page-header testimonial_bg">
         <div class="page-title">

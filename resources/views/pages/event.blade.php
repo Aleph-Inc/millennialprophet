@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','Event Upcoming')
+@section('title','Events -')
 @section('content')
     <div class="page-header events_bg">
         <div class="page-title">
