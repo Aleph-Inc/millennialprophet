@@ -5,6 +5,7 @@ namespace App\Providers;
 use Laravel\Nova\Nova;
 use Laravel\Nova\Cards\Help;
 use Illuminate\Support\Facades\Gate;
+use Joedixon\NovaTranslation\NovaTranslation;
 use Laravel\Nova\NovaApplicationServiceProvider;
 
 class NovaServiceProvider extends NovaApplicationServiceProvider
@@ -91,5 +92,17 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
     public function register()
     {
         //
+    }
+
+    /**
+     * Register any application services.
+     *
+     * @return void
+     */
+    protected function registerTools()
+    {
+        Nova::translations([
+            'Total Users' => 'Total Users'
+        ]);
     }
 }
