@@ -26,8 +26,18 @@
                 <div class="col-md-6">
 
                     <p class="text-left">
-                        @if(Page::get('middle'))
-                            {!! Page::get('middle') !!}
+                        @if($digitalTraining)
+                            @if($digitalTraining->middle)
+                                {!! $digitalTraining->middle !!}
+                            @else
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                                and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                                leap into electronic typesetting, remaining essentially unchanged. <Br><Br> It was popularised in
+                                the 1960s
+                                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            @endif
                         @else
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                             industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
@@ -75,8 +85,12 @@
                                 Join
 
                                 <p>
-                                    @if(Page::get('join'))
-                                        {!! Page::get('join') !!}
+                                    @if($digitalTraining)
+                                        @if($digitalTraining->join)
+                                            {!! $digitalTraining->join !!}
+                                        @else
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        @endif
                                     @else
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     @endif
@@ -117,8 +131,12 @@
                                 Create
 
                                 <p>
-                                    @if(Page::get('create'))
-                                        {!! Page::get('create') !!}
+                                    @if($digitalTraining)
+                                        @if($digitalTraining->create)
+                                            {!! $digitalTraining->create !!}
+                                        @else
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        @endif
                                     @else
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     @endif
@@ -162,8 +180,12 @@
                                 Launch
 
                                 <p>
-                                    @if(Page::get('launch'))
-                                        {!! Page::get('launch') !!}
+                                    @if($digitalTraining)
+                                        @if($digitalTraining->launch)
+                                            {!! $digitalTraining->launch !!}
+                                        @else
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        @endif
                                     @else
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     @endif
