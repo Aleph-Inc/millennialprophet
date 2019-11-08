@@ -15,7 +15,7 @@ class CreateDigitalTrainingsTable extends Migration
     {
         Schema::create('digital_trainings', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('middle');
+            $table->longtext('middle');
             $table->string('title');
             $table->string('page_creation_date');
             $table->timestamps();

@@ -47,11 +47,11 @@ class Jesus extends Resource
         return [
             ID::make()->sortable(),
 
-            Trix::make('What jesus did to us', 'whatjesus'),
+            Textarea::make('What jesus did to us', 'whatjesus'),
 
-            Trix::make('Middle text', 'middle'),
+            Textarea::make('Middle text', 'middle'),
 
-            Trix::make('His Heart To Heal You', 'hisheal'),
+            Textarea::make('His Heart To Heal You', 'hisheal'),
 
             Text::make('Title of the page', 'title')->sortable()->rules('required'),
 

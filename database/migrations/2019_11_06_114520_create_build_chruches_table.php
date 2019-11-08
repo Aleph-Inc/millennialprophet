@@ -15,7 +15,7 @@ class CreateBuildChruchesTable extends Migration
     {
         Schema::create('build_chruches', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('ourmission');
+            $table->longtext('ourmission');
             $table->string('title');
             $table->string('page_creation_date');
             $table->timestamps();

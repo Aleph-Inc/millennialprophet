@@ -48,13 +48,13 @@ class About extends Resource
 
             Text::make('Title of the page', 'title')->sortable()->rules('required'),
 
-            Trix::make('Who We are', 'whoweare')->sortable()->rules('required'),
+            Textarea::make('Who We are', 'whoweare')->sortable()->rules('required'),
 
-            Trix::make('What jesus did to us', 'whatjesus')->sortable()->rules('required'),
+            Textarea::make('What jesus did to us', 'whatjesus')->sortable()->rules('required'),
 
-            Trix::make('His Heart To Heal You', 'hisheal')->sortable()->rules('required'),
+            Textarea::make('His Heart To Heal You', 'hisheal')->sortable()->rules('required'),
 
-            Trix::make('Ministries', 'ministries')->sortable()->rules('required'),
+            Textarea::make('Ministries', 'ministries')->sortable()->rules('required'),
 
             Textarea::make('Page Title')->sortable()->rules('required'),
 

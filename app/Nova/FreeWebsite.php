@@ -46,13 +46,13 @@ class FreeWebsite extends Resource
         return [
             ID::make()->sortable(),
 
-            Trix::make('Middle text', 'middle')->sortable()->rules('required'),
+            Textarea::make('Middle text', 'middle')->sortable()->rules('required'),
 
-            Trix::make('Join text', 'join')->sortable()->rules('required'),
+            Textarea::make('Join text', 'join')->sortable()->rules('required'),
 
-            Trix::make('Create text', 'create')->sortable()->rules('required'),
+            Textarea::make('Create text', 'create')->sortable()->rules('required'),
 
-            Trix::make('Launch text', 'launch')->sortable()->rules('required'),
+            Textarea::make('Launch text', 'launch')->sortable()->rules('required'),
 
             Text::make('Title of the page', 'title')->sortable()->rules('required'),
 

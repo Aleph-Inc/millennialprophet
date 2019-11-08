@@ -15,8 +15,8 @@ class CreateHomesTable extends Migration
     {
         Schema::create('homes', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('slider_text');
-            $table->string('on_being_human');
+            $table->longtext('slider_text');
+            $table->longtext('on_being_human');
             $table->string('page_title');
             $table->string('page_creation_date');
             $table->timestamps();

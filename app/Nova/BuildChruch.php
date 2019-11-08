@@ -46,7 +46,7 @@ class BuildChruch extends Resource
         return [
             ID::make()->sortable(),
 
-            Trix::make('Our Mission', 'ourmission')->sortable()->rules('required'),
+            Textarea::make('Our Mission', 'ourmission')->sortable()->rules('required'),
 
             Text::make('Title of the page', 'title')->sortable()->rules('required'),
 
