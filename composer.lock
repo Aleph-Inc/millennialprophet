@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "195e1cf0cc70252ccee21f653768a9eb",
+    "content-hash": "c6b0de0db8be7010e2d798b08d75a77a",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -2292,16 +2292,16 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v7.2.2",
+            "version": "v7.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "9a58f033d9d126c3785f0d8ad47f2e1db269864a"
+                "reference": "bebdb8360a6a1436c5b9d42e193e90eb047a4374"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/9a58f033d9d126c3785f0d8ad47f2e1db269864a",
-                "reference": "9a58f033d9d126c3785f0d8ad47f2e1db269864a",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/bebdb8360a6a1436c5b9d42e193e90eb047a4374",
+                "reference": "bebdb8360a6a1436c5b9d42e193e90eb047a4374",
                 "shasum": ""
             },
             "require": {
@@ -2345,7 +2345,7 @@
                 "payment processing",
                 "stripe"
             ],
-            "time": "2019-09-24T17:11:03+00:00"
+            "time": "2019-10-02T20:16:43+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

@@ -14,7 +14,7 @@
         "laravel/framework": "^6.0",
         "laravel/nova": "~2.0",
         "laravel/tinker": "^1.0",
-        "stripe/stripe-php": "^7.2",
+        "stripe/stripe-php": "^7.3",
         "whitecube/nova-flexible-content": "^0.1.12",
         "whitecube/nova-page": "^0.2.3"
     },
