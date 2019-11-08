@@ -46,13 +46,13 @@ class FreeWebsite extends Resource
         return [
             ID::make()->sortable(),
 
-            Textarea::make('Middle text', 'middle')->sortable()->rules('required'),
+            Text::make('Middle text', 'middle')->sortable()->rules('required'),
 
-            Textarea::make('Join text', 'join')->sortable()->rules('required'),
+            Text::make('Join text', 'join')->sortable()->rules('required'),
 
-            Textarea::make('Create text', 'create')->sortable()->rules('required'),
+            Text::make('Create text', 'create')->sortable()->rules('required'),
 
-            Textarea::make('Launch text', 'launch')->sortable()->rules('required'),
+            Text::make('Launch text', 'launch')->sortable()->rules('required'),
 
             Text::make('Title of the page', 'title')->sortable()->rules('required'),
 

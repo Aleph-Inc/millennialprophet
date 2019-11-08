@@ -15,11 +15,17 @@ Route::get('/send/email', 'PageController@mail');
 Route::get('stripe', 'StripePaymentController@stripe');
 Route::post('stripe', 'StripePaymentController@stripePost')->name('stripe.post');
 
-Route::get('/about', 'PageController@about')->name('About');
+Route::get('/about', 'PageController@about')
+    ->template(\App\Nova\Templates\About::class)
+    ->name('About');
 
-Route::get('/home', 'PageController@home')->name('Home');
+Route::get('/home', 'PageController@home')
+    ->template(\App\Nova\Templates\Home::class)
+    ->name('Home');
 
-Route::get('/resources', 'PageController@resources')->name('Resource');
+Route::get('/resources', 'PageController@resources')
+    ->template(\App\Nova\Templates\Resource::class)
+    ->name('Resource');
 
 Route::get('/resources/{id}','Backend\ResourceController@getResource');
 
@@ -33,45 +39,68 @@ Route::post('/send-mail', 'PageController@sendMail')->name('send-mail');
 
 Route::get('/blog/{id}','BlogController@getEach');
 
-Route::get('/empower', 'PageController@ministries')->name('Ministry');
+Route::get('/empower', 'PageController@ministries')
+    ->template(\App\Nova\Templates\Empower::class)
+    ->name('Ministry');
 
-Route::get('/events', 'PageController@events')->name('Events');
+Route::get('/events', 'PageController@events')
+    ->template(\App\Nova\Templates\Event::class)
+    ->name('Events');
 
 Route::get('/events/new','PageController@eventsNew');
-
 Route::get('/events/past','PageController@eventsPast');
 
-Route::get('/testimonies', 'PageController@testimonials')->name('Testimonies');
+
+Route::get('/testimonies', 'PageController@testimonials')
+    ->template(\App\Nova\Templates\Testimonial::class)
+    ->name('Testimonies');
 
 Route::get('/testimonials/articles','Backend\TestimonialController@getArticles');
 
 Route::get('/testimonials/videos','Backend\TestimonialController@getVideos');
 
-Route::get('/jesus', 'PageController@jesus')->name('Jesus');
+Route::get('/jesus', 'PageController@jesus')
+    ->template(\App\Nova\Templates\Jesus::class)
+    ->name('Jesus');
 
-Route::get('/connect', 'PageController@connect')->name('Connect');
+Route::get('/connect', 'PageController@connect')
+    ->template(\App\Nova\Templates\Connect::class)
+    ->name('Connect');
 
-Route::get('/connect/prayer', 'PageController@PrayerRequest')->name('PrayerRequest');
+Route::get('/connect/prayer', 'PageController@PrayerRequest')
+    ->template(\App\Nova\Templates\PrayerRequest::class)
+    ->name('PrayerRequest');
 
-Route::get('/connect/testimonies', 'PageController@SendTestimoney')->name('SendTestimoney');
+Route::get('/connect/testimonies', 'PageController@SendTestimoney')
+    ->template(\App\Nova\Templates\SendTestimoney::class)
+    ->name('SendTestimoney');
 
-Route::get('/give', 'PageController@donation')->name('Donation');
+Route::get('/give', 'PageController@donation')
+    ->template(\App\Nova\Templates\Donation::class)
+    ->name('Donation');
 
-Route::get('/build-chruch', 'PageController@BuildChruch')->name('BuildChruch');
+Route::get('/build-chruch', 'PageController@BuildChruch')
+    ->template(\App\Nova\Templates\BuildChruch::class)
+    ->name('BuildChruch');
 
 Route::get('/empower/free-websites', 'PageController@FreeWebsite')
+    ->template(\App\Nova\Templates\FreeWebsite::class)
     ->name('FreeWebsite');
 
-Route::get('/empower/digital-training', 'PageController@DigitalTraining')->name('DigitalTraining');
+Route::get('/empower/digital-training', 'PageController@DigitalTraining')
+    ->template(\App\Nova\Templates\DigitalTraining::class)
+    ->name('DigitalTraining');
 
 
-Route::get('/partner', 'PageController@Partner')->name('Partner');
+Route::get('/partner', 'PageController@Partner')
+    ->template(\App\Nova\Templates\Partner::class)
+    ->name('Partner');
 
-Route::get('/partner/monthly', 'PageController@Monthly')->name('Montly');
+Route::get('/partner/monthly', 'PageController@Monthly')
+    ->template(\App\Nova\Templates\Montly::class)
+    ->name('Montly');
 
-Route::get('/partner/one-time', 'PageController@Onetime')->name('Onetime');
-
-// Route::get('/partner/one-time', 'PageController@Onetime')
-//     ->template(\App\Nova\Templates\Onetime::class)
-//     ->name('Onetime');
+Route::get('/partner/one-time', 'PageController@Onetime')
+    ->template(\App\Nova\Templates\Onetime::class)
+    ->name('Onetime');
 

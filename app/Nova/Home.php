@@ -45,7 +45,7 @@ class Home extends Resource
         return [
             ID::make()->sortable(),
 
-            Textarea::make('Slider Text')
+            Text::make('Slider Text')
                 ->sortable()
                 ->rules('required'),
 
@@ -53,7 +53,7 @@ class Home extends Resource
                 ->sortable()
                 ->rules('required'),
 
-            Textarea::make('Title of the page', 'page_title')
+            Text::make('Title of the page', 'page_title')
                 ->sortable()
                 ->rules('required'),
 

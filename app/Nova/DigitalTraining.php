@@ -46,7 +46,7 @@ class DigitalTraining extends Resource
         return [
             ID::make()->sortable(),
 
-            Textarea::make('Middle text', 'middle')->sortable()->rules('required'),
+            Text::make('Middle text', 'middle')->sortable()->rules('required'),
 
             Text::make('Title of the page', 'title')->sortable()->rules('required'),
 

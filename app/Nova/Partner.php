@@ -46,7 +46,7 @@ class Partner extends Resource
         return [
             ID::make()->sortable(),
 
-            Textarea::make('Become a partner', 'partner'),
+            Text::make('Become a partner', 'partner'),
 
             Text::make('Title of the page', 'title')->sortable()->rules('required'),
 
