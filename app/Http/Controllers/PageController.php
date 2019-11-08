@@ -5,6 +5,13 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Event;
 use App\Video;
+use App\Home;
+use App\About;
+use App\Jesus;
+use App\Partner;
+use App\BuildChruch;
+use App\FreeWebsite;
+use App\DigitalTraining;
 use DB;
 use Mail;
 use Carbon\Carbon;
@@ -21,9 +28,9 @@ class PageController extends Controller
      * @param 
      * @return home view
      */
-    public function home(Event $event){
+    public function home(Event $event, Home $home){
 
-    
+        $home = $home->first();
 
         $event = $event->where('date', '>', date('Y-m-d'))->first();
 
@@ -31,7 +38,7 @@ class PageController extends Controller
 
         $diff = $eventdate->diffInDays();
         
-        return view('pages/home',compact('event','diff'));
+        return view('pages/home',compact('event','diff','home'));
 
     
     }
@@ -43,10 +50,11 @@ class PageController extends Controller
      * @return about view
      */
 
-     public function about(){
+     public function about(About $about){
 
+        $about = $about->first();
 
-        return view('pages/about');
+        return view('pages/about',compact('about'));
     
     }
 
@@ -134,10 +142,11 @@ class PageController extends Controller
      * @return jesus view
      */
 
-     public function jesus(){
+     public function jesus(Jesus $jesus){
 
+        $jesus = $jesus->first();
 
-        return view('pages/jesus');
+        return view('pages/jesus',compact('jesus'));
     
     }
 
@@ -211,10 +220,11 @@ class PageController extends Controller
      * @return build_chruch view
      */
 
-     public function BuildChruch(){
+     public function BuildChruch(BuildChruch $buildChruch){
 
-
-        return view('pages/build_chruch');
+        $buildChruch = $buildChruch->first();
+        
+        return view('pages/build_chruch',compact('buildChruch'));
     
     }
 
@@ -227,10 +237,11 @@ class PageController extends Controller
      * @return free_website view
      */
 
-     public function FreeWebsite(){
+     public function FreeWebsite(FreeWebsite $freeWebsite){
 
+        $freeWebsite = $freeWebsite->first();
 
-        return view('pages/free_website');
+        return view('pages/free_website',compact('freeWebsite'));
     
     }
 
@@ -242,10 +253,11 @@ class PageController extends Controller
      * @return digital_trainning view
      */
 
-     public function DigitalTraining(){
+     public function DigitalTraining(DigitalTraining $digitalTraining){
 
+        $digitalTraining = $digitalTraining->first();
 
-        return view('pages/digital-training');
+        return view('pages/digital-training',compact('digitalTraining'));
     
     }
 
@@ -258,10 +270,11 @@ class PageController extends Controller
      * @return digital_trainning view
      */
 
-     public function Partner(){
+     public function Partner(Partner $partner){
 
+        $partner = $partner->first();
 
-        return view('pages/partner');
+        return view('pages/partner',compact('partner'));
     
     }
 

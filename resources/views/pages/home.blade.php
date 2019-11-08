@@ -8,8 +8,13 @@
             <div class="slider-item"
                  style="background:url('/html/public/images/home_img.jpg') center center no-repeat; background-size:cover;">
                 <div class="slider-text">
-                    @if(Page::get('slidertext'))
-                        {{Page::get('slidertext')}}
+                    @if($home)
+                        @if($home->slider_text)
+                            {{$home->slider_text}}
+                        @else
+                            EQUIPPING AND EMPOWERING <br>
+                            THE GLOBAL CHURCH OF JESUS
+                        @endif
                     @else
                         EQUIPPING AND EMPOWERING <br>
                         THE GLOBAL CHURCH OF JESUS
@@ -21,8 +26,13 @@
             <div class="slider-item"
                  style="background:url('/html/public/images/home_img.jpg') center center no-repeat; background-size:cover;">
                 <div class="slider-text">
-                    @if(Page::get('slidertext'))
-                        {{Page::get('slidertext')}}
+                    @if($home)
+                        @if($home->slider_text)
+                            {{$home->slider_text}}
+                        @else
+                            EQUIPPING AND EMPOWERING <br>
+                            THE GLOBAL CHURCH OF JESUS
+                        @endif
                     @else
                         EQUIPPING AND EMPOWERING <br>
                         THE GLOBAL CHURCH OF JESUS
@@ -168,11 +178,23 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="video-description">
-                        @if(Page::get('human'))
+                        @if($home)
+                            @if($home->on_being_human)
+                                <h3>
+                                    On Being Human
+                                </h3>
+                                <p>{!! $home->on_being_human !!}</p>
+                            @else
+                                <h3>
+                                    On Being Human
+                                </h3>
+                                <p>On Being Human</p>
+                            @endif
+                        @else
                             <h3>
                                 On Being Human
                             </h3>
-                            <p>{!! Page::get('human') !!}</p>
+                            <p>On Being Human</p>
                         @endif
                     </div>
                 </div>

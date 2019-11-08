@@ -19,8 +19,19 @@
                 <h2>
                     WHAT JESUS DID FOR YOU
                 </h2>
-                <p><p>{{ Page::get('whatjesus') }}</p>
-
+                <p>
+                
+                <p>
+                    @if($jesus)
+                        @if($jesus->whatjesus)
+                            {!! $jesus->whatjesus !!}
+                        @else
+                            At New Creation Church, we believe we are God’s beloved. He demonstrated this by freely giving up heaven’s best, His only Son Jesus, for you and me. When we catch a revelation of this truth, we are transformed by His grace from the inside out. That’s the beauty of believing and living in our heavenly Father’s love and grace! No matter who you are or where you come from, there’s always a place for you in our church family!                        
+                        @endif
+                    @else
+                        At New Creation Church, we believe we are God’s beloved. He demonstrated this by freely giving up heaven’s best, His only Son Jesus, for you and me. When we catch a revelation of this truth, we are transformed by His grace from the inside out. That’s the beauty of believing and living in our heavenly Father’s love and grace! No matter who you are or where you come from, there’s always a place for you in our church family!                        
+                    @endif
+                </p>
 
                 </p>
             </div>
@@ -34,16 +45,34 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-7">
-               
-                    <p>{{ Page::get('middle') }}</p>
 
-                
+                    <p>
+                        @if($jesus)
+                            @if($jesus->middle)
+                                {!! $jesus->middle !!}
+                            @else
+                                Have you wondered what took place at the cross? Travel back in time to witness how Jesus bore your sins, condemnation, curses, sicknesses and even death on the cross just for you. Watch this video and experience afresh God’s amazing love for you through the mighty cross!
+                            @endif
+                        @else
+                            Have you wondered what took place at the cross? Travel back in time to witness how Jesus bore your sins, condemnation, curses, sicknesses and even death on the cross just for you. Watch this video and experience afresh God’s amazing love for you through the mighty cross!
+                        @endif
+                    </p>
 
                 <h4>
                     His Heart To Heal You
                 </h4>
-                
-                    <p>{{ Page::get('hisheal') }}</p>
+
+                    <p>
+                        @if($jesus)
+                            @if($jesus->hisheal)
+                                {!! $jesus->hisheal !!}
+                            @else
+                                How willing is God to heal you today? Let this animation clip show you how God does not just have the power but also the heart to supply your area of need. Beloved, Jesus has already done everything necessary to redeem you and restore you to sweet fellowship with Him and God the Father. But His finished work can only become real in your life if you make a personal decision to accept Him. Accepting Jesus as your Lord and Saviour will not only save you from hell, but also give you love, peace, joy, hope, unconditional acceptance, favour, health and every good thing that you can think of and more! If you would like to accept Jesus and all that He has done for you, say this prayer and mean it from your heart:                        
+                            @endif
+                        @else
+                            How willing is God to heal you today? Let this animation clip show you how God does not just have the power but also the heart to supply your area of need. Beloved, Jesus has already done everything necessary to redeem you and restore you to sweet fellowship with Him and God the Father. But His finished work can only become real in your life if you make a personal decision to accept Him. Accepting Jesus as your Lord and Saviour will not only save you from hell, but also give you love, peace, joy, hope, unconditional acceptance, favour, health and every good thing that you can think of and more! If you would like to accept Jesus and all that He has done for you, say this prayer and mean it from your heart:                        
+                        @endif
+                    </p>
 
                 
             </div>
