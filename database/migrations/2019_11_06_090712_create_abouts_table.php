@@ -16,10 +16,10 @@ class CreateAboutsTable extends Migration
         Schema::create('abouts', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('title');
-            $table->string('whoweare');
-            $table->string('whatjesus');
-            $table->string('hisheal');
-            $table->string('ministries');
+            $table->longtext('whoweare');
+            $table->longtext('whatjesus');
+            $table->longtext('hisheal');
+            $table->longtext('ministries');
             $table->string('page_title');
             $table->string('page_creation_date');
             $table->timestamps();

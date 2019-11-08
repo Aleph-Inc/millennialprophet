@@ -46,7 +46,7 @@ class Partner extends Resource
         return [
             ID::make()->sortable(),
 
-            Trix::make('Become a partner', 'partner'),
+            Textarea::make('Become a partner', 'partner'),
 
             Text::make('Title of the page', 'title')->sortable()->rules('required'),
 

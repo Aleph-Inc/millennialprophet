@@ -15,10 +15,10 @@ class CreateFreeWebsitesTable extends Migration
     {
         Schema::create('free_websites', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('middle');
-            $table->string('join');
-            $table->string('create');
-            $table->string('launch');
+            $table->longtext('middle');
+            $table->longtext('join');
+            $table->longtext('create');
+            $table->longtext('launch');
             $table->string('title');
             $table->string('page_creation_date');
             $table->timestamps();

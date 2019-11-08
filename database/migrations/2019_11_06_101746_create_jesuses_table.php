@@ -15,9 +15,9 @@ class CreateJesusesTable extends Migration
     {
         Schema::create('jesuses', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('whatjesus');
-            $table->string('middle');
-            $table->string('hisheal');
+            $table->longtext('whatjesus');
+            $table->longtext('middle');
+            $table->longtext('hisheal');
             $table->string('title');
             $table->string('page_creation_date');
             $table->timestamps();
