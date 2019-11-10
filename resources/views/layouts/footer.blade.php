@@ -113,6 +113,25 @@
 <script type="text/javascript">
     'use strict';
     ($(function () {
+
+
+$(document).scroll(function(){
+
+if($(document).scrollTop > 100){
+  $("div.top-header").css({
+    "height": 0,
+    "overflow": "hidden"
+  });
+}else{
+  $("div.top-header").css({
+    "height": "41px",
+    "overflow": "visible"
+  });
+}
+
+
+});
+
         $(".mobile_menu").click(function (e) {
             $(this).toggleClass("expand");
             $("header, body").toggleClass("expand");
