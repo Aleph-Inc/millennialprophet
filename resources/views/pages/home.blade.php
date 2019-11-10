@@ -226,6 +226,13 @@
 
                 <div class="col-md-8">
 
+
+
+
+                </div>
+
+              <!--  <div class="col-md-8">
+
                     <div class="row">
                         <div class="col-4">
                             <a href="#">
@@ -322,7 +329,7 @@ Lorem Ipsum passages, and more recently with deskto
                         </div>
                     </div>
 
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -581,5 +588,3 @@ Lorem Ipsum passages, and more recently with deskto
         <div class="overlay"></div>
     </div>
 @endsection
-
-
