@@ -11,10 +11,10 @@
                     <h2>
                         CONNECT WITH <br>MILLENNIAL PROPHET
                     </h2>
-                    <h5>
+                    <!-- <h5>
                         Request prayers, Testimonies,<br>
                         Inquiries, Give and Build a church
-                    </h5>
+                    </h5> -->
 
                 </div>
             </div>
