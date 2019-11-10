@@ -94,10 +94,10 @@ header {
         background: #fff;
         color: #2474A4;
         font-weight: bold; }
-    header ul li.connect-menu-item {
-      background: #2474A4; }
-      header ul li.connect-menu-item a {
-        color: #fff; }
+      header ul li.connect-menu-item {
+        background: #2474A4; }
+        header ul li.connect-menu-item a {
+          color: #fff; }
     header ul ul.dropdown-menu {
       border-radius: 0px;
       border: none;

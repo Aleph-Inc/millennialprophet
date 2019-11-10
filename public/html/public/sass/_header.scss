@@ -125,14 +125,17 @@ header {
           font-weight: bold;
         }
       }
-    }
-    li.connect-menu-item{
-          background: #2474A4;
 
-          a{
-            color:#fff;
-          }
+
+      &.connect-menu-item{
+            background: #2474A4;
+
+            a{
+              color:#fff;
+            }
+      }
     }
+
 
     ul.dropdown-menu {
       border-radius: 0px;
