@@ -526,7 +526,7 @@ Lorem Ipsum passages, and more recently with deskto
                     </p>
 
                     <a class="btn btn-primary btn-start">
-                        Get Started
+                      Apply now
                     </a>
                 </div>
 
