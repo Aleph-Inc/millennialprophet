@@ -48,15 +48,15 @@ class About extends Resource
 
             Text::make('Title of the page', 'title')->sortable()->rules('required'),
 
-            Textarea::make('Who We are', 'whoweare')->sortable()->rules('required'),
+            Text::make('Who We are', 'whoweare')->sortable()->rules('required'),
 
-            Textarea::make('What jesus did to us', 'whatjesus')->sortable()->rules('required'),
+            Text::make('What jesus did to us', 'whatjesus')->sortable()->rules('required'),
 
-            Textarea::make('His Heart To Heal You', 'hisheal')->sortable()->rules('required'),
+            Text::make('His Heart To Heal You', 'hisheal')->sortable()->rules('required'),
 
-            Textarea::make('Ministries', 'ministries')->sortable()->rules('required'),
+            Text::make('Ministries', 'ministries')->sortable()->rules('required'),
 
-            Textarea::make('Page Title')->sortable()->rules('required'),
+            Text::make('Page Title')->sortable()->rules('required'),
 
             Date::make('Page Creation Date')->sortable()->rules('required'),
         ];

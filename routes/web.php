@@ -59,11 +59,9 @@ Route::get('/give', 'PageController@donation')->name('Donation');
 
 Route::get('/build-chruch', 'PageController@BuildChruch')->name('BuildChruch');
 
-Route::get('/empower/free-websites', 'PageController@FreeWebsite')
-    ->name('FreeWebsite');
+Route::get('/empower/free-websites', 'PageController@FreeWebsite')->name('FreeWebsite');
 
 Route::get('/empower/digital-training', 'PageController@DigitalTraining')->name('DigitalTraining');
-
 
 Route::get('/partner', 'PageController@Partner')->name('Partner');
 

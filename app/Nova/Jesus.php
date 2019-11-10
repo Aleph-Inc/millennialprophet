@@ -47,11 +47,11 @@ class Jesus extends Resource
         return [
             ID::make()->sortable(),
 
-            Textarea::make('What jesus did to us', 'whatjesus'),
+            Text::make('What jesus did to us', 'whatjesus'),
 
-            Textarea::make('Middle text', 'middle'),
+            Text::make('Middle text', 'middle'),
 
-            Textarea::make('His Heart To Heal You', 'hisheal'),
+            Text::make('His Heart To Heal You', 'hisheal'),
 
             Text::make('Title of the page', 'title')->sortable()->rules('required'),
 

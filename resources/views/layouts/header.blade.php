@@ -3,12 +3,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-
-
-
-
-
-
                     <div class="social-share">
                          <a href="https://www.facebook.com/EuropeShallBeSaved/videos/826840570997623/">
                     <i class="fa fa-facebook"></i>
@@ -63,7 +57,7 @@
 
                 <div class="mobile_menu">
                     <i class="fa fa-bars"></i>
-{{--                    <i class="fa fa-times"></i>--}}
+                   <i class="fa fa-times"></i>
                 </div>
             </div>
 
@@ -80,11 +74,11 @@
                         <a href="{{ url('/about') }}">
                             ABOUT
                         </a>
-                        <ul class="dropdown-menu">
+                        <!-- <ul class="dropdown-menu">
                             <li><a href="{{ url('/about#who_we_are') }}">Who we are </a></li>
                             <li><a href="{{ url('/about#what_jesus_did_for_you') }}">Vision & Mission </a></li>
                             <li><a href="{{ url('/about#ministries') }}">Beliefs </a></li>
-                        </ul>
+                        </ul> -->
 
 
                     </li>
@@ -115,7 +109,7 @@
                             TESTIMONIES
                         </a>
                     </li>
-                   
+
 
                     <li class="{{ request()->is('connect') ? 'active' : '' }}">
                         <a href="/connect">

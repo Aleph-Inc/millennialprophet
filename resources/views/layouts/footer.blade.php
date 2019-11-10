@@ -1,3 +1,4 @@
+
 <!-- footer-->
 <footer>
     <div class="container">
@@ -11,7 +12,7 @@
                             </li>
                             <li>
                             <li><a href="{{ url('/about#who_we_are') }}">Who we are </a></li>
-                                
+
                             </li>
                             <li>
                                 <a href="/about#what_jesus_did_for_you"> What Jesus did for you </a>
@@ -24,7 +25,7 @@
                              <li><a href="{{ url('/partner') }}">Partner </a></li>
 
                             </li>
-                            
+
                         </ul>
                     </div>
                     <div class="col-sm-3">
@@ -122,4 +123,3 @@
         });
     }));
 </script>
-
