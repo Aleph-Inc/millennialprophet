@@ -3,6 +3,20 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Event;
+use App\Video;
+use App\Home;
+use App\About;
+use App\Jesus;
+use App\Partner;
+use App\BuildChruch;
+use App\FreeWebsite;
+use App\DigitalTraining;
+use DB;
+use Mail;
+use Carbon\Carbon;
+
+use App\Mail\SendMailable;
 
 class PageController extends Controller
 {
@@ -14,9 +28,18 @@ class PageController extends Controller
      * @param 
      * @return home view
      */
-    public function home(){
+    public function home(Event $event, Home $home){
 
-        return view('pages/home');
+        $home = $home->first();
+
+        $event = $event->where('date', '>', date('Y-m-d'))->first();
+
+        $eventdate = Carbon::parse($event->date);
+
+        $diff = $eventdate->diffInDays();
+        
+        return view('pages/home',compact('event','diff','home'));
+
     
     }
 
@@ -27,13 +50,15 @@ class PageController extends Controller
      * @return about view
      */
 
-     public function about(){
+     public function about(About $about){
 
+        $about = $about->first();
 
-        return view('pages/about');
+        return view('pages/about',compact('about'));
     
     }
 
+  
      /**
      * Get the fields for the resources page by the resource.
      *
@@ -41,10 +66,10 @@ class PageController extends Controller
      * @return about resource
      */
 
-     public function resources(){
+     public function resources(Video $video){
 
-
-        return view('pages/resource');
+        $videos = $video->orderBy('id','DESC')->get();;
+        return view('pages/resource',compact('videos'));
     
     }
 
@@ -70,12 +95,31 @@ class PageController extends Controller
      * @return event view
      */
 
-     public function events(){
+     public function events(Event $event){
 
+        $events = $event->where('date', '>', date('Y-m-d'))->get();
+        $active = 'live';
+        return view('pages/event',compact('events','active'));
 
-        return view('pages/event');
-    
     }
+
+    public function eventsNew(Event $event){
+
+        $events = $event->where('date', '>', date('Y-m-d'))->get();
+        $active ='new';
+        return response()->json(['success' => true, 'events' => $events, 'active' => $active]);
+
+    }
+
+    public function eventsPast(Event $event){
+
+        $events = $event->where('date', '<', date('Y-m-d'))->get();
+        $active ='past';
+        return response()->json(['success' => true, 'events' => $events, 'active' => $active]);
+
+    }
+
+    
 
     /**
      * Get the fields for the testimonials page by the resource.
@@ -86,8 +130,8 @@ class PageController extends Controller
 
      public function testimonials(){
 
-
-        return view('pages/testimonial');
+        $testimonials = Video::all();
+        return view('pages/testimonial', compact('testimonials'));
     
     }
 
@@ -98,10 +142,11 @@ class PageController extends Controller
      * @return jesus view
      */
 
-     public function jesus(){
+     public function jesus(Jesus $jesus){
 
+        $jesus = $jesus->first();
 
-        return view('pages/jesus');
+        return view('pages/jesus',compact('jesus'));
     
     }
 
@@ -175,14 +220,160 @@ class PageController extends Controller
      * @return build_chruch view
      */
 
-     public function BuildChruch(){
+     public function BuildChruch(BuildChruch $buildChruch){
 
-
-        return view('pages/build_chruch');
+        $buildChruch = $buildChruch->first();
+        
+        return view('pages/build_chruch',compact('buildChruch'));
     
     }
 
 
 
+     /**
+     * Get the fields for the FreeWebsite page by the resource.
+     *
+     * @param 
+     * @return free_website view
+     */
+
+     public function FreeWebsite(FreeWebsite $freeWebsite){
+
+        $freeWebsite = $freeWebsite->first();
+
+        return view('pages/free_website',compact('freeWebsite'));
+    
+    }
+
+
+     /**
+     * Get the fields for the DigitalTraining page by the resource.
+     *
+     * @param 
+     * @return digital_trainning view
+     */
+
+     public function DigitalTraining(DigitalTraining $digitalTraining){
+
+        $digitalTraining = $digitalTraining->first();
+
+        return view('pages/digital-training',compact('digitalTraining'));
+    
+    }
+
+
+
+     /**
+     * Get the fields for the DigitalTraining page by the resource.
+     *
+     * @param 
+     * @return digital_trainning view
+     */
+
+     public function Partner(Partner $partner){
+
+        $partner = $partner->first();
+
+        return view('pages/partner',compact('partner'));
+    
+    }
+
+
+
+     /**
+     * Get the fields for the DigitalTraining page by the resource.
+     *
+     * @param 
+     * @return digital_trainning view
+     */
+
+     public function Monthly(){
+
+
+        return view('pages/monthly');
+    
+    }
+
+
+     /**
+     * Get the fields for the DigitalTraining page by the resource.
+     *
+     * @param 
+     * @return digital_trainning view
+     */
+
+     public function Onetime(){
+
+
+        return view('pages/one_time');
+    
+    }
+
+
+     /**
+     * Get the fields for the inquires page by the resource.
+     *
+     * @param 
+     * @return inquires view
+     */
+
+     public function inquires(){
+
+
+        return view('pages/general_inquires');
+    
+    }
+
+    /**
+     * Get the fields for the inquires page by the resource.
+     *
+     * @param 
+     * @return inquires view
+     */
+
+     public function confess(){
+
+
+        return view('pages/confess');
+    
+    }
+
+    /**
+     * Get the fields for the inquires page by the resource.
+     *
+     * @param 
+     * @return inquires view
+     */
+
+    
+
+      public function sendMail(Request $request)
+    {
+        if($request->get('type') == 'testi'){
+
+            $subject = "Testimonials!";
+
+        }
+        if($request->get('type') == 'prayer'){
+            
+            $subject = "Prayer Request!";
+
+        }
+        if($request->get('type') == 'general'){
+            
+            $subject = "General inquires!";
+
+        }
+
+            $details = $request->all();
+
+            Mail::send('email.newemail',['details' => $details ,'subject' =>$subject ], function ($m) use ($details,$subject){
+            $m->from($details['email'], $subject);
+            $m->to('ruchira@sevensigns.lk', 'Millennial Prophet Ministries')->subject($subject);
+        });
+
+        return response()->json(['success'=>'Email sent successfully!']);
+
+    }
 
 }

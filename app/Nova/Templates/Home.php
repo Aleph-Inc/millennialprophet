@@ -4,6 +4,9 @@ namespace App\Nova\Templates;
 
 use Illuminate\Http\Request;
 use Whitecube\NovaPage\Pages\Template;
+use Laravel\Nova\Fields\Text;
+use Laravel\Nova\Fields\Textarea;
+use Laravel\Nova\Fields\Trix;
 
 class Home extends Template {
 
@@ -15,7 +18,16 @@ class Home extends Template {
      */
     public function fields(Request $request)
     {
-        return [];
+        return [
+      
+
+            Textarea::make('Slider text', 'slidertext'),
+
+            Trix::make('On Being Human', 'human'),
+
+
+
+        ];
     }
 
     /**

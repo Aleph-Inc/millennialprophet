@@ -10,58 +10,66 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/send/email', 'PageController@mail');
 
+Route::get('stripe', 'StripePaymentController@stripe');
+Route::post('stripe', 'StripePaymentController@stripePost')->name('stripe.post');
 
+Route::get('/about', 'PageController@about')->name('About');
 
-Route::get('/about', 'PageController@about')
-    ->template(\App\Nova\Templates\About::class)
-    ->name('About');
+Route::get('/home', 'PageController@home')->name('Home');
 
-
-Route::get('/', 'PageController@home')
-    ->template(\App\Nova\Templates\Home::class)
-    ->name('Home');
-
-Route::get('/resources', 'PageController@resources')
-    ->template(\App\Nova\Templates\Home::class)
-    ->name('Resource');
+Route::get('/resources', 'PageController@resources')->name('Resource');
 
 Route::get('/resources/{id}','Backend\ResourceController@getResource');
 
-Route::get('/empower-minitries', 'PageController@ministries')
-    ->template(\App\Nova\Templates\Home::class)
-    ->name('Ministry');
+Route::get('/blog','BlogController@all');
 
-Route::get('/events', 'PageController@events')
-    ->template(\App\Nova\Templates\Home::class)
-    ->name('Events');
+Route::get('/connect/inquiries','PageController@inquires');
 
-Route::get('/testimonials', 'PageController@testimonials')
-    ->template(\App\Nova\Templates\Home::class)
-    ->name('Testimonials');
+Route::get('/confess','PageController@confess');
+
+Route::post('/send-mail', 'PageController@sendMail')->name('send-mail');
+
+Route::get('/blog/{id}','BlogController@getEach');
+
+Route::get('/empower', 'PageController@ministries')->name('Ministry');
+
+Route::get('/events', 'PageController@events')->name('Events');
+
+Route::get('/events/new','PageController@eventsNew');
+
+Route::get('/events/past','PageController@eventsPast');
+
+Route::get('/testimonies', 'PageController@testimonials')->name('Testimonies');
 
 Route::get('/testimonials/articles','Backend\TestimonialController@getArticles');
 
-Route::get('/jesus', 'PageController@jesus')
-    ->template(\App\Nova\Templates\Home::class)
-    ->name('Jesus');
+Route::get('/testimonials/videos','Backend\TestimonialController@getVideos');
 
-Route::get('/connect', 'PageController@connect')
-    ->template(\App\Nova\Templates\Home::class)
-    ->name('Connect');
+Route::get('/jesus', 'PageController@jesus')->name('Jesus');
 
-Route::get('/prayer_request', 'PageController@PrayerRequest')
-    ->template(\App\Nova\Templates\PrayerRequest::class)
-    ->name('PrayerRequest');
+Route::get('/connect', 'PageController@connect')->name('Connect');
 
-Route::get('/send_testimoney', 'PageController@SendTestimoney')
-    ->template(\App\Nova\Templates\SendTestimoney::class)
-    ->name('SendTestimoney');
+Route::get('/connect/prayer', 'PageController@PrayerRequest')->name('PrayerRequest');
 
-Route::get('/donation', 'PageController@donation')
-    ->template(\App\Nova\Templates\Donation::class)
-    ->name('Donation');
+Route::get('/connect/testimonies', 'PageController@SendTestimoney')->name('SendTestimoney');
 
-Route::get('/build-chruch', 'PageController@BuildChruch')
-    ->template(\App\Nova\Templates\BuildChruch::class)
-    ->name('BuildChruch');
+Route::get('/give', 'PageController@donation')->name('Donation');
+
+Route::get('/build-chruch', 'PageController@BuildChruch')->name('BuildChruch');
+
+Route::get('/empower/free-websites', 'PageController@FreeWebsite')->name('FreeWebsite');
+
+Route::get('/empower/digital-training', 'PageController@DigitalTraining')->name('DigitalTraining');
+
+Route::get('/partner', 'PageController@Partner')->name('Partner');
+
+Route::get('/partner/monthly', 'PageController@Monthly')->name('Montly');
+
+Route::get('/partner/one-time', 'PageController@Onetime')->name('Onetime');
+
+// Route::get('/partner/one-time', 'PageController@Onetime')
+//     ->template(\App\Nova\Templates\Onetime::class)
+//     ->name('Onetime');
+

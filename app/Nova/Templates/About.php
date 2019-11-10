@@ -5,8 +5,9 @@ namespace App\Nova\Templates;
 use Illuminate\Http\Request;
 use Whitecube\NovaPage\Pages\Template;
 use Laravel\Nova\Fields\Text;
+use Laravel\Nova\Fields\Textarea;
 use Laravel\Nova\Fields\Markdown;
-use Laravel\Nova\Fields\Image;
+use Laravel\Nova\Fields\Trix;
 
 use Whitecube\NovaFlexibleContent\Flexible;
 use Whitecube\NovaFlexibleContent\Concerns\HasFlexible;
@@ -28,29 +29,15 @@ class About extends Template {
         return [
             Text::make('Title of the page', 'title'),
 
-            Flexible::make('content1')
-         
-            ->addLayout('Slider section', 'mainimage', [
-                Text::make('Title'),
-                Image::make('Main Image Thumbnail', 'mainimage')
-             
-            ])
-            ->addLayout('Who we are ', 'whoweare', [
-                Markdown::make('who we are')
-            ])
-            ->addLayout('What jesus did to us', 'whatjesus', [
-                Markdown::make('what jesus did for us')
-          
-            ])
-            ->addLayout('Video Link', 'videolink', [
-                Text::make('Youtube video link')
-            ])
-            ->addLayout('Heart to heal', 'hearttoheal', [
-                Markdown::make('His Heart To Heal You')
-            ])
-              ->addLayout('Ministries', 'ministries', [
-                Markdown::make('Ministries')
-            ])
+            Trix::make('Who We are', 'whoweare'),
+
+            Trix::make('What jesus did to us', 'whatjesus'),
+
+            Trix::make('His Heart To Heal You', 'hisheal'),
+
+            Trix::make('Ministries', 'ministries'),
+
+
         ];
     }
 

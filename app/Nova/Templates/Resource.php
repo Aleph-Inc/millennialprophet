@@ -4,6 +4,7 @@ namespace App\Nova\Templates;
 
 use Illuminate\Http\Request;
 use Whitecube\NovaPage\Pages\Template;
+use Laravel\Nova\Fields\Text;
 
 class Resource extends Template {
 
