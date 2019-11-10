@@ -97,7 +97,8 @@ header {
       header ul li.connect-menu-item {
         background: #2474A4; }
         header ul li.connect-menu-item a {
-          color: #fff; }
+          color: #fff;
+          border: 0px solid #fff; }
     header ul ul.dropdown-menu {
       border-radius: 0px;
       border: none;
