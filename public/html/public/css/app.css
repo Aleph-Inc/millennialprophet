@@ -41,7 +41,8 @@ header {
   header div.top-header {
     position: relative;
     background: #2474A4;
-    text-align: right; }
+    text-align: right;
+    transition: .2s ease; }
     header div.top-header div.social-share {
       display: inline-block;
       border-right: thin solid #216994; }
@@ -93,6 +94,10 @@ header {
         background: #fff;
         color: #2474A4;
         font-weight: bold; }
+    header ul li.connect-menu-item {
+      background: #2474A4; }
+      header ul li.connect-menu-item a {
+        color: #fff; }
     header ul ul.dropdown-menu {
       border-radius: 0px;
       border: none;
