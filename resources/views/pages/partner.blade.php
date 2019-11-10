@@ -100,7 +100,7 @@
                         </a>
 
                         <a href="#">
-                            <img style="width:100px;" src="/html/public/images/ae.png" alt="">
+                            <img style="width:60px;" src="/html/public/images/ae.png" alt="">
                         </a>
 
                         <a href="#">
