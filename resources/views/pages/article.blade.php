@@ -7,10 +7,10 @@
         <div class="page-title">
             <H2>
                 BLOG
-                <SPAN>
+                <span>
 
                 Motivation The Defining Moment Of Self Improvement
-            </SPAN>
+            </span>
             </H2>
         </div>
         <div class="overlay"></div>
