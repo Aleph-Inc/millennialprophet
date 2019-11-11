@@ -386,8 +386,10 @@ Lorem Ipsum passages, and more recently with deskto
             </figure>
 
           <p>
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
             Easy and simple three steps to build a free
             website for your church.
+            <i class="fa fa-quote-right" aria-hidden="true"></i>
 
           </p>
 
