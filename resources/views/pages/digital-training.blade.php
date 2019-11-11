@@ -21,10 +21,10 @@
             <div class="row d-training justify-content-center pb-4">
 
                 <div class="col-md-6">
-                  <h3>
-                    Are you launching your digital nets to catch the lost ?
+                  <h2>
+                    Are you launching your digital <br>nets to catch the lost ?
                   </h3>
-                  <h4>
+                  <h5>
                     Train your staff on how to cast the digital nets
                   </h4>
 
