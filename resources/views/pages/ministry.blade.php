@@ -15,6 +15,7 @@
         <div class="container">
             <div class="row digital-training-block ">
                 <div class="col-md-6">
+                  <img src="{{ asset('html/public/images/dg.jpg') }}" alt="">
                     <h4>
                         Empower Ministries
                     </h4>
@@ -30,10 +31,7 @@
                         Learn More
                     </a>
                 </div>
-                <div class="col-md-6">
-                    <img src="{{ asset('html/public/images/dg.jpg') }}" alt="">
 
-                </div>
             </div>
 
         </div>
