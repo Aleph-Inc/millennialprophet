@@ -792,7 +792,16 @@ div.block-success-stories {
       div.block-success-stories div.success-story-item figure img {
         width: 64px;
         height: 64px; }
+    div.block-success-stories div.success-story-item div.user-name {
+      text-align: Center;
+      width: 100%; }
+    div.block-success-stories div.success-story-item a {
+      display: block;
+      text-align: Center;
+      text-decoration: none; }
     div.block-success-stories div.success-story-item p {
+      font-size: 14px;
+      font-style: italic;
       text-align: Center;
       font-weight: 400;
       font-size: 16px; }
