@@ -861,7 +861,21 @@ padding:20px;
           height:64px;
         }
       }
+
+      div.user-name{
+        text-align:Center;
+        width:100%;
+      }
+
+      a{
+        display:block;
+        text-align:Center;
+        text-decoration: none;
+      }
+
       p{
+        font-size: 14px;
+    font-style: italic;
         text-align:Center;
         font-weight:400;
         font-size:16px;
