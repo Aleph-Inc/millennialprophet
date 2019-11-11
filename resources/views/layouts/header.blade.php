@@ -56,7 +56,7 @@
 
                 <div class="mobile_menu">
                     <i class="fa fa-bars"></i>
-                   <i class="fa fa-times"></i>
+          
                 </div>
             </div>
 
