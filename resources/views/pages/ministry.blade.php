@@ -15,11 +15,11 @@
         <div class="container">
             <div class="row digital-training-block justify-content-center">
                 <div class="col-md-6">
-                  <h2 class="text-left">
+                  <h2>
                       FREE WEBSITE FOR<Br>
                       EVERY MINISTRY
                   </h2>
-                    <p class="text-left">
+                    <p>
                       Easy and simple three steps to build a free website  for your church.
                   </p>
 
