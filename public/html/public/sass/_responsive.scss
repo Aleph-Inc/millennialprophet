@@ -267,9 +267,11 @@ div.video-desktop {
     header ul ul.dropdown-menu{
       display:block;
       width:100%;
+      margin:0px;
 
      li a{
        line-height: 24px;
+           text-align: left;
      }
     }
     div.page-training {
