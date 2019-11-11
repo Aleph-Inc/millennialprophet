@@ -785,7 +785,7 @@ div.block-success-stories {
     margin: 0px 10px;
     padding: 20px 20px 40px 20px; }
     div.block-success-stories div.success-story-item:hover figure {
-      transform: translateY(-15px); }
+      transform: translateY(-5px); }
     div.block-success-stories div.success-story-item figure {
       tarnsition: .2s ease;
       width: 64px;
