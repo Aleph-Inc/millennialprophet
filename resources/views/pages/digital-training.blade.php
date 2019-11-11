@@ -30,7 +30,7 @@
 
   <img src="{{ asset('html/public/images/free-web.jpg') }} " alt="">
 
-
+<p>&nbsp;</p>
 <p><a>#SocialMediaTraining</a></p>
 
 
