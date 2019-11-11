@@ -18,13 +18,11 @@
 
     <div class="page-content page-ministry">
         <div class="container">
-            <div class="row d-training pb-4">
-                <div class="col-md-6">
-                    <img src="{{ asset('html/public/images/free-web.jpg') }} " alt="">
-                </div>
+            <div class="row d-training justify-content-center pb-4">
+
                 <div class="col-md-6">
 
-
+  <img src="{{ asset('html/public/images/free-web.jpg') }} " alt="">
 
 <h3>
   Are you launching your digital nets to catch the lost ?
