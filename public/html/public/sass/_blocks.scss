@@ -828,6 +828,11 @@ div.form-element {
 div.block-success-stories{
   background:#f1f1f1;
   padding:30px 0px;
+
+div.container{
+  padding:0px 20px;
+}
+
   div.block-title{
     h2{
       font-size: 36px;
@@ -841,6 +846,8 @@ div.block-success-stories{
     }
 
     div.success-story-item{
+
+padding:20px;
 
       figure{
         width:64px;

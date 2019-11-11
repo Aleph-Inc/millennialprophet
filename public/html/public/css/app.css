@@ -772,6 +772,8 @@ div.form-element {
 div.block-success-stories {
   background: #f1f1f1;
   padding: 30px 0px; }
+  div.block-success-stories div.container {
+    padding: 0px 20px; }
   div.block-success-stories div.block-title h2 {
     font-size: 36px;
     color: #000000;
@@ -779,19 +781,21 @@ div.block-success-stories {
     letter-spacing: 0;
     text-align: center;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); }
-  div.block-success-stories div.success-story-item figure {
-    width: 64px;
-    height: 64px;
-    border-radius: 100px;
-    overflow: hidden;
-    margin: 20px auto; }
-    div.block-success-stories div.success-story-item figure img {
+  div.block-success-stories div.success-story-item {
+    padding: 20px; }
+    div.block-success-stories div.success-story-item figure {
       width: 64px;
-      height: 64px; }
-  div.block-success-stories div.success-story-item p {
-    text-align: Center;
-    font-weight: 400;
-    font-size: 16px; }
+      height: 64px;
+      border-radius: 100px;
+      overflow: hidden;
+      margin: 20px auto; }
+      div.block-success-stories div.success-story-item figure img {
+        width: 64px;
+        height: 64px; }
+    div.block-success-stories div.success-story-item p {
+      text-align: Center;
+      font-weight: 400;
+      font-size: 16px; }
 
 #what_jesus_did_for_you {
   color: #246E9E; }
