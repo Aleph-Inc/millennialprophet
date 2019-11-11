@@ -354,7 +354,7 @@ Lorem Ipsum passages, and more recently with deskto
 
 
   <!-- Slider main container -->
-  <div class="swiper-container">
+  <div class="swiper-container" id="success_stories">
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
           <!-- Slides -->
