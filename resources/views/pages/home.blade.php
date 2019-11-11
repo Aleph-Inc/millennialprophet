@@ -433,6 +433,9 @@ Lorem Ipsum passages, and more recently with deskto
   </div>
 
 
+  <a class="btn btn-primary btn-start" href="#">
+      Read more
+  </a>
 
 
 </div>
