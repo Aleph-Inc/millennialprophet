@@ -135,8 +135,6 @@ if($(document).scrollTop() > 80){
 });
 
 
-$("")
-
 
 var mySwiper = new Swiper ('#success_stories', {
   // Optional parameters
