@@ -1,21 +1,22 @@
 /*
-Error: Invalid CSS after "  }": expected selector or at-rule, was "}"
-        on line 835 of _blocks.scss
+Error: Invalid CSS after "}": expected selector or at-rule, was "}"
+        on line 823 of _blocks.scss
         from line 4 of app.scss
 
-830:     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-831: }
-832: 
-833:     }
-834:   }
-835: }
-836: 
-837: #what_jesus_did_for_you{
-838:     color:#246E9E;
-839: }
+818:         }
+819:     }
+820: }
+821: 
+822: 
+823: }
+824: 
+825: 
+826: 
+827: 
+828: div.block-success-stories{
 
 Backtrace:
-_blocks.scss:835
+_blocks.scss:823
 app.scss:4
 /Users/shan/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.23/lib/sass/scss/parser.rb:1207:in `expected'
 /Users/shan/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.23/lib/sass/scss/parser.rb:1137:in `expected'
@@ -62,4 +63,4 @@ app.scss:4
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"  }\": expected selector or at-rule, was \"}\"\A         on line 835 of _blocks.scss\A         from line 4 of app.scss\A \A 830:     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);\A 831: }\A 832: \A 833:     }\A 834:   }\A 835: }\A 836: \A 837: #what_jesus_did_for_you{\A 838:     color:#246E9E;\A 839: }"; }
+  content: "Error: Invalid CSS after \"}\": expected selector or at-rule, was \"}\"\A         on line 823 of _blocks.scss\A         from line 4 of app.scss\A \A 818:         }\A 819:     }\A 820: }\A 821: \A 822: \A 823: }\A 824: \A 825: \A 826: \A 827: \A 828: div.block-success-stories{"; }
