@@ -1624,6 +1624,10 @@ div.video-desktop {
   body {
     padding-top: 108px; }
 
+  header ul ul.dropdown-menu {
+    display: block;
+    width: 100%; }
+
   div.page-training div.col-md-6 img {
     width: 100%; }
 
