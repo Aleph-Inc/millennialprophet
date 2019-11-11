@@ -117,7 +117,7 @@
 
 $(document).scroll(function(){
 
-if($(document).scrollTop() > 100){
+if($(document).scrollTop() > 80){
   $("div.top-header").css({
     "height": 0,
     "overflow": "hidden"

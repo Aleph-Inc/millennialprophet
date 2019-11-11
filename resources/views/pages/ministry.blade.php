@@ -59,7 +59,7 @@
 
                     <a href="/empower/digital-training"
                        class="btn btn-primary btn-start">
-                        GET STARTED
+                      APPLY NOW
                     </a>
                 </div>
 
