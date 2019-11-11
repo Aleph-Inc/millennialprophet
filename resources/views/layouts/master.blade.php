@@ -12,7 +12,8 @@
     <meta name="viewport"
           content="width=device-width initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no shrink-to-fit=no">
     <meta name="google-site-verification" content="AIzaSyD6yRFelNfJlGThrXJ70o1Rpvp18DaSmyA" />
-
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
+    
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="{{ asset('html/public/images/favicon-32x32.png') }}" />
@@ -21,8 +22,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css"
           href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <meta name="csrf-token" content="{{ csrf_token() }}" />
+          <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
 
+
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- todo-->
