@@ -392,7 +392,7 @@ Lorem Ipsum passages, and more recently with deskto
           </p>
 
           <div class="user-name">
-            Methiw Wade
+          Church - Horsland
           </div>
 
           <a href="#">
@@ -413,7 +413,7 @@ Lorem Ipsum passages, and more recently with deskto
           </p>
 
           <div class="user-name">
-            Methiw Wade
+            Anna Jonston
           </div>
 
           <a href="#">
