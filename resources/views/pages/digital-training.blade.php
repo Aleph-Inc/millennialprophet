@@ -37,9 +37,10 @@
                             <p class="text-left">
                             @if($digitalTraining->middle)
                                 {!! $digitalTraining->middle !!}
-                                </p>
                             @endif
+  </p>
 
+  @endif
 
                     <a href="" class="btn btn-primary btn-start">
                         Learn More
