@@ -1301,7 +1301,7 @@ div.page-ministry div.digital-training-block {
     font-size: 18px;
     color: #9A9A9A;
     letter-spacing: 0;
-    text-align: right;
+    text-align: center;
     margin: 7px 0px; }
   div.page-ministry div.digital-training-block h2 {
     /* FREE WEBSITE FOR EVE: */
@@ -1309,11 +1309,11 @@ div.page-ministry div.digital-training-block {
     font-size: 36px;
     color: #000000;
     letter-spacing: 0;
-    text-align: right;
+    text-align: center;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); }
   div.page-ministry div.digital-training-block a.btn {
-    margin: 0px -1px;
-    float: right; }
+    margin: 0px auto;
+    float: none; }
   div.page-ministry div.digital-training-block p {
     /* Easy and simple thre: */
     font-family: Avenir-Medium;
@@ -1321,7 +1321,7 @@ div.page-ministry div.digital-training-block {
     color: #000000;
     margin: 7px 0px;
     letter-spacing: 0;
-    text-align: right; }
+    text-align: center; }
   div.page-ministry div.digital-training-block img {
     width: 100%; }
 div.page-ministry div.create-website div.col-4 a {
