@@ -815,12 +815,12 @@ div.block-success-stories {
         margin: 0px 7px;
         color: #999; }
 
-.d-training h3 {
+.d-training h2 {
   font-weight: bold;
   text-align: center;
   margin: 20px 0px; }
-.d-training h4 {
-  font-weight: bold;
+.d-training h5 {
+  font-weight: normal;
   text-align: center;
   margin: 20px 0px; }
 
