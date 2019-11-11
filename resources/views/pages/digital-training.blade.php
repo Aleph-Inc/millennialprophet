@@ -21,15 +21,16 @@
             <div class="row d-training justify-content-center pb-4">
 
                 <div class="col-md-6">
+                  <h3>
+                    Are you launching your digital nets to catch the lost ?
+                  </h3>
+                  <h4>
+                    Train your staff on how to cast the digital nets
+                  </h4>
 
   <img src="{{ asset('html/public/images/free-web.jpg') }} " alt="">
 
-<h3>
-  Are you launching your digital nets to catch the lost ?
-</h3>
-<h4>
-  Train your staff on how to cast the digital nets
-</h4>
+
 <p><a>#SocialMediaTraining</a></p>
 
 
