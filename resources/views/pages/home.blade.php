@@ -361,7 +361,7 @@ Lorem Ipsum passages, and more recently with deskto
           <div class="swiper-slide"><div class="success-story-item">
 
             <figure>
-              <img src="/images/user-1.png" alt="">
+              <img src="/html/public/images/user-1.png" alt="">
             </figure>
 
           <p>
@@ -382,7 +382,7 @@ Lorem Ipsum passages, and more recently with deskto
           <div class="swiper-slide"><div class="success-story-item">
 
             <figure>
-              <img src="/images/user-2.png" alt="">
+              <img src="/html/public/images/user-2.png" alt="">
             </figure>
 
           <p>
@@ -403,7 +403,7 @@ Lorem Ipsum passages, and more recently with deskto
           <div class="swiper-slide"><div class="success-story-item">
 
             <figure>
-              <img src="/images/user-3.png" alt="">
+              <img src="/html/public/images/user-3.png" alt="">
             </figure>
 
           <p>
