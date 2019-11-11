@@ -334,6 +334,85 @@ Lorem Ipsum passages, and more recently with deskto
         </div>
     </div>
 
+
+
+
+
+    <div class="block-success-stories">
+
+<div class="container">
+
+<div class="success-story-item">
+
+  <figure>
+    <img src="/images/user-1.jpg" alt="">
+  </figure>
+
+<p>
+  Easy and simple three steps to build a free
+  website for your church.
+
+</p>
+
+<div class="user-name">
+  Methiw Wade
+</div>
+
+<a href="#">
+  http://www.churchurl.be
+</a>
+
+</div>
+
+<div class="success-story-item">
+
+  <figure>
+    <img src="/images/user-1.jpg" alt="">
+  </figure>
+
+<p>
+  Easy and simple three steps to build a free
+  website for your church.
+
+</p>
+
+<div class="user-name">
+  Methiw Wade
+</div>
+
+<a href="#">
+  http://www.churchurl.be
+</a>
+
+</div>
+
+<div class="success-story-item">
+
+  <figure>
+    <img src="/images/user-1.jpg" alt="">
+  </figure>
+
+<p>
+  Easy and simple three steps to build a free
+  website for your church.
+
+</p>
+
+<div class="user-name">
+  Methiw Wade
+</div>
+
+<a href="#">
+  http://www.churchurl.be
+</a>
+
+</div>
+
+
+</div>
+
+    </div>
+
     <!-- connect box-->
     <div class="block-connect connect_bg">
         <div class="container">
