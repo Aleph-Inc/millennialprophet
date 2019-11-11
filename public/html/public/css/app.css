@@ -776,6 +776,19 @@ div.block-success-stories div.block-title h2 {
   letter-spacing: 0;
   text-align: right;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); }
+div.block-success-stories div.success-story-item figure {
+  width: 64px;
+  height: 64px;
+  border-radius: 100px;
+  overflow: hidden;
+  margin: 20px auto; }
+  div.block-success-stories div.success-story-item figure img {
+    width: 64px;
+    height: 64px; }
+div.block-success-stories div.success-story-item p {
+  text-align: Center;
+  font-weight: 400;
+  font-size: 16px; }
 
 #what_jesus_did_for_you {
   color: #246E9E; }
