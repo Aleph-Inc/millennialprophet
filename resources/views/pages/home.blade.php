@@ -349,71 +349,90 @@ Lorem Ipsum passages, and more recently with deskto
   </div>
 
 
-<div class="success-story-item">
 
-  <figure>
-    <img src="/images/user-1.jpg" alt="">
-  </figure>
 
-<p>
-  Easy and simple three steps to build a free
-  website for your church.
 
-</p>
 
-<div class="user-name">
-  Methiw Wade
-</div>
+  <!-- Slider main container -->
+  <div class="swiper-container" id="success_stories">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><div class="success-story-item">
 
-<a href="#">
-  http://www.churchurl.be
-</a>
+            <figure>
+              <img src="/images/user-1.jpg" alt="">
+            </figure>
 
-</div>
+          <p>
+            Easy and simple three steps to build a free
+            website for your church.
 
-<div class="success-story-item">
+          </p>
 
-  <figure>
-    <img src="/images/user-1.jpg" alt="">
-  </figure>
+          <div class="user-name">
+            Methiw Wade
+          </div>
 
-<p>
-  Easy and simple three steps to build a free
-  website for your church.
+          <a href="#">
+            http://www.churchurl.be
+          </a>
 
-</p>
+          </div></div>
+          <div class="swiper-slide"><div class="success-story-item">
 
-<div class="user-name">
-  Methiw Wade
-</div>
+            <figure>
+              <img src="/images/user-1.jpg" alt="">
+            </figure>
 
-<a href="#">
-  http://www.churchurl.be
-</a>
+          <p>
+            Easy and simple three steps to build a free
+            website for your church.
 
-</div>
+          </p>
 
-<div class="success-story-item">
+          <div class="user-name">
+            Methiw Wade
+          </div>
 
-  <figure>
-    <img src="/images/user-1.jpg" alt="">
-  </figure>
+          <a href="#">
+            http://www.churchurl.be
+          </a>
 
-<p>
-  Easy and simple three steps to build a free
-  website for your church.
+          </div></div>
+          <div class="swiper-slide"><div class="success-story-item">
 
-</p>
+            <figure>
+              <img src="/images/user-1.jpg" alt="">
+            </figure>
 
-<div class="user-name">
-  Methiw Wade
-</div>
+          <p>
+            Easy and simple three steps to build a free
+            website for your church.
 
-<a href="#">
-  http://www.churchurl.be
-</a>
+          </p>
 
-</div>
+          <div class="user-name">
+            Methiw Wade
+          </div>
+
+          <a href="#">
+            http://www.churchurl.be
+          </a>
+
+          </div></div>
+
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+  </div>
+
+
 
 
 </div>

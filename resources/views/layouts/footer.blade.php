@@ -132,6 +132,28 @@ if($(document).scrollTop() > 100){
 
 });
 
+
+$("")
+
+
+var mySwiper = new Swiper ('#success_stories', {
+  // Optional parameters
+
+  loop: true,
+  slidesPerView:"auto"
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+})
+
         $(".mobile_menu").click(function (e) {
             $(this).toggleClass("expand");
             $("header, body").toggleClass("expand");
