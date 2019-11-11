@@ -837,6 +837,29 @@ div.block-success-stories{
 }
 
     }
+
+    div.success-story-item{
+
+      figure{
+        width:64px;
+        height:64px;
+        border-radius:100px;
+        overflow:hidden;
+        margin:20px auto;
+
+        img{
+          width:64px;
+          height:64px;
+        }
+      }
+      p{
+        text-align:Center;
+        font-weight:400;
+        font-size:16px;
+
+
+      }
+    }
   }
 
 
