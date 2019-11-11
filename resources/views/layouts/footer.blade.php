@@ -156,8 +156,8 @@ var mySwiper = new Swiper ('#success_stories', {
        slidesPerView: 1
      },
      // when window width is >= 640px
-     640: {
-       slidesPerView: 2
+     767: {
+       slidesPerView: 3
      }
    },
 
