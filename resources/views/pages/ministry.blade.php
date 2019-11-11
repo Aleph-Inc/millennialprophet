@@ -15,17 +15,35 @@
         <div class="container">
             <div class="row digital-training-block ">
                 <div class="col-md-6">
+                  <h2>
+                      FREE WEBSITE FOR<Br>
+                      EVERY MINISTRY
+                  </h2>
+                  <p>
+                      Easy and simple three steps to build a free website  for your church.
+                  </p>
+
                   <img src="{{ asset('html/public/images/dg.jpg') }}" alt="">
-                    <h4>
-                        Empower Ministries
-                    </h4>
-                    <h2>
-                        FREE WEBSITE FOR<Br>
-                        EVERY MINISTRY
-                    </h2>
-                    <p>
-                        Easy and simple three steps to build a free website  for your church.
-                    </p>
+
+                  <p>
+
+                    What a privilege it is to serve Him during these exciting times! God is accomplishing great and
+                    mighty things, and that’s why I want to personally invite you to become a Covenant Partner so
+                    that,
+                    together, we can fulfill the Great Commission and win the world in His mighty name.
+                    <br><br>
+                    As a partner in this ministry, you will be making a difference in lives around the world, and
+                    what a
+                    privilege it is to serve Him during these exciting times.  hen I minister to the multitudes, my
+                    partners are there with me.
+
+                    <br><br>
+
+                    When I go to the nations through television and crusades, and when we see multiplied tens of
+                    thousands of men, women, and children weeping as they accept Jesus in their lives, you will be
+                    blessed with an eternal harvest for the seed you have sown.
+
+                  </p>
 
                     <a href="" class="btn btn-primary btn-start">
                         Learn More
