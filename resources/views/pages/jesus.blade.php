@@ -20,16 +20,16 @@
                     WHAT JESUS DID FOR YOU
                 </h2>
                 <p>
-                
+
                 <p>
                     @if($jesus)
                         @if($jesus->whatjesus)
                             {!! $jesus->whatjesus !!}
                         @else
-                            At New Creation Church, we believe we are God’s beloved. He demonstrated this by freely giving up heaven’s best, His only Son Jesus, for you and me. When we catch a revelation of this truth, we are transformed by His grace from the inside out. That’s the beauty of believing and living in our heavenly Father’s love and grace! No matter who you are or where you come from, there’s always a place for you in our church family!                        
+                            At New Creation Church, we believe we are God’s beloved. He demonstrated this by freely giving up heaven’s best, His only Son Jesus, for you and me. When we catch a revelation of this truth, we are transformed by His grace from the inside out. That’s the beauty of believing and living in our heavenly Father’s love and grace! No matter who you are or where you come from, there’s always a place for you in our church family!
                         @endif
                     @else
-                        At New Creation Church, we believe we are God’s beloved. He demonstrated this by freely giving up heaven’s best, His only Son Jesus, for you and me. When we catch a revelation of this truth, we are transformed by His grace from the inside out. That’s the beauty of believing and living in our heavenly Father’s love and grace! No matter who you are or where you come from, there’s always a place for you in our church family!                        
+                        At New Creation Church, we believe we are God’s beloved. He demonstrated this by freely giving up heaven’s best, His only Son Jesus, for you and me. When we catch a revelation of this truth, we are transformed by His grace from the inside out. That’s the beauty of believing and living in our heavenly Father’s love and grace! No matter who you are or where you come from, there’s always a place for you in our church family!
                     @endif
                 </p>
 
@@ -39,7 +39,7 @@
     </div>
 
 
-    <img src="{{ asset('html/public/images/jesus_img.jpg') }}" alt="" class="page-full-image">
+    <!-- <img src="{{ asset('html/public/images/jesus_img.jpg') }}" alt="" class="page-full-image"> -->
 
 
     <div class="container">
@@ -67,14 +67,14 @@
                             @if($jesus->hisheal)
                                 {!! $jesus->hisheal !!}
                             @else
-                                How willing is God to heal you today? Let this animation clip show you how God does not just have the power but also the heart to supply your area of need. Beloved, Jesus has already done everything necessary to redeem you and restore you to sweet fellowship with Him and God the Father. But His finished work can only become real in your life if you make a personal decision to accept Him. Accepting Jesus as your Lord and Saviour will not only save you from hell, but also give you love, peace, joy, hope, unconditional acceptance, favour, health and every good thing that you can think of and more! If you would like to accept Jesus and all that He has done for you, say this prayer and mean it from your heart:                        
+                                How willing is God to heal you today? Let this animation clip show you how God does not just have the power but also the heart to supply your area of need. Beloved, Jesus has already done everything necessary to redeem you and restore you to sweet fellowship with Him and God the Father. But His finished work can only become real in your life if you make a personal decision to accept Him. Accepting Jesus as your Lord and Saviour will not only save you from hell, but also give you love, peace, joy, hope, unconditional acceptance, favour, health and every good thing that you can think of and more! If you would like to accept Jesus and all that He has done for you, say this prayer and mean it from your heart:
                             @endif
                         @else
-                            How willing is God to heal you today? Let this animation clip show you how God does not just have the power but also the heart to supply your area of need. Beloved, Jesus has already done everything necessary to redeem you and restore you to sweet fellowship with Him and God the Father. But His finished work can only become real in your life if you make a personal decision to accept Him. Accepting Jesus as your Lord and Saviour will not only save you from hell, but also give you love, peace, joy, hope, unconditional acceptance, favour, health and every good thing that you can think of and more! If you would like to accept Jesus and all that He has done for you, say this prayer and mean it from your heart:                        
+                            How willing is God to heal you today? Let this animation clip show you how God does not just have the power but also the heart to supply your area of need. Beloved, Jesus has already done everything necessary to redeem you and restore you to sweet fellowship with Him and God the Father. But His finished work can only become real in your life if you make a personal decision to accept Him. Accepting Jesus as your Lord and Saviour will not only save you from hell, but also give you love, peace, joy, hope, unconditional acceptance, favour, health and every good thing that you can think of and more! If you would like to accept Jesus and all that He has done for you, say this prayer and mean it from your heart:
                         @endif
                     </p>
 
-                
+
             </div>
 
 
