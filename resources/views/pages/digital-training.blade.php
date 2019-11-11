@@ -23,27 +23,26 @@
                     <img src="{{ asset('html/public/images/free-web.jpg') }} " alt="">
                 </div>
                 <div class="col-md-6">
+
+
+
+<h3>
+  Are you launching your digital nets to catch the lost ?
+</h3>
+<h4>
+  Train your staff on how to cast the digital nets
+</h4>
+<p><a>#SocialMediaTraining</a></p>
+
                     <p class="text-left">
                         @if($digitalTraining)
                             @if($digitalTraining->middle)
                                 {!! $digitalTraining->middle !!}
                             @else
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                                and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                                leap into electronic typesetting, remaining essentially unchanged. <Br><Br> It was popularised in
-                                the 1960s
-                                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                                publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
                             @endif
                         @else
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                            and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                            leap into electronic typesetting, remaining essentially unchanged. <Br><Br> It was popularised in
-                            the 1960s
-                            with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                            publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
                         @endif
                     </p>
 
@@ -55,7 +54,7 @@
             </div>
 
 
-          
+
 
         </div>
     </div>
