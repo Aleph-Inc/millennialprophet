@@ -809,6 +809,9 @@ div.block-success-stories {
       text-align: Center;
       font-weight: 400;
       font-size: 16px; }
+      div.block-success-stories div.success-story-item p i.fa {
+        font-size: 24px;
+        color: #999; }
 
 #what_jesus_did_for_you {
   color: #246E9E; }
