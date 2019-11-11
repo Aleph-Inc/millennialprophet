@@ -23,6 +23,7 @@
 
 <img src="{{ asset('html/public/images/free-web.jpg') }} " alt="">
 
+<p>&nbsp;</p>
                     <p class="text-center">
                         @if($freeWebsite)
                             @if($freeWebsite->middle)
