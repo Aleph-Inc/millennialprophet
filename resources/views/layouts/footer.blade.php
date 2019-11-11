@@ -140,7 +140,7 @@ var mySwiper = new Swiper ('#success_stories', {
   // Optional parameters
 
   loop: true,
-  slidesPerView:3
+  slidesPerView:3,
 
   // If we need pagination
   pagination: {
