@@ -343,7 +343,9 @@ Lorem Ipsum passages, and more recently with deskto
 <div class="container">
 
   <div class="block-title">
-      READ SUCCESS STOREIS
+      <h2>
+        READ SUCCESS STOREIS
+      </h2>
   </div>
 
 
