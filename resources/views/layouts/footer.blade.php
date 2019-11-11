@@ -159,7 +159,7 @@ var mySwiper = new Swiper ('#success_stories', {
      640: {
        slidesPerView: 2
      }
-   }
+   },
 
   // Navigation arrows
   navigation: {
