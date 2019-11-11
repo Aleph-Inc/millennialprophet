@@ -18,13 +18,11 @@
 
     <div class="page-content page-ministry">
         <div class="container">
-
             <div class="row d-training pb-4">
                 <div class="col-md-6">
                     <img src="{{ asset('html/public/images/free-web.jpg') }} " alt="">
                 </div>
                 <div class="col-md-6">
-
                     <p class="text-left">
                         @if($digitalTraining)
                             @if($digitalTraining->middle)
