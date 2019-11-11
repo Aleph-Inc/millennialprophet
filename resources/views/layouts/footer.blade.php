@@ -120,12 +120,14 @@ $(document).scroll(function(){
 if($(document).scrollTop() > 80){
   $("div.top-header").css({
     "height": 0,
-    "overflow": "hidden"
+    "overflow": "hidden",
+    "opacity":0
   });
 }else{
   $("div.top-header").css({
     "height": "41px",
-    "overflow": "visible"
+    "overflow": "visible",
+    "opacity":1
   });
 }
 
