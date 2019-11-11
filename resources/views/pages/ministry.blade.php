@@ -13,19 +13,19 @@
 
     <div class="page-content page-ministry">
         <div class="container">
-            <div class="row digital-training-block ">
+            <div class="row digital-training-block justify-content-center">
                 <div class="col-md-6">
-                  <h2>
+                  <h2 class="text-left">
                       FREE WEBSITE FOR<Br>
                       EVERY MINISTRY
                   </h2>
-                  <p>
+                    <p class="text-left">
                       Easy and simple three steps to build a free website  for your church.
                   </p>
 
                   <img src="{{ asset('html/public/images/dg.jpg') }}" alt="">
 
-                  <p>
+                  <p class="text-left">
 
                     What a privilege it is to serve Him during these exciting times! God is accomplishing great and
                     mighty things, and that’s why I want to personally invite you to become a Covenant Partner so
