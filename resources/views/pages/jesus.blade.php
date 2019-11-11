@@ -3,7 +3,7 @@
 @section('title',"Jesus -")
 @section('content')
 <div class="page-header jesus_bg">
-    <div class="page-title">
+    <div class="page-title" style="width:160px;">
         <H2>
             JESUS
         </H2>
