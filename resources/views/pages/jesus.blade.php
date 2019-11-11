@@ -2,8 +2,8 @@
 
 @section('title',"Jesus -")
 @section('content')
-<div class="page-header jesus_bg">
-    <div class="page-title" style="width:160px;">
+<div class="page-header jesus_bg" style="height:160px;">
+    <div class="page-title" >
         <H2>
             JESUS
         </H2>
