@@ -783,7 +783,7 @@ div.block-success-stories {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); }
   div.block-success-stories div.success-story-item {
     margin: 0px 20px;
-    padding: 20px 20px;
+    padding: 20px 20px 40px 20px;
     background: #fff;
     border: thin solid #e1e1e1; }
     div.block-success-stories div.success-story-item figure {
