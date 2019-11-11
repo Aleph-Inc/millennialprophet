@@ -152,11 +152,11 @@ var mySwiper = new Swiper ('#success_stories', {
        slidesPerView: 1
      },
      // when window width is >= 480px
-     700: {
+     767: {
        slidesPerView: 2
      },
      // when window width is >= 640px
-     768: {
+     900: {
        slidesPerView: 3
      }
    },
