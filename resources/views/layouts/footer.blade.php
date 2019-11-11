@@ -148,6 +148,20 @@ var mySwiper = new Swiper ('#success_stories', {
   pagination: {
     el: '.swiper-pagination',
   },
+  breakpoints: {
+     // when window width is >= 320px
+     320: {
+       slidesPerView: 1
+     },
+     // when window width is >= 480px
+     480: {
+       slidesPerView: 1
+     },
+     // when window width is >= 640px
+     640: {
+       slidesPerView: 2
+     }
+   }
 
   // Navigation arrows
   navigation: {
@@ -155,6 +169,9 @@ var mySwiper = new Swiper ('#success_stories', {
     prevEl: '.swiper-button-prev',
   },
 })
+
+
+
 
         $(".mobile_menu").click(function (e) {
             $(this).toggleClass("expand");
