@@ -46,7 +46,7 @@
                   </p>
 
 
-                        <div class="row">
+                        <div class="row digital-media-btns">
                         <div class="col-md-6">
                           <a class="btn btn-primary btn-start" href="{{ url('/empower/free-websites') }}"> Free websites</a>
                         </div>
