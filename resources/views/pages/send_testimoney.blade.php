@@ -64,7 +64,12 @@
                                             <button type="submit" class="submit-button state-0"><span" class="pre-state-msg">Submit</span><span class="current-state-msg hide">Sending...</span><span class="done-state-msg hide">Done!</span></button>
                                         </div>
 
-                                        <div class="form-element">
+                                        <div class="form-element attach-resources">
+<label>Attach videos</label>
+<input type="file" type="upload_testi_videos"/>
+                                        </div>
+
+                                        <div class="form-element attach-resources">
 <label>Attach videos</label>
 <input type="file" type="upload_testi_videos"/>
                                         </div>
