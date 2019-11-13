@@ -45,9 +45,13 @@
 
                   </p>
 
-                    <a href="" class="btn btn-primary btn-start">
-                        Learn More
-                    </a>
+
+                        <div class="row">
+                        <div class="col-md-6">
+                          <a class="btn btn-primary btn-start" href="{{ url('/empower/free-websites') }}"> Free websites</a>
+                        </div>
+                        </div>
+
                 </div>
 
             </div>
