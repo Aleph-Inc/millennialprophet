@@ -121,12 +121,12 @@ if($(window).scrollTop() >= 120){
 
   setTimeout(function(){
     $("div.top-header").addClass("hide-it");
-  },100);
+  },0);
 
 }else{
   setTimeout(function(){
     $("div.top-header").removeClass("hide-it");
-  },1000);
+  },0);
 }
 
 
