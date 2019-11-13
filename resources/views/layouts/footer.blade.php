@@ -117,7 +117,7 @@
 
 $(document).scroll(function(){
 
-if($(document).scrollTop() >= 120){
+if($(window).scrollTop() >= 120){
 
   setTimeout(function(){
     $("div.top-header").addClass("hide-it");
