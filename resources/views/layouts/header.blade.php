@@ -56,7 +56,7 @@
 
                 <div class="mobile_menu">
                     <i class="fa fa-bars"></i>
-          
+
                 </div>
             </div>
 
@@ -85,18 +85,18 @@
                         <a href="{{ url('/empower') }}">
                             EMPOWER
                         </a>
-                           <ul class="dropdown-menu">
+                           <!-- <ul class="dropdown-menu">
                             <li><a href="{{ url('/empower/free-websites') }}"> Free websites</a></li>
                             <li><a href="{{ url('/empower/digital-training') }}">Digital media training </a></li>
-                        </ul>
+                        </ul> -->
                     </li>
                     <li class="{{ request()->is('resources') ? 'active' : '' }}">
                         <a href="{{ url('/resources') }}">
                             RESOURCES
                         </a>
-                        <ul style="display: none;">
+                        <!-- <ul>
                             <li><a href="{{ url('/confess') }}"> Confess the world</a></li>
-                        </ul>
+                        </ul> -->
                     </li>
                          <li class="{{ request()->is('events') ? 'active' : '' }}">
                         <a href="{{ url('/events') }}">

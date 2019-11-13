@@ -29,7 +29,7 @@
                     <li><a style="cursor: pointer;" class="watchvideos" id="worship" > Worship</a></li>
                     <li><a style="cursor: pointer;" class="watchvideos" id="crusades" > Crusades</a></li>
 
-                   
+
                 </ul>
             </div>
 
@@ -48,7 +48,7 @@
 
                         @foreach ($videos  as $video)
 
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ $video->link }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             <p>
                                 {{ $video->name }}
@@ -67,7 +67,7 @@
 
 <script>
 $('.watchvideos').click(function(){
-    let linkname = $(this).attr('id'); 
+    let linkname = $(this).attr('id');
     $.ajax({
         url: "{{ url('/') }}/resources/"+linkname,
         method: 'GET',
@@ -149,7 +149,7 @@ $('.watchvideos').click(function(){
                 }
             }
         }
-    })   
+    })
 });
 </script>
 
