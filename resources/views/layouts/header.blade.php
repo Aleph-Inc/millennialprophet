@@ -110,7 +110,7 @@
                     </li>
 
 
-                    <li class= "{{ request()->is('connect') ? 'active' : '' }} connect-menu-item">
+                    <li class= "{{ request()->is('connect') ? 'active' : '' }} ">
                         <a href="/connect">
                             CONNECT
                         </a>
