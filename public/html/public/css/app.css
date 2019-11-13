@@ -1582,7 +1582,7 @@ div.video-desktop {
 
   header {
     position: fixed;
-    height: 64px;
+    height: 108px;
     overflow: hidden; }
     header div.mobile_menu {
       z-index: 2000;
