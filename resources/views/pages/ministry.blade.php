@@ -51,7 +51,7 @@
                           <a class="btn btn-primary btn-start" href="{{ url('/empower/free-websites') }}"> Free websites</a>
                         </div>
                         <div class="col-md-6">
-                      <a class="btn btn-primary btn-start" href="{{ url('/empower/free-websites') }}"> Digital media training </a>
+                      <a class="btn btn-primary btn-start" href="{{ url('/empower/digital-training') }}"> Digital media training </a>
                         </div>
                         </div>
 
