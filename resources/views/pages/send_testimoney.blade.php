@@ -64,6 +64,11 @@
                                             <button type="submit" class="submit-button state-0"><span" class="pre-state-msg">Submit</span><span class="current-state-msg hide">Sending...</span><span class="done-state-msg hide">Done!</span></button>
                                         </div>
 
+                                        <div class="form-element">
+<label>Attach videos</label>
+<input type="file" type="upload_testi_videos"/>
+                                        </div>
+
                                     </form>
                                 </div>
 
@@ -162,7 +167,7 @@
                 </svg>
             </a>
 
-          
+
 
             <a href="#">
                 <svg width="77px" height="55px" viewBox="0 0 77 55" version="1.1" xmlns="http://www.w3.org/2000/svg"
