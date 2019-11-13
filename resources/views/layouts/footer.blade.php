@@ -119,14 +119,14 @@ $(document).scroll(function(){
 
 if($(window).scrollTop() >= 120){
 
-  setTimeout(function(){
+
     $("div.top-header").addClass("hide-it");
-  },0);
+
 
 }else{
-  setTimeout(function(){
+
     $("div.top-header").removeClass("hide-it");
-  },0);
+
 }
 
 
