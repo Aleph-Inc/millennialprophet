@@ -1464,6 +1464,10 @@ div.blog-date {
   letter-spacing: 0;
   text-align: center; }
 
+.attach-resources {
+  background: #fff;
+  padding: 20px; }
+
 .digital-media-btns a.btn {
   height: 100px;
   line-height: 86px; }
