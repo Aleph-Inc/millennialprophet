@@ -1256,6 +1256,9 @@ div.page-videos {
     text-align: left;
     margin: 20px 0px;
     font-family: "Montserrat", sans-serif; }
+  div.page-videos div.related-videos iframe {
+    width: 100%;
+    position: relative; }
   div.page-videos div.col-md-4 {
     margin: 0px 0px 20px 0px; }
     div.page-videos div.col-md-4 iframe {

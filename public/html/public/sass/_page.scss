@@ -646,6 +646,11 @@ div.page-videos {
       margin: 20px 0px;
       font-family: $second-font;
     }
+
+    iframe{
+      width:100%;
+      position:relative;
+    }
   }
 
   div.col-md-4 {
