@@ -118,9 +118,15 @@
 $(document).scroll(function(){
 
 if($(document).scrollTop() >= 120){
-  $("div.top-header").addClass("hide-it");
+
+  setTimeout(function(){
+    $("div.top-header").addClass("hide-it");
+  },200);
+
 }else{
-  $("div.top-header").removeClass("hide-it");
+  setTimeout(function(){
+    $("div.top-header").removeClass("hide-it");
+  },200);
 }
 
 
