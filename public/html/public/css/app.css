@@ -64,6 +64,10 @@ header {
         text-decoration: none !important; }
     header div.top-header a.link-partner {
       border-left: thin solid #216994; }
+  header div.top-header.hide-it {
+    height: 0px;
+    overflow: hidden;
+    opacity: 0; }
   header ul {
     margin: 0px;
     float: right;

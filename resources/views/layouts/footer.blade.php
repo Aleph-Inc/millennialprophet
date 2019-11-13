@@ -118,17 +118,9 @@
 $(document).scroll(function(){
 
 if($(document).scrollTop() >= 120){
-  $("div.top-header").css({
-    "height": 0,
-    "overflow": "hidden",
-    "opacity":0
-  });
+  $("div.top-header").addClass("hide-it");
 }else{
-  $("div.top-header").css({
-    "height": "41px",
-    "overflow": "visible",
-    "opacity":1
-  });
+  $("div.top-header").removeClass("hide-it");
 }
 
 
