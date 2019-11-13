@@ -41,7 +41,7 @@
 
                 <div class="row" id="testimonial">
                     @foreach($testimonials as $testimonial)
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-6 ">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ $testimonial->link }}" frameborder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
