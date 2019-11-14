@@ -121,11 +121,13 @@ if($(window).scrollTop() >= 120){
 
 
     $("div.top-header").addClass("hide-it");
+    $("header").addClass("shrink-on-scroll");
 
 
 }else{
 
     $("div.top-header").removeClass("hide-it");
+    $("header").removeClass("shrink-on-scroll");
 
 }
 
