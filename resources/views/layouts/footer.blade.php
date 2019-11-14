@@ -115,21 +115,24 @@
     ($(function () {
 
 
-$(document).scroll(function(){
+$(document).scroll(function(e)
+{
 
-if($(window).scrollTop() >= 120){
+  e.preventDefault();
 
-
-    $("div.top-header").addClass("hide-it");
-    $("header").addClass("shrink-on-scroll");
-
-
-}else{
-
-    $("div.top-header").removeClass("hide-it");
-    $("header").removeClass("shrink-on-scroll");
-
-}
+// if($(window).scrollTop() >= 120){
+//
+//
+//     $("div.top-header").addClass("hide-it");
+//     $("header").addClass("shrink-on-scroll");
+//
+//
+// }else{
+//
+//     $("div.top-header").removeClass("hide-it");
+//     $("header").removeClass("shrink-on-scroll");
+//
+// }
 
 
 });
