@@ -628,11 +628,15 @@ Lorem Ipsum passages, and more recently with deskto
 
                 <div class="col-md-6">
                     <h2>
-                        MINISTRY
+                        MINISTRY DIGITAL TRAINING
+
                     </h2>
                     <h3>
-                        DIGITAL TRAINING
+                      Are you launching your digital <br>nets to catch the lost ?
                     </h3>
+                    <h5>
+                      Train your staff on how to cast the digital nets
+                    </h4>
 
                     <p>
                         Deciphering marketing lingo for small business owners

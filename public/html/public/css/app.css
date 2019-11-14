@@ -827,6 +827,8 @@ div.block-success-stories {
   font-weight: normal;
   text-align: center;
   margin: 20px 0px; }
+.d-training img {
+  width: 100%; }
 
 #what_jesus_did_for_you {
   color: #246E9E; }

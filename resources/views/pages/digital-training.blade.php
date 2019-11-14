@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row d-training justify-content-center pb-4">
 
-                <div class="col-md-6">
+                <div class="col-lg-6">
                   <h2>
                     Are you launching your digital <br>nets to catch the lost ?
                   </h3>
