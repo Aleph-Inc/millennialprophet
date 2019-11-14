@@ -348,11 +348,6 @@ Lorem Ipsum passages, and more recently with deskto
       </h2>
   </div>
 
-
-
-
-
-
   <!-- Slider main container -->
   <div class="swiper-container" id="success_stories">
       <!-- Additional required wrapper -->
@@ -634,7 +629,7 @@ Lorem Ipsum passages, and more recently with deskto
                     <h3>
                       Are you launching your digital <br>nets to catch the lost ?
                     </h3>
-                  
+
 
                     <p>
                         Train your staff on how to cast the digital nets
