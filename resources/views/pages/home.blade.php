@@ -634,12 +634,10 @@ Lorem Ipsum passages, and more recently with deskto
                     <h3>
                       Are you launching your digital <br>nets to catch the lost ?
                     </h3>
-                    <h5>
-                      Train your staff on how to cast the digital nets
-                    </h4>
+                  
 
                     <p>
-                        Deciphering marketing lingo for small business owners
+                        Train your staff on how to cast the digital nets
                     </p>
 
                     <a class="btn btn-primary btn-start">
