@@ -168,6 +168,10 @@ div.video-desktop {
 
     header {
         position: fixed;
+        height: 108px;
+        overflow: hidden;
+
+
 
         div.mobile_menu {
             z-index: 2000;
@@ -196,8 +200,7 @@ div.video-desktop {
             max-width: 100.000%;
         }
 
-        height: 108px;
-        overflow: hidden;
+
 
         div.logo {
             padding-top: 7px;
@@ -231,6 +234,14 @@ div.video-desktop {
             }
         }
     }
+
+    header{
+      &.shrink-on-scroll{
+        height:64px;
+      }
+    }
+
+
     header.expand {
         height: 380px;
         overflow-y: scroll;
@@ -263,6 +274,9 @@ div.video-desktop {
     body {
         padding-top: 108px;
     }
+
+
+
 
     header ul ul.dropdown-menu{
       display:block;
