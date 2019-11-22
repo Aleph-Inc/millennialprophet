@@ -34,9 +34,19 @@ class PageController extends Controller
 
         $event = $event->where('date', '>', date('Y-m-d'))->first();
 
+        if ($event == null) {
+            
+        $diff = 0;  
+
+
+        }else{
+
         $eventdate = Carbon::parse($event->date);
 
         $diff = $eventdate->diffInDays();
+        }
+
+       
         
         return view('pages/home',compact('event','diff','home'));
 

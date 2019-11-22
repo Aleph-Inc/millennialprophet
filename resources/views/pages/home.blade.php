@@ -97,15 +97,16 @@
                                     </svg>
                                 </div>
                                 <div class="next-event-date">
+                                    @if($event)
                                     {{ $event->date->format('d') }}
 
                                     <span>
-                                                                {{ $event->date->format('M') }}
+                                    {{ $event->date->format('M') }}
 
-                        </span>
+                                    </span>
                                     <span>
-                                                                {{ $event->date->format('Y') }}
-
+                                        {{ $event->date->format('Y') }}
+                                    @endif
                         </span>
                                 </div>
 
@@ -133,6 +134,8 @@
                         <div class="col-md-5">
                             <div class="next-event-info">
                                 <div class="next-event-title">
+                                @if($event)
+
                                     {{ $event->name }}
 
                                 </div>
@@ -144,6 +147,7 @@
                                     <img style=" width: 33px;"
                                          src="{{ asset('html/public/flags').'/'.$event->country.'.svg' }}" alt="">
                                 </div>
+                                @endif
                             </div>
 
 
